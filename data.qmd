@@ -1,0 +1,17 @@
+---
+title: "Data"
+format:
+  html: 
+    toc: true
+    toc-depth: 2
+acronyms:
+  insert_loa: false
+---
+
+
+We provide the following (logical) data sets:
+
+1. **flights list** information
+1. (portions of) **trajectories** for the flights in the list
+1. **fuel burnt/flown** for one or more intervals in each flight
+1. **airport coordinates**

@@ -1,0 +1,5 @@
+---
+title: Teams
+acronyms:
+  insert_loa: false
+---

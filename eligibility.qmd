@@ -1,0 +1,36 @@
+---
+title: Eligibility
+acronyms:
+  insert_loa: false
+---
+
+## Eligibility for Participation
+
+The inscription form already implements, as far as possible, the restrictions
+for the origin of participating teams.
+
+The restrictions are mainly about teams originating or affilaited to institutions/companies
+from (non \acr{ECTL}) countries subject to sanctions.
+The restrictions are practically important because we would not be able to transfer funds
+to the winners if based in these countries.
+
+A thematic map of target countries is available at <https://www.sanctionsmap.eu/>.
+
+
+## Eligibility for Prize
+
+The winning submissions/solutions will only be eligible for the awards if
+
+* use of external dataset is permitted if open data and documented.
+* all **source code** and **additional data sets** used will be made openly available
+  on GitHub and published under the **GNU GPLv3 license** and then
+  forked on the Challenge GitHub account for organizational purposes.
+* sufficient **documentation** is provided **to understand and reproduce** the results.
+* the solution is **_original_**: teams must use their own original solutions.
+  Re-using any existing implementation is only allowed if the original authors 
+  grant you the rights to use their solution and if you made significant
+  modifications to the algorithm or model.
+  In particular, simply re-using existing code and rewriting the data input and 
+  output mechanism is not sufficient. Adding parameters to the model and 
+  modifying filters to match the specific peculiarities of the data, however,
+  can be considered sufficient. 

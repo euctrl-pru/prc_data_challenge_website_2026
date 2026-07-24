@@ -1,13 +1,98 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction",
+    "objectID": "ranking.html",
+    "href": "ranking.html",
+    "title": "Ranking",
     "section": "",
-    "text": "Coming soon…",
+    "text": "WarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\nAll paged submissions rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nThere are other endpoints, you can have a look here",
     "crumbs": [
       "Publications",
-      "Introduction"
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "ranking.html#leaderboard",
+    "href": "ranking.html#leaderboard",
+    "title": "Ranking",
+    "section": "",
+    "text": "WarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\nAll paged submissions rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nThere are other endpoints, you can have a look here",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "eligibility.html",
+    "href": "eligibility.html",
+    "title": "Eligibility",
+    "section": "",
+    "text": "The inscription form already implements, as far as possible, the restrictions for the origin of participating teams.\nThe restrictions are mainly about teams originating or affilaited to institutions/companies from (non ECTL) countries subject to sanctions. The restrictions are practically important because we would not be able to transfer funds to the winners if based in these countries.\nA thematic map of target countries is available at https://www.sanctionsmap.eu/.",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "Eligibility"
+    ]
+  },
+  {
+    "objectID": "eligibility.html#eligibility-for-participation",
+    "href": "eligibility.html#eligibility-for-participation",
+    "title": "Eligibility",
+    "section": "",
+    "text": "The inscription form already implements, as far as possible, the restrictions for the origin of participating teams.\nThe restrictions are mainly about teams originating or affilaited to institutions/companies from (non ECTL) countries subject to sanctions. The restrictions are practically important because we would not be able to transfer funds to the winners if based in these countries.\nA thematic map of target countries is available at https://www.sanctionsmap.eu/.",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "Eligibility"
+    ]
+  },
+  {
+    "objectID": "eligibility.html#eligibility-for-prize",
+    "href": "eligibility.html#eligibility-for-prize",
+    "title": "Eligibility",
+    "section": "Eligibility for Prize",
+    "text": "Eligibility for Prize\nThe winning submissions/solutions will only be eligible for the awards if\n\nuse of external dataset is permitted if open data and documented.\nall source code and additional data sets used will be made openly available on GitHub and published under the GNU GPLv3 license and then forked on the Challenge GitHub account for organizational purposes.\nsufficient documentation is provided to understand and reproduce the results.\nthe solution is original: teams must use their own original solutions. Re-using any existing implementation is only allowed if the original authors grant you the rights to use their solution and if you made significant modifications to the algorithm or model. In particular, simply re-using existing code and rewriting the data input and output mechanism is not sufficient. Adding parameters to the model and modifying filters to match the specific peculiarities of the data, however, can be considered sufficient.",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "Eligibility"
+    ]
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "We provide the following (logical) data sets:\n\nflights list information\n(portions of) trajectories for the flights in the list\nfuel burnt/flown for one or more intervals in each flight\nairport coordinates",
+    "crumbs": [
+      "Publications",
+      "Challenge",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PRC Data Challenge 2026",
+    "section": "",
+    "text": "The Performance Review Commission (PRC) with the support of OpenSky Network (OSN) aims at engaging with data scientists, even without Aviation background, to team up and compete to solve a (big-ish) Data Challenge of interest to the wider Aviation community using open data and openly sharing final solutions.\nThe 2026 edition of the PRC Data Challenge proposes to predict the taxi-out time of flights from 11 major European airports. The learning dataset will consist of all movements reported for a full year by the relevant airports.\nRanking will use RMSE for the summited prediction for the movements in Jan and Jul 2026.\nThe competition runs from \\(1^{st}\\) Sep till \\(11^{th}\\) Oct 2026 23:59:59 CET.\nThe total prize amount for the first 3 teams is 5000 EUR.\nCheck the conditions for eligibility for participation & prize and then fill the following team creation request form!",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "PRC Data Challenge 2026"
+    ]
+  },
+  {
+    "objectID": "index.html#social-medial-interactionsforum",
+    "href": "index.html#social-medial-interactionsforum",
+    "title": "PRC Data Challenge 2026",
+    "section": "Social medial interactions/Forum",
+    "text": "Social medial interactions/Forum\nRemember to follow up the data challenge on OSN’s Discord  channel #prc-data-competition.\n(if not already done, you need to access OSN Discord server first)",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "PRC Data Challenge 2026"
     ]
   }
 ]

@@ -1,0 +1,30 @@
+---
+title: Ranking
+acronyms:
+  insert_loa: false
+---
+
+## Leaderboard
+
+::: {.callout-warning title="Attention"}
+We will post URGENT/IMPORTANT news here but better to follow things up on \
+[OSN's Discord {{< fa brands discord >}} channel `#prc-data-competition`][prc-discord]  
+(if not already done, you need to access [OSN Discord server](https://discord.gg/RPh89jpVVz) first)
+:::
+
+[prc-discord]: <https://discord.com/channels/1252625490930307142/1304403918515605504> "Discord channel for PRC Data Challenge"
+
+
+
+```{=html}
+<iframe width="100%" height="800" frameborder="0"
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard"></iframe>
+```
+
+
+All paged submissions rankings can be retrieved via the REST API at the [full leaderboard JSON][leaderboard] (use the value of `nextCursor` in the `cursor=` parameter in the URL query).
+
+There are other endpoints, you can have a look [here][api]
+
+[api]: <https://datacomp.opensky-network.org/api/swagger-ui/>
+[leaderboard]: <https://datacomp.opensky-network.org/api/competitions/71c49292-6139-425f-803a-52ee8730ba58/leaderboard?limit=100&cursor=>

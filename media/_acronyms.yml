@@ -1,0 +1,58 @@
+---
+acronyms:
+  keys:
+    - shortname: ADEP
+      longname: Aerodrome of DEParture
+    - shortname: ADES
+      longname: Aerodrome of DEStination
+    - shortname: ADS-B
+      longname: Automatic Dependent Surveillance–Broadcast
+    - shortname: AO
+      longname: Aircraft Operator
+    - shortname: AOBT
+      longname: Actual Off-Block Time
+    - shortname: ARVT
+      longname: ARriVal Time
+    - shortname: ATM
+      longname: Air Traffic Management
+    - shortname: ATOW
+      longname: Actual TakeOff Weight
+    - shortname: DD
+      longname: Decimal degrees
+    - shortname: ECTL
+      longname: EUROCONTROL
+    - shortname: EC
+      longname: European Commission
+    - shortname: ECMWF
+      longname: European Centre for Medium-Range Weather Forecasts
+    - shortname: ERA5
+      longname: ECMWF's fifth generation of Atmospheric Reanalysis
+    - shortname: ETOW
+      longname: Estimated TakeOff Weight
+    - shortname: EU
+      longname: European Union
+    - shortname: FIR
+      longname: Flight Information Region
+    - shortname: ICAO
+      longname: International Civil Aviation Organization
+    - shortname: ISO
+      longname: International Organization for Standardization
+    - shortname: ML
+      longname: Machine Learning
+    - shortname: MTOW
+      longname: Maximum TakeOff Weight
+    - shortname: NM
+      longname: Network Manager
+    - shortname: OSN
+      longname: OpenSky Network
+    - shortname: PRC
+      longname: Performance Review Commission
+    - shortname: RMSE
+      longname: Root Mean Square Error
+    - shortname: TOW
+      longname: TakeOff Weight
+    - shortname: UTC
+      longname: Coordinated Universal Time
+    - shortname: WTC
+      longname: Wake Turbulence Category
+---
