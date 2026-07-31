@@ -37,6 +37,8 @@ acronyms:
       longname: International Civil Aviation Organization
     - shortname: ISO
       longname: International Organization for Standardization
+    - shortname: JOAS
+      longname: Journal of Open Aviation Science
     - shortname: ML
       longname: Machine Learning
     - shortname: MTOW
