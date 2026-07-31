@@ -1,7 +1,5 @@
 ---
 title: Eligibility
-acronyms:
-  insert_loa: false
 ---
 
 ## Eligibility for Participation
