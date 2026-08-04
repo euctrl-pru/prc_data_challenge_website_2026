@@ -3,8 +3,14 @@ acronyms:
   keys:
     - shortname: ADEP
       longname: Aerodrome of DEParture
+      plural:
+        shortname: ADEPs
+        longname: Aerodromes of DEParture
     - shortname: ADES
       longname: Aerodrome of DEStination
+      plural:
+        shortname: ADESs
+        longname: Aerodromes of DEStination
     - shortname: ADS-B
       longname: Automatic Dependent Surveillance–Broadcast
     - shortname: AO
