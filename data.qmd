@@ -4,14 +4,13 @@ format:
   html: 
     toc: true
     toc-depth: 2
-acronyms:
-  insert_loa: false
 ---
 
 
 We provide the following (logical) data sets:
 
-1. **flights list** information
-1. (portions of) **trajectories** for the flights in the list
-1. **fuel burnt/flown** for one or more intervals in each flight
-1. **airport coordinates**
+1. **flight movements** information at 11 major European airports including
+   a. **taxi-out time** for each movement in the airport
+   a. **scheduled** and **actual** times
+
+1. **airport coordinates** for all \acrs{ADEP} and \acrs{ADES}
