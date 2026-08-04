@@ -457,8 +457,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#acronyms_HEADER_LOA" id="toc-acronyms_HEADER_LOA" class="nav-link active" data-scroll-target="#acronyms_HEADER_LOA">List of Acronyms</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -484,13 +490,22 @@ ul.task-list li input[type="checkbox"] {
 
 <p>We provide the following (logical) data sets:</p>
 <ol type="1">
-<li><strong>flights list</strong> information</li>
-<li>(portions of) <strong>trajectories</strong> for the flights in the list</li>
-<li><strong>fuel burnt/flown</strong> for one or more intervals in each flight</li>
-<li><strong>airport coordinates</strong></li>
+<li><strong>flight movements</strong> information at 11 major European airports including
+<ol type="a">
+<li><strong>taxi-out time</strong> for each movement in the airport</li>
+<li><strong>scheduled</strong> and <strong>actual</strong> times</li>
+</ol></li>
+<li><strong>airport coordinates</strong> for all <a href="#acronyms_ADEP">Aerodromes of DEParture (ADEPs)</a> and <a href="#acronyms_ADES">Aerodromes of DEStination (ADESs)</a></li>
 </ol>
 
 
+<section id="acronyms_HEADER_LOA" class="level2 loa unnumbered">
+<h2 class="loa unnumbered anchored" data-anchor-id="acronyms_HEADER_LOA">List of Acronyms</h2>
+<div>
+<p><strong><span id="acronyms_ADEP">ADEP</span></strong>: Aerodrome of DEParture</p>
+<p><strong><span id="acronyms_ADES">ADES</span></strong>: Aerodrome of DEStination</p>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
