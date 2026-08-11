@@ -201,7 +201,7 @@ website:
 
   sidebar: 
     - style: docked
-      # collapse-level: 3
+      collapse-level: 3
       search: false
       contents:
         - section: "Overview"
@@ -210,16 +210,16 @@ website:
           - eligibility.qmd
         - section: "Challenge"
           style: docked
-          collapse-level: 3
-          search: false
+          # collapse-level: 3
+          # search: false
           contents:
             - rationale.qmd
             - data.qmd
         - section: "Leaderboard"
-          style: docked
-          collapsed: false
-          collapse-level: 3
-          search: true
+          # style: docked
+          # collapsed: false
+          # collapse-level: 3
+          # search: true
           contents:
             - ranking.qmd
             - teams.qmd

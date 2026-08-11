@@ -41,6 +41,10 @@ acronyms:
       longname: Flight Information Region
     - shortname: ICAO
       longname: International Civil Aviation Organization
+    - shortname: IFR
+      longname: Instrument Flight Rules
+    - shortname: IOBT
+      longname: Initial Off-Block Time
     - shortname: ISO
       longname: International Organization for Standardization
     - shortname: JOAS
@@ -61,6 +65,8 @@ acronyms:
       longname: TakeOff Weight
     - shortname: UTC
       longname: Coordinated Universal Time
+    - shortname: VFR
+      longname: Visual Flight Rules
     - shortname: WTC
       longname: Wake Turbulence Category
 ---

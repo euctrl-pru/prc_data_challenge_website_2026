@@ -4,7 +4,7 @@
     "href": "ranking.html",
     "title": "Ranking",
     "section": "",
-    "text": "WarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\nAll paged submissions rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nThere are other endpoints, you can have a look here",
+    "text": "We will monitor submissions to capture attempts to learn from the ranking process. We think this in NOT a fair way to align with the purposes and goals of the data challenge.",
     "crumbs": [
       "Publications",
       "Leaderboard",
@@ -15,8 +15,8 @@
     "objectID": "ranking.html#leaderboard",
     "href": "ranking.html#leaderboard",
     "title": "Ranking",
-    "section": "",
-    "text": "WarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\nAll paged submissions rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nThere are other endpoints, you can have a look here",
+    "section": "Leaderboard",
+    "text": "Leaderboard\n\n\n\n\n\n\nWarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\nAll paged submissions rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nThere are other endpoints, you can have a look here",
     "crumbs": [
       "Publications",
       "Leaderboard",
@@ -64,7 +64,7 @@
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "We provide the following (logical) data sets:",
+    "text": "We provide the following (logical) data sets:\nThe movement rows have been (left) joined with the flight ones.\nNOTE: real world data is messy. You will find some inconsistencies between movement and flight information. We haven’t tried to reconcile them because they are probably due to some limitations of the underlying processes trying to match different sources of data.\nAs per all out data challenges, we do not play with synthetic/artificial datasets.",
     "crumbs": [
       "Publications",
       "Challenge",
@@ -112,7 +112,7 @@
     "href": "data.html#acronyms_HEADER_LOA",
     "title": "Data",
     "section": "List of Acronyms",
-    "text": "List of Acronyms\n\nADEP: Aerodrome of DEParture\nADES: Aerodrome of DEStination",
+    "text": "List of Acronyms\n\nADEP: Aerodrome of DEParture\nADES: Aerodrome of DEStination\nAOBT: Actual Off-Block Time\nIFR: Instrument Flight Rules\nIOBT: Initial Off-Block Time\nNM: Network Manager\nVFR: Visual Flight Rules",
     "crumbs": [
       "Publications",
       "Challenge",
@@ -141,6 +141,18 @@
       "Publications",
       "Overview",
       "Eligibility"
+    ]
+  },
+  {
+    "objectID": "data.html#column-description",
+    "href": "data.html#column-description",
+    "title": "Data",
+    "section": "Column description",
+    "text": "Column description\nColumns postfixed with _mvt are associated with the reporting airport.\nColumns postfixed with _flt are associated with information from NM flight list.\n\nMovement\n\nMVT_ID_mvt: unique identifier for the movement record\nFLIGHT_ID_mvt: unique identifier for the NM flight (if matched)\nFLIGHT_mvt: flight number, i.e. what you see on your boarding pass\nFLIGHT_RULE_mvt: which sets of regulations the flight is operated under. Possible values are:\n\nI for Instrument Flight Rules (IFR)\nV for Visual Flight Rules (VFR)\nNA if unknown\n\nADEP_mvt: the (ICAO code of the) Aerodrome of DEParture (ADEP).\nADES_mvt: the (ICAO code of the) Aerodrome of DEStination (ADES).\nPHASE_mvt: movement phase. DEP=departure, ARR=arrival.\nMVT_TIME_UTC_mvt: (best available) movement time (takeoff if PHASE = DEP, landing if PHASE = ARR.)\nBLOCK_TIME_UTC_mvt: Block time (off-block if PHASE = DEP, in-block if PHASE = ARR.)\nSCHED_TIME_UTC_mvt: scheduled time (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nAIRCRAFT_TYPE_mvt: the ICAO code for the aircraft type, for example A21N for Airbus A321neo.\nRUNWAY_mvt: the RWY ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nSTAND_mvt: the stand ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nTAXITIME_SEC_mvt: amount of seconds for taxi time (taxi-out if PHASE = DEP, taxi-in if PHASE = ARR.)\n\n\n\nFlight\nThe following columns come from data recorded by NM.\n\nLOBT_flt: last know off-block time\nCALLSIGN_flt: the callsign of the relevant flight, e.g. BAW6VB.\nADEP_flt: the ICAO code of the ADEP.\nADES_flt: the ICAO code of the ADES.\nADES_FILED_flt: the ADES initially filed in the FPL. if different from ADES_flt then the flight has beed diverted.\nMARKET_SEGMENT_flt: the market segment type as defined in the Market Segment Rules, it can be:\n\n“Mainline”\n“Regional”\n“Low-Cost”\n“Business Aviation”\n“All-Cargo”\n“Charter” (Non-Scheduled)\n“Military”\n“Other”\n“Not classified”\n\nIOBT_flt: Initial Off-Block Time (IOBT).\nFLIGHT_RULE_flt: which sets of regulations the flight is operated under (see FPL Item 8). Possible values are:\n\nI for IFR\nV for VFR\nY first IFR thereafter VFR\nZ first VFR thereafter IFR\n\nFLIGHT_TYPE_flt: flight type (see FPL Item 8). Possible values:\n\nS for scheduled air service\nNfor non-scheduled air service\nG for general aviation\nM for military (note: filtered out)\nX for other than the preceding categories\n\nAIRCRAFT_TYPE_flt: the ICAO code for the aircraft type, for example A30B for an Airbus A-300B2-200.\nWK_TBL_CAT_flt: wake turbulence category (see FPL Item 9), can be\n\nL LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.\nM MEDIUM, i.e maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs)\nH HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J)\nJ SUPER, presently the only the AIRBUS A-380-800\n\nAIRCRAFT_OPERATOR_flt: the (anonymized) ICAO Airline Designator\nEOBT_1_flt: the EOBT for FPL-based (M1) trajectory.\nARVT_1_flt: the Arrival Time for FPL-based (M1) trajectory.\nAOBT_3_flt: the Actual Off-Block Time (AOBT) for flown (M3) trajectory.\nARVT_3_flt: the Arrival Time for flown (M3) trajectory.",
+    "crumbs": [
+      "Publications",
+      "Challenge",
+      "Data"
     ]
   }
 ]
