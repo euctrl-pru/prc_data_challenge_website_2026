@@ -19,6 +19,8 @@ acronyms:
       longname: Actual Off-Block Time
     - shortname: ARVT
       longname: ARriVal Time
+    - shortname: ATFM
+      longname: Air Traffic Flow Management
     - shortname: ATM
       longname: Air Traffic Management
     - shortname: ATOW
@@ -31,6 +33,8 @@ acronyms:
       longname: European Commission
     - shortname: ECMWF
       longname: European Centre for Medium-Range Weather Forecasts
+    - shortname: EOBT
+      longname: Estimated Off-Block Time
     - shortname: ERA5
       longname: ECMWF's fifth generation of Atmospheric Reanalysis
     - shortname: ETOW
@@ -39,6 +43,8 @@ acronyms:
       longname: European Union
     - shortname: FIR
       longname: Flight Information Region
+    - shortname: FPL
+      longname: Flight Plan
     - shortname: ICAO
       longname: International Civil Aviation Organization
     - shortname: IFR
@@ -61,6 +67,8 @@ acronyms:
       longname: Performance Review Commission
     - shortname: RMSE
       longname: Root Mean Square Error
+    - shortname: RWY
+      longname: Runway
     - shortname: TOW
       longname: TakeOff Weight
     - shortname: UTC

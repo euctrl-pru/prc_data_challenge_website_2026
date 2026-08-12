@@ -1,7 +1,5 @@
 ---
 title: Rationale
-acronyms:
-  insert_loa: false
 ---
 
 The choice of predicting taxi-out time for this year's data challenge

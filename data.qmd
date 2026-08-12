@@ -8,7 +8,7 @@ format:
 
 We provide the following (logical) data sets:
 
-1. **movements** (arrival and departure) information at 11 major European
+1. **movements** (arrival and departure) information for 2025 at 11 major European
    airports including
    a. **taxi-out time** for each movement in the airport
    a. **scheduled** and **actual** times
@@ -17,14 +17,41 @@ We provide the following (logical) data sets:
 1. **flight** information for each movement.  
    This is what is matched in the \acr{NM} records.
 
-The movement rows have been (left) joined with the flight ones.
+The movement rows have been (left) joined with the flight ones.  
+There are a total of 4167797 movements as in @tbl-airports.
 
-**NOTE**: real world data is messy. You will find some inconsistencies between
+
+| icao | iata | 	name                              |
+|------|------|:------------------------------------|
+| EDDF | FRA  | Frankfurt Main                      |
+| EDDM | MUC  | Munich                              |
+| EGLL | LHR  | London Heathrow                     |
+| EHAM | AMS  | Amsterdam Schiphol                  |
+| LEBL | BCN  | Josep Tarradellas Barcelona-El Prat |
+| LEMD | MAD  | Adolfo Suárez Madrid–Barajas        |
+| LFPG | CDG  | Charles de Gaulle                   |
+| LIRF | FCO  | Rome–Fiumicino Leonardo da Vinci    |
+| LTAI | AYT  | Antalya                             |
+| LTFM | IST  | İstanbul                            |
+| LSZH | ZRH  | Zürich                              |
+
+: List of airports for which movements data is provided {#tbl-airports}
+
+
+::: {.callout-note title="Note 1"}
+We have removed Military, Head of State and Sensitive movements.
+These should not have a disrupting impact on the possibility to model and
+predict taxi-out time.
+:::
+
+::: {.callout-note title="Note 2"}
+Rreal world data is messy. You will find some inconsistencies between
 movement and flight information. We haven't tried to reconcile them
 because they are probably due to some limitations of the underlying processes
 trying to match different sources of data.  
 As per all out data challenges, we do not _play_ with synthetic/artificial
 datasets.
+:::
 
 ## Column description
 
