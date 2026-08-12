@@ -8,10 +8,11 @@ format:
 
 We provide the following (logical) data sets:
 
-1. **movements** (arrival and departure) information for 2025 at 11 major European
-   airports including
+1. **movements** (arrival and departure) information for 2025 at 11 major
+  European airports including
    a. **taxi-out time** for each movement in the airport
    a. **scheduled** and **actual** times
+
    This is related to departing (`PHASE` = `DEP`) or arriving
    (`PHASE` = `ARR`) airport.
 1. **flight** information for each movement.  
