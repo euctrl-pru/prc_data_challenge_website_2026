@@ -7,8 +7,7 @@ title: "PRC Data Challenge 2026"
 ::: 
 
 The \acr{PRC}, with the support of [\acr{OSN}](https://opensky-network.org/),
-aims at engaging with data scientists to team up and compete to solve a
-(big-ish) Data Challenge of interest to the wider aviation community. 
+challenges data scientists, aviation professionals and data analysts to team up and compete to solve a (big-ish) Data Challenge in order to devise new methodologies in the interest of the wider aviation community. 
 
 The aim is to do this through: 
 
@@ -28,16 +27,16 @@ The 2026 edition of the \acr{PRC} Data Challenge challenges you to **predict the
 taxi-out time of flights from 11 major European airports**. 
 
 ##### **Scope**
-The learning dataset will consist of all **11 airport movements for the full year of 2025**.
+The learning dataset will consist of all 11 airport movements for the full year of 2025.
 
 ##### **Ranking**
-The applied ranking will use **\acr{RMSE} for the submitted predictions for the movements in January and July 2026**.
+The applied ranking will use \acr{RMSE} for the submitted predictions for the movements in January and July 2026.
 
 ##### **Timeline**
 The competition runs from the **$1^{st}$ of September 2026** up untill the **$11^{th}$ of October 2026 23:59:59 CET**. 
 
 ##### **Reward**
-The total **prize amount** for the first 3 teams is **5000 EUR**.  
+The combined **prize amount** for the first 3 teams is **5000 EUR**.  
 
 ##### **Terms & Conditions**
 Check the Terms & Conditions for [eligibility for participation and prize](eligibility.qmd) before filling in the team creation request form.
@@ -48,12 +47,13 @@ Join the competition; request the creation of your team here!
 
 :::{.container .text-center}
 [Request Team Creation!](https://example.com){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="Request Team Creation" target="_blank"}  
-[Note: The participation is open to all, but teams from sanctioned countries are excluded.]{.small }
 :::
 
 
 ::: {.callout-warning title="Attention"}
 Your request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a **verification email** and, on successful reply, the relevant access keys to the datasets/buckets.
+
+[Note: The participation is open to all, but teams from sanctioned countries are excluded.]{.small }
 :::
 
 
