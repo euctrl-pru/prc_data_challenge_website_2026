@@ -39,7 +39,7 @@ the relevant access keys to the datasets/buckets.
 
 
 
-## Social medial interactions/Forum
+## Social Media Interactions & Forum
 
 Remember to follow up the data challenge on OSN's Discord
 {{< fa brands discord >}} channel [`#prc-data-competition`][prc-discord].  

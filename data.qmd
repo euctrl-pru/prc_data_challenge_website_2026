@@ -46,11 +46,11 @@ predict taxi-out time.
 :::
 
 ::: {.callout-note title="Note 2"}
-Rreal world data is messy. You will find some inconsistencies between
+Real world data is messy. You will find some inconsistencies between
 movement and flight information. We haven't tried to reconcile them
 because they are probably due to some limitations of the underlying processes
 trying to match different sources of data.  
-As per all out data challenges, we do not _play_ with synthetic/artificial
+As per all our data challenges, we do not _play_ with synthetic/artificial
 datasets.
 :::
 
@@ -139,12 +139,12 @@ flight list.
 The following columns come from data recorded by \acr{NM}.
 
 
-* `LOBT_flt`: last know off-block time
+* `LOBT_flt`: last known off-block time
 * `CALLSIGN_flt`: the [callsign](https://skybrary.aero/articles/aircraft-call-sign) of the relevant flight, e.g. `BAW6VB`.
 * `ADEP_flt`: the ICAO code of the \acr{ADEP}.
 * `ADES_flt`: the ICAO code of the \acr{ADES}.
 * `ADES_FILED_flt`: the \acr{ADES} initially filed in the \acr{FPL}.
-   if different from `ADES_flt` then the flight has beed diverted.
+   if different from `ADES_flt` then the flight has been diverted.
 * `MARKET_SEGMENT_flt`: the market segment type as defined in the [Market Segment Rules](https://www.eurocontrol.int/publication/market-segment-rules), it can be:
   -  “Mainline”
   -  “Regional”
@@ -164,7 +164,7 @@ The following columns come from data recorded by \acr{NM}.
   -  `Z` first \acr{VFR} thereafter \acr{IFR}
 * `FLIGHT_TYPE_flt`: flight type (see [\acr{FPL} Item 8](https://www.skybrary.aero/articles/flight-plan-completion)). Possible values:
   -  `S` for scheduled air service
-  -  `N `for non-scheduled air service
+  -  `N` for non-scheduled air service
   -  `G` for general aviation
   -  `M` for military (note: filtered out)
   -  `X` for other than the preceding categories
@@ -173,7 +173,7 @@ The following columns come from data recorded by \acr{NM}.
   -  `L` LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.
   -  `M` MEDIUM, i.e maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs)
   -  `H` HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J)
-  -  `J` SUPER, presently the only the AIRBUS A-380-800
+  -  `J` SUPER, presently only the AIRBUS A-380-800
 * `AIRCRAFT_OPERATOR_flt`: the (anonymized) [ICAO Airline Designator](https://en.wikipedia.org/wiki/List_of_airline_codes)
 * `EOBT_1_flt`: the \acr{EOBT} for \acr{FPL}-based (M1) trajectory.
 * `ARVT_1_flt`: the Arrival Time for \acr{FPL}-based (M1) trajectory.

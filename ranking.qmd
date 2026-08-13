@@ -7,7 +7,7 @@ acronyms:
 ::: {.callout-warning title="Attention"}
 We will monitor submissions to capture attempts to learn from the ranking
 process.  
-We think this in NOT a fair way to align with the purposes
+We think this is NOT a fair way to align with the purposes
 and goals of the data challenge.
 
 :::
