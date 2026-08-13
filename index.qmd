@@ -2,48 +2,64 @@
 title: "PRC Data Challenge 2026"
 ---
 
-The \acr{PRC} with the support of [\acr{OSN}](https://opensky-network.org/)
+:::{.card .float-end .ms-3 .mb-3 .rounded-3 .overflow-hidden .p-0 style="max-width: 350px;"}
+![](media/PRC-Data-challenge-1080x1080.jpg){.card-img-top .d-block style="margin-bottom: 0;" alt="PRC Data Challenge"}
+::: 
+
+The \acr{PRC}, with the support of [\acr{OSN}](https://opensky-network.org/),
 aims at engaging with data scientists to team up and compete to solve a
-(big-ish) Data Challenge of interest to the wider aviation community
+(big-ish) Data Challenge of interest to the wider aviation community. 
 
-1. using open data
-1. openly sharing final solutions (code and documentation on public GitHub repo)
-1. publishing an open access paper on [\acr{JOAS}](https://journals.open.tudelft.nl/joas/)
+The aim is to do this through: 
 
-![](media/PRC-Data-challenge-1080x1080.jpg){width="540px" height="auto" alt="PRC Data Challenge"}
+1. Using **open data**,
 
-The 2026 edition of the \acr{PRC} Data Challenge proposes to predict the
-**taxi-out time** of flights from 11 major European airports.
-The learning dataset will consist of all airport movements for the full year 2025.
+1. openly **sharing** final **solutions** (incl. code and documentation on a public GitHub repo),
 
-Ranking will use \acr{RMSE} for the submitted prediction for the movements in
-Jan and Jul 2026.
+1. **publishing** an **open access paper** on [\acr{JOAS}](https://journals.open.tudelft.nl/joas/).
 
-The competition runs from $1^{st}$ Sep till $11^{th}$ Oct 2026 23:59:59 CET.  
-The total prize amount for the first 3 teams is 5000 EUR.  
 
-Check the conditions for [eligibility for participation & prize](eligibility.qmd)
-and then fill in the following team creation request form!\
+\newline
+\newline
+
+## Data Challenge
+
+The 2026 edition of the \acr{PRC} Data Challenge challenges you to **predict the
+taxi-out time of flights from 11 major European airports**. 
+
+##### **Scope**
+The learning dataset will consist of all **11 airport movements for the full year of 2025**.
+
+##### **Ranking**
+The applied ranking will use **\acr{RMSE} for the submitted predictions for the movements in January and July 2026**.
+
+##### **Timeline**
+The competition runs from the **$1^{st}$ of September 2026** up untill the **$11^{th}$ of October 2026 23:59:59 CET**. 
+
+##### **Reward**
+The total **prize amount** for the first 3 teams is **5000 EUR**.  
+
+##### **Terms & Conditions**
+Check the Terms & Conditions for [eligibility for participation and prize](eligibility.qmd) before filling in the team creation request form.
+
+
+##### **Participate**
+Join the competition; request the creation of your team here! 
 
 :::{.container .text-center}
 [Request Team Creation!](https://example.com){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="Request Team Creation" target="_blank"}  
-[(The participation is open to all, but teams from sanctioned countries are excluded.)]{.small }
+[Note: The participation is open to all, but teams from sanctioned countries are excluded.]{.small }
 :::
 
 
 ::: {.callout-warning title="Attention"}
-Your request will be assessed and eventually approved.   
-You will then receive a **verification email** and, on successful reply,
-the relevant access keys to the datasets/buckets.
+Your request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a **verification email** and, on successful reply, the relevant access keys to the datasets/buckets.
 :::
-
 
 
 ## Social Media Interactions & Forum
 
-Remember to follow the Data Challenge on OSN's Discord
-{{< fa brands discord >}} channel [`#prc-data-competition`][prc-discord].  
-(if not already done, you need to access [OSN Discord server](https://discord.gg/RPh89jpVVz) first)
+Remember to follow the Data Challenge news and announcements on [the OpenSky Network Discord channel `#prc-data-competition` {{< fa brands discord >}}][prc-discord]. Note: you need to have access to the [OpenSky Network Discord server](https://discord.gg/RPh89jpVVz) first.
 
 
 [prc-discord]: <https://discord.com/channels/1252625490930307142/1304403918515605504> "Discord channel for PRC Data Challenge"
