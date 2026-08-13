@@ -31,7 +31,6 @@ The winning submissions/solutions will only be eligible for the awards if:
   Re-using any existing implementation is only allowed if the original authors 
   grant you the rights to use their solution and if you made significant
   modifications to the algorithm or model. In particular, simply re-using existing code and rewriting the data input and output mechanism is not sufficient. Adding parameters to the model and modifying filters to match the specific peculiarities of the data, however, can be considered sufficient. 
-* To receive the prize money, a **paper** on the methodology must be published in the open access paper \acr{JOAS}. 
 
 
 
