@@ -4,11 +4,14 @@ acronyms:
   insert_loa: false
 ---
 
+::: {.callout-warning title="Attention"}
 We will monitor submissions to capture attempts to learn from the ranking
-process.
-     
+process.  
 We think this in NOT a fair way to align with the purposes
 and goals of the data challenge.
+
+:::
+     
 
 ## Leaderboard
 
@@ -34,3 +37,15 @@ There are other endpoints, you can have a look [here][api]
 
 [api]: <https://datacomp.opensky-network.org/api/swagger-ui/>
 [leaderboard]: <https://datacomp.opensky-network.org/api/competitions/71c49292-6139-425f-803a-52ee8730ba58/leaderboard?limit=100&cursor=>
+
+
+## Submission instructions
+
+Ranking will be based on the best RMSE of a team's submissions.
+The `submitting.parquet` file is a template for submissions, i.e.
+you need to fill the `TAXITIME_SEC_mvt` for the relevant `MVT_ID_mvt`.
+
+Each team will have to submit its predictions in its own bucket, with a
+file name template as follows
+
+> `<team-name>_v<incremental integer>.parquet`  

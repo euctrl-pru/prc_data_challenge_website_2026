@@ -4,7 +4,7 @@
     "href": "ranking.html",
     "title": "Ranking",
     "section": "",
-    "text": "We will monitor submissions to capture attempts to learn from the ranking process.\nWe think this in NOT a fair way to align with the purposes and goals of the data challenge.",
+    "text": "WarningAttention\n\n\n\nWe will monitor submissions to capture attempts to learn from the ranking process.\nWe think this in NOT a fair way to align with the purposes and goals of the data challenge.",
     "crumbs": [
       "Publications",
       "Leaderboard",
@@ -172,11 +172,35 @@
     "href": "data.html#buckets",
     "title": "Data",
     "section": "Buckets",
-    "text": "Buckets\n\nThe Training dataset\nThe training dataset is split in monthly files. Each file contains the movements for the airports of the challenge:\n\ntraining_2025-01-01_2025-02-01.parquet (21M)\ntraining_2025-02-01_2025-03-01.parquet (19M)\ntraining_2025-03-01_2025-04-01.parquet (22M)\ntraining_2025-04-01_2025-05-01.parquet (23M)\ntraining_2025-05-01_2025-06-01.parquet (25M)\ntraining_2025-06-01_2025-07-01.parquet (24M)\ntraining_2025-07-01_2025-08-01.parquet (25M)\ntraining_2025-08-01_2025-09-01.parquet (25M)\ntraining_2025-09-01_2025-10-01.parquet (24M)\ntraining_2025-10-01_2025-11-01.parquet (25M)\ntraining_2025-11-01_2025-12-01.parquet (22M)\ntraining_2025-12-01_2026-01-01.parquet (22M)\n\n\n\nThe Ranking dataset\nThe ranking dataset contains same columns as training data with\n\nmovements for Jan and Jul 2026\nBLOCK_TIME_UTC_mvt and TAXITIME_SEC_mvt for departures (movements with PHASE = \"DEP\") have been blanked out.\n\nIt consists of a single file:\n\nranking.parquet (27M)\n\n\n\nThe Submitting dataset\nThe submitting dataset is the template to be filled with the predicted taxi-out times for submission.\nIt only contains the columns MVT_ID_mvt and TAXITIME_SEC_mvt where MVT_ID_mvt are the same of the departures in the ranking dataset. It consists of only one file:\n\nsubmitting.parquet (1.1M)",
+    "text": "Buckets\nThe 2024 challenge website has some instructions about how to use Minio to access OpenSky buckets at\nhttps://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client\n\nThe Training dataset\nThe training dataset is split in monthly files. Each file contains the movements for the airports of the challenge:\n\ntraining_2025-01-01_2025-02-01.parquet (21M)\ntraining_2025-02-01_2025-03-01.parquet (19M)\ntraining_2025-03-01_2025-04-01.parquet (22M)\ntraining_2025-04-01_2025-05-01.parquet (23M)\ntraining_2025-05-01_2025-06-01.parquet (25M)\ntraining_2025-06-01_2025-07-01.parquet (24M)\ntraining_2025-07-01_2025-08-01.parquet (25M)\ntraining_2025-08-01_2025-09-01.parquet (25M)\ntraining_2025-09-01_2025-10-01.parquet (24M)\ntraining_2025-10-01_2025-11-01.parquet (25M)\ntraining_2025-11-01_2025-12-01.parquet (22M)\ntraining_2025-12-01_2026-01-01.parquet (22M)\n\n\n\nThe Ranking dataset\nThe ranking dataset contains same columns as training data with\n\nmovements for Jan and Jul 2026\nBLOCK_TIME_UTC_mvt and TAXITIME_SEC_mvt for departures (movements with PHASE = \"DEP\") have been blanked out.\n\nIt consists of a single file:\n\nranking.parquet (27M)\n\n\n\nThe Submitting dataset\nThe submitting dataset is the template to be filled with the predicted taxi-out times for submission.\nIt only contains the columns MVT_ID_mvt and TAXITIME_SEC_mvt where MVT_ID_mvt are the same of the departures in the ranking dataset. It consists of only one file:\n\nsubmitting.parquet (1.1M)\n\nSee Submission instructions.",
     "crumbs": [
       "Publications",
       "Challenge",
       "Data"
+    ]
+  },
+  {
+    "objectID": "ranking.html#submission-instructions",
+    "href": "ranking.html#submission-instructions",
+    "title": "Ranking",
+    "section": "Submission instructions",
+    "text": "Submission instructions\nRanking will be based on the best RMSE of a team’s submissions. The submitting.parquet file is a template for submissions, i.e. you need to fill the TAXITIME_SEC_mvt for the relevant MVT_ID_mvt.\nEach team will have to submit its predictions in its own bucket, with a file name template as follows\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "ranking.html#footnotes",
+    "href": "ranking.html#footnotes",
+    "title": "Ranking",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is to avoid the possibility of leaning from the leaderboard results.↩︎",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
     ]
   }
 ]
