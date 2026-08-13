@@ -10,7 +10,7 @@ aims at engaging with data scientists to team up and compete to solve a
 1. openly sharing final solutions (code and documentation on public GitHub repo)
 1. publishing an open access paper on [\acr{JOAS}](https://journals.open.tudelft.nl/joas/)
 
-![](media/PRC-Data-challenge-860x660.jpg){width="540px" height="auto" alt="PRC Data Challenge"}
+![](media/PRC-Data-challenge-1080x1080.jpg){width="540px" height="auto" alt="PRC Data Challenge"}
 
 The 2026 edition of the \acr{PRC} Data Challenge proposes to predict the
 **taxi-out time** of flights from 11 major European airports.
