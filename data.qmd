@@ -8,18 +8,19 @@ format:
 
 We provide the following (logical) datasets:
 
-1. **movements** (arrival and departure) information for 2025 at 11 major
+1. **Movements** (arrival and departure) information for 2025 at 11 major
   European airports including
-   a. **taxi-out time** for each movement at the airport
+   a. **taxi-out time** for each movement at the airport and
    a. **scheduled** and **actual** times
 
    This is related to departing (`PHASE` = `DEP`) or arriving
    (`PHASE` = `ARR`) airport.
-1. **flight** information for each movement.  
-   This is what is matched in the \acr{NM} records.
+1. **Flight** information for each movement. 
+    This is what is matched in the \acr{NM} records.
 
-The movement rows have been (left) joined with the flight ones.  
-There are a total of 4167797 movements as in @tbl-airports.
+The movements table rows have been (left) joined with the flight table ones.  
+
+There are a total of 4,167,797 movements at the 11 airports as shown in in @tbl-airports.
 
 
 | icao | iata | 	name                              |
@@ -56,7 +57,7 @@ datasets.
 
 ## Buckets
 
-The 2024 challenge website has some instructions about how to 
+The 2024 PRC Data Challenge website has some instructions about how to 
 use Minio to access OpenSky buckets at
 
 <https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client>
@@ -79,9 +80,9 @@ Each file contains the movements for the airports of the challenge:
 * `training_2025-12-01_2026-01-01.parquet` (22M)
 
 ### The Ranking Dataset
-The ranking dataset contains the same columns as the training data with
+The ranking dataset contains the same columns as the training data with:
 
-- movements for Jan and Jul 2026
+- Movements for Jan and Jul 2026.
 - `BLOCK_TIME_UTC_mvt` and `TAXITIME_SEC_mvt` for departures (movements with `PHASE` = `"DEP"`) have been blanked out.
 
 It consists of a single file:
@@ -89,9 +90,7 @@ It consists of a single file:
 * `ranking.parquet` (27M)
 
 ### The Submitting Dataset
-The submitting dataset is the template to be filled with the predicted taxi-out times for submission.  
-It only contains the columns `MVT_ID_mvt` and `TAXITIME_SEC_mvt` where `MVT_ID_mvt` values match those of the departures in the ranking dataset.
-It consists of only one file:
+The submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns `MVT_ID_mvt` and `TAXITIME_SEC_mvt` where `MVT_ID_mvt` values match those of the departures in the ranking dataset. It consists of only one file:
 
 * `submitting.parquet` (1.1M)
 
@@ -103,9 +102,6 @@ See [Submission Instructions](ranking.qmd#submission-instructions).
 Columns postfixed with `_mvt` are associated with the reporting airport.  
 Columns postfixed with `_flt` are associated with information from \acr{NM}
 flight list.  
-
-
-
 
 ### Movement
 
