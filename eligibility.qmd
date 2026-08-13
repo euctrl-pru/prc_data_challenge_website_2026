@@ -3,8 +3,8 @@ title: Eligibility
 ---
 
 ::: {.callout-warning title="Attention"}
-We tried to comply to the eligibility rules as best as we could in our
-registration form but we reserve the rights to refuse/stop participation of
+We tried to comply with the eligibility rules as best as we could in our
+registration form but we reserve the right to refuse/stop participation of
 teams from countries/companies subject to restrictions at any stage of the
 challenge.
 :::
@@ -12,12 +12,12 @@ challenge.
 
 ## Eligibility for Participation
 
-The inscription form already implements, as far as possible, the restrictions
+The registration form already implements, as far as possible, the restrictions
 for the origin of participating teams.
 
-The restrictions are mainly about teams originating or affiliated to
+The restrictions are mainly about teams originating or affiliated with
 institutions/companies from (non \acr{ECTL}) countries subject to sanctions.  
-Despite the reason for the sanctions, the practical limitation for us is the
+Regardless of the reason for the sanctions, the practical limitation for us is the
 impossibility to transfer funds to the winners if based in these countries.
 
 A thematic map of target countries is available at <https://www.sanctionsmap.eu/>.

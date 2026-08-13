@@ -31,9 +31,9 @@ We will post URGENT/IMPORTANT news here but better to follow things up on \
 ```
 
 
-All paged submissions rankings can be retrieved via the REST API at the [full leaderboard JSON][leaderboard] (use the value of `nextCursor` in the `cursor=` parameter in the URL query).
+All paginated submission rankings can be retrieved via the REST API at the [full leaderboard JSON][leaderboard] (use the value of `nextCursor` in the `cursor=` parameter in the URL query).
 
-There are other endpoints, you can have a look [here][api]
+Other endpoints are also available; have a look [here][api].
 
 [api]: <https://datacomp.opensky-network.org/api/swagger-ui/>
 [leaderboard]: <https://datacomp.opensky-network.org/api/competitions/71c49292-6139-425f-803a-52ee8730ba58/leaderboard?limit=100&cursor=>
@@ -43,7 +43,7 @@ There are other endpoints, you can have a look [here][api]
 
 Ranking will be based on the best RMSE of a team's submissions.
 The `submitting.parquet` file is a template for submissions, i.e.
-you need to fill the `TAXITIME_SEC_mvt` for the relevant `MVT_ID_mvt`.
+you need to fill in the `TAXITIME_SEC_mvt` for the relevant `MVT_ID_mvt`.
 
 Each team will have to submit its predictions in its own bucket, with a
 file name template as follows
