@@ -6,7 +6,7 @@ format:
     toc-depth: 2
 ---
 
-We provide the following (logical) data sets:
+We provide the following (logical) datasets:
 
 1. **movements** (arrival and departure) information for 2025 at 11 major
   European airports including
@@ -61,7 +61,7 @@ use Minio to access OpenSky buckets at
 
 <https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client>
 
-### The Training dataset
+### The Training Dataset
 The training dataset is split into monthly files.
 Each file contains the movements for the airports of the challenge:
 
@@ -78,7 +78,7 @@ Each file contains the movements for the airports of the challenge:
 * `training_2025-11-01_2025-12-01.parquet` (22M)
 * `training_2025-12-01_2026-01-01.parquet` (22M)
 
-### The Ranking dataset
+### The Ranking Dataset
 The ranking dataset contains the same columns as the training data with
 
 - movements for Jan and Jul 2026
@@ -88,17 +88,17 @@ It consists of a single file:
 
 * `ranking.parquet` (27M)
 
-### The Submitting dataset
+### The Submitting Dataset
 The submitting dataset is the template to be filled with the predicted taxi-out times for submission.  
 It only contains the columns `MVT_ID_mvt` and `TAXITIME_SEC_mvt` where `MVT_ID_mvt` values match those of the departures in the ranking dataset.
 It consists of only one file:
 
 * `submitting.parquet` (1.1M)
 
-See [Submission instructions](ranking.qmd#submission-instructions).
+See [Submission Instructions](ranking.qmd#submission-instructions).
 
 
-## Column description
+## Column Description
 
 Columns postfixed with `_mvt` are associated with the reporting airport.  
 Columns postfixed with `_flt` are associated with information from \acr{NM}
@@ -114,15 +114,15 @@ flight list.
 * `FLIGHT_mvt`: flight number, i.e. what you see on your boarding pass 
 * `FLIGHT_RULE_mvt`: which sets of regulations the flight is operated under.
   Possible values are:
-  - `I` for \acr{IFR}
-  - `V` for \acr{VFR}
-  - NA if unknown
+  -  `I` for \acr{IFR}
+  -  `V` for \acr{VFR}
+  -  `NA` if unknown
 * `ADEP_mvt`: the (ICAO code of the) \acr{ADEP}.
 * `ADES_mvt`: the (ICAO code of the) \acr{ADES}.
 * `PHASE_mvt`: movement phase. `DEP`=departure, `ARR`=arrival.
 * `MVT_TIME_UTC_mvt`: (best available) movement time (takeoff if `PHASE` =
   `DEP`, landing if `PHASE` = `ARR`.)
-* `BLOCK_TIME_UTC_mvt`: Block time (off-block if `PHASE` = `DEP`,
+* `BLOCK_TIME_UTC_mvt`: block time (off-block if `PHASE` = `DEP`,
    in-block if `PHASE` = `ARR`.)
 * `SCHED_TIME_UTC_mvt`: scheduled time (of departure if `PHASE` = `DEP`,
    of arrival if `PHASE` = `ARR`.)
@@ -162,7 +162,7 @@ The following columns come from data recorded by \acr{NM}.
   -  `V` for \acr{VFR}
   -  `Y` first \acr{IFR} thereafter \acr{VFR}
   -  `Z` first \acr{VFR} thereafter \acr{IFR}
-* `FLIGHT_TYPE_flt`: flight type (see [\acr{FPL} Item 8](https://www.skybrary.aero/articles/flight-plan-completion)). Possible values:
+* `FLIGHT_TYPE_flt`: flight type (see [\acr{FPL} Item 8](https://www.skybrary.aero/articles/flight-plan-completion)). Possible values are:
   -  `S` for scheduled air service
   -  `N` for non-scheduled air service
   -  `G` for general aviation
@@ -176,6 +176,6 @@ The following columns come from data recorded by \acr{NM}.
   -  `J` SUPER, presently only the AIRBUS A-380-800.
 * `AIRCRAFT_OPERATOR_flt`: the (anonymized) [ICAO Airline Designator](https://en.wikipedia.org/wiki/List_of_airline_codes).
 * `EOBT_1_flt`: the \acr{EOBT} for \acr{FPL}-based (M1) trajectory.
-* `ARVT_1_flt`: the Arrival Time for \acr{FPL}-based (M1) trajectory.
+* `ARVT_1_flt`: the arrival time for \acr{FPL}-based (M1) trajectory.
 * `AOBT_3_flt`: the \acr{AOBT} for flown (M3) trajectory.
-* `ARVT_3_flt`: the Arrival Time for flown (M3) trajectory.
+* `ARVT_3_flt`: the arrival time for flown (M3) trajectory.

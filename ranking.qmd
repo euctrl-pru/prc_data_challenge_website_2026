@@ -8,7 +8,7 @@ acronyms:
 We will monitor submissions to capture attempts to learn from the ranking
 process.  
 We think this is NOT a fair way to align with the purposes
-and goals of the data challenge.
+and goals of the Data Challenge.
 
 :::
      
@@ -39,7 +39,7 @@ Other endpoints are also available; have a look [here][api].
 [leaderboard]: <https://datacomp.opensky-network.org/api/competitions/71c49292-6139-425f-803a-52ee8730ba58/leaderboard?limit=100&cursor=>
 
 
-## Submission instructions
+## Submission Instructions
 
 Ranking will be based on the best RMSE of a team's submissions.
 The `submitting.parquet` file is a template for submissions, i.e.

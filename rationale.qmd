@@ -2,7 +2,7 @@
 title: Rationale
 ---
 
-The choice of predicting taxi-out time for this year's data challenge
+The choice of predicting taxi-out time for this year's Data Challenge
 is in line with past data challenges' goals of providing information to estimate
 environmental or operational impact.
 Taxi-out time is generally difficult to obtain and quite difficult to predict.

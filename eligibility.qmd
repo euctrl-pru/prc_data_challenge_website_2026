@@ -33,7 +33,7 @@ The winning submissions/solutions will only be eligible for the awards if
   on GitHub under the **GNU GPLv3 license**.  
   (It will then be forked by the Challenge GitHub account for organizational
   purposes.)
-* all **additional data sets** used are openly available
+* all **additional datasets** used are openly available
   under an open source license.
 * sufficient **documentation** is provided **to understand and reproduce** the results.
 * the solution is **_original_**: teams must use their own original solutions.

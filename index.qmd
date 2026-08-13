@@ -4,7 +4,7 @@ title: "PRC Data Challenge 2026"
 
 The \acr{PRC} with the support of [\acr{OSN}](https://opensky-network.org/)
 aims at engaging with data scientists to team up and compete to solve a
-(big-ish) Data Challenge of interest to the wider Aviation community
+(big-ish) Data Challenge of interest to the wider aviation community
 
 1. using open data
 1. openly sharing final solutions (code and documentation on public GitHub repo)
@@ -41,7 +41,7 @@ the relevant access keys to the datasets/buckets.
 
 ## Social Media Interactions & Forum
 
-Remember to follow the data challenge on OSN's Discord
+Remember to follow the Data Challenge on OSN's Discord
 {{< fa brands discord >}} channel [`#prc-data-competition`][prc-discord].  
 (if not already done, you need to access [OSN Discord server](https://discord.gg/RPh89jpVVz) first)
 
