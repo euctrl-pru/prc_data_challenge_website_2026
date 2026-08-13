@@ -40,7 +40,7 @@ There are a total of 4167797 movements as in @tbl-airports.
 
 
 ::: {.callout-note title="Note 1"}
-We have removed Military, Head of State and Sensitive movements.
+We have removed Military, Head of State, and Sensitive movements.
 These should not have a disruptive impact on the possibility to model and
 predict taxi-out time.
 :::
@@ -144,7 +144,7 @@ The following columns come from data recorded by \acr{NM}.
 * `ADEP_flt`: the ICAO code of the \acr{ADEP}.
 * `ADES_flt`: the ICAO code of the \acr{ADES}.
 * `ADES_FILED_flt`: the \acr{ADES} initially filed in the \acr{FPL}.
-   If different from `ADES_flt` then the flight has been diverted.
+   If different from `ADES_flt`, then the flight has been diverted.
 * `MARKET_SEGMENT_flt`: the market segment type as defined in the [Market Segment Rules](https://www.eurocontrol.int/publication/market-segment-rules), it can be:
   -  “Mainline”
   -  “Regional”
@@ -169,12 +169,12 @@ The following columns come from data recorded by \acr{NM}.
   -  `M` for military (note: filtered out)
   -  `X` for other than the preceding categories
 * `AIRCRAFT_TYPE_flt`: the [ICAO code for the aircraft type](https://www.icao.int/publications/doc8643/pages/search.aspx), for example `A30B` for an Airbus A-300B2-200.
-* `WK_TBL_CAT_flt`: wake turbulence category (see [\acr{FPL} Item 9](https://www.skybrary.aero/articles/flight-plan-completion)), can be
+* `WK_TBL_CAT_flt`: wake turbulence category (see [\acr{FPL} Item 9](https://www.skybrary.aero/articles/flight-plan-completion)), can be:
   -  `L` LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.
-  -  `M` MEDIUM, i.e. maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs)
-  -  `H` HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J)
-  -  `J` SUPER, presently only the AIRBUS A-380-800
-* `AIRCRAFT_OPERATOR_flt`: the (anonymized) [ICAO Airline Designator](https://en.wikipedia.org/wiki/List_of_airline_codes)
+  -  `M` MEDIUM, i.e. maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).
+  -  `H` HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J).
+  -  `J` SUPER, presently only the AIRBUS A-380-800.
+* `AIRCRAFT_OPERATOR_flt`: the (anonymized) [ICAO Airline Designator](https://en.wikipedia.org/wiki/List_of_airline_codes).
 * `EOBT_1_flt`: the \acr{EOBT} for \acr{FPL}-based (M1) trajectory.
 * `ARVT_1_flt`: the Arrival Time for \acr{FPL}-based (M1) trajectory.
 * `AOBT_3_flt`: the \acr{AOBT} for flown (M3) trajectory.

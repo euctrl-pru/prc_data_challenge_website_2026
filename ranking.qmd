@@ -16,7 +16,7 @@ and goals of the data challenge.
 ## Leaderboard
 
 ::: {.callout-warning title="Attention"}
-We will post URGENT/IMPORTANT news here but better to follow things up on \
+We will post URGENT/IMPORTANT news here, but better to follow things up on \
 [OSN's Discord {{< fa brands discord >}} channel `#prc-data-competition`][prc-discord]  
 (if not already done, you need to access [OSN Discord server](https://discord.gg/RPh89jpVVz) first)
 :::
@@ -46,7 +46,7 @@ The `submitting.parquet` file is a template for submissions, i.e.
 you need to fill in the `TAXITIME_SEC_mvt` for the relevant `MVT_ID_mvt`.
 
 Each team will have to submit its predictions in its own bucket, with a
-file name template as follows
+file name template as follows:
 
 > `<team-name>_v<incremental integer>.parquet`  
 

@@ -27,7 +27,7 @@ and then fill in the following team creation request form!\
 
 :::{.container .text-center}
 [Request Team Creation!](https://example.com){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="Request Team Creation" target="_blank"}  
-[(The participation is open to all but teams from sanctioned countries are excluded.)]{.small }
+[(The participation is open to all, but teams from sanctioned countries are excluded.)]{.small }
 :::
 
 
