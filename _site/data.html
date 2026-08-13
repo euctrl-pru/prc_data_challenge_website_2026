@@ -462,7 +462,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#column-description" id="toc-column-description" class="nav-link active" data-scroll-target="#column-description">Column description</a></li>
+  <li><a href="#buckets" id="toc-buckets" class="nav-link active" data-scroll-target="#buckets">Buckets</a></li>
+  <li><a href="#column-description" id="toc-column-description" class="nav-link" data-scroll-target="#column-description">Column description</a></li>
   <li><a href="#acronyms_HEADER_LOA" id="toc-acronyms_HEADER_LOA" class="nav-link" data-scroll-target="#acronyms_HEADER_LOA">List of Acronyms</a></li>
   </ul>
 </nav>
@@ -604,6 +605,47 @@ Table&nbsp;1: List of airports for which movements data is provided
 As per all out data challenges, we do not <em>play</em> with synthetic/artificial datasets.</p>
 </div>
 </div>
+<section id="buckets" class="level2">
+<h2 class="anchored" data-anchor-id="buckets">Buckets</h2>
+<section id="the-training-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="the-training-dataset">The Training dataset</h3>
+<p>The training dataset is split in monthly files. Each file contains the movements for the airports of the challenge:</p>
+<ul>
+<li><code>training_2025-01-01_2025-02-01.parquet</code> (21M)</li>
+<li><code>training_2025-02-01_2025-03-01.parquet</code> (19M)</li>
+<li><code>training_2025-03-01_2025-04-01.parquet</code> (22M)</li>
+<li><code>training_2025-04-01_2025-05-01.parquet</code> (23M)</li>
+<li><code>training_2025-05-01_2025-06-01.parquet</code> (25M)</li>
+<li><code>training_2025-06-01_2025-07-01.parquet</code> (24M)</li>
+<li><code>training_2025-07-01_2025-08-01.parquet</code> (25M)</li>
+<li><code>training_2025-08-01_2025-09-01.parquet</code> (25M)</li>
+<li><code>training_2025-09-01_2025-10-01.parquet</code> (24M)</li>
+<li><code>training_2025-10-01_2025-11-01.parquet</code> (25M)</li>
+<li><code>training_2025-11-01_2025-12-01.parquet</code> (22M)</li>
+<li><code>training_2025-12-01_2026-01-01.parquet</code> (22M)</li>
+</ul>
+</section>
+<section id="the-ranking-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="the-ranking-dataset">The Ranking dataset</h3>
+<p>The ranking dataset contains same columns as training data with</p>
+<ul>
+<li>movements for Jan and Jul 2026</li>
+<li><code>BLOCK_TIME_UTC_mvt</code> and <code>TAXITIME_SEC_mvt</code> for departures (movements with <code>PHASE</code> = <code>"DEP"</code>) have been blanked out.</li>
+</ul>
+<p>It consists of a single file:</p>
+<ul>
+<li><code>ranking.parquet</code> (27M)</li>
+</ul>
+</section>
+<section id="the-submitting-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="the-submitting-dataset">The Submitting dataset</h3>
+<p>The submitting dataset is the template to be filled with the predicted taxi-out times for submission.<br>
+It only contains the columns <code>MVT_ID_mvt</code> and <code>TAXITIME_SEC_mvt</code> where <code>MVT_ID_mvt</code> are the same of the departures in the ranking dataset. It consists of only one file:</p>
+<ul>
+<li><code>submitting.parquet</code> (1.1M)</li>
+</ul>
+</section>
+</section>
 <section id="column-description" class="level2">
 <h2 class="anchored" data-anchor-id="column-description">Column description</h2>
 <p>Columns postfixed with <code>_mvt</code> are associated with the reporting airport.<br>

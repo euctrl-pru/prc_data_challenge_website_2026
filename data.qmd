@@ -54,6 +54,43 @@ As per all out data challenges, we do not _play_ with synthetic/artificial
 datasets.
 :::
 
+## Buckets
+
+### The Training dataset
+The training dataset is split in monthly files.
+Each file contains the movements for the airports of the challenge:
+
+* `training_2025-01-01_2025-02-01.parquet` (21M)
+* `training_2025-02-01_2025-03-01.parquet` (19M)
+* `training_2025-03-01_2025-04-01.parquet` (22M)
+* `training_2025-04-01_2025-05-01.parquet` (23M)
+* `training_2025-05-01_2025-06-01.parquet` (25M)
+* `training_2025-06-01_2025-07-01.parquet` (24M)
+* `training_2025-07-01_2025-08-01.parquet` (25M)
+* `training_2025-08-01_2025-09-01.parquet` (25M)
+* `training_2025-09-01_2025-10-01.parquet` (24M)
+* `training_2025-10-01_2025-11-01.parquet` (25M)
+* `training_2025-11-01_2025-12-01.parquet` (22M)
+* `training_2025-12-01_2026-01-01.parquet` (22M)
+
+### The Ranking dataset
+The ranking dataset contains same columns as training data with
+
+- movements for Jan and Jul 2026
+- `BLOCK_TIME_UTC_mvt` and `TAXITIME_SEC_mvt` for departures (movements with `PHASE` = `"DEP"`) have been blanked out.
+
+It consists of a single file:
+
+* `ranking.parquet` (27M)
+
+### The Submitting dataset
+The submitting dataset is the template to be filled with the predicted taxi-out times for submission.  
+It only contains the columns `MVT_ID_mvt` and `TAXITIME_SEC_mvt` where `MVT_ID_mvt` are the same of the departures in the ranking dataset.
+It consists of only one file:
+
+* `submitting.parquet` (1.1M)
+
+
 ## Column description
 
 Columns postfixed with `_mvt` are associated with the reporting airport.  
