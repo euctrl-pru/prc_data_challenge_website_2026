@@ -533,6 +533,9 @@ We think this in NOT a fair way to align with the purposes and goals of the data
 <blockquote class="blockquote">
 <p><code>&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet</code></p>
 </blockquote>
+<p>We require each row to match <code>MVT_ID_mvt</code> before <code>TAXITIME_SEC_mvt</code> will be considered by the ranking script when calculating the RMSE.<br>
+Errors will be issued in case of mismatch.<br>
+Errors will also be issued in case of missing or extra rows.</p>
 
 
 </section>

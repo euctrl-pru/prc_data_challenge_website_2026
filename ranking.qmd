@@ -49,3 +49,9 @@ Each team will have to submit its predictions in its own bucket, with a
 file name template as follows
 
 > `<team-name>_v<incremental integer>.parquet`  
+
+We require each row to match `MVT_ID_mvt` before
+`TAXITIME_SEC_mvt` will be considered by the ranking script when calculating
+the RMSE.  
+Errors will be issued in case of mismatch.  
+Errors will also be issued in case of missing or extra rows.

@@ -184,7 +184,7 @@
     "href": "ranking.html#submission-instructions",
     "title": "Ranking",
     "section": "Submission instructions",
-    "text": "Submission instructions\nRanking will be based on the best RMSE of a team’s submissions. The submitting.parquet file is a template for submissions, i.e. you need to fill the TAXITIME_SEC_mvt for the relevant MVT_ID_mvt.\nEach team will have to submit its predictions in its own bucket, with a file name template as follows\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet",
+    "text": "Submission instructions\nRanking will be based on the best RMSE of a team’s submissions. The submitting.parquet file is a template for submissions, i.e. you need to fill the TAXITIME_SEC_mvt for the relevant MVT_ID_mvt.\nEach team will have to submit its predictions in its own bucket, with a file name template as follows\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nWe require each row to match MVT_ID_mvt before TAXITIME_SEC_mvt will be considered by the ranking script when calculating the RMSE.\nErrors will be issued in case of mismatch.\nErrors will also be issued in case of missing or extra rows.",
     "crumbs": [
       "Publications",
       "Leaderboard",
