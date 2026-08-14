@@ -16,7 +16,7 @@
     "href": "ranking.html#leaderboard",
     "title": "Ranking",
     "section": "Leaderboard",
-    "text": "Leaderboard\n\n\n\n\n\n\nWarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here, but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\nAll paginated submission rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nOther endpoints are also available; have a look here.",
+    "text": "Leaderboard\n\n\n\n\n\n\nWarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here, but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\nAll paginated submission rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nOther endpoints are also available; have a look here and use competitionId = bb3693e1-26bc-4a9e-8619-4fe78b4eab0c.",
     "crumbs": [
       "Publications",
       "Leaderboard",
