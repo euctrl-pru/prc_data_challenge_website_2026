@@ -76,7 +76,7 @@ Here are some from previous editions:
 * [A Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation ](https://journals.open.tudelft.nl/joas/article/view/8764)
 
 
-We also publish a data paper to describe the challenge dataset to widen access
+We also publish a data paper to describe the challenge dataset and widen access
 and further usage of the data for research, education et al.
 Here are the ones from previous editions:
 
