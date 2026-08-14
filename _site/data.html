@@ -463,7 +463,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#buckets" id="toc-buckets" class="nav-link active" data-scroll-target="#buckets">Buckets</a></li>
-  <li><a href="#column-description" id="toc-column-description" class="nav-link" data-scroll-target="#column-description">Column description</a></li>
+  <li><a href="#column-description" id="toc-column-description" class="nav-link" data-scroll-target="#column-description">Column Description</a></li>
   <li><a href="#acronyms_HEADER_LOA" id="toc-acronyms_HEADER_LOA" class="nav-link" data-scroll-target="#acronyms_HEADER_LOA">List of Acronyms</a></li>
   </ul>
 </nav>
@@ -490,19 +490,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We provide the following (logical) data sets:</p>
+<p>We provide the following (logical) datasets:</p>
 <ol type="1">
-<li><strong>movements</strong> (arrival and departure) information for 2025 at 11 major European airports including
+<li><strong>Movements</strong> (arrival and departure) information for 2025 at 11 major European airports including
 <ol type="a">
-<li><strong>taxi-out time</strong> for each movement in the airport</li>
+<li><strong>taxi-out time</strong> for each movement at the airport and</li>
 <li><strong>scheduled</strong> and <strong>actual</strong> times</li>
 </ol>
 This is related to departing (<code>PHASE</code> = <code>DEP</code>) or arriving (<code>PHASE</code> = <code>ARR</code>) airport.</li>
-<li><strong>flight</strong> information for each movement.<br>
-This is what is matched in the <a href="#acronyms_NM">Network Manager (NM)</a> records.</li>
+<li><strong>Flight</strong> information for each movement. This is what is matched in the <a href="#acronyms_NM">Network Manager (NM)</a> records.</li>
 </ol>
-<p>The movement rows have been (left) joined with the flight ones.<br>
-There are a total of 4167797 movements as in <a href="#tbl-airports" class="quarto-xref">Table&nbsp;1</a>.</p>
+<p>The movements table rows have been (left) joined with the flight table ones.</p>
+<p>There are a total of 4,167,797 movements at the 11 airports as shown in in <a href="#tbl-airports" class="quarto-xref">Table&nbsp;1</a>.</p>
 <div id="tbl-airports" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-airports-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -588,7 +587,7 @@ Table&nbsp;1: List of airports for which movements data is provided
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>We have removed Military, Head of State and Sensitive movements. These should not have a disrupting impact on the possibility to model and predict taxi-out time.</p>
+<p>We have removed Military, Head of State, and Sensitive movements. These should not have a disruptive impact on the possibility to model and predict taxi-out time.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Note 2">
@@ -601,17 +600,17 @@ Table&nbsp;1: List of airports for which movements data is provided
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Rreal world data is messy. You will find some inconsistencies between movement and flight information. We haven’t tried to reconcile them because they are probably due to some limitations of the underlying processes trying to match different sources of data.<br>
-As per all out data challenges, we do not <em>play</em> with synthetic/artificial datasets.</p>
+<p>Real world data is messy. You will find some inconsistencies between movement and flight information. We haven’t tried to reconcile them because they are probably due to some limitations of the underlying processes trying to match different sources of data.<br>
+As per all our data challenges, we do not <em>play</em> with synthetic/artificial datasets.</p>
 </div>
 </div>
 <section id="buckets" class="level2">
 <h2 class="anchored" data-anchor-id="buckets">Buckets</h2>
-<p>The 2024 challenge website has some instructions about how to use Minio to access OpenSky buckets at</p>
+<p>The 2024 PRC Data Challenge website has some instructions about how to use Minio to access OpenSky buckets at</p>
 <p><a href="https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client" class="uri">https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client</a></p>
 <section id="the-training-dataset" class="level3">
-<h3 class="anchored" data-anchor-id="the-training-dataset">The Training dataset</h3>
-<p>The training dataset is split in monthly files. Each file contains the movements for the airports of the challenge:</p>
+<h3 class="anchored" data-anchor-id="the-training-dataset">The Training Dataset</h3>
+<p>The training dataset is split into monthly files. Each file contains the movements for the airports of the challenge:</p>
 <ul>
 <li><code>training_2025-01-01_2025-02-01.parquet</code> (21M)</li>
 <li><code>training_2025-02-01_2025-03-01.parquet</code> (19M)</li>
@@ -628,10 +627,10 @@ As per all out data challenges, we do not <em>play</em> with synthetic/artificia
 </ul>
 </section>
 <section id="the-ranking-dataset" class="level3">
-<h3 class="anchored" data-anchor-id="the-ranking-dataset">The Ranking dataset</h3>
-<p>The ranking dataset contains same columns as training data with</p>
+<h3 class="anchored" data-anchor-id="the-ranking-dataset">The Ranking Dataset</h3>
+<p>The ranking dataset contains the same columns as the training data with:</p>
 <ul>
-<li>movements for Jan and Jul 2026</li>
+<li>Movements for Jan and Jul 2026.</li>
 <li><code>BLOCK_TIME_UTC_mvt</code> and <code>TAXITIME_SEC_mvt</code> for departures (movements with <code>PHASE</code> = <code>"DEP"</code>) have been blanked out.</li>
 </ul>
 <p>It consists of a single file:</p>
@@ -640,16 +639,16 @@ As per all out data challenges, we do not <em>play</em> with synthetic/artificia
 </ul>
 </section>
 <section id="the-submitting-dataset" class="level3">
-<h3 class="anchored" data-anchor-id="the-submitting-dataset">The Submitting dataset</h3>
-<p>The submitting dataset is the template to be filled with the predicted taxi-out times for submission.<br>
-It only contains the columns <code>MVT_ID_mvt</code> and <code>TAXITIME_SEC_mvt</code> where <code>MVT_ID_mvt</code> are the same of the departures in the ranking dataset. It consists of only one file:</p>
+<h3 class="anchored" data-anchor-id="the-submitting-dataset">The Submitting Dataset</h3>
+<p>The submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns <code>MVT_ID_mvt</code> and <code>TAXITIME_SEC_mvt</code> where <code>MVT_ID_mvt</code> values match those of the departures in the ranking dataset. It consists of only one file:</p>
 <ul>
 <li><code>submitting.parquet</code> (1.1M)</li>
 </ul>
+<p>See <a href="./ranking.html#submission-instructions">Submission Instructions</a>.</p>
 </section>
 </section>
 <section id="column-description" class="level2">
-<h2 class="anchored" data-anchor-id="column-description">Column description</h2>
+<h2 class="anchored" data-anchor-id="column-description">Column Description</h2>
 <p>Columns postfixed with <code>_mvt</code> are associated with the reporting airport.<br>
 Columns postfixed with <code>_flt</code> are associated with information from <a href="#acronyms_NM">NM</a> flight list.</p>
 <section id="movement" class="level3">
@@ -662,13 +661,13 @@ Columns postfixed with <code>_flt</code> are associated with information from <a
 <ul>
 <li><code>I</code> for <a href="#acronyms_IFR">Instrument Flight Rules (IFR)</a></li>
 <li><code>V</code> for <a href="#acronyms_VFR">Visual Flight Rules (VFR)</a></li>
-<li>NA if unknown</li>
+<li><code>NA</code> if unknown</li>
 </ul></li>
 <li><code>ADEP_mvt</code>: the (ICAO code of the) <a href="#acronyms_ADEP">Aerodrome of DEParture (ADEP)</a>.</li>
 <li><code>ADES_mvt</code>: the (ICAO code of the) <a href="#acronyms_ADES">Aerodrome of DEStination (ADES)</a>.</li>
 <li><code>PHASE_mvt</code>: movement phase. <code>DEP</code>=departure, <code>ARR</code>=arrival.</li>
 <li><code>MVT_TIME_UTC_mvt</code>: (best available) movement time (takeoff if <code>PHASE</code> = <code>DEP</code>, landing if <code>PHASE</code> = <code>ARR</code>.)</li>
-<li><code>BLOCK_TIME_UTC_mvt</code>: Block time (off-block if <code>PHASE</code> = <code>DEP</code>, in-block if <code>PHASE</code> = <code>ARR</code>.)</li>
+<li><code>BLOCK_TIME_UTC_mvt</code>: block time (off-block if <code>PHASE</code> = <code>DEP</code>, in-block if <code>PHASE</code> = <code>ARR</code>.)</li>
 <li><code>SCHED_TIME_UTC_mvt</code>: scheduled time (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
 <li><code>AIRCRAFT_TYPE_mvt</code>: the ICAO code for the aircraft type, for example <code>A21N</code> for Airbus A321neo.</li>
 <li><code>RUNWAY_mvt</code>: the <a href="#acronyms_RWY">Runway (RWY)</a> ID (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
@@ -680,11 +679,11 @@ Columns postfixed with <code>_flt</code> are associated with information from <a
 <h3 class="anchored" data-anchor-id="flight">Flight</h3>
 <p>The following columns come from data recorded by <a href="#acronyms_NM">NM</a>.</p>
 <ul>
-<li><code>LOBT_flt</code>: last know off-block time</li>
+<li><code>LOBT_flt</code>: last known off-block time</li>
 <li><code>CALLSIGN_flt</code>: the <a href="https://skybrary.aero/articles/aircraft-call-sign">callsign</a> of the relevant flight, e.g.&nbsp;<code>BAW6VB</code>.</li>
 <li><code>ADEP_flt</code>: the ICAO code of the <a href="#acronyms_ADEP">ADEP</a>.</li>
 <li><code>ADES_flt</code>: the ICAO code of the <a href="#acronyms_ADES">ADES</a>.</li>
-<li><code>ADES_FILED_flt</code>: the <a href="#acronyms_ADES">ADES</a> initially filed in the <a href="#acronyms_FPL">Flight Plan (FPL)</a>. if different from <code>ADES_flt</code> then the flight has beed diverted.</li>
+<li><code>ADES_FILED_flt</code>: the <a href="#acronyms_ADES">ADES</a> initially filed in the <a href="#acronyms_FPL">Flight Plan (FPL)</a>. If different from <code>ADES_flt</code>, then the flight has been diverted.</li>
 <li><code>MARKET_SEGMENT_flt</code>: the market segment type as defined in the <a href="https://www.eurocontrol.int/publication/market-segment-rules">Market Segment Rules</a>, it can be:
 <ul>
 <li>“Mainline”</li>
@@ -705,27 +704,27 @@ Columns postfixed with <code>_flt</code> are associated with information from <a
 <li><code>Y</code> first <a href="#acronyms_IFR">IFR</a> thereafter <a href="#acronyms_VFR">VFR</a></li>
 <li><code>Z</code> first <a href="#acronyms_VFR">VFR</a> thereafter <a href="#acronyms_IFR">IFR</a></li>
 </ul></li>
-<li><code>FLIGHT_TYPE_flt</code>: flight type (see <a href="https://www.skybrary.aero/articles/flight-plan-completion"><span>FPL</span> Item 8</a>). Possible values:
+<li><code>FLIGHT_TYPE_flt</code>: flight type (see <a href="https://www.skybrary.aero/articles/flight-plan-completion"><span>FPL</span> Item 8</a>). Possible values are:
 <ul>
 <li><code>S</code> for scheduled air service</li>
-<li><code>N</code>for non-scheduled air service</li>
+<li><code>N</code> for non-scheduled air service</li>
 <li><code>G</code> for general aviation</li>
 <li><code>M</code> for military (note: filtered out)</li>
 <li><code>X</code> for other than the preceding categories</li>
 </ul></li>
 <li><code>AIRCRAFT_TYPE_flt</code>: the <a href="https://www.icao.int/publications/doc8643/pages/search.aspx">ICAO code for the aircraft type</a>, for example <code>A30B</code> for an Airbus A-300B2-200.</li>
-<li><code>WK_TBL_CAT_flt</code>: wake turbulence category (see <a href="https://www.skybrary.aero/articles/flight-plan-completion"><span>FPL</span> Item 9</a>), can be
+<li><code>WK_TBL_CAT_flt</code>: wake turbulence category (see <a href="https://www.skybrary.aero/articles/flight-plan-completion"><span>FPL</span> Item 9</a>), can be:
 <ul>
 <li><code>L</code> LIGHT, i.e.&nbsp;maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.</li>
-<li><code>M</code> MEDIUM, i.e maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs)</li>
-<li><code>H</code> HEAVY, i.e.&nbsp;maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J)</li>
-<li><code>J</code> SUPER, presently the only the AIRBUS A-380-800</li>
+<li><code>M</code> MEDIUM, i.e.&nbsp;maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).</li>
+<li><code>H</code> HEAVY, i.e.&nbsp;maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J).</li>
+<li><code>J</code> SUPER, presently only the AIRBUS A-380-800.</li>
 </ul></li>
-<li><code>AIRCRAFT_OPERATOR_flt</code>: the (anonymized) <a href="https://en.wikipedia.org/wiki/List_of_airline_codes">ICAO Airline Designator</a></li>
+<li><code>AIRCRAFT_OPERATOR_flt</code>: the (anonymized) <a href="https://en.wikipedia.org/wiki/List_of_airline_codes">ICAO Airline Designator</a>.</li>
 <li><code>EOBT_1_flt</code>: the <a href="#acronyms_EOBT">Estimated Off-Block Time (EOBT)</a> for <a href="#acronyms_FPL">FPL</a>-based (M1) trajectory.</li>
-<li><code>ARVT_1_flt</code>: the Arrival Time for <a href="#acronyms_FPL">FPL</a>-based (M1) trajectory.</li>
+<li><code>ARVT_1_flt</code>: the arrival time for <a href="#acronyms_FPL">FPL</a>-based (M1) trajectory.</li>
 <li><code>AOBT_3_flt</code>: the <a href="#acronyms_AOBT">Actual Off-Block Time (AOBT)</a> for flown (M3) trajectory.</li>
-<li><code>ARVT_3_flt</code>: the Arrival Time for flown (M3) trajectory.</li>
+<li><code>ARVT_3_flt</code>: the arrival time for flown (M3) trajectory.</li>
 </ul>
 
 

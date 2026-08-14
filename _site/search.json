@@ -24,11 +24,23 @@
     ]
   },
   {
+    "objectID": "ranking.html#submission-instructions",
+    "href": "ranking.html#submission-instructions",
+    "title": "Ranking",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nRanking will be based on the best RMSE of a team’s submissions. The submitting.parquet file is a template for submissions, i.e. you need to fill in the TAXITIME_SEC_mvt for the relevant MVT_ID_mvt.\nEach team will have to submit its predictions in its own bucket, with a file name template as follows:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nWe require each row to match MVT_ID_mvt before TAXITIME_SEC_mvt will be considered by the ranking script when calculating the RMSE.\nErrors will be issued in case of mismatch.\nErrors will also be issued in case of missing or extra rows.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
     "objectID": "eligibility.html",
     "href": "eligibility.html",
     "title": "Eligibility",
     "section": "",
-    "text": "WarningAttention\n\n\n\nWe tried to comply to the eligibility rules as best as we could in our registration form but we reserve the rights to refuse/stop participation of teams from countries/companies subject to restrictions at any stage of the challenge.",
+    "text": "WarningAttention\n\n\n\nWe tried to comply with the eligibility rules as best as we could in our registration form, but we reserve the right to refuse/stop participation of teams from countries/companies subject to restrictions at any stage of the challenge.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -40,7 +52,7 @@
     "href": "eligibility.html#eligibility-for-participation",
     "title": "Eligibility",
     "section": "Eligibility for Participation",
-    "text": "Eligibility for Participation\nThe inscription form already implements, as far as possible, the restrictions for the origin of participating teams.\nThe restrictions are mainly about teams originating or affilaited to institutions/companies from (non EUROCONTROL (ECTL)) countries subject to sanctions.\nDespite the reason for the sanctions, the practical limitation for us is the impossibility to transfer funds to the winners if based in these countries.\nA thematic map of target countries is available at https://www.sanctionsmap.eu/.",
+    "text": "Eligibility for Participation\nThe registration form already implements, as far as possible, the restrictions for the origin of participating teams.\nThe applied restrictions are for teams originating or affiliated with institutions or companies from non-EUROCONTROL member and comprehensive agreement states subject to sanctions. Regardless of the reason for the sanctions, the restriction are implemented (in part) because of the practical limitation for us to transfer funds to the winners if the team is based in any of these countries.\nA thematic map of sanctioned countries is available at https://www.sanctionsmap.eu/. The list of EUROCONTROL member and comprehensive agreement states is available at https://www.eurocontrol.int/our-member-and-comprehensive-agreement-states.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -52,7 +64,7 @@
     "href": "eligibility.html#eligibility-for-prize",
     "title": "Eligibility",
     "section": "Eligibility for Prize",
-    "text": "Eligibility for Prize\nThe winning submissions/solutions will only be eligible for the awards if\n\nthe team does NOT releated to sanctioned countries\nexternal datasets are openly accessible/usable and documented.\nall source code will be made openly available on GitHub under the GNU GPLv3 license.\n(It will then be forked by the Challenge GitHub account for organizational purposes.)\nall additional data sets used are openly available under an open source license.\nsufficient documentation is provided to understand and reproduce the results.\nthe solution is original: teams must use their own original solutions. Re-using any existing implementation is only allowed if the original authors grant you the rights to use their solution and if you made significant modifications to the algorithm or model. In particular, simply re-using existing code and rewriting the data input and output mechanism is not sufficient. Adding parameters to the model and modifying filters to match the specific peculiarities of the data, however, can be considered sufficient.",
+    "text": "Eligibility for Prize\nThe winning submissions/solutions will only be eligible for the awards if:\n\nThe team is NOT related in any way to sanctioned non-EUROCONTROL states. See above.\nAll used external datasets are openly accessible/usable and documented.\nAll produced source code are made openly available on GitHub under the GNU GPLv3 license. Note: It will then be forked by the Challenge GitHub account for organizational purposes.\nAll additional datasets used are openly available under an open source license.\nSufficient documentation is provided to understand and reproduce the results.\nThe solution is original: Teams must use their own original solutions. Re-using any existing implementation is only allowed if the original authors grant you the rights to use their solution and if you made significant modifications to the algorithm or model. In particular, simply re-using existing code and rewriting the data input and output mechanism is not sufficient. Adding parameters to the model and modifying filters to match the specific peculiarities of the data, however, can be considered sufficient.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -64,7 +76,7 @@
     "href": "eligibility.html#acronyms_HEADER_LOA",
     "title": "Eligibility",
     "section": "List of Acronyms",
-    "text": "List of Acronyms\n\nECTL: EUROCONTROL",
+    "text": "List of Acronyms",
     "crumbs": [
       "Publications",
       "Overview",
@@ -76,7 +88,19 @@
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "We provide the following (logical) data sets:\nThe movement rows have been (left) joined with the flight ones.\nThere are a total of 4167797 movements as in Table 1.",
+    "text": "We provide the following (logical) datasets:\nThe movements table rows have been (left) joined with the flight table ones.\nThere are a total of 4,167,797 movements at the 11 airports as shown in in Table 1.",
+    "crumbs": [
+      "Publications",
+      "Challenge",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#buckets",
+    "href": "data.html#buckets",
+    "title": "Data",
+    "section": "Buckets",
+    "text": "Buckets\nThe 2024 PRC Data Challenge website has some instructions about how to use Minio to access OpenSky buckets at\nhttps://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client\n\nThe Training Dataset\nThe training dataset is split into monthly files. Each file contains the movements for the airports of the challenge:\n\ntraining_2025-01-01_2025-02-01.parquet (21M)\ntraining_2025-02-01_2025-03-01.parquet (19M)\ntraining_2025-03-01_2025-04-01.parquet (22M)\ntraining_2025-04-01_2025-05-01.parquet (23M)\ntraining_2025-05-01_2025-06-01.parquet (25M)\ntraining_2025-06-01_2025-07-01.parquet (24M)\ntraining_2025-07-01_2025-08-01.parquet (25M)\ntraining_2025-08-01_2025-09-01.parquet (25M)\ntraining_2025-09-01_2025-10-01.parquet (24M)\ntraining_2025-10-01_2025-11-01.parquet (25M)\ntraining_2025-11-01_2025-12-01.parquet (22M)\ntraining_2025-12-01_2026-01-01.parquet (22M)\n\n\n\nThe Ranking Dataset\nThe ranking dataset contains the same columns as the training data with:\n\nMovements for Jan and Jul 2026.\nBLOCK_TIME_UTC_mvt and TAXITIME_SEC_mvt for departures (movements with PHASE = \"DEP\") have been blanked out.\n\nIt consists of a single file:\n\nranking.parquet (27M)\n\n\n\nThe Submitting Dataset\nThe submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns MVT_ID_mvt and TAXITIME_SEC_mvt where MVT_ID_mvt values match those of the departures in the ranking dataset. It consists of only one file:\n\nsubmitting.parquet (1.1M)\n\nSee Submission Instructions.",
     "crumbs": [
       "Publications",
       "Challenge",
@@ -87,8 +111,8 @@
     "objectID": "data.html#column-description",
     "href": "data.html#column-description",
     "title": "Data",
-    "section": "Column description",
-    "text": "Column description\nColumns postfixed with _mvt are associated with the reporting airport.\nColumns postfixed with _flt are associated with information from NM flight list.\n\nMovement\n\nMVT_ID_mvt: unique identifier for the movement record\nFLIGHT_ID_mvt: unique identifier for the NM flight (if matched)\nFLIGHT_mvt: flight number, i.e. what you see on your boarding pass\nFLIGHT_RULE_mvt: which sets of regulations the flight is operated under. Possible values are:\n\nI for Instrument Flight Rules (IFR)\nV for Visual Flight Rules (VFR)\nNA if unknown\n\nADEP_mvt: the (ICAO code of the) Aerodrome of DEParture (ADEP).\nADES_mvt: the (ICAO code of the) Aerodrome of DEStination (ADES).\nPHASE_mvt: movement phase. DEP=departure, ARR=arrival.\nMVT_TIME_UTC_mvt: (best available) movement time (takeoff if PHASE = DEP, landing if PHASE = ARR.)\nBLOCK_TIME_UTC_mvt: Block time (off-block if PHASE = DEP, in-block if PHASE = ARR.)\nSCHED_TIME_UTC_mvt: scheduled time (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nAIRCRAFT_TYPE_mvt: the ICAO code for the aircraft type, for example A21N for Airbus A321neo.\nRUNWAY_mvt: the Runway (RWY) ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nSTAND_mvt: the stand ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nTAXITIME_SEC_mvt: amount of seconds for taxi time (taxi-out if PHASE = DEP, taxi-in if PHASE = ARR.)\n\n\n\nFlight\nThe following columns come from data recorded by NM.\n\nLOBT_flt: last know off-block time\nCALLSIGN_flt: the callsign of the relevant flight, e.g. BAW6VB.\nADEP_flt: the ICAO code of the ADEP.\nADES_flt: the ICAO code of the ADES.\nADES_FILED_flt: the ADES initially filed in the Flight Plan (FPL). if different from ADES_flt then the flight has beed diverted.\nMARKET_SEGMENT_flt: the market segment type as defined in the Market Segment Rules, it can be:\n\n“Mainline”\n“Regional”\n“Low-Cost”\n“Business Aviation”\n“All-Cargo”\n“Charter” (Non-Scheduled)\n“Military”\n“Other”\n“Not classified”\n\nIOBT_flt: Initial Off-Block Time (IOBT).\nFLIGHT_RULE_flt: which sets of regulations the flight is operated under (see FPL Item 8). Possible values are:\n\nI for IFR\nV for VFR\nY first IFR thereafter VFR\nZ first VFR thereafter IFR\n\nFLIGHT_TYPE_flt: flight type (see FPL Item 8). Possible values:\n\nS for scheduled air service\nNfor non-scheduled air service\nG for general aviation\nM for military (note: filtered out)\nX for other than the preceding categories\n\nAIRCRAFT_TYPE_flt: the ICAO code for the aircraft type, for example A30B for an Airbus A-300B2-200.\nWK_TBL_CAT_flt: wake turbulence category (see FPL Item 9), can be\n\nL LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.\nM MEDIUM, i.e maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs)\nH HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J)\nJ SUPER, presently the only the AIRBUS A-380-800\n\nAIRCRAFT_OPERATOR_flt: the (anonymized) ICAO Airline Designator\nEOBT_1_flt: the Estimated Off-Block Time (EOBT) for FPL-based (M1) trajectory.\nARVT_1_flt: the Arrival Time for FPL-based (M1) trajectory.\nAOBT_3_flt: the Actual Off-Block Time (AOBT) for flown (M3) trajectory.\nARVT_3_flt: the Arrival Time for flown (M3) trajectory.",
+    "section": "Column Description",
+    "text": "Column Description\nColumns postfixed with _mvt are associated with the reporting airport.\nColumns postfixed with _flt are associated with information from NM flight list.\n\nMovement\n\nMVT_ID_mvt: unique identifier for the movement record\nFLIGHT_ID_mvt: unique identifier for the NM flight (if matched)\nFLIGHT_mvt: flight number, i.e. what you see on your boarding pass\nFLIGHT_RULE_mvt: which sets of regulations the flight is operated under. Possible values are:\n\nI for Instrument Flight Rules (IFR)\nV for Visual Flight Rules (VFR)\nNA if unknown\n\nADEP_mvt: the (ICAO code of the) Aerodrome of DEParture (ADEP).\nADES_mvt: the (ICAO code of the) Aerodrome of DEStination (ADES).\nPHASE_mvt: movement phase. DEP=departure, ARR=arrival.\nMVT_TIME_UTC_mvt: (best available) movement time (takeoff if PHASE = DEP, landing if PHASE = ARR.)\nBLOCK_TIME_UTC_mvt: block time (off-block if PHASE = DEP, in-block if PHASE = ARR.)\nSCHED_TIME_UTC_mvt: scheduled time (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nAIRCRAFT_TYPE_mvt: the ICAO code for the aircraft type, for example A21N for Airbus A321neo.\nRUNWAY_mvt: the Runway (RWY) ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nSTAND_mvt: the stand ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nTAXITIME_SEC_mvt: amount of seconds for taxi time (taxi-out if PHASE = DEP, taxi-in if PHASE = ARR.)\n\n\n\nFlight\nThe following columns come from data recorded by NM.\n\nLOBT_flt: last known off-block time\nCALLSIGN_flt: the callsign of the relevant flight, e.g. BAW6VB.\nADEP_flt: the ICAO code of the ADEP.\nADES_flt: the ICAO code of the ADES.\nADES_FILED_flt: the ADES initially filed in the Flight Plan (FPL). If different from ADES_flt, then the flight has been diverted.\nMARKET_SEGMENT_flt: the market segment type as defined in the Market Segment Rules, it can be:\n\n“Mainline”\n“Regional”\n“Low-Cost”\n“Business Aviation”\n“All-Cargo”\n“Charter” (Non-Scheduled)\n“Military”\n“Other”\n“Not classified”\n\nIOBT_flt: Initial Off-Block Time (IOBT).\nFLIGHT_RULE_flt: which sets of regulations the flight is operated under (see FPL Item 8). Possible values are:\n\nI for IFR\nV for VFR\nY first IFR thereafter VFR\nZ first VFR thereafter IFR\n\nFLIGHT_TYPE_flt: flight type (see FPL Item 8). Possible values are:\n\nS for scheduled air service\nN for non-scheduled air service\nG for general aviation\nM for military (note: filtered out)\nX for other than the preceding categories\n\nAIRCRAFT_TYPE_flt: the ICAO code for the aircraft type, for example A30B for an Airbus A-300B2-200.\nWK_TBL_CAT_flt: wake turbulence category (see FPL Item 9), can be:\n\nL LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.\nM MEDIUM, i.e. maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).\nH HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J).\nJ SUPER, presently only the AIRBUS A-380-800.\n\nAIRCRAFT_OPERATOR_flt: the (anonymized) ICAO Airline Designator.\nEOBT_1_flt: the Estimated Off-Block Time (EOBT) for FPL-based (M1) trajectory.\nARVT_1_flt: the arrival time for FPL-based (M1) trajectory.\nAOBT_3_flt: the Actual Off-Block Time (AOBT) for flown (M3) trajectory.\nARVT_3_flt: the arrival time for flown (M3) trajectory.",
     "crumbs": [
       "Publications",
       "Challenge",
@@ -112,7 +136,7 @@
     "href": "index.html",
     "title": "PRC Data Challenge 2026",
     "section": "",
-    "text": "The Performance Review Commission (PRC) with the support of OpenSky Network (OSN) aims at engaging with data scientists to team up and compete to solve a (big-ish) Data Challenge of interest to the wider Aviation community\nThe 2026 edition of the PRC Data Challenge proposes to predict the taxi-out time of flights from 11 major European airports. The learning dataset will consist of all airport movements for the full year 2025.\nRanking will use Root Mean Square Error (RMSE) for the submitted prediction for the movements in Jan and Jul 2026.\nThe competition runs from \\(1^{st}\\) Sep till \\(11^{th}\\) Oct 2026 23:59:59 CET.\nThe total prize amount for the first 3 teams is 5000 EUR.\nCheck the conditions for eligibility for participation & prize and then fill the following team creation request form!",
+    "text": "The Performance Review Commission (PRC), with the support of OpenSky Network (OSN), challenges data scientists, aviation professionals and data analysts to team up and compete to solve a (big-ish) Data Challenge in order to devise new methodologies in the interest of the wider aviation community.\nThe aim is to do this through:",
     "crumbs": [
       "Publications",
       "Overview",
@@ -120,11 +144,23 @@
     ]
   },
   {
-    "objectID": "index.html#social-medial-interactionsforum",
-    "href": "index.html#social-medial-interactionsforum",
+    "objectID": "index.html#data-challenge",
+    "href": "index.html#data-challenge",
     "title": "PRC Data Challenge 2026",
-    "section": "Social medial interactions/Forum",
-    "text": "Social medial interactions/Forum\nRemember to follow up the data challenge on OSN’s Discord  channel #prc-data-competition.\n(if not already done, you need to access OSN Discord server first)",
+    "section": "Data Challenge",
+    "text": "Data Challenge\nThe 2026 edition of the PRC Data Challenge challenges you to predict the taxi-out time of flights from 11 major European airports.\n\nScope\nThe learning dataset will consist of all 11 airport movements for the full year of 2025.\n\n\nRanking\nThe applied ranking will use Root Mean Square Error (RMSE) for the submitted predictions for the movements in January and July 2026.\n\n\nTimeline\nThe competition runs from the \\(1^{st}\\) of September 2026 up untill the \\(11^{th}\\) of October 2026 23:59:59 CET.\n\n\nReward\nThe combined prize amount for the first 3 teams is 5000 EUR.\n\n\nTerms & Conditions\nCheck the Terms & Conditions for eligibility for participation and prize before filling in the team creation request form.\n\n\nParticipate\nJoin the competition; request the creation of your team here!\n\nRequest Team Creation!\n\n\n\n\n\n\n\nWarningAttention\n\n\n\nYour request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.\nNote: The participation is open to all, but teams from sanctioned countries are excluded.",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "PRC Data Challenge 2026"
+    ]
+  },
+  {
+    "objectID": "index.html#social-media-interactions-forum",
+    "href": "index.html#social-media-interactions-forum",
+    "title": "PRC Data Challenge 2026",
+    "section": "Social Media Interactions & Forum",
+    "text": "Social Media Interactions & Forum\nRemember to follow the Data Challenge news and announcements on the OpenSky Network Discord channel #prc-data-competition . Note: you need to have access to the OpenSky Network Discord server first.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -148,7 +184,7 @@
     "href": "rationale.html",
     "title": "Rationale",
     "section": "",
-    "text": "The choice of predicting taxi-out time for this year’s data challenge is in line with past data challenges goals of providing information to estimate environmental or operational impact. Taxi-out time is generally difficult to obtain and quite difficult to predict.\nA model to infer taxi-out can be used in post-ops analysis to characterize constrained operations intervals and measure excess fuel burnt/CO2 production compared to unconstrained status.\nThe reasons for variability of taxi-out time are various and interlinked. Taxi-out time can depend on airline specific constraints, airport procedures and load, Air Traffic Flow Management (ATFM) related reasons.",
+    "text": "The choice of predicting taxi-out time for this year’s Data Challenge is in line with past data challenges’ goals of providing information to estimate environmental or operational impact. Taxi-out time is generally difficult to obtain and quite difficult to predict.\nA model to infer taxi-out time can be used in post-ops analysis to characterize constrained operations intervals and measure excess fuel burnt/CO2 production compared to unconstrained status.\nThe reasons for variability of taxi-out time are various and interlinked. Taxi-out time can depend on airline-specific constraints, airport procedures and load, Air Traffic Flow Management (ATFM)-related reasons.",
     "crumbs": [
       "Publications",
       "Challenge",
@@ -165,42 +201,6 @@
       "Publications",
       "Challenge",
       "Rationale"
-    ]
-  },
-  {
-    "objectID": "data.html#buckets",
-    "href": "data.html#buckets",
-    "title": "Data",
-    "section": "Buckets",
-    "text": "Buckets\nThe 2024 challenge website has some instructions about how to use Minio to access OpenSky buckets at\nhttps://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client\n\nThe Training dataset\nThe training dataset is split in monthly files. Each file contains the movements for the airports of the challenge:\n\ntraining_2025-01-01_2025-02-01.parquet (21M)\ntraining_2025-02-01_2025-03-01.parquet (19M)\ntraining_2025-03-01_2025-04-01.parquet (22M)\ntraining_2025-04-01_2025-05-01.parquet (23M)\ntraining_2025-05-01_2025-06-01.parquet (25M)\ntraining_2025-06-01_2025-07-01.parquet (24M)\ntraining_2025-07-01_2025-08-01.parquet (25M)\ntraining_2025-08-01_2025-09-01.parquet (25M)\ntraining_2025-09-01_2025-10-01.parquet (24M)\ntraining_2025-10-01_2025-11-01.parquet (25M)\ntraining_2025-11-01_2025-12-01.parquet (22M)\ntraining_2025-12-01_2026-01-01.parquet (22M)\n\n\n\nThe Ranking dataset\nThe ranking dataset contains same columns as training data with\n\nmovements for Jan and Jul 2026\nBLOCK_TIME_UTC_mvt and TAXITIME_SEC_mvt for departures (movements with PHASE = \"DEP\") have been blanked out.\n\nIt consists of a single file:\n\nranking.parquet (27M)\n\n\n\nThe Submitting dataset\nThe submitting dataset is the template to be filled with the predicted taxi-out times for submission.\nIt only contains the columns MVT_ID_mvt and TAXITIME_SEC_mvt where MVT_ID_mvt are the same of the departures in the ranking dataset. It consists of only one file:\n\nsubmitting.parquet (1.1M)",
-    "crumbs": [
-      "Publications",
-      "Challenge",
-      "Data"
-    ]
-  },
-  {
-    "objectID": "ranking.html#submission-instructions",
-    "href": "ranking.html#submission-instructions",
-    "title": "Ranking",
-    "section": "Submission Instructions",
-    "text": "Submission Instructions\nRanking will be based on the best RMSE of a team’s submissions. The submitting.parquet file is a template for submissions, i.e. you need to fill in the TAXITIME_SEC_mvt for the relevant MVT_ID_mvt.\nEach team will have to submit its predictions in its own bucket, with a file name template as follows:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nWe require each row to match MVT_ID_mvt before TAXITIME_SEC_mvt will be considered by the ranking script when calculating the RMSE.\nErrors will be issued in case of mismatch.\nErrors will also be issued in case of missing or extra rows.",
-    "crumbs": [
-      "Publications",
-      "Leaderboard",
-      "Ranking"
-    ]
-  },
-  {
-    "objectID": "ranking.html#footnotes",
-    "href": "ranking.html#footnotes",
-    "title": "Ranking",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis is to avoid the possibility of leaning from the leaderboard results.↩︎",
-    "crumbs": [
-      "Publications",
-      "Leaderboard",
-      "Ranking"
     ]
   }
 ]
