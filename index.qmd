@@ -13,7 +13,8 @@ The aim is to do this through:
 
 1. openly **sharing** final **solutions** (incl. code and documentation on a public GitHub repo),
 
-1. **publishing** an **open access paper** on [\acr{JOAS}](https://journals.open.tudelft.nl/joas/).
+1. **publishing** an **open access paper** about the implemented solution 
+   on [\acr{JOAS}](https://journals.open.tudelft.nl/joas/) ![](media/joas-logo.png){style="max-width:32px;"}.
 
 
 \newline
@@ -61,3 +62,23 @@ Remember to follow the Data Challenge news and announcements on [the OpenSky Net
 
 
 [prc-discord]: <https://discord.com/channels/1252625490930307142/1304403918515605504> "Discord channel for PRC Data Challenge"
+
+
+
+## Outreach
+
+We are very keen to promote open science and to this extent we (strongly 😉) encourage at least the
+best ranking teams to submit a paper to [\acr{JOAS} (![](media/joas-logo.png){style="max-width:36px;"})](https://journals.open.tudelft.nl/joas/index)
+in order to describe the inner workings of their model.  
+Here are some from previous editions:
+
+* [Open Machine Learning Models for Actual Takeoff Weight Prediction ](https://journals.open.tudelft.nl/joas/article/view/7963)
+* [A Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation ](https://journals.open.tudelft.nl/joas/article/view/8764)
+
+
+We also publish a data paper to describe the challenge dataset to widen access
+and further usage of the data for research, education et al.
+Here are the ones from previous editions:
+
+* [Aircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge](https://journals.open.tudelft.nl/joas/article/view/8750)
+* [Aircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge](https://journals.open.tudelft.nl/joas/article/view/8252)
