@@ -82,3 +82,8 @@ Here are the ones from previous editions:
 
 * [Aircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge](https://journals.open.tudelft.nl/joas/article/view/8750)
 * [Aircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge](https://journals.open.tudelft.nl/joas/article/view/8252)
+
+The following are the GitHub organizations listing the repos of the participating teams:
+
+* 2024 teams' repos, <https://github.com/prc-data-challenge-2024>
+* 2025 teams' repos, <https://github.com/prc-data-challenge-2025>
