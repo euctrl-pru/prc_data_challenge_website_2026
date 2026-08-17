@@ -149,7 +149,8 @@ get_teams_all <- function(teams_raw) {
 
 # just read the google sheet values from the submission form
 get_teams_raw <- function() {
-  teams_gsheet <- "1h25aKX68LTZNUH4dgJOnlOrhhByghA2hFuUr7WNl-vQ"
+  teams_gsheet <- "1nrV_N0T8141dI6cFty6-EA1v7tWeqxzZWo_Bi3dACIk"
+
   googlesheets4::gs4_auth(
     email = "enrico.spinielli@gmail.com",
     scope = "https://www.googleapis.com/auth/drive"
