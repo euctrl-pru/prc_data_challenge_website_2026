@@ -26,8 +26,19 @@ We will post URGENT/IMPORTANT news here, but better to follow things up on \
 
 
 ```{=html}
-<iframe width="100%" height="800" frameborder="1"
-  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@142?cells=leaderboard"style="border: 1px solid black;"></iframe>
+<style>
+  iframe {
+      /* display: block; */
+      /* background: #000; */
+      border: 1px solid black;
+      /* height: 100vh; */
+      width: 100vh;
+  }
+</style>
+
+<iframe
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@200?cells=leaderboard">
+</iframe>
 ```
 
 
