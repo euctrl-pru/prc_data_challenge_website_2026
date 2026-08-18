@@ -37,7 +37,7 @@ We will post URGENT/IMPORTANT news here, but better to follow things up on \
 </style>
 
 <iframe
-  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@200?cells=leaderboard">
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@341?cells=leaderboard">
 </iframe>
 ```
 
