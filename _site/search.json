@@ -214,5 +214,29 @@
       "Overview",
       "PRC Data Challenge 2026"
     ]
+  },
+  {
+    "objectID": "teams.html",
+    "href": "teams.html",
+    "title": "Teams",
+    "section": "",
+    "text": "The chart is updated from the competition API whenever the site is rendered.\n\nregistrationData = registrations.map(d =&gt; ({\n  date: new Date(`${d.date}T00:00:00Z`),\n  teams: d.teams\n}))\n\nPlot.plot({\n  width,\n  height: 360,\n  marginLeft: 50,\n  x: {\n    type: \"utc\",\n    label: \"Registration date\"\n  },\n  y: {\n    label: \"Registered teams\",\n    grid: true,\n    domain: [0, Math.max(1, d3.max(registrationData, d =&gt; d.teams))],\n    nice: true\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.lineY(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      curve: \"step-after\",\n      tip: true\n    }),\n    Plot.dot(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      r: 3,\n      tip: true\n    })\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b)\n\n\n\n\n\n\nFigure 1: Cumulative number of registered teams.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Teams"
+    ]
+  },
+  {
+    "objectID": "teams.html#registrations-over-time",
+    "href": "teams.html#registrations-over-time",
+    "title": "Teams",
+    "section": "",
+    "text": "The chart is updated from the competition API whenever the site is rendered.\n\nregistrationData = registrations.map(d =&gt; ({\n  date: new Date(`${d.date}T00:00:00Z`),\n  teams: d.teams\n}))\n\nPlot.plot({\n  width,\n  height: 360,\n  marginLeft: 50,\n  x: {\n    type: \"utc\",\n    label: \"Registration date\"\n  },\n  y: {\n    label: \"Registered teams\",\n    grid: true,\n    domain: [0, Math.max(1, d3.max(registrationData, d =&gt; d.teams))],\n    nice: true\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.lineY(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      curve: \"step-after\",\n      tip: true\n    }),\n    Plot.dot(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      r: 3,\n      tip: true\n    })\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b)\n\n\n\n\n\n\nFigure 1: Cumulative number of registered teams.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Teams"
+    ]
   }
 ]

@@ -3,3 +3,21 @@ title: Teams
 acronyms:
   insert_loa: false
 ---
+
+## Registrations over time
+
+```{=html}
+<style>
+  iframe {
+      /* display: block; */
+      /* background: #000; */
+      border: 1px solid black;
+      height: 440px;
+      width: 100vh;
+  }
+</style>
+
+<iframe
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@505?cells=cumulative_registrations">
+</iframe>
+```
