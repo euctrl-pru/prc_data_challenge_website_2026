@@ -18,6 +18,6 @@ acronyms:
 </style>
 
 <iframe
-  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@505?cells=cumulative_registrations">
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@674?cells=cumulative_registrations">
 </iframe>
 ```
