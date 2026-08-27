@@ -5,7 +5,10 @@ title: "PRC Data Challenge 2026"
 ![](media/PRC-Data-challenge-1080x1080.jpg){.card-img-top .d-block style="margin-bottom: 0; max-width: 600px;" alt="PRC Data Challenge"}
 
 The \acr{PRC}, with the support of [\acr{OSN}](https://opensky-network.org/),
-challenges data scientists, aviation professionals and data analysts to team up and compete to solve a (big-ish) Data Challenge in order to devise new methodologies in the interest of the wider aviation community. 
+together with the support of OpenSky Network (OSN) invites data scientists,
+aviation professionals and data analysts to collaborate and compete in a data
+challenge to develop innovative methodologies for benefit the broader aviation
+community. 
 
 The aim is to do this through: 
 
@@ -32,7 +35,7 @@ The learning dataset will consist of all 11 airport movements for the full year 
 The applied ranking will use \acr{RMSE} for the submitted predictions for the movements in January and July 2026.
 
 ##### **Timeline**
-The competition runs from the **$1^{st}$ of September 2026** up untill the **$11^{th}$ of October 2026 23:59:59 CET**. 
+The competition runs from the **$1^{st}$ of September 2026** up until the **$11^{th}$ of October 2026 23:59:59 CET**. 
 
 ##### **Reward**
 The combined **prize amount** for the first 3 teams is **5000 EUR**.  
@@ -49,8 +52,10 @@ Join the competition; request the creation of your team here!
 :::
 
 
-::: {.callout-warning title="Attention"}
-Your request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a **verification email** and, on successful reply, the relevant access keys to the datasets/buckets.
+::: {.callout-important title="Important"}
+Your request will be assessed by the PRC Data Challenge team for approval.
+Upon approval you will receive a verification email and, on successful reply,
+the relevant access keys to the datasets/buckets.
 
 [Note: The participation is open to all, but teams from sanctioned countries are excluded.]{.small }
 :::
@@ -58,7 +63,9 @@ Your request will be assessed by the PRC Data Challenge team for approval. Upon 
 
 ## Social Media Interactions & Forum
 
-Remember to follow the Data Challenge news and announcements on [the OpenSky Network Discord channel `#prc-data-competition` {{< fa brands discord >}}][prc-discord]. Note: you need to have access to the [OpenSky Network Discord server](https://discord.gg/RPh89jpVVz) first.
+Join the conversation and stay up to date the Data Challenge news and
+announcements on [the OpenSky Network Discord channel `#prc-data-competition` {{< fa brands discord >}}][prc-discord].  
+Note: you need to have access to the [OpenSky Network Discord server](https://discord.gg/RPh89jpVVz) first.
 
 
 [prc-discord]: <https://discord.com/channels/1252625490930307142/1304403918515605504> "Discord channel for PRC Data Challenge"
@@ -67,23 +74,24 @@ Remember to follow the Data Challenge news and announcements on [the OpenSky Net
 
 ## Outreach
 
-We are very keen to promote open science and to this extent we (strongly 😉) encourage at least the
-best ranking teams to submit a paper to [\acr{JOAS} (![](media/joas-logo.png){style="max-width:36px;"})](https://journals.open.tudelft.nl/joas/index)
-in order to describe the inner workings of their model.  
-Here are some from previous editions:
+We are strong advocates of open science and (strongly 😉) encourage teams,
+particularly the top-ranked teams, to submit a paper to \acr{JOAS}
+describing their approach and the inner workings of their models.  
+Here are some examples from previous editions: 
 
 * [Open Machine Learning Models for Actual Takeoff Weight Prediction ](https://journals.open.tudelft.nl/joas/article/view/7963)
 * [A Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation ](https://journals.open.tudelft.nl/joas/article/view/8764)
 
 
-We also publish a data paper to describe the challenge dataset and widen access
-and further usage of the data for research, education et al.
-Here are the ones from previous editions:
+We also publish a data paper describing the challenge dataset, with the aim of
+making the data more accessible and supporting further use in research,
+education, and other applications.  
+Examples from previous editions include: 
 
 * [Aircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge](https://journals.open.tudelft.nl/joas/article/view/8750)
 * [Aircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge](https://journals.open.tudelft.nl/joas/article/view/8252)
 
-The following are the GitHub organizations listing the repos of the participating teams:
+The following GitHub organizations host the repositories of participating teams:
 
 * 2024 teams' repos, <https://github.com/prc-data-challenge-2024>
 * 2025 teams' repos, <https://github.com/prc-data-challenge-2025>

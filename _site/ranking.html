@@ -491,35 +491,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled" title="Attention">
+<div class="callout callout-style-default callout-note callout-titled" title="Please be aware">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Attention
+<span class="screen-reader-only">Note</span>Please be aware
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>We will monitor submissions to capture attempts to learn from the ranking process.<br>
-We think this is NOT a fair way to align with the purposes and goals of the Data Challenge.</p>
+<p>We will monitor submissions for attempts to learn from or exploit the ranking process. We consider such practices unfair and inconsistent with the purposes and goals of the Data Challenge.</p>
 </div>
 </div>
 <section id="leaderboard" class="level2">
 <h2 class="anchored" data-anchor-id="leaderboard">Leaderboard</h2>
-<div class="callout callout-style-default callout-warning callout-titled" title="Attention">
+<div class="callout callout-style-default callout-important callout-titled" title="Important">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Attention
+<span class="screen-reader-only">Important</span>Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>We will post URGENT/IMPORTANT news here, but better to follow things up on<br>
-<a href="https://discord.com/channels/1252625490930307142/1304403918515605504" title="Discord channel for PRC Data Challenge">OSN’s Discord <i class="fa-brands fa-discord" aria-label="discord"></i> channel <code>#prc-data-competition</code></a><br>
-(if not already done, you need to access <a href="https://discord.gg/RPh89jpVVz">OSN Discord server</a> first)</p>
+<p>We will post <strong>urgent and important news</strong> news here, but we strongly recommend following the updates on the OSN Discord <i class="fa-brands fa-discord" aria-label="discord"></i> channel, especially <a href="https://discord.com/channels/1252625490930307142/1304403918515605504" title="Discord channel for PRC Data Challenge"><code>#prc-data-competition</code></a></p>
+<p>If you haven’t joined theIf you haven’t joined the <a href="https://discord.gg/RPh89jpVVz">OSN Discord server</a> yet, you’ll need to do so first to access the channel.</p>
 </div>
 </div>
 <style>
@@ -539,14 +537,19 @@ We think this is NOT a fair way to align with the purposes and goals of the Data
 </section>
 <section id="submission-instructions" class="level2">
 <h2 class="anchored" data-anchor-id="submission-instructions">Submission Instructions</h2>
-<p>Ranking will be based on the best RMSE of a team’s submissions. The <code>submitting.parquet</code> file is a template for submissions, i.e. you need to fill in the <code>TAXITIME_SEC_mvt</code> for the relevant <code>MVT_ID_mvt</code>.</p>
-<p>Each team will have to submit its predictions in its own bucket, with a file name template as follows:</p>
+<p>Teams will be ranked based on the <strong>best RMSE</strong> achieved across their submissions.</p>
+<p>The <code>submitting.parquet</code> file is provided as a template. To make a submission, fill in the <code>TAXITIME_SEC_mvt</code> column with your predicted taxi-out times for the corresponding <code>MVT_ID_mvt</code> values.</p>
+<p>Each team must submit its predictions to its own bucket using the following file naming convention:</p>
 <blockquote class="blockquote">
 <p><code>&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet</code></p>
 </blockquote>
-<p>We require each row to match <code>MVT_ID_mvt</code> before <code>TAXITIME_SEC_mvt</code> will be considered by the ranking script when calculating the RMSE.<br>
-Errors will be issued in case of mismatch.<br>
-Errors will also be issued in case of missing or extra rows.</p>
+<p>For a submission to be valid, each row must match the corresponding <code>MVT_ID_mvt</code> before the ranking script can use the prediction to calculate the RMSE.</p>
+<p>The ranking script will issue an error if:</p>
+<ul>
+<li>an <code>MVT_ID_mvt</code> does not match;</li>
+<li>any rows are missing; or</li>
+<li>extra rows are included.</li>
+</ul>
 
 
 </section>

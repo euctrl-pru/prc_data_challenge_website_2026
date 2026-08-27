@@ -6,7 +6,8 @@ format:
     toc-depth: 2
 ---
 
-We provide the following (logical) datasets:
+To help you solve this year’s Data challenge, we provide the following
+(logical) datasets:
 
 1. **Movements** (arrival and departure) information for 2025 at 11 major
   European airports including

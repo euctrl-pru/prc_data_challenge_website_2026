@@ -4,7 +4,7 @@
     "href": "ranking.html",
     "title": "Ranking",
     "section": "",
-    "text": "WarningAttention\n\n\n\nWe will monitor submissions to capture attempts to learn from the ranking process.\nWe think this is NOT a fair way to align with the purposes and goals of the Data Challenge.",
+    "text": "NotePlease be aware\n\n\n\nWe will monitor submissions for attempts to learn from or exploit the ranking process. We consider such practices unfair and inconsistent with the purposes and goals of the Data Challenge.",
     "crumbs": [
       "Publications",
       "Leaderboard",
@@ -16,7 +16,7 @@
     "href": "ranking.html#leaderboard",
     "title": "Ranking",
     "section": "Leaderboard",
-    "text": "Leaderboard\n\n\n\n\n\n\nWarningAttention\n\n\n\nWe will post URGENT/IMPORTANT news here, but better to follow things up on\nOSN’s Discord  channel #prc-data-competition\n(if not already done, you need to access OSN Discord server first)\n\n\n\n\n\n\nAll paginated submission rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nOther endpoints are also available; have a look here and use competitionId = bb3693e1-26bc-4a9e-8619-4fe78b4eab0c.",
+    "text": "Leaderboard\n\n\n\n\n\n\nImportantImportant\n\n\n\nWe will post urgent and important news news here, but we strongly recommend following the updates on the OSN Discord  channel, especially #prc-data-competition\nIf you haven’t joined theIf you haven’t joined the OSN Discord server yet, you’ll need to do so first to access the channel.\n\n\n\n\n\n\nAll paginated submission rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nOther endpoints are also available; have a look here and use competitionId = bb3693e1-26bc-4a9e-8619-4fe78b4eab0c.",
     "crumbs": [
       "Publications",
       "Leaderboard",
@@ -28,7 +28,7 @@
     "href": "ranking.html#submission-instructions",
     "title": "Ranking",
     "section": "Submission Instructions",
-    "text": "Submission Instructions\nRanking will be based on the best RMSE of a team’s submissions. The submitting.parquet file is a template for submissions, i.e. you need to fill in the TAXITIME_SEC_mvt for the relevant MVT_ID_mvt.\nEach team will have to submit its predictions in its own bucket, with a file name template as follows:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nWe require each row to match MVT_ID_mvt before TAXITIME_SEC_mvt will be considered by the ranking script when calculating the RMSE.\nErrors will be issued in case of mismatch.\nErrors will also be issued in case of missing or extra rows.",
+    "text": "Submission Instructions\nTeams will be ranked based on the best RMSE achieved across their submissions.\nThe submitting.parquet file is provided as a template. To make a submission, fill in the TAXITIME_SEC_mvt column with your predicted taxi-out times for the corresponding MVT_ID_mvt values.\nEach team must submit its predictions to its own bucket using the following file naming convention:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nFor a submission to be valid, each row must match the corresponding MVT_ID_mvt before the ranking script can use the prediction to calculate the RMSE.\nThe ranking script will issue an error if:\n\nan MVT_ID_mvt does not match;\nany rows are missing; or\nextra rows are included.",
     "crumbs": [
       "Publications",
       "Leaderboard",
@@ -40,7 +40,7 @@
     "href": "eligibility.html",
     "title": "Eligibility",
     "section": "",
-    "text": "WarningAttention\n\n\n\nWe tried to comply with the eligibility rules as best as we could in our registration form, but we reserve the right to refuse/stop participation of teams from countries/companies subject to restrictions at any stage of the challenge.",
+    "text": "NotePlease note\n\n\n\nWe have made every effort to ensure that the registration process complies with the applicable eligibility rules. However, we reserve the right to refuse/stop participation of teams from countries/companies subject to restrictions at any stage of the challenge.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -51,8 +51,8 @@
     "objectID": "eligibility.html#eligibility-for-participation",
     "href": "eligibility.html#eligibility-for-participation",
     "title": "Eligibility",
-    "section": "Eligibility for Participation",
-    "text": "Eligibility for Participation\nThe registration form already implements, as far as possible, the restrictions for the origin of participating teams.\nThe applied restrictions are for teams originating or affiliated with institutions or companies from non-EUROCONTROL member and comprehensive agreement states subject to sanctions. Regardless of the reason for the sanctions, the restriction are implemented (in part) because of the practical limitation for us to transfer funds to the winners if the team is based in any of these countries.\nA thematic map of sanctioned countries is available at https://www.sanctionsmap.eu/. The list of EUROCONTROL member and comprehensive agreement states is available at https://www.eurocontrol.int/our-member-and-comprehensive-agreement-states.",
+    "section": "Eligibility for participation",
+    "text": "Eligibility for participation\nParticipation is open to teams worldwide, subject to applicable sanctions and restrictions.\nRestrictions apply to teams originating from, or affiliated with, institutions or companies in countries that are either not EUROCONTROL Member States or Comprehensive Agreement States, or are subject to sanctions.\nRegardless of the reason for the sanctions, these restrictions are also in place because of the practical difficulties involved in transferring prize money to winning teams based in these countries.\nThe registration form implements these restrictions as far as possible.\nPlease refer to the EU Sanctions Map and to the EUROCONTROL Member and Comprehensive Agreement States for the list of EUROCONTROL states.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -88,7 +88,7 @@
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "We provide the following (logical) datasets:\nThe movements table rows have been (left) joined with the flight table ones.\nThere are a total of 4,167,797 movements at the 11 airports as shown in in Table 1.",
+    "text": "To help you solve this year’s Data challenge, we provide the following (logical) datasets:\nThe movements table rows have been (left) joined with the flight table ones.\nThere are a total of 4,167,797 movements at the 11 airports as shown in in Table 1.",
     "crumbs": [
       "Publications",
       "Challenge",
@@ -136,7 +136,7 @@
     "href": "index.html",
     "title": "PRC Data Challenge 2026",
     "section": "",
-    "text": "The Performance Review Commission (PRC), with the support of OpenSky Network (OSN), challenges data scientists, aviation professionals and data analysts to team up and compete to solve a (big-ish) Data Challenge in order to devise new methodologies in the interest of the wider aviation community.\nThe aim is to do this through:",
+    "text": "The Performance Review Commission (PRC), with the support of OpenSky Network (OSN), together with the support of OpenSky Network (OSN) invites data scientists, aviation professionals and data analysts to collaborate and compete in a data challenge to develop innovative methodologies for benefit the broader aviation community.\nThe aim is to do this through:",
     "crumbs": [
       "Publications",
       "Overview",
@@ -148,7 +148,7 @@
     "href": "index.html#data-challenge",
     "title": "PRC Data Challenge 2026",
     "section": "Data Challenge",
-    "text": "Data Challenge\nThe 2026 edition of the PRC Data Challenge challenges you to predict the taxi-out time of flights from 11 major European airports.\n\nScope\nThe learning dataset will consist of all 11 airport movements for the full year of 2025.\n\n\nRanking\nThe applied ranking will use Root Mean Square Error (RMSE) for the submitted predictions for the movements in January and July 2026.\n\n\nTimeline\nThe competition runs from the \\(1^{st}\\) of September 2026 up untill the \\(11^{th}\\) of October 2026 23:59:59 CET.\n\n\nReward\nThe combined prize amount for the first 3 teams is 5000 EUR.\n\n\nTerms & Conditions\nCheck the Terms & Conditions for eligibility for participation and prize before filling in the team creation request form.\n\n\nParticipate\nJoin the competition; request the creation of your team here!\n\nRequest Team Creation!\n\n\n\n\n\n\n\nWarningAttention\n\n\n\nYour request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.\nNote: The participation is open to all, but teams from sanctioned countries are excluded.",
+    "text": "Data Challenge\nThe 2026 edition of the PRC Data Challenge challenges you to predict the taxi-out time of flights from 11 major European airports.\n\nScope\nThe learning dataset will consist of all 11 airport movements for the full year of 2025.\n\n\nRanking\nThe applied ranking will use Root Mean Square Error (RMSE) for the submitted predictions for the movements in January and July 2026.\n\n\nTimeline\nThe competition runs from the \\(1^{st}\\) of September 2026 up until the \\(11^{th}\\) of October 2026 23:59:59 CET.\n\n\nReward\nThe combined prize amount for the first 3 teams is 5000 EUR.\n\n\nTerms & Conditions\nCheck the Terms & Conditions for eligibility for participation and prize before filling in the team creation request form.\n\n\nParticipate\nJoin the competition; request the creation of your team here!\n\nRequest Team Creation!\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nYour request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.\nNote: The participation is open to all, but teams from sanctioned countries are excluded.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -160,7 +160,7 @@
     "href": "index.html#social-media-interactions-forum",
     "title": "PRC Data Challenge 2026",
     "section": "Social Media Interactions & Forum",
-    "text": "Social Media Interactions & Forum\nRemember to follow the Data Challenge news and announcements on the OpenSky Network Discord channel #prc-data-competition . Note: you need to have access to the OpenSky Network Discord server first.",
+    "text": "Social Media Interactions & Forum\nJoin the conversation and stay up to date the Data Challenge news and announcements on the OpenSky Network Discord channel #prc-data-competition .\nNote: you need to have access to the OpenSky Network Discord server first.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -184,7 +184,7 @@
     "href": "rationale.html",
     "title": "Rationale",
     "section": "",
-    "text": "The choice of predicting taxi-out time for this year’s Data Challenge is in line with past data challenges’ goals of providing information to estimate environmental or operational impact. Taxi-out time is generally difficult to obtain and quite difficult to predict.\nA model to infer taxi-out time can be used in post-ops analysis to characterize constrained operations intervals and measure excess fuel burnt/CO2 production compared to unconstrained status.\nThe reasons for variability of taxi-out time are various and interlinked. Taxi-out time can depend on airline-specific constraints, airport procedures and load, Air Traffic Flow Management (ATFM)-related reasons.",
+    "text": "The choice of predicting taxi-out time for this year’s Data Challenge builds on previous challenges, which have focused on using data to better understand environmental and operational impacts.\nTaxi-out time is particularly interesting because it is often difficult to obtain and challenging to predict accurately.\nA model to estimate taxi-out time can be used in post-operations analysis to identify constrained operations intervals and measure excess fuel burnt/CO2 production compared to unconstrained status.\nThe reasons for variability of taxi-out time are various and interlinked. These include airline-specific constraints, airport procedures and load, and Air Traffic Flow Management (ATFM)-related reasons.",
     "crumbs": [
       "Publications",
       "Challenge",
@@ -208,7 +208,7 @@
     "href": "index.html#outreach",
     "title": "PRC Data Challenge 2026",
     "section": "Outreach",
-    "text": "Outreach\nWe are very keen to promote open science and to this extent we (strongly 😉) encourage at least the best ranking teams to submit a paper to JOAS () in order to describe the inner workings of their model.\nHere are some from previous editions:\n\nOpen Machine Learning Models for Actual Takeoff Weight Prediction\nA Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation\n\nWe also publish a data paper to describe the challenge dataset and widen access and further usage of the data for research, education et al. Here are the ones from previous editions:\n\nAircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge\nAircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge\n\nThe following are the GitHub organizations listing the repos of the participating teams:\n\n2024 teams’ repos, https://github.com/prc-data-challenge-2024\n2025 teams’ repos, https://github.com/prc-data-challenge-2025",
+    "text": "Outreach\nWe are strong advocates of open science and (strongly 😉) encourage teams, particularly the top-ranked teams, to submit a paper to JOAS describing their approach and the inner workings of their models.\nHere are some examples from previous editions:\n\nOpen Machine Learning Models for Actual Takeoff Weight Prediction\nA Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation\n\nWe also publish a data paper describing the challenge dataset, with the aim of making the data more accessible and supporting further use in research, education, and other applications.\nExamples from previous editions include:\n\nAircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge\nAircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge\n\nThe following GitHub organizations host the repositories of participating teams:\n\n2024 teams’ repos, https://github.com/prc-data-challenge-2024\n2025 teams’ repos, https://github.com/prc-data-challenge-2025",
     "crumbs": [
       "Publications",
       "Overview",

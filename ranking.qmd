@@ -4,21 +4,23 @@ acronyms:
   insert_loa: false
 ---
 
-::: {.callout-warning title="Attention"}
-We will monitor submissions to capture attempts to learn from the ranking
-process.  
-We think this is NOT a fair way to align with the purposes
-and goals of the Data Challenge.
-
+::: {.callout-note title="Please be aware"}
+We will monitor submissions for attempts to learn from or exploit the ranking
+ process. We consider such practices unfair and inconsistent with the purposes
+ and goals of the Data Challenge. 
 :::
      
 
 ## Leaderboard
 
-::: {.callout-warning title="Attention"}
-We will post URGENT/IMPORTANT news here, but better to follow things up on \
-[OSN's Discord {{< fa brands discord >}} channel `#prc-data-competition`][prc-discord]  
-(if not already done, you need to access [OSN Discord server](https://discord.gg/RPh89jpVVz) first)
+::: {.callout-important title="Important"}
+
+We will post **urgent and important news** news here, but we strongly recommend
+following the updates on the OSN Discord {{< fa brands discord >}} channel, especially
+[ `#prc-data-competition`][prc-discord]  
+
+If you haven’t joined theIf you haven’t joined the [OSN Discord server](https://discord.gg/RPh89jpVVz)
+yet, you’ll need to do so first to access the channel. 
 :::
 
 [prc-discord]: <https://discord.com/channels/1252625490930307142/1304403918515605504> "Discord channel for PRC Data Challenge"
@@ -52,17 +54,23 @@ Other endpoints are also available; have a look [here][api] and use `competition
 
 ## Submission Instructions
 
-Ranking will be based on the best RMSE of a team's submissions.
-The `submitting.parquet` file is a template for submissions, i.e.
-you need to fill in the `TAXITIME_SEC_mvt` for the relevant `MVT_ID_mvt`.
+Teams will be ranked based on the **best \acr{RMSE}** achieved across their submissions.
 
-Each team will have to submit its predictions in its own bucket, with a
-file name template as follows:
+The `submitting.parquet` file is provided as a template.
+To make a submission, fill in the `TAXITIME_SEC_mvt` column with your predicted
+taxi-out times for the corresponding `MVT_ID_mvt` values.
+
+Each team must submit its predictions to its own bucket using the following file
+naming convention: 
 
 > `<team-name>_v<incremental integer>.parquet`  
 
-We require each row to match `MVT_ID_mvt` before
-`TAXITIME_SEC_mvt` will be considered by the ranking script when calculating
-the RMSE.  
-Errors will be issued in case of mismatch.  
-Errors will also be issued in case of missing or extra rows.
+For a submission to be valid, each row must match the corresponding
+`MVT_ID_mvt` before the ranking script can use the prediction to calculate the
+\acr{RMSE}. 
+
+The ranking script will issue an error if: 
+
+* an `MVT_ID_mvt` does not match;
+* any rows are missing; or
+* extra rows are included.

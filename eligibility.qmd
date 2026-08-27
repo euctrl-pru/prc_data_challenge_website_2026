@@ -2,21 +2,32 @@
 title: Eligibility
 ---
 
-::: {.callout-warning title="Attention"}
-We tried to comply with the eligibility rules as best as we could in our
-registration form, but we reserve the right to refuse/stop participation of
-teams from countries/companies subject to restrictions at any stage of the
-challenge.
+::: {.callout-note title="Please note"}
+We have made every effort to ensure that the registration process complies with
+the applicable eligibility rules.
+However, we reserve the right to refuse/stop participation of teams from
+countries/companies subject to restrictions at any stage of the challenge. 
 :::
 
-## Eligibility for Participation
+## Eligibility for participation
 
-The registration form already implements, as far as possible, the restrictions
-for the origin of participating teams.
+Participation is open to teams worldwide, subject to applicable sanctions and
+restrictions.
 
-The applied restrictions are for teams originating or affiliated with institutions or companies from non-EUROCONTROL member and comprehensive agreement states subject to sanctions. Regardless of the reason for the sanctions, the restriction are implemented (in part) because of the practical limitation for us to transfer funds to the winners if the team is based in any of these countries.
+Restrictions apply to teams originating from, or affiliated with, institutions
+or companies in countries that are either not EUROCONTROL Member States or
+Comprehensive Agreement States, or are subject to sanctions. 
 
-A thematic map of sanctioned countries is available at <https://www.sanctionsmap.eu/>. The list of EUROCONTROL member and comprehensive agreement states is available at <https://www.eurocontrol.int/our-member-and-comprehensive-agreement-states>.   
+Regardless of the reason for the sanctions, these restrictions are also in place
+because of the practical difficulties involved in transferring prize money to
+winning teams based in these countries. 
+
+The registration form implements these restrictions as far as possible.
+
+Please refer to the [EU Sanctions Map](https://www.sanctionsmap.eu/) and to the
+[EUROCONTROL Member and Comprehensive Agreement States](https://www.eurocontrol.int/our-member-and-comprehensive-agreement-states)
+for the list of EUROCONTROL states.
+
 
 ## Eligibility for Prize
 
@@ -31,6 +42,3 @@ The winning submissions/solutions will only be eligible for the awards if:
   Re-using any existing implementation is only allowed if the original authors 
   grant you the rights to use their solution and if you made significant
   modifications to the algorithm or model. In particular, simply re-using existing code and rewriting the data input and output mechanism is not sufficient. Adding parameters to the model and modifying filters to match the specific peculiarities of the data, however, can be considered sufficient. 
-
-
-
