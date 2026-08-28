@@ -24,7 +24,7 @@ The movements table rows have been (left) joined with the flight table ones.
 There are a total of 4,167,797 movements at the 11 airports as shown in in @tbl-airports.
 
 
-| icao | iata | 	name                              |
+| ICAO | IATA | 	Name                              |
 |------|------|:------------------------------------|
 | EDDF | FRA  | Frankfurt Main                      |
 | EDDM | MUC  | Munich                              |

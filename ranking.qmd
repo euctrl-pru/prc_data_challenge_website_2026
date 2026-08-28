@@ -17,7 +17,7 @@ We will post **urgent and important news** news here, but we strongly recommend
 following the updates on the OSN Discord {{< fa brands discord >}} channel, especially
 [ `#prc-data-competition`][prc-discord]  
 
-If you haven’t joined theIf you haven’t joined the [OSN Discord server](https://discord.gg/RPh89jpVVz)
+If you haven’t joined the [OSN Discord server](https://discord.gg/RPh89jpVVz)
 yet, you’ll need to do so first to access the channel. 
 :::
 
