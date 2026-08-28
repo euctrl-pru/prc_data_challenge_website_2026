@@ -2,9 +2,10 @@
 title: "PRC Data Challenge 2026"
 ---
 
-![](media/PRC-Data-challenge-1080x1080.jpg){.card-img-top .d-block style="margin-bottom: 0; max-width: 600px;" alt="PRC Data Challenge"}
+![](media/PRC-Data-challenge-1080x1080.jpg){.card-img-top .d-block style="margin-bottom: 0; max-width: 600px;" alt="PRC Data Challenge 2026 banner"}
 
-The \acr{PRC}, with the support of [\acr{OSN}](https://opensky-network.org/),
+The [\acr{PRC}](https://ansperformance.eu/about/prc/),
+with the support of [\acr{OSN}](https://opensky-network.org/),
 invites data scientists, aviation professionals and data analysts to collaborate
 and compete in a data challenge to develop innovative methodologies for benefit
 of the broader aviation community. 
