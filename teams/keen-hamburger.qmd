@@ -1,0 +1,27 @@
+
+---
+title: keen-hamburger
+date: 2026-08-18
+subtitle: Belgium
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+If only I knew who I am, I would describe myself here.
+
+## Details
+
+* Type: Government, Independent
+* Country: Belgium
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,  ~affiliation,
+   1L,  "Enrico", "Spinielli", "EUROCONTROL"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

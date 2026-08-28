@@ -8,7 +8,7 @@
 
 <meta name="description" content="Explore how aviation and Machine Learning enthusiasts/experts can predict taxi-out times at major European airports.">
 
-<title>Teams – PRC Data Challenge 2026</title>
+<title>Registrations et al.&nbsp;– PRC Data Challenge 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../media/EUROCONTROL-logo-standard-rgb.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-teams-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-teams-listings'] = new List('listing-teams-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -87,6 +118,35 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <!-- End Matomo Code -->
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../media/styles.css">
 </head>
@@ -371,7 +431,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Teams</a></li><li class="breadcrumb-item"><a href="../teams/index.html">Stats</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Registrations</a></li><li class="breadcrumb-item"><a href="../teams/index.html">Stats</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -449,7 +509,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Teams</span></a>
+ <span class="menu-text">Registrations</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -462,8 +522,21 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Team details</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true">
+ <span class="menu-text">Teams</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../teams/keen-hamburger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">keen-hamburger</span></a>
+  </div>
+</li>
+      </ul>
   </li>
       </ul>
   </li>
@@ -476,17 +549,17 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#registrations-over-time" id="toc-registrations-over-time" class="nav-link active" data-scroll-target="#registrations-over-time">Registrations over time</a></li>
+  <ul class="collapse">
+  <li><a href="#teams" id="toc-teams" class="nav-link active" data-scroll-target="#teams">Teams</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Teams</a></li><li class="breadcrumb-item"><a href="../teams/index.html">Stats</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Registrations</a></li><li class="breadcrumb-item"><a href="../teams/index.html">Stats</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Teams</h1>
+<h1 class="title">Registrations et al.</h1>
 </div>
 
 
@@ -503,8 +576,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="registrations-over-time" class="level2">
-<h2 class="anchored" data-anchor-id="registrations-over-time">Registrations over time</h2>
 <style>
   iframe {
       /* display: block; */
@@ -517,11 +588,73 @@ ul.task-list li input[type="checkbox"] {
 
 <iframe src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@700?cells=cumulative_registrations">
 </iframe>
+<section id="teams" class="level2">
+<h2 class="anchored" data-anchor-id="teams">Teams</h2>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-table" id="listing-teams-listings">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-teams-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-teams-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Request date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Request date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Team
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Team</a>
+</th>
+
+<th>
+Country
+</th>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Request date</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1787004000000" data-listing-file-modified-sort="1787916784591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="keen-hamburger" data-listing-filename-sort="keen-hamburger.qmd">
+<td>
+<a href="../teams/keen-hamburger.html" class="title listing-title">keen-hamburger</a>
+</td>
+<td>
+<span class="listing-subtitle">Belgium</span>
+</td>
+<td>
+<span class="listing-date">2026-08-18</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

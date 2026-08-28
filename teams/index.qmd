@@ -1,10 +1,31 @@
 ---
-title: Teams
+title: Registrations et al.
+listing:
+  id: teams-listings
+  contents: "*.qmd"
+  field-display-names:
+    title: "Team"
+    date: "Request date"
+    subtitle: "Country"
+  fields: [title, subtitle, date]
+#   # sort: "date desc"
+  type: table
+  date-format: "iso"
+#   # categories: unnumbered
+#   # sort-ui: false
+  filter-ui: [title, subtitle, date]
+#   # image-align: left
+#   # image-height: 1.75in
+# title-block-banner: false
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+
 acronyms:
   insert_loa: false
 ---
-
-## Registrations over time
 
 ```{=html}
 <style>
@@ -21,3 +42,5 @@ acronyms:
   src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@700?cells=cumulative_registrations">
 </iframe>
 ```
+
+## Teams
