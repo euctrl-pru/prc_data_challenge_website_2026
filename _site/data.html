@@ -498,7 +498,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>scheduled</strong> and <strong>actual</strong> times</li>
 </ol>
 This is related to departing (<code>PHASE</code> = <code>DEP</code>) or arriving (<code>PHASE</code> = <code>ARR</code>) airport.</li>
-<li><strong>Flight</strong> information for each movement. This is what is matched in the <a href="#acronyms_NM">Network Manager (NM)</a> records.</li>
+<li><strong>Flight</strong> information for each movement. This is what is matched in the Network Manager (NM) records.</li>
 </ol>
 <p>The movements table rows have been (left) joined with the flight table ones.</p>
 <p>There are a total of 4,167,797 movements at the 11 airports as shown in in <a href="#tbl-airports" class="quarto-xref">Table&nbsp;1</a>.</p>
@@ -650,40 +650,40 @@ As per all our data challenges, we do not <em>play</em> with synthetic/artificia
 <section id="column-description" class="level2">
 <h2 class="anchored" data-anchor-id="column-description">Column Description</h2>
 <p>Columns postfixed with <code>_mvt</code> are associated with the reporting airport.<br>
-Columns postfixed with <code>_flt</code> are associated with information from <a href="#acronyms_NM">NM</a> flight list.</p>
+Columns postfixed with <code>_flt</code> are associated with information from NM flight list.</p>
 <section id="movement" class="level3">
 <h3 class="anchored" data-anchor-id="movement">Movement</h3>
 <ul>
 <li><code>MVT_ID_mvt</code>: unique identifier for the movement record</li>
-<li><code>FLIGHT_ID_mvt</code>: unique identifier for the <a href="#acronyms_NM">NM</a> flight (if matched)</li>
+<li><code>FLIGHT_ID_mvt</code>: unique identifier for the NM flight (if matched)</li>
 <li><code>FLIGHT_mvt</code>: flight number, i.e.&nbsp;what you see on your boarding pass</li>
 <li><code>FLIGHT_RULE_mvt</code>: which sets of regulations the flight is operated under. Possible values are:
 <ul>
-<li><code>I</code> for <a href="#acronyms_IFR">Instrument Flight Rules (IFR)</a></li>
-<li><code>V</code> for <a href="#acronyms_VFR">Visual Flight Rules (VFR)</a></li>
+<li><code>I</code> for Instrument Flight Rules (IFR)</li>
+<li><code>V</code> for Visual Flight Rules (VFR)</li>
 <li><code>NA</code> if unknown</li>
 </ul></li>
-<li><code>ADEP_mvt</code>: the (ICAO code of the) <a href="#acronyms_ADEP">Aerodrome of DEParture (ADEP)</a>.</li>
-<li><code>ADES_mvt</code>: the (ICAO code of the) <a href="#acronyms_ADES">Aerodrome of DEStination (ADES)</a>.</li>
+<li><code>ADEP_mvt</code>: the (ICAO code of the) Aerodrome of DEParture (ADEP).</li>
+<li><code>ADES_mvt</code>: the (ICAO code of the) Aerodrome of DEStination (ADES).</li>
 <li><code>PHASE_mvt</code>: movement phase. <code>DEP</code>=departure, <code>ARR</code>=arrival.</li>
 <li><code>MVT_TIME_UTC_mvt</code>: (best available) movement time (takeoff if <code>PHASE</code> = <code>DEP</code>, landing if <code>PHASE</code> = <code>ARR</code>.)</li>
 <li><code>BLOCK_TIME_UTC_mvt</code>: block time (off-block if <code>PHASE</code> = <code>DEP</code>, in-block if <code>PHASE</code> = <code>ARR</code>.)</li>
 <li><code>SCHED_TIME_UTC_mvt</code>: scheduled time (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
 <li><code>AIRCRAFT_TYPE_mvt</code>: the ICAO code for the aircraft type, for example <code>A21N</code> for Airbus A321neo.</li>
-<li><code>RUNWAY_mvt</code>: the <a href="#acronyms_RWY">Runway (RWY)</a> ID (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
+<li><code>RUNWAY_mvt</code>: the Runway (RWY) ID (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
 <li><code>STAND_mvt</code>: the stand ID (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
 <li><code>TAXITIME_SEC_mvt</code>: amount of seconds for taxi time (taxi-out if <code>PHASE</code> = <code>DEP</code>, taxi-in if <code>PHASE</code> = <code>ARR</code>.)</li>
 </ul>
 </section>
 <section id="flight" class="level3">
 <h3 class="anchored" data-anchor-id="flight">Flight</h3>
-<p>The following columns come from data recorded by <a href="#acronyms_NM">NM</a>.</p>
+<p>The following columns come from data recorded by NM.</p>
 <ul>
 <li><code>LOBT_flt</code>: last known off-block time</li>
 <li><code>CALLSIGN_flt</code>: the <a href="https://skybrary.aero/articles/aircraft-call-sign">callsign</a> of the relevant flight, e.g.&nbsp;<code>BAW6VB</code>.</li>
-<li><code>ADEP_flt</code>: the ICAO code of the <a href="#acronyms_ADEP">ADEP</a>.</li>
-<li><code>ADES_flt</code>: the ICAO code of the <a href="#acronyms_ADES">ADES</a>.</li>
-<li><code>ADES_FILED_flt</code>: the <a href="#acronyms_ADES">ADES</a> initially filed in the <a href="#acronyms_FPL">Flight Plan (FPL)</a>. If different from <code>ADES_flt</code>, then the flight has been diverted.</li>
+<li><code>ADEP_flt</code>: the ICAO code of the ADEP.</li>
+<li><code>ADES_flt</code>: the ICAO code of the ADES.</li>
+<li><code>ADES_FILED_flt</code>: the ADES initially filed in the Flight Plan (FPL). If different from <code>ADES_flt</code>, then the flight has been diverted.</li>
 <li><code>MARKET_SEGMENT_flt</code>: the market segment type as defined in the <a href="https://www.eurocontrol.int/publication/market-segment-rules">Market Segment Rules</a>, it can be:
 <ul>
 <li>“Mainline”</li>
@@ -696,15 +696,15 @@ Columns postfixed with <code>_flt</code> are associated with information from <a
 <li>“Other”</li>
 <li>“Not classified”</li>
 </ul></li>
-<li><code>IOBT_flt</code>: <a href="#acronyms_IOBT">Initial Off-Block Time (IOBT)</a>.</li>
-<li><code>FLIGHT_RULE_flt</code>: which sets of regulations the flight is operated under (see <a href="https://www.skybrary.aero/articles/flight-plan-completion"><span>FPL</span> Item 8</a>). Possible values are:
+<li><code>IOBT_flt</code>: Initial Off-Block Time (IOBT).</li>
+<li><code>FLIGHT_RULE_flt</code>: which sets of regulations the flight is operated under (see <a href="https://www.skybrary.aero/articles/flight-plan-completion">FPL Item 8</a>). Possible values are:
 <ul>
-<li><code>I</code> for <a href="#acronyms_IFR">IFR</a></li>
-<li><code>V</code> for <a href="#acronyms_VFR">VFR</a></li>
-<li><code>Y</code> first <a href="#acronyms_IFR">IFR</a> thereafter <a href="#acronyms_VFR">VFR</a></li>
-<li><code>Z</code> first <a href="#acronyms_VFR">VFR</a> thereafter <a href="#acronyms_IFR">IFR</a></li>
+<li><code>I</code> for IFR</li>
+<li><code>V</code> for VFR</li>
+<li><code>Y</code> first IFR thereafter VFR</li>
+<li><code>Z</code> first VFR thereafter IFR</li>
 </ul></li>
-<li><code>FLIGHT_TYPE_flt</code>: flight type (see <a href="https://www.skybrary.aero/articles/flight-plan-completion"><span>FPL</span> Item 8</a>). Possible values are:
+<li><code>FLIGHT_TYPE_flt</code>: flight type (see <a href="https://www.skybrary.aero/articles/flight-plan-completion">FPL Item 8</a>). Possible values are:
 <ul>
 <li><code>S</code> for scheduled air service</li>
 <li><code>N</code> for non-scheduled air service</li>
@@ -713,7 +713,7 @@ Columns postfixed with <code>_flt</code> are associated with information from <a
 <li><code>X</code> for other than the preceding categories</li>
 </ul></li>
 <li><code>AIRCRAFT_TYPE_flt</code>: the <a href="https://www.icao.int/publications/doc8643/pages/search.aspx">ICAO code for the aircraft type</a>, for example <code>A30B</code> for an Airbus A-300B2-200.</li>
-<li><code>WK_TBL_CAT_flt</code>: wake turbulence category (see <a href="https://www.skybrary.aero/articles/flight-plan-completion"><span>FPL</span> Item 9</a>), can be:
+<li><code>WK_TBL_CAT_flt</code>: wake turbulence category (see <a href="https://www.skybrary.aero/articles/flight-plan-completion">FPL Item 9</a>), can be:
 <ul>
 <li><code>L</code> LIGHT, i.e.&nbsp;maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.</li>
 <li><code>M</code> MEDIUM, i.e.&nbsp;maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).</li>
@@ -721,9 +721,9 @@ Columns postfixed with <code>_flt</code> are associated with information from <a
 <li><code>J</code> SUPER, presently only the AIRBUS A-380-800.</li>
 </ul></li>
 <li><code>AIRCRAFT_OPERATOR_flt</code>: the (anonymized) <a href="https://en.wikipedia.org/wiki/List_of_airline_codes">ICAO Airline Designator</a>.</li>
-<li><code>EOBT_1_flt</code>: the <a href="#acronyms_EOBT">Estimated Off-Block Time (EOBT)</a> for <a href="#acronyms_FPL">FPL</a>-based (M1) trajectory.</li>
-<li><code>ARVT_1_flt</code>: the arrival time for <a href="#acronyms_FPL">FPL</a>-based (M1) trajectory.</li>
-<li><code>AOBT_3_flt</code>: the <a href="#acronyms_AOBT">Actual Off-Block Time (AOBT)</a> for flown (M3) trajectory.</li>
+<li><code>EOBT_1_flt</code>: the Estimated Off-Block Time (EOBT) for FPL-based (M1) trajectory.</li>
+<li><code>ARVT_1_flt</code>: the arrival time for FPL-based (M1) trajectory.</li>
+<li><code>AOBT_3_flt</code>: the Actual Off-Block Time (AOBT) for flown (M3) trajectory.</li>
 <li><code>ARVT_3_flt</code>: the arrival time for flown (M3) trajectory.</li>
 </ul>
 

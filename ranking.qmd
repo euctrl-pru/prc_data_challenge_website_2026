@@ -1,7 +1,5 @@
 ---
 title: Ranking
-acronyms:
-  insert_loa: false
 ---
 
 ::: {.callout-note title="Please be aware"}

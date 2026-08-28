@@ -28,7 +28,19 @@
     "href": "ranking.html#submission-instructions",
     "title": "Ranking",
     "section": "Submission Instructions",
-    "text": "Submission Instructions\nTeams will be ranked based on the best RMSE achieved across their submissions.\nThe submitting.parquet file is provided as a template. To make a submission, fill in the TAXITIME_SEC_mvt column with your predicted taxi-out times for the corresponding MVT_ID_mvt values.\nEach team must submit its predictions to its own bucket using the following file naming convention:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nFor a submission to be valid, each row must match the corresponding MVT_ID_mvt before the ranking script can use the prediction to calculate the RMSE.\nThe ranking script will issue an error if:\n\nan MVT_ID_mvt does not match;\nany rows are missing; or\nextra rows are included.",
+    "text": "Submission Instructions\nTeams will be ranked based on the best Root Mean Square Error (RMSE) achieved across their submissions.\nThe submitting.parquet file is provided as a template. To make a submission, fill in the TAXITIME_SEC_mvt column with your predicted taxi-out times for the corresponding MVT_ID_mvt values.\nEach team must submit its predictions to its own bucket using the following file naming convention:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nFor a submission to be valid, each row must match the corresponding MVT_ID_mvt before the ranking script can use the prediction to calculate the RMSE.\nThe ranking script will issue an error if:\n\nan MVT_ID_mvt does not match;\nany rows are missing; or\nextra rows are included.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "ranking.html#acronyms_HEADER_LOA",
+    "href": "ranking.html#acronyms_HEADER_LOA",
+    "title": "Ranking",
+    "section": "List of Acronyms",
+    "text": "List of Acronyms\n\nRMSE: Root Mean Square Error",
     "crumbs": [
       "Publications",
       "Leaderboard",
@@ -168,6 +180,18 @@
     ]
   },
   {
+    "objectID": "index.html#outreach",
+    "href": "index.html#outreach",
+    "title": "PRC Data Challenge 2026",
+    "section": "Outreach",
+    "text": "Outreach\nWe are strong advocates of open science and (strongly 😉) encourage teams, particularly the top-ranked teams, to submit a paper to JOAS describing their approach and the inner workings of their models.\nHere are some examples from previous editions:\n\nOpen Machine Learning Models for Actual Takeoff Weight Prediction\nA Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation\n\nWe also publish a data paper describing the challenge dataset, with the aim of making the data more accessible and supporting further use in research, education, and other applications.\nExamples from previous editions include:\n\nAircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge\nAircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge\n\nThe following GitHub organizations host the repositories of participating teams:\n\n2024 teams’ repos, https://github.com/prc-data-challenge-2024\n2025 teams’ repos, https://github.com/prc-data-challenge-2025",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "PRC Data Challenge 2026"
+    ]
+  },
+  {
     "objectID": "index.html#acronyms_HEADER_LOA",
     "href": "index.html#acronyms_HEADER_LOA",
     "title": "PRC Data Challenge 2026",
@@ -201,42 +225,6 @@
       "Publications",
       "Challenge",
       "Rationale"
-    ]
-  },
-  {
-    "objectID": "index.html#outreach",
-    "href": "index.html#outreach",
-    "title": "PRC Data Challenge 2026",
-    "section": "Outreach",
-    "text": "Outreach\nWe are strong advocates of open science and (strongly 😉) encourage teams, particularly the top-ranked teams, to submit a paper to JOAS describing their approach and the inner workings of their models.\nHere are some examples from previous editions:\n\nOpen Machine Learning Models for Actual Takeoff Weight Prediction\nA Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation\n\nWe also publish a data paper describing the challenge dataset, with the aim of making the data more accessible and supporting further use in research, education, and other applications.\nExamples from previous editions include:\n\nAircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge\nAircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge\n\nThe following GitHub organizations host the repositories of participating teams:\n\n2024 teams’ repos, https://github.com/prc-data-challenge-2024\n2025 teams’ repos, https://github.com/prc-data-challenge-2025",
-    "crumbs": [
-      "Publications",
-      "Overview",
-      "PRC Data Challenge 2026"
-    ]
-  },
-  {
-    "objectID": "teams.html",
-    "href": "teams.html",
-    "title": "Teams",
-    "section": "",
-    "text": "The chart is updated from the competition API whenever the site is rendered.\n\nregistrationData = registrations.map(d =&gt; ({\n  date: new Date(`${d.date}T00:00:00Z`),\n  teams: d.teams\n}))\n\nPlot.plot({\n  width,\n  height: 360,\n  marginLeft: 50,\n  x: {\n    type: \"utc\",\n    label: \"Registration date\"\n  },\n  y: {\n    label: \"Registered teams\",\n    grid: true,\n    domain: [0, Math.max(1, d3.max(registrationData, d =&gt; d.teams))],\n    nice: true\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.lineY(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      curve: \"step-after\",\n      tip: true\n    }),\n    Plot.dot(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      r: 3,\n      tip: true\n    })\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b)\n\n\n\n\n\n\nFigure 1: Cumulative number of registered teams.",
-    "crumbs": [
-      "Publications",
-      "Leaderboard",
-      "Teams"
-    ]
-  },
-  {
-    "objectID": "teams.html#registrations-over-time",
-    "href": "teams.html#registrations-over-time",
-    "title": "Teams",
-    "section": "",
-    "text": "The chart is updated from the competition API whenever the site is rendered.\n\nregistrationData = registrations.map(d =&gt; ({\n  date: new Date(`${d.date}T00:00:00Z`),\n  teams: d.teams\n}))\n\nPlot.plot({\n  width,\n  height: 360,\n  marginLeft: 50,\n  x: {\n    type: \"utc\",\n    label: \"Registration date\"\n  },\n  y: {\n    label: \"Registered teams\",\n    grid: true,\n    domain: [0, Math.max(1, d3.max(registrationData, d =&gt; d.teams))],\n    nice: true\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.lineY(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      curve: \"step-after\",\n      tip: true\n    }),\n    Plot.dot(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      r: 3,\n      tip: true\n    })\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b)\n\n\n\n\n\n\nFigure 1: Cumulative number of registered teams.",
-    "crumbs": [
-      "Publications",
-      "Leaderboard",
-      "Teams"
     ]
   }
 ]
