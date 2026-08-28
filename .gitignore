@@ -122,3 +122,5 @@ $RECYCLE.BIN/
 
 /.quarto/
 **/*.quarto_ipynb
+
+/.luarc.json
