@@ -222,7 +222,13 @@ website:
           # search: true
           contents:
             - ranking.qmd
-            - teams.qmd
+        - section: "Teams"
+          contents: 
+          - text: "Stats"
+            file: teams/index.qmd
+          - text: "Team details"
+            contents: 
+              - auto: "teams/*.qmd"
 
 format:
   html:
