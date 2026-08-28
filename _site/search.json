@@ -148,7 +148,7 @@
     "href": "index.html#data-challenge",
     "title": "PRC Data Challenge 2026",
     "section": "Data Challenge",
-    "text": "Data Challenge\nThe 2026 edition of the PRC Data Challenge challenges you to predict the taxi-out time of flights from 11 major European airports.\n\nScope\nThe learning dataset will consist of all 11 airport movements for the full year of 2025.\n\n\nRanking\nThe applied ranking will use Root Mean Square Error (RMSE) for the submitted predictions for the movements in January and July 2026.\n\n\nTimeline\nThe competition runs from the \\(1^{st}\\) of September 2026 up until the \\(11^{th}\\) of October 2026 23:59:59 CET.\n\n\nReward\nThe combined prize amount for the first 3 teams is 5000 EUR.\n\n\nTerms & Conditions\nCheck the Terms & Conditions for eligibility for participation and prize before filling in the team creation request form.\n\n\nParticipate\nJoin the competition; request the creation of your team here!\n\nRequest Team Creation!\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nYour request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.\nNote: The participation is open to all, but teams from sanctioned countries are excluded.",
+    "text": "Data Challenge\nThe 2026 edition of the PRC Data Challenge invites participants to predict the taxi-out time of flights from 11 major European airports.\n\nScope\nThe learning dataset will consist of all 11 airport movements for the full year of 2025.\n\n\nRanking\nThe applied ranking will use Root Mean Square Error (RMSE) for submitted predictions for the movements in January and July 2026.\n\n\nTimeline\nThe competition runs from the \\(1^{st}\\) of September 2026 up until the \\(11^{th}\\) of October 2026 23:59:59 CET.\n\n\nReward\nThe combined prize amount for the first 3 teams is 5000 EUR.\n\n\nTerms & Conditions\nCheck the Terms & Conditions for eligibility for participation and prize before filling in the team creation request form.\n\n\nParticipate\nJoin the competition; request the creation of your team here!\n\nRequest Team Creation!\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nYour request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.\nNote: The participation is open to all, but teams from sanctioned countries are excluded.",
     "crumbs": [
       "Publications",
       "Overview",
@@ -160,7 +160,7 @@
     "href": "index.html#social-media-interactions-forum",
     "title": "PRC Data Challenge 2026",
     "section": "Social Media Interactions & Forum",
-    "text": "Social Media Interactions & Forum\nJoin the conversation and stay up to date the Data Challenge news and announcements on the OpenSky Network Discord channel #prc-data-competition .\nNote: you need to have access to the OpenSky Network Discord server first.",
+    "text": "Social Media Interactions & Forum\nJoin the conversation and stay up to date with the Data Challenge news and announcements on the OpenSky Network Discord channel #prc-data-competition .\nNote: you need to have access to the OpenSky Network Discord server first.",
     "crumbs": [
       "Publications",
       "Overview",

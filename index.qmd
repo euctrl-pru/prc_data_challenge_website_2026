@@ -24,14 +24,14 @@ The aim is to do this through:
 
 ## Data Challenge
 
-The 2026 edition of the \acr{PRC} Data Challenge challenges you to **predict the
-taxi-out time of flights from 11 major European airports**. 
+The 2026 edition of the \acr{PRC} Data Challenge invites participants to predict
+the taxi-out time of flights from 11 major European airports.
 
 ##### **Scope**
 The learning dataset will consist of all 11 airport movements for the full year of 2025.
 
 ##### **Ranking**
-The applied ranking will use \acr{RMSE} for the submitted predictions for the movements in January and July 2026.
+The applied ranking will use \acr{RMSE} for submitted predictions for the movements in January and July 2026.
 
 ##### **Timeline**
 The competition runs from the **$1^{st}$ of September 2026** up until the **$11^{th}$ of October 2026 23:59:59 CET**. 
@@ -62,7 +62,7 @@ the relevant access keys to the datasets/buckets.
 
 ## Social Media Interactions & Forum
 
-Join the conversation and stay up to date the Data Challenge news and
+Join the conversation and stay up to date with the Data Challenge news and
 announcements on [the OpenSky Network Discord channel `#prc-data-competition` {{< fa brands discord >}}][prc-discord].  
 Note: you need to have access to the [OpenSky Network Discord server](https://discord.gg/RPh89jpVVz) first.
 
