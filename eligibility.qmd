@@ -4,6 +4,7 @@ acronyms:
   insert_loa: false
 ---
 
+
 ::: {.callout-note title="Please note"}
 We have made every effort to ensure that the registration process complies with
 the applicable eligibility rules.

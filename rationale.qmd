@@ -2,6 +2,7 @@
 title: Rationale
 ---
 
+
 The choice of predicting taxi-out time for this year’s Data Challenge builds on
 previous challenges, which have focused on using data to better understand
 environmental and operational impacts.

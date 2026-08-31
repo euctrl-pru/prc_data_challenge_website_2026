@@ -6,6 +6,7 @@ format:
     toc-depth: 2
 ---
 
+
 To help you solve this year’s Data challenge, we provide the following
 (logical) datasets:
 
