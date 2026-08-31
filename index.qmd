@@ -43,6 +43,11 @@ The combined **prize amount** for the first 3 teams is **5000 EUR**.
 ##### **Terms & Conditions**
 Check the Terms & Conditions for [eligibility for participation and prize](eligibility.qmd) before filling in the team creation request form.
 
+::: {.callout-note title="Please note"}
+We reserve the right to change the rules or even stop the challenge due to any
+circumstances. 
+:::
+
 
 ##### **Participate**
 Join the competition; request the creation of your team here! 

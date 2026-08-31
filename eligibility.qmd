@@ -1,5 +1,7 @@
 ---
 title: Eligibility
+acronyms:
+  insert_loa: false
 ---
 
 ::: {.callout-note title="Please note"}
