@@ -8,7 +8,7 @@
 
 <meta name="description" content="Explore how aviation and Machine Learning enthusiasts/experts can predict taxi-out times at major European airports.">
 
-<title>PRC Data Challenge 2026</title>
+<title>Data – PRC Data Challenge 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,8 +45,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-4119aa620025ef9d957be1e132e87508.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,35 +87,6 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <!-- End Matomo Code -->
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="media/styles.css">
 </head>
@@ -402,7 +371,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Overview</a></li><li class="breadcrumb-item"><a href="./index.html">PRC Data Challenge 2026</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./rationale.html">Challenge</a></li><li class="breadcrumb-item"><a href="./data.html">Data</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -425,7 +394,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PRC Data Challenge 2026</span></a>
   </div>
 </li>
@@ -454,7 +423,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data.html" class="sidebar-item-text sidebar-link">
+  <a href="./data.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data</span></a>
   </div>
 </li>
@@ -520,10 +489,9 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#data-challenge" id="toc-data-challenge" class="nav-link active" data-scroll-target="#data-challenge">Data Challenge</a></li>
-  <li><a href="#social-media-interactions-forum" id="toc-social-media-interactions-forum" class="nav-link" data-scroll-target="#social-media-interactions-forum">Social Media Interactions &amp; Forum</a></li>
-  <li><a href="#outreach" id="toc-outreach" class="nav-link" data-scroll-target="#outreach">Outreach</a></li>
+  <ul class="collapse">
+  <li><a href="#buckets" id="toc-buckets" class="nav-link active" data-scroll-target="#buckets">Buckets</a></li>
+  <li><a href="#column-description" id="toc-column-description" class="nav-link" data-scroll-target="#column-description">Column Description</a></li>
   <li><a href="#acronyms_HEADER_LOA" id="toc-acronyms_HEADER_LOA" class="nav-link" data-scroll-target="#acronyms_HEADER_LOA">List of Acronyms</a></li>
   </ul>
 </nav>
@@ -531,9 +499,9 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Overview</a></li><li class="breadcrumb-item"><a href="./index.html">PRC Data Challenge 2026</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./rationale.html">Challenge</a></li><li class="breadcrumb-item"><a href="./data.html">Data</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">PRC Data Challenge 2026</h1>
+<h1 class="title">Data</h1>
 </div>
 
 
@@ -550,107 +518,259 @@ window.Quarto = {
 </header>
 
 
-<p><img src="media/PRC-Data-challenge-1080x1080.jpg" class="card-img-top d-block img-fluid" style="margin-bottom: 0; max-width: 600px;" alt="PRC Data Challenge 2026 banner"></p>
-<p>The <a href="https://ansperformance.eu/about/prc/">Performance Review Commission (PRC)</a>, with the support of <a href="https://opensky-network.org/">OpenSky Network (OSN)</a>, invites data scientists, aviation professionals and data analysts to collaborate and compete in a data challenge to develop innovative methodologies for benefit of the broader aviation community.</p>
-<p>The aim is to do this through:</p>
+<p>To help you solve this year’s Data challenge, we provide the following (logical) datasets:</p>
 <ol type="1">
-<li><p>Using <strong>open data</strong>,</p></li>
-<li><p>openly <strong>sharing</strong> final <strong>solutions</strong> (incl.&nbsp;code and documentation on a public GitHub repo),</p></li>
-<li><p><strong>publishing</strong> an <strong>open access paper</strong> about the implemented solution on <a href="https://journals.open.tudelft.nl/joas/">Journal of Open Aviation Science (JOAS)</a> <img src="media/joas-logo.png" class="img-fluid" style="max-width:32px;">.</p></li>
+<li><strong>Movements</strong> (arrival and departure) information for 2025 at 11 major European airports including
+<ol type="a">
+<li><strong>taxi-out time</strong> for each movement at the airport and</li>
+<li><strong>scheduled</strong> and <strong>actual</strong> times</li>
 </ol>
-<p> </p>
-<section id="data-challenge" class="level2">
-<h2 class="anchored" data-anchor-id="data-challenge">Data Challenge</h2>
-<p>The 2026 edition of the PRC Data Challenge invites participants to predict the taxi-out time of flights from 11 major European airports.</p>
-<section id="scope" class="level5">
-<h5 class="anchored" data-anchor-id="scope"><strong>Scope</strong></h5>
-<p>The learning dataset will consist of all 11 airport movements for the full year of 2025.</p>
-</section>
-<section id="ranking" class="level5">
-<h5 class="anchored" data-anchor-id="ranking"><strong>Ranking</strong></h5>
-<p>The applied ranking will use Root Mean Square Error (RMSE) for submitted predictions for the movements in January and July 2026.</p>
-</section>
-<section id="timeline" class="level5">
-<h5 class="anchored" data-anchor-id="timeline"><strong>Timeline</strong></h5>
-<p>The competition runs from the <strong><span class="math inline">\(1^{st}\)</span> of September 2026</strong> up until the <strong><span class="math inline">\(11^{th}\)</span> of October 2026 23:59:59 CET</strong>.</p>
-</section>
-<section id="reward" class="level5">
-<h5 class="anchored" data-anchor-id="reward"><strong>Reward</strong></h5>
-<p>The combined <strong>prize amount</strong> for the first 3 teams is <strong>5000 EUR</strong>.</p>
-</section>
-<section id="terms-conditions" class="level5">
-<h5 class="anchored" data-anchor-id="terms-conditions"><strong>Terms &amp; Conditions</strong></h5>
-<p>Check the Terms &amp; Conditions for <a href="./eligibility.html">eligibility for participation and prize</a> before filling in the team creation request form.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Please note">
+This is related to departing (<code>PHASE</code> = <code>DEP</code>) or arriving (<code>PHASE</code> = <code>ARR</code>) airport.</li>
+<li><strong>Flight</strong> information for each movement. This is what is matched in the Network Manager (NM) records.</li>
+</ol>
+<p>The movements table rows have been (left) joined with the flight table ones.</p>
+<p>There are a total of 4,167,797 movements at the 11 airports as shown in in <a href="#tbl-airports" class="quarto-xref">Table&nbsp;1</a>.</p>
+<div id="tbl-airports" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-airports-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: List of airports for which movements data is provided
+</figcaption>
+<div aria-describedby="tbl-airports-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>ICAO</th>
+<th>IATA</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>EDDF</td>
+<td>FRA</td>
+<td style="text-align: left;">Frankfurt Main</td>
+</tr>
+<tr class="even">
+<td>EDDM</td>
+<td>MUC</td>
+<td style="text-align: left;">Munich</td>
+</tr>
+<tr class="odd">
+<td>EGLL</td>
+<td>LHR</td>
+<td style="text-align: left;">London Heathrow</td>
+</tr>
+<tr class="even">
+<td>EHAM</td>
+<td>AMS</td>
+<td style="text-align: left;">Amsterdam Schiphol</td>
+</tr>
+<tr class="odd">
+<td>LEBL</td>
+<td>BCN</td>
+<td style="text-align: left;">Josep Tarradellas Barcelona-El Prat</td>
+</tr>
+<tr class="even">
+<td>LEMD</td>
+<td>MAD</td>
+<td style="text-align: left;">Adolfo Suárez Madrid–Barajas</td>
+</tr>
+<tr class="odd">
+<td>LFPG</td>
+<td>CDG</td>
+<td style="text-align: left;">Charles de Gaulle</td>
+</tr>
+<tr class="even">
+<td>LIRF</td>
+<td>FCO</td>
+<td style="text-align: left;">Rome–Fiumicino Leonardo da Vinci</td>
+</tr>
+<tr class="odd">
+<td>LTAI</td>
+<td>AYT</td>
+<td style="text-align: left;">Antalya</td>
+</tr>
+<tr class="even">
+<td>LTFM</td>
+<td>IST</td>
+<td style="text-align: left;">İstanbul</td>
+</tr>
+<tr class="odd">
+<td>LSZH</td>
+<td>ZRH</td>
+<td style="text-align: left;">Zürich</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Note 1">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Please note
+<span class="screen-reader-only">Note</span>Note 1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>We reserve the right to change the rules or even stop the challenge due to any circumstances.</p>
+<p>We have removed Military, Head of State, and Sensitive movements. These should not have a disruptive impact on the possibility to model and predict taxi-out time.</p>
 </div>
 </div>
-</section>
-<section id="participate" class="level5">
-<h5 class="anchored" data-anchor-id="participate"><strong>Participate</strong></h5>
-<p>Join the competition; request the creation of your team here!</p>
-<div class="container text-center">
-<p><a href="https://example.com" class="btn btn-primary btn-lg" role="button" data-toggle="tooltip" title="Request Team Creation" target="_blank">Request Team Creation!</a></p>
-</div>
-<div class="callout callout-style-default callout-important callout-titled" title="Important">
+<div class="callout callout-style-default callout-note callout-titled" title="Note 2">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Important
+<span class="screen-reader-only">Note</span>Note 2
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Your request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.</p>
-<p><span class="small">Note: The participation is open to all, but teams from sanctioned countries are excluded.</span></p>
+<p>Real world data is messy. You will find some inconsistencies between movement and flight information. We haven’t tried to reconcile them because they are probably due to some limitations of the underlying processes trying to match different sources of data.<br>
+As per all our data challenges, we do not <em>play</em> with synthetic/artificial datasets.</p>
 </div>
 </div>
-</section>
-</section>
-<section id="social-media-interactions-forum" class="level2">
-<h2 class="anchored" data-anchor-id="social-media-interactions-forum">Social Media Interactions &amp; Forum</h2>
-<p>Join the conversation and stay up to date with the Data Challenge news and announcements on <a href="https://discord.com/channels/1252625490930307142/1304403918515605504" title="Discord channel for PRC Data Challenge">the OpenSky Network Discord channel <code>#prc-data-competition</code> <i class="fa-brands fa-discord" aria-label="discord"></i></a>.<br>
-Note: you need to have access to the <a href="https://discord.gg/RPh89jpVVz">OpenSky Network Discord server</a> first.</p>
-</section>
-<section id="outreach" class="level2">
-<h2 class="anchored" data-anchor-id="outreach">Outreach</h2>
-<p>We are strong advocates of open science and (strongly 😉) encourage teams, particularly the top-ranked teams, to submit a paper to JOAS describing their approach and the inner workings of their models.<br>
-Here are some examples from previous editions:</p>
+<section id="buckets" class="level2">
+<h2 class="anchored" data-anchor-id="buckets">Buckets</h2>
+<p>The 2024 PRC Data Challenge website has some instructions about how to use Minio to access OpenSky buckets at</p>
+<p><a href="https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client" class="uri">https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client</a></p>
+<section id="the-training-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="the-training-dataset">The Training Dataset</h3>
+<p>The training dataset is split into monthly files. Each file contains the movements for the airports of the challenge:</p>
 <ul>
-<li><a href="https://journals.open.tudelft.nl/joas/article/view/7963">Open Machine Learning Models for Actual Takeoff Weight Prediction</a></li>
-<li><a href="https://journals.open.tudelft.nl/joas/article/view/8764">A Physics-Guided Gradient Boosting Framework for Open-Source Aviation Fuel Estimation</a></li>
+<li><code>training_2025-01-01_2025-02-01.parquet</code> (21M)</li>
+<li><code>training_2025-02-01_2025-03-01.parquet</code> (19M)</li>
+<li><code>training_2025-03-01_2025-04-01.parquet</code> (22M)</li>
+<li><code>training_2025-04-01_2025-05-01.parquet</code> (23M)</li>
+<li><code>training_2025-05-01_2025-06-01.parquet</code> (25M)</li>
+<li><code>training_2025-06-01_2025-07-01.parquet</code> (24M)</li>
+<li><code>training_2025-07-01_2025-08-01.parquet</code> (25M)</li>
+<li><code>training_2025-08-01_2025-09-01.parquet</code> (25M)</li>
+<li><code>training_2025-09-01_2025-10-01.parquet</code> (24M)</li>
+<li><code>training_2025-10-01_2025-11-01.parquet</code> (25M)</li>
+<li><code>training_2025-11-01_2025-12-01.parquet</code> (22M)</li>
+<li><code>training_2025-12-01_2026-01-01.parquet</code> (22M)</li>
 </ul>
-<p>We also publish a data paper describing the challenge dataset, with the aim of making the data more accessible and supporting further use in research, education, and other applications.<br>
-Examples from previous editions include:</p>
+</section>
+<section id="the-ranking-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="the-ranking-dataset">The Ranking Dataset</h3>
+<p>The ranking dataset contains the same columns as the training data with:</p>
 <ul>
-<li><a href="https://journals.open.tudelft.nl/joas/article/view/8750">Aircraft Fuel Burn Estimation: The EUROCONTROL PRC 2025 Data Challenge</a></li>
-<li><a href="https://journals.open.tudelft.nl/joas/article/view/8252">Aircraft Takeoff Weight Estimation: The EUROCONTROL PRC 2024 Data Challenge</a></li>
+<li>Movements for Jan and Jul 2026.</li>
+<li><code>BLOCK_TIME_UTC_mvt</code> and <code>TAXITIME_SEC_mvt</code> for departures (movements with <code>PHASE</code> = <code>"DEP"</code>) have been blanked out.</li>
 </ul>
-<p>The following GitHub organizations host the repositories of participating teams:</p>
+<p>It consists of a single file:</p>
 <ul>
-<li>2024 teams’ repos, <a href="https://github.com/prc-data-challenge-2024" class="uri">https://github.com/prc-data-challenge-2024</a></li>
-<li>2025 teams’ repos, <a href="https://github.com/prc-data-challenge-2025" class="uri">https://github.com/prc-data-challenge-2025</a></li>
+<li><code>ranking.parquet</code> (27M)</li>
+</ul>
+</section>
+<section id="the-submitting-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="the-submitting-dataset">The Submitting Dataset</h3>
+<p>The submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns <code>MVT_ID_mvt</code> and <code>TAXITIME_SEC_mvt</code> where <code>MVT_ID_mvt</code> values match those of the departures in the ranking dataset. It consists of only one file:</p>
+<ul>
+<li><code>submitting.parquet</code> (1.1M)</li>
+</ul>
+<p>See <a href="./ranking.html#submission-instructions">Submission Instructions</a>.</p>
+</section>
+</section>
+<section id="column-description" class="level2">
+<h2 class="anchored" data-anchor-id="column-description">Column Description</h2>
+<p>Columns postfixed with <code>_mvt</code> are associated with the reporting airport.<br>
+Columns postfixed with <code>_flt</code> are associated with information from NM flight list.</p>
+<section id="movement" class="level3">
+<h3 class="anchored" data-anchor-id="movement">Movement</h3>
+<ul>
+<li><code>MVT_ID_mvt</code>: unique identifier for the movement record</li>
+<li><code>FLIGHT_ID_mvt</code>: unique identifier for the NM flight (if matched)</li>
+<li><code>FLIGHT_mvt</code>: flight number, i.e.&nbsp;what you see on your boarding pass</li>
+<li><code>FLIGHT_RULE_mvt</code>: which sets of regulations the flight is operated under. Possible values are:
+<ul>
+<li><code>I</code> for Instrument Flight Rules (IFR)</li>
+<li><code>V</code> for Visual Flight Rules (VFR)</li>
+<li><code>NA</code> if unknown</li>
+</ul></li>
+<li><code>ADEP_mvt</code>: the (ICAO code of the) Aerodrome of DEParture (ADEP).</li>
+<li><code>ADES_mvt</code>: the (ICAO code of the) Aerodrome of DEStination (ADES).</li>
+<li><code>PHASE_mvt</code>: movement phase. <code>DEP</code>=departure, <code>ARR</code>=arrival.</li>
+<li><code>MVT_TIME_UTC_mvt</code>: (best available) movement time (takeoff if <code>PHASE</code> = <code>DEP</code>, landing if <code>PHASE</code> = <code>ARR</code>.)</li>
+<li><code>BLOCK_TIME_UTC_mvt</code>: block time (off-block if <code>PHASE</code> = <code>DEP</code>, in-block if <code>PHASE</code> = <code>ARR</code>.)</li>
+<li><code>SCHED_TIME_UTC_mvt</code>: scheduled time (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
+<li><code>AIRCRAFT_TYPE_mvt</code>: the ICAO code for the aircraft type, for example <code>A21N</code> for Airbus A321neo.</li>
+<li><code>RUNWAY_mvt</code>: the Runway (RWY) ID (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
+<li><code>STAND_mvt</code>: the stand ID (of departure if <code>PHASE</code> = <code>DEP</code>, of arrival if <code>PHASE</code> = <code>ARR</code>.)</li>
+<li><code>TAXITIME_SEC_mvt</code>: amount of seconds for taxi time (taxi-out if <code>PHASE</code> = <code>DEP</code>, taxi-in if <code>PHASE</code> = <code>ARR</code>.)</li>
+</ul>
+</section>
+<section id="flight" class="level3">
+<h3 class="anchored" data-anchor-id="flight">Flight</h3>
+<p>The following columns come from data recorded by NM.</p>
+<ul>
+<li><code>LOBT_flt</code>: last known off-block time</li>
+<li><code>CALLSIGN_flt</code>: the <a href="https://skybrary.aero/articles/aircraft-call-sign">callsign</a> of the relevant flight, e.g.&nbsp;<code>BAW6VB</code>.</li>
+<li><code>ADEP_flt</code>: the ICAO code of the ADEP.</li>
+<li><code>ADES_flt</code>: the ICAO code of the ADES.</li>
+<li><code>ADES_FILED_flt</code>: the ADES initially filed in the Flight Plan (FPL). If different from <code>ADES_flt</code>, then the flight has been diverted.</li>
+<li><code>MARKET_SEGMENT_flt</code>: the market segment type as defined in the <a href="https://www.eurocontrol.int/publication/market-segment-rules">Market Segment Rules</a>, it can be:
+<ul>
+<li>“Mainline”</li>
+<li>“Regional”</li>
+<li>“Low-Cost”</li>
+<li>“Business Aviation”</li>
+<li>“All-Cargo”</li>
+<li>“Charter” (Non-Scheduled)</li>
+<li>“Military”</li>
+<li>“Other”</li>
+<li>“Not classified”</li>
+</ul></li>
+<li><code>IOBT_flt</code>: Initial Off-Block Time (IOBT).</li>
+<li><code>FLIGHT_RULE_flt</code>: which sets of regulations the flight is operated under (see <a href="https://www.skybrary.aero/articles/flight-plan-completion">FPL Item 8</a>). Possible values are:
+<ul>
+<li><code>I</code> for IFR</li>
+<li><code>V</code> for VFR</li>
+<li><code>Y</code> first IFR thereafter VFR</li>
+<li><code>Z</code> first VFR thereafter IFR</li>
+</ul></li>
+<li><code>FLIGHT_TYPE_flt</code>: flight type (see <a href="https://www.skybrary.aero/articles/flight-plan-completion">FPL Item 8</a>). Possible values are:
+<ul>
+<li><code>S</code> for scheduled air service</li>
+<li><code>N</code> for non-scheduled air service</li>
+<li><code>G</code> for general aviation</li>
+<li><code>M</code> for military (note: filtered out)</li>
+<li><code>X</code> for other than the preceding categories</li>
+</ul></li>
+<li><code>AIRCRAFT_TYPE_flt</code>: the <a href="https://www.icao.int/publications/doc8643/pages/search.aspx">ICAO code for the aircraft type</a>, for example <code>A30B</code> for an Airbus A-300B2-200.</li>
+<li><code>WK_TBL_CAT_flt</code>: wake turbulence category (see <a href="https://www.skybrary.aero/articles/flight-plan-completion">FPL Item 9</a>), can be:
+<ul>
+<li><code>L</code> LIGHT, i.e.&nbsp;maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.</li>
+<li><code>M</code> MEDIUM, i.e.&nbsp;maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).</li>
+<li><code>H</code> HEAVY, i.e.&nbsp;maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J).</li>
+<li><code>J</code> SUPER, presently only the AIRBUS A-380-800.</li>
+</ul></li>
+<li><code>AIRCRAFT_OPERATOR_flt</code>: the (anonymized) <a href="https://en.wikipedia.org/wiki/List_of_airline_codes">ICAO Airline Designator</a>.</li>
+<li><code>EOBT_1_flt</code>: the Estimated Off-Block Time (EOBT) for FPL-based (M1) trajectory.</li>
+<li><code>ARVT_1_flt</code>: the arrival time for FPL-based (M1) trajectory.</li>
+<li><code>AOBT_3_flt</code>: the Actual Off-Block Time (AOBT) for flown (M3) trajectory.</li>
+<li><code>ARVT_3_flt</code>: the arrival time for flown (M3) trajectory.</li>
 </ul>
 
 
+</section>
 </section>
 <section id="acronyms_HEADER_LOA" class="level2 loa unnumbered">
 <h2 class="loa unnumbered anchored" data-anchor-id="acronyms_HEADER_LOA">List of Acronyms</h2>
 <div>
-<p><strong><span id="acronyms_JOAS">JOAS</span></strong>: Journal of Open Aviation Science</p>
-<p><strong><span id="acronyms_OSN">OSN</span></strong>: OpenSky Network</p>
-<p><strong><span id="acronyms_PRC">PRC</span></strong>: Performance Review Commission</p>
-<p><strong><span id="acronyms_RMSE">RMSE</span></strong>: Root Mean Square Error</p>
+<p><strong><span id="acronyms_ADEP">ADEP</span></strong>: Aerodrome of DEParture</p>
+<p><strong><span id="acronyms_ADES">ADES</span></strong>: Aerodrome of DEStination</p>
+<p><strong><span id="acronyms_AOBT">AOBT</span></strong>: Actual Off-Block Time</p>
+<p><strong><span id="acronyms_EOBT">EOBT</span></strong>: Estimated Off-Block Time</p>
+<p><strong><span id="acronyms_FPL">FPL</span></strong>: Flight Plan</p>
+<p><strong><span id="acronyms_IFR">IFR</span></strong>: Instrument Flight Rules</p>
+<p><strong><span id="acronyms_IOBT">IOBT</span></strong>: Initial Off-Block Time</p>
+<p><strong><span id="acronyms_NM">NM</span></strong>: Network Manager</p>
+<p><strong><span id="acronyms_RWY">RWY</span></strong>: Runway</p>
+<p><strong><span id="acronyms_VFR">VFR</span></strong>: Visual Flight Rules</p>
 </div>
 </section>
 

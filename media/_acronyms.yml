@@ -1,0 +1,80 @@
+---
+acronyms:
+  keys:
+    - shortname: ADEP
+      longname: Aerodrome of DEParture
+      plural:
+        shortname: ADEPs
+        longname: Aerodromes of DEParture
+    - shortname: ADES
+      longname: Aerodrome of DEStination
+      plural:
+        shortname: ADESs
+        longname: Aerodromes of DEStination
+    - shortname: ADS-B
+      longname: Automatic Dependent Surveillance–Broadcast
+    - shortname: AO
+      longname: Aircraft Operator
+    - shortname: AOBT
+      longname: Actual Off-Block Time
+    - shortname: ARVT
+      longname: ARriVal Time
+    - shortname: ATFM
+      longname: Air Traffic Flow Management
+    - shortname: ATM
+      longname: Air Traffic Management
+    - shortname: ATOW
+      longname: Actual TakeOff Weight
+    - shortname: DD
+      longname: Decimal degrees
+    - shortname: ECTL
+      longname: EUROCONTROL
+    - shortname: EC
+      longname: European Commission
+    - shortname: ECMWF
+      longname: European Centre for Medium-Range Weather Forecasts
+    - shortname: EOBT
+      longname: Estimated Off-Block Time
+    - shortname: ERA5
+      longname: ECMWF's fifth generation of Atmospheric Reanalysis
+    - shortname: ETOW
+      longname: Estimated TakeOff Weight
+    - shortname: EU
+      longname: European Union
+    - shortname: FIR
+      longname: Flight Information Region
+    - shortname: FPL
+      longname: Flight Plan
+    - shortname: ICAO
+      longname: International Civil Aviation Organization
+    - shortname: IFR
+      longname: Instrument Flight Rules
+    - shortname: IOBT
+      longname: Initial Off-Block Time
+    - shortname: ISO
+      longname: International Organization for Standardization
+    - shortname: JOAS
+      longname: Journal of Open Aviation Science
+    - shortname: ML
+      longname: Machine Learning
+    - shortname: MTOW
+      longname: Maximum TakeOff Weight
+    - shortname: NM
+      longname: Network Manager
+    - shortname: OSN
+      longname: OpenSky Network
+    - shortname: PRC
+      longname: Performance Review Commission
+    - shortname: RMSE
+      longname: Root Mean Square Error
+    - shortname: RWY
+      longname: Runway
+    - shortname: TOW
+      longname: TakeOff Weight
+    - shortname: UTC
+      longname: Coordinated Universal Time
+    - shortname: VFR
+      longname: Visual Flight Rules
+    - shortname: WTC
+      longname: Wake Turbulence Category
+---

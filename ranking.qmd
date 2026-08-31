@@ -1,0 +1,74 @@
+---
+title: Ranking
+---
+
+::: {.callout-note title="Please be aware"}
+We will monitor submissions for attempts to learn from or exploit the ranking
+ process. We consider such practices unfair and inconsistent with the purposes
+ and goals of the Data Challenge. 
+:::
+     
+
+## Leaderboard
+
+::: {.callout-important title="Important"}
+
+We will post **urgent and important news** news here, but we strongly recommend
+following the updates on the OSN Discord {{< fa brands discord >}} channel, especially
+[ `#prc-data-competition`][prc-discord]  
+
+If you haven’t joined the [OSN Discord server](https://discord.gg/RPh89jpVVz)
+yet, you’ll need to do so first to access the channel. 
+:::
+
+[prc-discord]: <https://discord.com/channels/1252625490930307142/1304403918515605504> "Discord channel for PRC Data Challenge"
+
+
+
+```{=html}
+<style>
+  iframe {
+      /* display: block; */
+      /* background: #000; */
+      border: 1px solid black;
+      /* height: 100vh; */
+      width: 100vh;
+  }
+</style>
+
+<iframe
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@743?cells=leaderboard">
+</iframe>
+```
+
+
+All paginated submission rankings can be retrieved via the REST API at the [full leaderboard JSON][leaderboard] (use the value of `nextCursor` in the `cursor=` parameter in the URL query).
+
+Other endpoints are also available; have a look [here][api] and use `competitionId` = `bb3693e1-26bc-4a9e-8619-4fe78b4eab0c`.
+
+[api]: <https://datacomp.opensky-network.org/api/swagger-ui/>
+[leaderboard]: <https://datacomp.opensky-network.org/api/competitions/bb3693e1-26bc-4a9e-8619-4fe78b4eab0c/leaderboard>
+
+
+## Submission Instructions
+
+Teams will be ranked based on the **best \acr{RMSE}** achieved across their submissions.
+
+The `submitting.parquet` file is provided as a template.
+To make a submission, fill in the `TAXITIME_SEC_mvt` column with your predicted
+taxi-out times for the corresponding `MVT_ID_mvt` values.
+
+Each team must submit its predictions to its own bucket using the following file
+naming convention: 
+
+> `<team-name>_v<incremental integer>.parquet`  
+
+For a submission to be valid, each row must match the corresponding
+`MVT_ID_mvt` before the ranking script can use the prediction to calculate the
+\acr{RMSE}. 
+
+The ranking script will issue an error if: 
+
+* an `MVT_ID_mvt` does not match;
+* any rows are missing; or
+* extra rows are included.

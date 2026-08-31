@@ -1,0 +1,18 @@
+---
+title: Rationale
+---
+
+The choice of predicting taxi-out time for this year’s Data Challenge builds on
+previous challenges, which have focused on using data to better understand
+environmental and operational impacts.
+
+Taxi-out time is particularly interesting because it is often difficult to
+obtain and challenging to predict accurately. 
+
+A model to estimate taxi-out time can be used in post-operations analysis to
+identify constrained operations intervals and measure excess fuel burnt/CO2
+production compared to unconstrained status. 
+
+The reasons for variability of taxi-out time are various and interlinked.
+These include airline-specific constraints, airport procedures and load, and
+\acr{ATFM}-related reasons. 

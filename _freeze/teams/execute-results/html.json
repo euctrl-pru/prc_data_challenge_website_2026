@@ -1,0 +1,21 @@
+{
+  "hash": "d2e73cb72c7bb221971252506f191a26",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Teams\nacronyms:\n  insert_loa: false\n---\n\n## Registrations over time\n\nThe chart is updated from the competition API whenever the site is rendered.\n\n\n::: {.cell}\n\n:::\n\n\n```{ojs}\n//| label: fig-team-registrations\n//| fig-cap: \"Cumulative number of registered teams.\"\n//| echo: false\n\nregistrationData = registrations.map(d => ({\n  date: new Date(`${d.date}T00:00:00Z`),\n  teams: d.teams\n}))\n\nPlot.plot({\n  width,\n  height: 360,\n  marginLeft: 50,\n  x: {\n    type: \"utc\",\n    label: \"Registration date\"\n  },\n  y: {\n    label: \"Registered teams\",\n    grid: true,\n    domain: [0, Math.max(1, d3.max(registrationData, d => d.teams))],\n    nice: true\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.lineY(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      curve: \"step-after\",\n      tip: true\n    }),\n    Plot.dot(registrationData, {\n      x: \"date\",\n      y: \"teams\",\n      r: 3,\n      tip: true\n    })\n  ]\n})\n```\n",
+    "supporting": [
+      "teams_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script type=\"ojs-define\">\n{\"contents\":[{\"name\":\"registrations\",\"value\":{\"date\":[\"2026-08-18\",\"2026-08-19\"],\"teams\":[2,4]}}]}\n</script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

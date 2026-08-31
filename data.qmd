@@ -1,0 +1,178 @@
+---
+title: "Data"
+format:
+  html: 
+    toc: true
+    toc-depth: 2
+---
+
+To help you solve this year’s Data challenge, we provide the following
+(logical) datasets:
+
+1. **Movements** (arrival and departure) information for 2025 at 11 major
+  European airports including
+   a. **taxi-out time** for each movement at the airport and
+   a. **scheduled** and **actual** times
+
+   This is related to departing (`PHASE` = `DEP`) or arriving
+   (`PHASE` = `ARR`) airport.
+1. **Flight** information for each movement. 
+    This is what is matched in the \acr{NM} records.
+
+The movements table rows have been (left) joined with the flight table ones.  
+
+There are a total of 4,167,797 movements at the 11 airports as shown in in @tbl-airports.
+
+
+| ICAO | IATA | 	Name                              |
+|------|------|:------------------------------------|
+| EDDF | FRA  | Frankfurt Main                      |
+| EDDM | MUC  | Munich                              |
+| EGLL | LHR  | London Heathrow                     |
+| EHAM | AMS  | Amsterdam Schiphol                  |
+| LEBL | BCN  | Josep Tarradellas Barcelona-El Prat |
+| LEMD | MAD  | Adolfo Suárez Madrid–Barajas        |
+| LFPG | CDG  | Charles de Gaulle                   |
+| LIRF | FCO  | Rome–Fiumicino Leonardo da Vinci    |
+| LTAI | AYT  | Antalya                             |
+| LTFM | IST  | İstanbul                            |
+| LSZH | ZRH  | Zürich                              |
+
+: List of airports for which movements data is provided {#tbl-airports}
+
+
+::: {.callout-note title="Note 1"}
+We have removed Military, Head of State, and Sensitive movements.
+These should not have a disruptive impact on the possibility to model and
+predict taxi-out time.
+:::
+
+::: {.callout-note title="Note 2"}
+Real world data is messy. You will find some inconsistencies between
+movement and flight information. We haven't tried to reconcile them
+because they are probably due to some limitations of the underlying processes
+trying to match different sources of data.  
+As per all our data challenges, we do not _play_ with synthetic/artificial
+datasets.
+:::
+
+## Buckets
+
+The 2024 PRC Data Challenge website has some instructions about how to 
+use Minio to access OpenSky buckets at
+
+<https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client>
+
+### The Training Dataset
+The training dataset is split into monthly files.
+Each file contains the movements for the airports of the challenge:
+
+* `training_2025-01-01_2025-02-01.parquet` (21M)
+* `training_2025-02-01_2025-03-01.parquet` (19M)
+* `training_2025-03-01_2025-04-01.parquet` (22M)
+* `training_2025-04-01_2025-05-01.parquet` (23M)
+* `training_2025-05-01_2025-06-01.parquet` (25M)
+* `training_2025-06-01_2025-07-01.parquet` (24M)
+* `training_2025-07-01_2025-08-01.parquet` (25M)
+* `training_2025-08-01_2025-09-01.parquet` (25M)
+* `training_2025-09-01_2025-10-01.parquet` (24M)
+* `training_2025-10-01_2025-11-01.parquet` (25M)
+* `training_2025-11-01_2025-12-01.parquet` (22M)
+* `training_2025-12-01_2026-01-01.parquet` (22M)
+
+### The Ranking Dataset
+The ranking dataset contains the same columns as the training data with:
+
+- Movements for Jan and Jul 2026.
+- `BLOCK_TIME_UTC_mvt` and `TAXITIME_SEC_mvt` for departures (movements with `PHASE` = `"DEP"`) have been blanked out.
+
+It consists of a single file:
+
+* `ranking.parquet` (27M)
+
+### The Submitting Dataset
+The submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns `MVT_ID_mvt` and `TAXITIME_SEC_mvt` where `MVT_ID_mvt` values match those of the departures in the ranking dataset. It consists of only one file:
+
+* `submitting.parquet` (1.1M)
+
+See [Submission Instructions](ranking.qmd#submission-instructions).
+
+
+## Column Description
+
+Columns postfixed with `_mvt` are associated with the reporting airport.  
+Columns postfixed with `_flt` are associated with information from \acr{NM}
+flight list.  
+
+### Movement
+
+* `MVT_ID_mvt`: unique identifier for the movement record
+* `FLIGHT_ID_mvt`: unique identifier for the \acr{NM} flight (if matched)
+* `FLIGHT_mvt`: flight number, i.e. what you see on your boarding pass 
+* `FLIGHT_RULE_mvt`: which sets of regulations the flight is operated under.
+  Possible values are:
+  -  `I` for \acr{IFR}
+  -  `V` for \acr{VFR}
+  -  `NA` if unknown
+* `ADEP_mvt`: the (ICAO code of the) \acr{ADEP}.
+* `ADES_mvt`: the (ICAO code of the) \acr{ADES}.
+* `PHASE_mvt`: movement phase. `DEP`=departure, `ARR`=arrival.
+* `MVT_TIME_UTC_mvt`: (best available) movement time (takeoff if `PHASE` =
+  `DEP`, landing if `PHASE` = `ARR`.)
+* `BLOCK_TIME_UTC_mvt`: block time (off-block if `PHASE` = `DEP`,
+   in-block if `PHASE` = `ARR`.)
+* `SCHED_TIME_UTC_mvt`: scheduled time (of departure if `PHASE` = `DEP`,
+   of arrival if `PHASE` = `ARR`.)
+* `AIRCRAFT_TYPE_mvt`: the ICAO code for the aircraft type, for example `A21N`
+  for Airbus A321neo.
+* `RUNWAY_mvt`: the \acr{RWY} ID (of departure if `PHASE` = `DEP`,
+  of arrival if `PHASE` = `ARR`.)
+* `STAND_mvt`: the stand ID (of departure if `PHASE` = `DEP`,
+  of arrival if `PHASE` = `ARR`.)
+* `TAXITIME_SEC_mvt`: amount of seconds for taxi time (taxi-out if `PHASE` =
+  `DEP`, taxi-in if `PHASE` = `ARR`.)
+
+### Flight
+The following columns come from data recorded by \acr{NM}.
+
+
+* `LOBT_flt`: last known off-block time
+* `CALLSIGN_flt`: the [callsign](https://skybrary.aero/articles/aircraft-call-sign) of the relevant flight, e.g. `BAW6VB`.
+* `ADEP_flt`: the ICAO code of the \acr{ADEP}.
+* `ADES_flt`: the ICAO code of the \acr{ADES}.
+* `ADES_FILED_flt`: the \acr{ADES} initially filed in the \acr{FPL}.
+   If different from `ADES_flt`, then the flight has been diverted.
+* `MARKET_SEGMENT_flt`: the market segment type as defined in the [Market Segment Rules](https://www.eurocontrol.int/publication/market-segment-rules), it can be:
+  -  “Mainline”
+  -  “Regional”
+  -  “Low-Cost”
+  -  “Business Aviation”
+  -  “All-Cargo”
+  -  “Charter” (Non-Scheduled)
+  -  “Military”
+  -  “Other”
+  -  "Not classified"
+* `IOBT_flt`: \acr{IOBT}.
+* `FLIGHT_RULE_flt`: which sets of regulations the flight is operated under (see [\acr{FPL} Item 8](https://www.skybrary.aero/articles/flight-plan-completion)).
+  Possible values are:
+  -  `I` for \acr{IFR}
+  -  `V` for \acr{VFR}
+  -  `Y` first \acr{IFR} thereafter \acr{VFR}
+  -  `Z` first \acr{VFR} thereafter \acr{IFR}
+* `FLIGHT_TYPE_flt`: flight type (see [\acr{FPL} Item 8](https://www.skybrary.aero/articles/flight-plan-completion)). Possible values are:
+  -  `S` for scheduled air service
+  -  `N` for non-scheduled air service
+  -  `G` for general aviation
+  -  `M` for military (note: filtered out)
+  -  `X` for other than the preceding categories
+* `AIRCRAFT_TYPE_flt`: the [ICAO code for the aircraft type](https://www.icao.int/publications/doc8643/pages/search.aspx), for example `A30B` for an Airbus A-300B2-200.
+* `WK_TBL_CAT_flt`: wake turbulence category (see [\acr{FPL} Item 9](https://www.skybrary.aero/articles/flight-plan-completion)), can be:
+  -  `L` LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.
+  -  `M` MEDIUM, i.e. maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).
+  -  `H` HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J).
+  -  `J` SUPER, presently only the AIRBUS A-380-800.
+* `AIRCRAFT_OPERATOR_flt`: the (anonymized) [ICAO Airline Designator](https://en.wikipedia.org/wiki/List_of_airline_codes).
+* `EOBT_1_flt`: the \acr{EOBT} for \acr{FPL}-based (M1) trajectory.
+* `ARVT_1_flt`: the arrival time for \acr{FPL}-based (M1) trajectory.
+* `AOBT_3_flt`: the \acr{AOBT} for flown (M3) trajectory.
+* `ARVT_3_flt`: the arrival time for flown (M3) trajectory.
