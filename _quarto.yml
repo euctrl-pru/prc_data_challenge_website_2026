@@ -229,7 +229,6 @@ website:
           - text: "Teams"
             contents: 
               - auto: "teams/*.qmd"
-
 format:
   html:
     theme: cosmo
