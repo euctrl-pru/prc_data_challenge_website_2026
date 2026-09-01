@@ -1,0 +1,28 @@
+
+---
+title: fearless-ocean
+date: 2026-09-01
+subtitle: Italy
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+passionate about air traffic management and engineering
+
+## Details
+
+* Type: Industry
+* Country: Italy
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,       ~forename,  ~surname,                 ~affiliation,
+   1L, "Gianfrancesco", "Ranieri", "Cadmos Microsystems s.r.l.",
+   2L,         "Xyzzy",   "XYZZY",                "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

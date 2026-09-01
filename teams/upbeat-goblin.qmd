@@ -1,0 +1,28 @@
+
+---
+title: upbeat-goblin
+date: 2026-09-01
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am Henri Bano, a Master's student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.
+
+## Details
+
+* Type: Industry
+* Country: Germany
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                    ~affiliation,
+   1L,   "Henri",   "Bano", "m-click.aero GmbH , TH Wildau",
+   2L,  "Enrico",   "Khan",             "m-click.aero GmbH"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

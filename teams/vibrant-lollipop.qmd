@@ -1,0 +1,31 @@
+
+---
+title: vibrant-lollipop
+date: 2026-09-01
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a recent Marmara University graduate, I work as a researcher in aviation, and I have started a master's degree. I build software across a range of domains. I am taking part on my own, not on behalf of my employer.
+
+I will be straightforward about why I registered. I am early in my career and this is a chance to test myself in public, on a problem from my own industry, against people who do this well. The prize and the recognition that follows a good result matter to me and I see no reason to pretend otherwise. The paper matters for a separate reason: research is what I do and what I want to keep doing, so a challenge that ends in open code and an open-access publication fits where I am heading. Taxi-out is also one of the few problems where a better model turns directly into less fuel burned.
+
+What I intend to deliver: a faithful reimplementation of EUROCONTROL's own additional taxi-out time reference, a model for what remains on top of it, and an honest account of the approaches that failed alongside the ones that worked. The code will be public under GPLv3 and I plan to write the result up for JOAS.
+
+## Details
+
+* Type: Independent
+* Country: Turkey
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,        ~forename,   ~surname,  ~affiliation,
+   1L, "Ahmet Abdullah", "Gültekin", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
