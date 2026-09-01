@@ -54,7 +54,7 @@ circumstances.
 Join the competition; request the creation of your team here! 
 
 :::{.container .text-center}
-[Request Team Creation!](https://example.com){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="Request Team Creation" target="_blank"}  
+[Request Team Creation!](https://docs.google.com/forms/d/e/1FAIpQLScgRRk0j5Giot8puUAjzXC7ScR926Oupd62LbRVS1g8Y2p4hw/viewform?usp=header){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="Request Team Creation" target="_blank"}  
 :::
 
 
