@@ -5,7 +5,7 @@ teams_file := justfile_directory() + "/media/teams_private.json"
   just --list
 
 # regenerate teams pages
-@regenerate-teams-pages:
+@generate-teams-pages:
   #!/usr/bin/env sh
   Rscript ./R/generate_quarto_teams.R
   quarto render
