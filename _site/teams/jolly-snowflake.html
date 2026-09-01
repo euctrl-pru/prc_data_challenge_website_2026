@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-01">
 <meta name="description" content="Explore how aviation and Machine Learning enthusiasts/experts can predict taxi-out times at major European airports.">
 
-<title>Registrations et al.&nbsp;– PRC Data Challenge 2026</title>
+<title>jolly-snowflake – PRC Data Challenge 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -38,8 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../media/EUROCONTROL-logo-standard-rgb.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -77,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-teams-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-subtitle","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-teams-listings'] = new List('listing-teams-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -121,35 +91,6 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <!-- End Matomo Code -->
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../media/styles.css">
 </head>
@@ -434,7 +375,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Registrations</a></li><li class="breadcrumb-item"><a href="../teams/index.html">Stats</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Registrations</a></li><li class="breadcrumb-item"><a href="../teams/delightful-beetle.html">Teams</a></li><li class="breadcrumb-item"><a href="../teams/jolly-snowflake.html">jolly-snowflake</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -520,7 +461,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../teams/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../teams/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stats</span></a>
   </div>
 </li>
@@ -559,7 +500,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../teams/jolly-snowflake.html" class="sidebar-item-text sidebar-link">
+  <a href="../teams/jolly-snowflake.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">jolly-snowflake</span></a>
   </div>
 </li>
@@ -594,17 +535,19 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul class="collapse">
-  <li><a href="#teams" id="toc-teams" class="nav-link active" data-scroll-target="#teams">Teams</a></li>
+  <ul>
+  <li><a href="#description-and-rationale" id="toc-description-and-rationale" class="nav-link active" data-scroll-target="#description-and-rationale">Description and Rationale</a></li>
+  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">Details</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Registrations</a></li><li class="breadcrumb-item"><a href="../teams/index.html">Stats</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../teams/index.html">Registrations</a></li><li class="breadcrumb-item"><a href="../teams/delightful-beetle.html">Teams</a></li><li class="breadcrumb-item"><a href="../teams/jolly-snowflake.html">jolly-snowflake</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Registrations et al.</h1>
+<h1 class="title">jolly-snowflake</h1>
+<p class="subtitle lead">Ghana</p>
 </div>
 
 
@@ -612,6 +555,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Registered</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 1, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -621,176 +570,495 @@ window.Quarto = {
 </header>
 
 
-<style>
-  iframe {
-      /* display: block; */
-      /* background: #000; */
-      border: 1px solid black;
-      height: 440px;
-      width: 100vh;
-  }
+<section id="description-and-rationale" class="level2">
+<h2 class="anchored" data-anchor-id="description-and-rationale">Description and Rationale</h2>
+<p>I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation</p>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<ul>
+<li>Type: Industry</li>
+<li>Country: Ghana</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div id="kwrwurtnif" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#kwrwurtnif table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#kwrwurtnif thead, #kwrwurtnif tbody, #kwrwurtnif tfoot, #kwrwurtnif tr, #kwrwurtnif td, #kwrwurtnif th {
+  border-style: none;
+}
+
+#kwrwurtnif p {
+  margin: 0;
+  padding: 0;
+}
+
+#kwrwurtnif .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#kwrwurtnif .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#kwrwurtnif .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#kwrwurtnif .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#kwrwurtnif .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#kwrwurtnif .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#kwrwurtnif .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#kwrwurtnif .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#kwrwurtnif .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#kwrwurtnif .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#kwrwurtnif .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#kwrwurtnif .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#kwrwurtnif .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#kwrwurtnif .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#kwrwurtnif .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kwrwurtnif .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#kwrwurtnif .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#kwrwurtnif .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#kwrwurtnif .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kwrwurtnif .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#kwrwurtnif .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kwrwurtnif .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#kwrwurtnif .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kwrwurtnif .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#kwrwurtnif .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kwrwurtnif .gt_left {
+  text-align: left;
+}
+
+#kwrwurtnif .gt_center {
+  text-align: center;
+}
+
+#kwrwurtnif .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#kwrwurtnif .gt_font_normal {
+  font-weight: normal;
+}
+
+#kwrwurtnif .gt_font_bold {
+  font-weight: bold;
+}
+
+#kwrwurtnif .gt_font_italic {
+  font-style: italic;
+}
+
+#kwrwurtnif .gt_super {
+  font-size: 65%;
+}
+
+#kwrwurtnif .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#kwrwurtnif .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#kwrwurtnif .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#kwrwurtnif .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#kwrwurtnif .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#kwrwurtnif .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#kwrwurtnif .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#kwrwurtnif .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#kwrwurtnif div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
 </style>
 
-<iframe src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@743?cells=cumulative_registrations">
-</iframe>
-<section id="teams" class="level2">
-<h2 class="anchored" data-anchor-id="teams">Teams</h2>
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="id" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>ID</strong></th>
+<th id="forename" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>Forename</strong></th>
+<th id="surname" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>Surname</strong></th>
+<th id="affiliation" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>Affiliation</strong></th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="id">1</td>
+<td class="gt_row gt_left" headers="forename">Isaac Oluwafemi</td>
+<td class="gt_row gt_left" headers="surname">Ogunniyi</td>
+<td class="gt_row gt_left" headers="affiliation">independent</td>
+</tr>
+</tbody>
+</table>
 
+</div>
+</div>
+</div>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-teams-listings">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-teams-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-teams-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Request date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Request date - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Team
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Team</a>
-</th>
-
-<th>
-Country
-</th>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Request date</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98" data-listing-title-sort="delightful-beetle" data-listing-filename-sort="delightful-beetle.qmd">
-<td>
-<a href="../teams/delightful-beetle.html" class="title listing-title">delightful-beetle</a>
-</td>
-<td>
-<span class="listing-subtitle">Morocco</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342202" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179" data-listing-title-sort="enthusiastic-daisy" data-listing-filename-sort="enthusiastic-daisy.qmd">
-<td>
-<a href="../teams/enthusiastic-daisy.html" class="title listing-title">enthusiastic-daisy</a>
-</td>
-<td>
-<span class="listing-subtitle">China</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342202" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43" data-listing-title-sort="generous-jungle" data-listing-filename-sort="generous-jungle.qmd">
-<td>
-<a href="../teams/generous-jungle.html" class="title listing-title">generous-jungle</a>
-</td>
-<td>
-<span class="listing-subtitle">Switzerland</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103" data-listing-title-sort="gentle-xylophone" data-listing-filename-sort="gentle-xylophone.qmd">
-<td>
-<a href="../teams/gentle-xylophone.html" class="title listing-title">gentle-xylophone</a>
-</td>
-<td>
-<span class="listing-subtitle">Egypt</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64" data-listing-title-sort="jolly-snowflake" data-listing-filename-sort="jolly-snowflake.qmd">
-<td>
-<a href="../teams/jolly-snowflake.html" class="title listing-title">jolly-snowflake</a>
-</td>
-<td>
-<span class="listing-subtitle">Ghana</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-<tr data-index="5" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57" data-listing-title-sort="modest-quilt" data-listing-filename-sort="modest-quilt.qmd">
-<td>
-<a href="../teams/modest-quilt.html" class="title listing-title">modest-quilt</a>
-</td>
-<td>
-<span class="listing-subtitle">United States</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-<tr data-index="6" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-title-sort="strong-crane" data-listing-filename-sort="strong-crane.qmd">
-<td>
-<a href="../teams/strong-crane.html" class="title listing-title">strong-crane</a>
-</td>
-<td>
-<span class="listing-subtitle">India</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-<tr data-index="7" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1788250342208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58" data-listing-title-sort="thoughtful-scooter" data-listing-filename-sort="thoughtful-scooter.qmd">
-<td>
-<a href="../teams/thoughtful-scooter.html" class="title listing-title">thoughtful-scooter</a>
-</td>
-<td>
-<span class="listing-subtitle">Turkey</span>
-</td>
-<td>
-<span class="listing-date">2026-09-01</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

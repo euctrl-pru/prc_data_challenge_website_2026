@@ -1,0 +1,27 @@
+
+---
+title: delightful-beetle
+date: 2026-09-01
+subtitle: Morocco
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Data Science and AI enthusiast with a strong focus on machine learning, data engineering, and predictive modeling. I decided to join the PRC Data Challenge 2026 to apply my technical skills to real-world air traffic management problems, specifically tackling the complexity of taxi-out time prediction to help optimize airport operations and reduce aviation carbon emissions.
+
+## Details
+
+* Type: Independent
+* Country: Morocco
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,      ~forename,    ~surname,  ~affiliation,
+   1L, "Ange Raïyane", "ESSOAZINA", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
