@@ -43,8 +43,9 @@ acronyms:
 </iframe>
 ```
 
+::: {.callout-note title="Note"}
 In case of problems with the embedded `iframe` you can have a look at the
 Observable notebook <https://observablehq.com/@espinielli/dc26-leaderboard>
-
+:::
 
 ## Teams 

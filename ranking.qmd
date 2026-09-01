@@ -32,15 +32,22 @@ yet, you’ll need to do so first to access the channel.
       /* display: block; */
       /* background: #000; */
       border: 1px solid black;
+      height: 140px;
       /* height: 100vh; */
       width: 100vh;
   }
 </style>
 
+
 <iframe
-  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@753?cells=leaderboard">
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard?cells=leaderboard">
 </iframe>
 ```
+
+::: {.callout-note title="Note"}
+In case of problems with the embedded `iframe` you can have a look at the
+Observable notebook <https://observablehq.com/@espinielli/dc26-leaderboard>
+:::
 
 
 All paginated submission rankings can be retrieved via the REST API at the [full leaderboard JSON][leaderboard] (use the value of `nextCursor` in the `cursor=` parameter in the URL query).
