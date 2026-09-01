@@ -2,7 +2,9 @@
   {
     "listing": "/teams/index.html",
     "items": [
+      "/teams/adventurous-bicycle.html",
       "/teams/delightful-beetle.html",
+      "/teams/delightful-dragon.html",
       "/teams/delightful-yarn.html",
       "/teams/enthusiastic-daisy.html",
       "/teams/fearless-ocean.html",
@@ -14,13 +16,17 @@
       "/teams/joyous-pencil.html",
       "/teams/merry-hippo.html",
       "/teams/modest-quilt.html",
+      "/teams/outgoing-wizard.html",
+      "/teams/quick-whale.html",
+      "/teams/reliable-hamburger.html",
       "/teams/strong-crane.html",
       "/teams/thoughtful-kiwi.html",
       "/teams/thoughtful-scooter.html",
       "/teams/unique-scooter.html",
       "/teams/upbeat-goblin.html",
       "/teams/versatile-violin.html",
-      "/teams/vibrant-lollipop.html"
+      "/teams/vibrant-lollipop.html",
+      "/teams/vigorous-jungle.html"
     ]
   }
 ]

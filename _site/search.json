@@ -1,158 +1,236 @@
 [
   {
-    "objectID": "teams/vibrant-lollipop.html",
-    "href": "teams/vibrant-lollipop.html",
-    "title": "vibrant-lollipop",
+    "objectID": "teams/vigorous-jungle.html",
+    "href": "teams/vigorous-jungle.html",
+    "title": "vigorous-jungle",
     "section": "",
-    "text": "I am a recent Marmara University graduate, I work as a researcher in aviation, and I have started a master’s degree. I build software across a range of domains. I am taking part on my own, not on behalf of my employer.\nI will be straightforward about why I registered. I am early in my career and this is a chance to test myself in public, on a problem from my own industry, against people who do this well. The prize and the recognition that follows a good result matter to me and I see no reason to pretend otherwise. The paper matters for a separate reason: research is what I do and what I want to keep doing, so a challenge that ends in open code and an open-access publication fits where I am heading. Taxi-out is also one of the few problems where a better model turns directly into less fuel burned.\nWhat I intend to deliver: a faithful reimplementation of EUROCONTROL’s own additional taxi-out time reference, a model for what remains on top of it, and an honest account of the approaches that failed alongside the ones that worked. The code will be public under GPLv3 and I plan to write the result up for JOAS.",
+    "text": "I am an independent researcher with a strong background in data science and analytics. I registered for the PRC Data Challenge 2026 to apply my data analysis skills to real-world aviation and trajectory datasets, explore complex patterns, and contribute innovative solutions to the challenge problem.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "vibrant-lollipop"
+      "vigorous-jungle"
     ]
   },
   {
-    "objectID": "teams/vibrant-lollipop.html#description-and-rationale",
-    "href": "teams/vibrant-lollipop.html#description-and-rationale",
-    "title": "vibrant-lollipop",
+    "objectID": "teams/vigorous-jungle.html#description-and-rationale",
+    "href": "teams/vigorous-jungle.html#description-and-rationale",
+    "title": "vigorous-jungle",
     "section": "",
-    "text": "I am a recent Marmara University graduate, I work as a researcher in aviation, and I have started a master’s degree. I build software across a range of domains. I am taking part on my own, not on behalf of my employer.\nI will be straightforward about why I registered. I am early in my career and this is a chance to test myself in public, on a problem from my own industry, against people who do this well. The prize and the recognition that follows a good result matter to me and I see no reason to pretend otherwise. The paper matters for a separate reason: research is what I do and what I want to keep doing, so a challenge that ends in open code and an open-access publication fits where I am heading. Taxi-out is also one of the few problems where a better model turns directly into less fuel burned.\nWhat I intend to deliver: a faithful reimplementation of EUROCONTROL’s own additional taxi-out time reference, a model for what remains on top of it, and an honest account of the approaches that failed alongside the ones that worked. The code will be public under GPLv3 and I plan to write the result up for JOAS.",
+    "text": "I am an independent researcher with a strong background in data science and analytics. I registered for the PRC Data Challenge 2026 to apply my data analysis skills to real-world aviation and trajectory datasets, explore complex patterns, and contribute innovative solutions to the challenge problem.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "vibrant-lollipop"
+      "vigorous-jungle"
     ]
   },
   {
-    "objectID": "teams/vibrant-lollipop.html#details",
-    "href": "teams/vibrant-lollipop.html#details",
-    "title": "vibrant-lollipop",
+    "objectID": "teams/vigorous-jungle.html#details",
+    "href": "teams/vigorous-jungle.html#details",
+    "title": "vigorous-jungle",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAhmet Abdullah\nGültekin\nIndependent",
+    "text": "Details\n\nType: Independent\nCountry: Pakistan\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMaaz Ali\nKhan\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "vibrant-lollipop"
+      "vigorous-jungle"
     ]
   },
   {
-    "objectID": "teams/upbeat-goblin.html",
-    "href": "teams/upbeat-goblin.html",
-    "title": "upbeat-goblin",
+    "objectID": "teams/versatile-violin.html",
+    "href": "teams/versatile-violin.html",
+    "title": "versatile-violin",
     "section": "",
-    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
+    "text": "I’m Arnav Hemanth, a final-year Computer Science (Data Science) student at Dayananda Sagar Academy of Technology and Management in Bengaluru, India. Solo entry.\nMost of what I’ve built is aviation predictive maintenance. My main project is EngineWatch (enginewatch.tech), an interpretable engine health monitoring and remaining-useful-life system trained on NASA’s C-MAPSS turbofan data. It’s deployed and running, not a notebook. The thing I care about there is that every prediction traces back to specific sensors — no deep learning, no post-hoc explanation layer sitting on top of a black box.\nI registered because taxi-out is a problem I want to be better at. Engine degradation is slow and physical. Taxi-out is operational — queues, runway configuration, how an airport actually behaves at 07:00 on a Monday. Same tooling, completely different reasoning, and I’d rather learn that against a public leaderboard than on my own.\nI’m also curious whether a model you can actually explain stays competitive here. That’s the position I’ve been working from for about a year and I’ve never tested it somewhere the score is public. If it holds up, I want to write it up for JOAS. If it doesn’t, that’s worth writing up too.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-goblin"
+      "versatile-violin"
     ]
   },
   {
-    "objectID": "teams/upbeat-goblin.html#description-and-rationale",
-    "href": "teams/upbeat-goblin.html#description-and-rationale",
-    "title": "upbeat-goblin",
+    "objectID": "teams/versatile-violin.html#description-and-rationale",
+    "href": "teams/versatile-violin.html#description-and-rationale",
+    "title": "versatile-violin",
     "section": "",
-    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
+    "text": "I’m Arnav Hemanth, a final-year Computer Science (Data Science) student at Dayananda Sagar Academy of Technology and Management in Bengaluru, India. Solo entry.\nMost of what I’ve built is aviation predictive maintenance. My main project is EngineWatch (enginewatch.tech), an interpretable engine health monitoring and remaining-useful-life system trained on NASA’s C-MAPSS turbofan data. It’s deployed and running, not a notebook. The thing I care about there is that every prediction traces back to specific sensors — no deep learning, no post-hoc explanation layer sitting on top of a black box.\nI registered because taxi-out is a problem I want to be better at. Engine degradation is slow and physical. Taxi-out is operational — queues, runway configuration, how an airport actually behaves at 07:00 on a Monday. Same tooling, completely different reasoning, and I’d rather learn that against a public leaderboard than on my own.\nI’m also curious whether a model you can actually explain stays competitive here. That’s the position I’ve been working from for about a year and I’ve never tested it somewhere the score is public. If it holds up, I want to write it up for JOAS. If it doesn’t, that’s worth writing up too.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-goblin"
+      "versatile-violin"
     ]
   },
   {
-    "objectID": "teams/upbeat-goblin.html#details",
-    "href": "teams/upbeat-goblin.html#details",
-    "title": "upbeat-goblin",
+    "objectID": "teams/versatile-violin.html#details",
+    "href": "teams/versatile-violin.html#details",
+    "title": "versatile-violin",
     "section": "Details",
-    "text": "Details\n\nType: Industry\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nHenri\nBano\nm-click.aero GmbH , TH Wildau\n\n\n2\nEnrico\nKhan\nm-click.aero GmbH",
+    "text": "Details\n\nType: Academia, Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nArnav\nHemanth\nDayananda Sagar Academy of Technology and Management",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-goblin"
+      "versatile-violin"
     ]
   },
   {
-    "objectID": "teams/thoughtful-scooter.html",
-    "href": "teams/thoughtful-scooter.html",
-    "title": "thoughtful-scooter",
+    "objectID": "teams/unique-scooter.html",
+    "href": "teams/unique-scooter.html",
+    "title": "unique-scooter",
     "section": "",
-    "text": "ATM Researcher",
+    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-scooter"
+      "unique-scooter"
     ]
   },
   {
-    "objectID": "teams/thoughtful-scooter.html#description-and-rationale",
-    "href": "teams/thoughtful-scooter.html#description-and-rationale",
-    "title": "thoughtful-scooter",
+    "objectID": "teams/unique-scooter.html#description-and-rationale",
+    "href": "teams/unique-scooter.html#description-and-rationale",
+    "title": "unique-scooter",
     "section": "",
-    "text": "ATM Researcher",
+    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-scooter"
+      "unique-scooter"
     ]
   },
   {
-    "objectID": "teams/thoughtful-scooter.html#details",
-    "href": "teams/thoughtful-scooter.html#details",
-    "title": "thoughtful-scooter",
+    "objectID": "teams/unique-scooter.html#details",
+    "href": "teams/unique-scooter.html#details",
+    "title": "unique-scooter",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nEnes\nÖzçelik\nEskişehir Technical University",
+    "text": "Details\n\nType: Independent\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAndres\nSenaris\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-scooter"
+      "unique-scooter"
     ]
   },
   {
-    "objectID": "teams/strong-crane.html",
-    "href": "teams/strong-crane.html",
-    "title": "strong-crane",
+    "objectID": "teams/thoughtful-kiwi.html",
+    "href": "teams/thoughtful-kiwi.html",
+    "title": "thoughtful-kiwi",
     "section": "",
-    "text": "I am a reseracher working in aviation domain.",
+    "text": "Private Pilot, Aviation enthusiast and independant researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "strong-crane"
+      "thoughtful-kiwi"
     ]
   },
   {
-    "objectID": "teams/strong-crane.html#description-and-rationale",
-    "href": "teams/strong-crane.html#description-and-rationale",
-    "title": "strong-crane",
+    "objectID": "teams/thoughtful-kiwi.html#description-and-rationale",
+    "href": "teams/thoughtful-kiwi.html#description-and-rationale",
+    "title": "thoughtful-kiwi",
     "section": "",
-    "text": "I am a reseracher working in aviation domain.",
+    "text": "Private Pilot, Aviation enthusiast and independant researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "strong-crane"
+      "thoughtful-kiwi"
     ]
   },
   {
-    "objectID": "teams/strong-crane.html#details",
-    "href": "teams/strong-crane.html#details",
-    "title": "strong-crane",
+    "objectID": "teams/thoughtful-kiwi.html#details",
+    "href": "teams/thoughtful-kiwi.html#details",
+    "title": "thoughtful-kiwi",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSomnath\nPanigrahi\nTU Dresden",
+    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJeffrey\nSchafer\nindependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "strong-crane"
+      "thoughtful-kiwi"
+    ]
+  },
+  {
+    "objectID": "teams/reliable-hamburger.html",
+    "href": "teams/reliable-hamburger.html",
+    "title": "reliable-hamburger",
+    "section": "",
+    "text": "I worked at Nice Airport in the operations center, and I also have a bachelor’s degree in artificial intelligence. It’s rare to find challenges like this, so I’m simply interested,I fully intend to go as far as I can.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "reliable-hamburger"
+    ]
+  },
+  {
+    "objectID": "teams/reliable-hamburger.html#description-and-rationale",
+    "href": "teams/reliable-hamburger.html#description-and-rationale",
+    "title": "reliable-hamburger",
+    "section": "",
+    "text": "I worked at Nice Airport in the operations center, and I also have a bachelor’s degree in artificial intelligence. It’s rare to find challenges like this, so I’m simply interested,I fully intend to go as far as I can.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "reliable-hamburger"
+    ]
+  },
+  {
+    "objectID": "teams/reliable-hamburger.html#details",
+    "href": "teams/reliable-hamburger.html#details",
+    "title": "reliable-hamburger",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMarius\nCasamiam\nCôte Azur University",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "reliable-hamburger"
+    ]
+  },
+  {
+    "objectID": "teams/outgoing-wizard.html",
+    "href": "teams/outgoing-wizard.html",
+    "title": "outgoing-wizard",
+    "section": "",
+    "text": "i am solopreneur making apps in web field and also passionate about aviation",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "outgoing-wizard"
+    ]
+  },
+  {
+    "objectID": "teams/outgoing-wizard.html#description-and-rationale",
+    "href": "teams/outgoing-wizard.html#description-and-rationale",
+    "title": "outgoing-wizard",
+    "section": "",
+    "text": "i am solopreneur making apps in web field and also passionate about aviation",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "outgoing-wizard"
+    ]
+  },
+  {
+    "objectID": "teams/outgoing-wizard.html#details",
+    "href": "teams/outgoing-wizard.html#details",
+    "title": "outgoing-wizard",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: Georgia\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAKIM\nKHALILOV\nUnknow",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "outgoing-wizard"
     ]
   },
   {
@@ -360,6 +438,45 @@
       "Registrations",
       "Teams",
       "delightful-yarn"
+    ]
+  },
+  {
+    "objectID": "teams/delightful-beetle.html",
+    "href": "teams/delightful-beetle.html",
+    "title": "delightful-beetle",
+    "section": "",
+    "text": "I am a Data Science and AI enthusiast with a strong focus on machine learning, data engineering, and predictive modeling. I decided to join the PRC Data Challenge 2026 to apply my technical skills to real-world air traffic management problems, specifically tackling the complexity of taxi-out time prediction to help optimize airport operations and reduce aviation carbon emissions.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "delightful-beetle"
+    ]
+  },
+  {
+    "objectID": "teams/delightful-beetle.html#description-and-rationale",
+    "href": "teams/delightful-beetle.html#description-and-rationale",
+    "title": "delightful-beetle",
+    "section": "",
+    "text": "I am a Data Science and AI enthusiast with a strong focus on machine learning, data engineering, and predictive modeling. I decided to join the PRC Data Challenge 2026 to apply my technical skills to real-world air traffic management problems, specifically tackling the complexity of taxi-out time prediction to help optimize airport operations and reduce aviation carbon emissions.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "delightful-beetle"
+    ]
+  },
+  {
+    "objectID": "teams/delightful-beetle.html#details",
+    "href": "teams/delightful-beetle.html#details",
+    "title": "delightful-beetle",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: Morocco\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAnge Raïyane\nESSOAZINA\nIndependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "delightful-beetle"
     ]
   },
   {
@@ -579,42 +696,81 @@
     ]
   },
   {
-    "objectID": "teams/delightful-beetle.html",
-    "href": "teams/delightful-beetle.html",
-    "title": "delightful-beetle",
+    "objectID": "teams/adventurous-bicycle.html",
+    "href": "teams/adventurous-bicycle.html",
+    "title": "adventurous-bicycle",
     "section": "",
-    "text": "I am a Data Science and AI enthusiast with a strong focus on machine learning, data engineering, and predictive modeling. I decided to join the PRC Data Challenge 2026 to apply my technical skills to real-world air traffic management problems, specifically tackling the complexity of taxi-out time prediction to help optimize airport operations and reduce aviation carbon emissions.",
+    "text": "Specialist from within the ATM filed with analytical mind. I want to challenge myself and I enjoy challenged related to ATM.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "delightful-beetle"
+      "adventurous-bicycle"
     ]
   },
   {
-    "objectID": "teams/delightful-beetle.html#description-and-rationale",
-    "href": "teams/delightful-beetle.html#description-and-rationale",
-    "title": "delightful-beetle",
+    "objectID": "teams/adventurous-bicycle.html#description-and-rationale",
+    "href": "teams/adventurous-bicycle.html#description-and-rationale",
+    "title": "adventurous-bicycle",
     "section": "",
-    "text": "I am a Data Science and AI enthusiast with a strong focus on machine learning, data engineering, and predictive modeling. I decided to join the PRC Data Challenge 2026 to apply my technical skills to real-world air traffic management problems, specifically tackling the complexity of taxi-out time prediction to help optimize airport operations and reduce aviation carbon emissions.",
+    "text": "Specialist from within the ATM filed with analytical mind. I want to challenge myself and I enjoy challenged related to ATM.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "delightful-beetle"
+      "adventurous-bicycle"
     ]
   },
   {
-    "objectID": "teams/delightful-beetle.html#details",
-    "href": "teams/delightful-beetle.html#details",
-    "title": "delightful-beetle",
+    "objectID": "teams/adventurous-bicycle.html#details",
+    "href": "teams/adventurous-bicycle.html#details",
+    "title": "adventurous-bicycle",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Morocco\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAnge Raïyane\nESSOAZINA\nIndependent",
+    "text": "Details\n\nType: Independent\nCountry: Sweden\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "delightful-beetle"
+      "adventurous-bicycle"
+    ]
+  },
+  {
+    "objectID": "teams/delightful-dragon.html",
+    "href": "teams/delightful-dragon.html",
+    "title": "delightful-dragon",
+    "section": "",
+    "text": "I am an independent machine learning engineer based in Vienna, Austria, with several years of commercial experience building end-to-end production ML systems. My background includes tabular prediction, time-series forecasting, anomaly detection, ranking, feature engineering, model evaluation, deployment, and monitoring. In the railway sector, I worked on predictive maintenance for infrastructure failures and IT risk forecasting. I am joining the challenge as a solo participant to apply this experience to airport operations, learn from real-world aviation data, and develop an open and reproducible solution.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "delightful-dragon"
+    ]
+  },
+  {
+    "objectID": "teams/delightful-dragon.html#description-and-rationale",
+    "href": "teams/delightful-dragon.html#description-and-rationale",
+    "title": "delightful-dragon",
+    "section": "",
+    "text": "I am an independent machine learning engineer based in Vienna, Austria, with several years of commercial experience building end-to-end production ML systems. My background includes tabular prediction, time-series forecasting, anomaly detection, ranking, feature engineering, model evaluation, deployment, and monitoring. In the railway sector, I worked on predictive maintenance for infrastructure failures and IT risk forecasting. I am joining the challenge as a solo participant to apply this experience to airport operations, learn from real-world aviation data, and develop an open and reproducible solution.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "delightful-dragon"
+    ]
+  },
+  {
+    "objectID": "teams/delightful-dragon.html#details",
+    "href": "teams/delightful-dragon.html#details",
+    "title": "delightful-dragon",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: Austria\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nArtem\nTereshin\nindependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "delightful-dragon"
     ]
   },
   {
@@ -852,120 +1008,198 @@
     ]
   },
   {
-    "objectID": "teams/thoughtful-kiwi.html",
-    "href": "teams/thoughtful-kiwi.html",
-    "title": "thoughtful-kiwi",
+    "objectID": "teams/quick-whale.html",
+    "href": "teams/quick-whale.html",
+    "title": "quick-whale",
     "section": "",
-    "text": "Private Pilot, Aviation enthusiast and independant researcher",
+    "text": "We are research engineers at ONERA in France. We aim to have fun with ATM-based data. And eventually win the challenge.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-kiwi"
+      "quick-whale"
     ]
   },
   {
-    "objectID": "teams/thoughtful-kiwi.html#description-and-rationale",
-    "href": "teams/thoughtful-kiwi.html#description-and-rationale",
-    "title": "thoughtful-kiwi",
+    "objectID": "teams/quick-whale.html#description-and-rationale",
+    "href": "teams/quick-whale.html#description-and-rationale",
+    "title": "quick-whale",
     "section": "",
-    "text": "Private Pilot, Aviation enthusiast and independant researcher",
+    "text": "We are research engineers at ONERA in France. We aim to have fun with ATM-based data. And eventually win the challenge.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-kiwi"
+      "quick-whale"
     ]
   },
   {
-    "objectID": "teams/thoughtful-kiwi.html#details",
-    "href": "teams/thoughtful-kiwi.html#details",
-    "title": "thoughtful-kiwi",
+    "objectID": "teams/quick-whale.html#details",
+    "href": "teams/quick-whale.html#details",
+    "title": "quick-whale",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJeffrey\nSchafer\nindependent",
+    "text": "Details\n\nType: Academia\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJulien\nDemange-Chryst\nONERA",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-kiwi"
+      "quick-whale"
     ]
   },
   {
-    "objectID": "teams/unique-scooter.html",
-    "href": "teams/unique-scooter.html",
-    "title": "unique-scooter",
+    "objectID": "teams/strong-crane.html",
+    "href": "teams/strong-crane.html",
+    "title": "strong-crane",
     "section": "",
-    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
+    "text": "I am a reseracher working in aviation domain.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-scooter"
+      "strong-crane"
     ]
   },
   {
-    "objectID": "teams/unique-scooter.html#description-and-rationale",
-    "href": "teams/unique-scooter.html#description-and-rationale",
-    "title": "unique-scooter",
+    "objectID": "teams/strong-crane.html#description-and-rationale",
+    "href": "teams/strong-crane.html#description-and-rationale",
+    "title": "strong-crane",
     "section": "",
-    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
+    "text": "I am a reseracher working in aviation domain.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-scooter"
+      "strong-crane"
     ]
   },
   {
-    "objectID": "teams/unique-scooter.html#details",
-    "href": "teams/unique-scooter.html#details",
-    "title": "unique-scooter",
+    "objectID": "teams/strong-crane.html#details",
+    "href": "teams/strong-crane.html#details",
+    "title": "strong-crane",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAndres\nSenaris\nIndependent",
+    "text": "Details\n\nType: Academia\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSomnath\nPanigrahi\nTU Dresden",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-scooter"
+      "strong-crane"
     ]
   },
   {
-    "objectID": "teams/versatile-violin.html",
-    "href": "teams/versatile-violin.html",
-    "title": "versatile-violin",
+    "objectID": "teams/thoughtful-scooter.html",
+    "href": "teams/thoughtful-scooter.html",
+    "title": "thoughtful-scooter",
     "section": "",
-    "text": "I’m Arnav Hemanth, a final-year Computer Science (Data Science) student at Dayananda Sagar Academy of Technology and Management in Bengaluru, India. Solo entry.\nMost of what I’ve built is aviation predictive maintenance. My main project is EngineWatch (enginewatch.tech), an interpretable engine health monitoring and remaining-useful-life system trained on NASA’s C-MAPSS turbofan data. It’s deployed and running, not a notebook. The thing I care about there is that every prediction traces back to specific sensors — no deep learning, no post-hoc explanation layer sitting on top of a black box.\nI registered because taxi-out is a problem I want to be better at. Engine degradation is slow and physical. Taxi-out is operational — queues, runway configuration, how an airport actually behaves at 07:00 on a Monday. Same tooling, completely different reasoning, and I’d rather learn that against a public leaderboard than on my own.\nI’m also curious whether a model you can actually explain stays competitive here. That’s the position I’ve been working from for about a year and I’ve never tested it somewhere the score is public. If it holds up, I want to write it up for JOAS. If it doesn’t, that’s worth writing up too.",
+    "text": "ATM Researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "versatile-violin"
+      "thoughtful-scooter"
     ]
   },
   {
-    "objectID": "teams/versatile-violin.html#description-and-rationale",
-    "href": "teams/versatile-violin.html#description-and-rationale",
-    "title": "versatile-violin",
+    "objectID": "teams/thoughtful-scooter.html#description-and-rationale",
+    "href": "teams/thoughtful-scooter.html#description-and-rationale",
+    "title": "thoughtful-scooter",
     "section": "",
-    "text": "I’m Arnav Hemanth, a final-year Computer Science (Data Science) student at Dayananda Sagar Academy of Technology and Management in Bengaluru, India. Solo entry.\nMost of what I’ve built is aviation predictive maintenance. My main project is EngineWatch (enginewatch.tech), an interpretable engine health monitoring and remaining-useful-life system trained on NASA’s C-MAPSS turbofan data. It’s deployed and running, not a notebook. The thing I care about there is that every prediction traces back to specific sensors — no deep learning, no post-hoc explanation layer sitting on top of a black box.\nI registered because taxi-out is a problem I want to be better at. Engine degradation is slow and physical. Taxi-out is operational — queues, runway configuration, how an airport actually behaves at 07:00 on a Monday. Same tooling, completely different reasoning, and I’d rather learn that against a public leaderboard than on my own.\nI’m also curious whether a model you can actually explain stays competitive here. That’s the position I’ve been working from for about a year and I’ve never tested it somewhere the score is public. If it holds up, I want to write it up for JOAS. If it doesn’t, that’s worth writing up too.",
+    "text": "ATM Researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "versatile-violin"
+      "thoughtful-scooter"
     ]
   },
   {
-    "objectID": "teams/versatile-violin.html#details",
-    "href": "teams/versatile-violin.html#details",
-    "title": "versatile-violin",
+    "objectID": "teams/thoughtful-scooter.html#details",
+    "href": "teams/thoughtful-scooter.html#details",
+    "title": "thoughtful-scooter",
     "section": "Details",
-    "text": "Details\n\nType: Academia, Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nArnav\nHemanth\nDayananda Sagar Academy of Technology and Management",
+    "text": "Details\n\nType: Academia\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nEnes\nÖzçelik\nEskişehir Technical University",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "versatile-violin"
+      "thoughtful-scooter"
+    ]
+  },
+  {
+    "objectID": "teams/upbeat-goblin.html",
+    "href": "teams/upbeat-goblin.html",
+    "title": "upbeat-goblin",
+    "section": "",
+    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "upbeat-goblin"
+    ]
+  },
+  {
+    "objectID": "teams/upbeat-goblin.html#description-and-rationale",
+    "href": "teams/upbeat-goblin.html#description-and-rationale",
+    "title": "upbeat-goblin",
+    "section": "",
+    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "upbeat-goblin"
+    ]
+  },
+  {
+    "objectID": "teams/upbeat-goblin.html#details",
+    "href": "teams/upbeat-goblin.html#details",
+    "title": "upbeat-goblin",
+    "section": "Details",
+    "text": "Details\n\nType: Industry\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nHenri\nBano\nm-click.aero GmbH , TH Wildau\n\n\n2\nEnrico\nKhan\nm-click.aero GmbH",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "upbeat-goblin"
+    ]
+  },
+  {
+    "objectID": "teams/vibrant-lollipop.html",
+    "href": "teams/vibrant-lollipop.html",
+    "title": "vibrant-lollipop",
+    "section": "",
+    "text": "I am a recent Marmara University graduate, I work as a researcher in aviation, and I have started a master’s degree. I build software across a range of domains. I am taking part on my own, not on behalf of my employer.\nI will be straightforward about why I registered. I am early in my career and this is a chance to test myself in public, on a problem from my own industry, against people who do this well. The prize and the recognition that follows a good result matter to me and I see no reason to pretend otherwise. The paper matters for a separate reason: research is what I do and what I want to keep doing, so a challenge that ends in open code and an open-access publication fits where I am heading. Taxi-out is also one of the few problems where a better model turns directly into less fuel burned.\nWhat I intend to deliver: a faithful reimplementation of EUROCONTROL’s own additional taxi-out time reference, a model for what remains on top of it, and an honest account of the approaches that failed alongside the ones that worked. The code will be public under GPLv3 and I plan to write the result up for JOAS.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "vibrant-lollipop"
+    ]
+  },
+  {
+    "objectID": "teams/vibrant-lollipop.html#description-and-rationale",
+    "href": "teams/vibrant-lollipop.html#description-and-rationale",
+    "title": "vibrant-lollipop",
+    "section": "",
+    "text": "I am a recent Marmara University graduate, I work as a researcher in aviation, and I have started a master’s degree. I build software across a range of domains. I am taking part on my own, not on behalf of my employer.\nI will be straightforward about why I registered. I am early in my career and this is a chance to test myself in public, on a problem from my own industry, against people who do this well. The prize and the recognition that follows a good result matter to me and I see no reason to pretend otherwise. The paper matters for a separate reason: research is what I do and what I want to keep doing, so a challenge that ends in open code and an open-access publication fits where I am heading. Taxi-out is also one of the few problems where a better model turns directly into less fuel burned.\nWhat I intend to deliver: a faithful reimplementation of EUROCONTROL’s own additional taxi-out time reference, a model for what remains on top of it, and an honest account of the approaches that failed alongside the ones that worked. The code will be public under GPLv3 and I plan to write the result up for JOAS.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "vibrant-lollipop"
+    ]
+  },
+  {
+    "objectID": "teams/vibrant-lollipop.html#details",
+    "href": "teams/vibrant-lollipop.html#details",
+    "title": "vibrant-lollipop",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAhmet Abdullah\nGültekin\nIndependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "vibrant-lollipop"
     ]
   }
 ]

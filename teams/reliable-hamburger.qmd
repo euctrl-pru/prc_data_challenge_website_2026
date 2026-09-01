@@ -1,0 +1,27 @@
+
+---
+title: reliable-hamburger
+date: 2026-09-01
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I worked at Nice Airport in the operations center, and I also have a bachelor's degree in artificial intelligence. It's rare to find challenges like this, so I'm simply interested,I fully intend to go as far as I can.
+
+## Details
+
+* Type: Academia
+* Country: France
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,           ~affiliation,
+   1L,  "Marius", "Casamiam", "Côte Azur University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

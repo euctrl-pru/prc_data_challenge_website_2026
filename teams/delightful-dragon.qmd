@@ -1,0 +1,27 @@
+
+---
+title: delightful-dragon
+date: 2026-09-01
+subtitle: Austria
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an independent machine learning engineer based in Vienna, Austria, with several years of commercial experience building end-to-end production ML systems. My background includes tabular prediction, time-series forecasting, anomaly detection, ranking, feature engineering, model evaluation, deployment, and monitoring. In the railway sector, I worked on predictive maintenance for infrastructure failures and IT risk forecasting. I am joining the challenge as a solo participant to apply this experience to airport operations, learn from real-world aviation data, and develop an open and reproducible solution.
+
+## Details
+
+* Type: Independent
+* Country: Austria
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L,   "Artem", "Tereshin", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
