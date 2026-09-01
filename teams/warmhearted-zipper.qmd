@@ -1,0 +1,27 @@
+
+---
+title: warmhearted-zipper
+date: 2026-09-01
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Feyyaz Orhan Toksöz from Ankara, Turkey, with a strong interest in software development and aviation. You can find more about me at fot.net.tr. I'm participating in this challenge to apply machine learning to a real-world aviation problem and combine my interest in aviation with data science.
+
+## Details
+
+* Type: Independent
+* Country: Turkey
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,      ~forename, ~surname,  ~affiliation,
+   1L, "Feyyaz Orhan", "Toksöz", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
