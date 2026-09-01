@@ -10,6 +10,12 @@ teams_file := justfile_directory() + "/media/teams_private.json"
   Rscript ./R/generate_quarto_teams.R
   quarto render
 
+# publish team pages
+@publish-teams:
+  #!/usr/bin/env sh
+  git add -f _site _freeze/ teams/
+  git commit -m "regenerate teams pages"
+
 # which new teams to assess?
 @teams-new:
   #!/usr/bin/env sh
