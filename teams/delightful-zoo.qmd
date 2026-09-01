@@ -1,0 +1,30 @@
+
+---
+title: delightful-zoo
+date: 2026-09-01
+subtitle: Senegal
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of operational Air Traffic Controllers and Meteorological Specialists based in Senegal, combining hands-on aviation expertise with backgrounds in technology, data science, and AI. While technology rapidly advances across global industries, modernizing aviation workflows remains a critical challenge—a gap our team is uniquely positioned to help bridge. 
+A primary driver for our participation in the PRC Challenge is pushing sustainable aviation forward. Environmental efficiency is central to our vision for future airport operations; by leveraging data to accurately estimate and reduce CO2 emissions, we align directly with the sustainability goals of our ANSPs. We are participating in this challenge to apply data-driven intelligence to real-world operational and environmental efficiency
+
+## Details
+
+* Type: Industry, Independent
+* Country: Senegal
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,             ~forename, ~surname,  ~affiliation,
+   1L,      "Alioune Badara",  "DUPUY", "independent",
+   2L,       "Ibrahima Sory", "Diallo", "SIMSkyGreen",
+   3L, "Mouhamadou Mousliou", "Diallo", "SIMSKyGreen"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

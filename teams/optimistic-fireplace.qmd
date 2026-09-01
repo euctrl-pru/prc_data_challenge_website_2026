@@ -1,0 +1,31 @@
+
+---
+title: optimistic-fireplace
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Who we are: Cosmic Tortuga, a veteran-owned aerospace engineering company. I'm an Army vet, 25 years in aviation MRO, MS in Space Systems from Embry-Riddle.
+
+Why we're here: Taxi-out is a problem I've lived for 25 years. I know what drives it: the congestion, the runway assignments, the stand-to-runway distances, the operator and aircraft-type effects. Most teams will throw a generic model at the data. We're going to use the domain knowledge first, then the model. That's where the accuracy is.
+
+What we bring: Real aviation operations experience, a physics-informed approach to modeling, and a track record of building aerospace AI. We're here to compete, contribute to open aviation research, and prove that domain expertise beats generic ML.
+
+## Details
+
+* Type: Independent
+* Country: United States
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,     ~affiliation,
+   1L,   "Jorge",  "Otero", "Cosmic Tortuga"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

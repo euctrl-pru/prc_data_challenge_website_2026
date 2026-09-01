@@ -1,0 +1,27 @@
+
+---
+title: amiable-zipper
+date: 2026-09-01
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am studying Computer Engineering at Selcuk University and have a strong interest in data, data mining, and aviation analytics. For a previous university data mining project, I chose to classify flight arrival times and draw insights from the resulting patterns. When I discovered that a similar topic was the focus of this challenge, I saw it as a valuable opportunity to build on my previous experience, deepen my knowledge, and test my skills using real-world aviation data. I am also passionate about aviation and hope to pursue a career in this field in the future, which further motivated me to register and participate.
+
+## Details
+
+* Type: Academia
+* Country: Turkey
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,        ~affiliation,
+   1L,    "Ömer",  "Atıcı", "Selcuk University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,28 @@
+
+---
+title: enthusiastic-yawn
+date: 2026-09-01
+subtitle: Cyprus
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of 2 people working independently with aviation agentic and software solutions for OPS and Engineering. As part of our tools exploration we want to participate in the project.
+
+## Details
+
+* Type: Independent
+* Country: Cyprus
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename,    ~surname,  ~affiliation,
+   1L,  "Dionysios",   "Kefalas", "independent",
+   2L, "Athanasios", "Oikonomou", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

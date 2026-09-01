@@ -1,0 +1,27 @@
+
+---
+title: jubilant-vase
+date: 2026-09-01
+subtitle: Belgium
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+SevinHub is an independent technology initiative based in Belgium, led by Sergiu Nicolae. I build data-driven software and experimental tools that turn complex real-world datasets into useful, understandable systems. I joined the PRC Data Challenge to explore rigorous and reproducible methods for predicting taxi-out time, learn more about European airport operations, and contribute an openly documented solution to the aviation research community. The connection between operational efficiency, fuel consumption and CO₂ emissions makes this challenge particularly meaningful to me.
+
+## Details
+
+* Type: Independent
+* Country: Belgium
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,  "Sergiu", "Vincze",   "SevinHub"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

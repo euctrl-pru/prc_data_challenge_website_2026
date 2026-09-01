@@ -1,0 +1,31 @@
+
+---
+title: vibrant-jewel
+date: 2026-09-01
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Outside work I’m a licensed amateur radio operator (2D0PEY), and most of my projects sit where RF, hardware and data meet. I receive ADS-B at home and built NearestPlane, an ESP32-driven display showing the closest aircraft overhead in real time. I also run a couple of small public data tools of my own, so I’m used to shipping something at the end rather than leaving it in a notebook.
+
+Taxi-out time appealed to me because it’s a genuinely operational problem rather than a synthetic one. The interesting part isn’t the model, it’s the framing: taxi-out is largely a question of how congested the airfield is at the moment a flight goes off-block, so the work sits in representing queue state, traffic in the surrounding window, runway configuration and stand geometry. That’s a much more interesting problem than it first looks.
+
+I registered because the combination of open data, a clearly defined target and a public leaderboard is the best possible way to test whether my intuitions about the problem actually hold up. I’m also committed to the open solutions side. Whatever I produce will go up as a documented public repository, whether or not it finishes anywhere near the top.
+
+## Details
+
+* Type: Independent
+* Country: United Kingdom
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Gavin",  "Wilby", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
