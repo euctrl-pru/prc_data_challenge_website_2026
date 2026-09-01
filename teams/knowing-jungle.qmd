@@ -1,0 +1,27 @@
+
+---
+title: knowing-jungle
+date: 2026-09-01
+subtitle: Ireland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an independent aviation professional hoping to validate my proof of concept regarding ATM ops, ground ops, and sustainability.
+
+## Details
+
+* Type: Independent
+* Country: Ireland
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Hatem", "Abnoun",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

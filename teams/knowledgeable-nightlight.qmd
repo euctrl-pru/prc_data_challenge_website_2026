@@ -1,0 +1,27 @@
+
+---
+title: knowledgeable-nightlight
+date: 2026-09-01
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I have an advanced degree in economics and a bachelor in engineering. I would like to apply latest available tools to help dynamically optimize airport operations.
+
+## Details
+
+* Type: Independent
+* Country: France
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,        ~affiliation,
+   1L,  "Danxia",   "Wong", "TaurumLabs France"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

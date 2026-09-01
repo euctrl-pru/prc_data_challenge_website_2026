@@ -1,0 +1,27 @@
+
+---
+title: nimble-sandwich
+date: 2026-09-01
+subtitle: Portugal
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+An engineering-driven team focused on applying advanced data methodologies, queueing theory, and predictive modeling to solve complex aviation congestion and operational challenges.
+
+## Details
+
+* Type: Industry, Independent
+* Country: Portugal
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,       ~affiliation,
+   1L,  "Nelson", "Vicente", "Serial Alice Lda"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
