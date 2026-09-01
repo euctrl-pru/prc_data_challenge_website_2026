@@ -1,0 +1,27 @@
+
+---
+title: merry-utensil
+date: 2026-09-01
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Creative AI Developer - passionate by data vizualisation
+
+## Details
+
+* Type: Independent
+* Country: France
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L,  "MANUEL", "REISMANN", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

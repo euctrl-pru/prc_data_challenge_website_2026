@@ -1,0 +1,27 @@
+
+---
+title: thoughtful-glove
+date: 2026-09-01
+subtitle: Philippines
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Ph.D. in Artificial Intelligence student from the University of the Philippines Diliman who builds practical machine learning and AI for aviation.
+
+## Details
+
+* Type: Academia
+* Country: Philippines
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,                            ~affiliation,
+   1L, "Michael", "Ignacio", "University of the Philippines Diliman"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
