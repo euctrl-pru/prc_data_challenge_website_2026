@@ -2,7 +2,7 @@
 ---
 title: outgoing-wizard
 date: 2026-09-01
-subtitle: Georgia
+subtitle: Ukraine
 acronyms:
   insert_loa: false
 ---
@@ -14,7 +14,7 @@ i am solopreneur making apps in web field and also passionate about aviation
 ## Details
 
 * Type: Independent
-* Country: Georgia
+* Country: Ukraine
 
 ```{r echo=FALSE}
 library(gt)
