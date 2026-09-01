@@ -1,6 +1,6 @@
 
 ---
-title: peaceful-rainbow
+title: motivated-lemon
 date: 2026-09-01
 subtitle: France
 acronyms:
@@ -9,7 +9,7 @@ acronyms:
 
 ## Description and Rationale
 
-Enthusiastic Data Analyst seeking for challenges
+I'm an aviation professional (work as french ATCO) who wants to learn about ML for educational purpose. Self-learner in that field.
 
 ## Details
 
@@ -20,8 +20,8 @@ Enthusiastic Data Analyst seeking for challenges
 library(gt)
 
 gt(tibble::tribble(
-  ~id, ~forename,   ~surname,  ~affiliation,
-   1L,   "Louis", "Beaulieu", "Independent"
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
 )
 ) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
 ```
