@@ -1,0 +1,27 @@
+
+---
+title: enthusiastic-strawberry
+date: 2026-09-01
+subtitle: Nigeria
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an independent participant with a background in civil engineering and a growing focus on AI, machine learning, and LLM engineering. I decided to register for the PRC Data Challenge 2026 because I want to apply my machine learning skills to a real-world problem outside my usual domain and learn from working with open aviation data. I am particularly interested in developing a strong, reproducible solution to the taxi-out time prediction problem and sharing the code and methodology openly as part of the challenge's open-science goals.
+
+## Details
+
+* Type: Independent
+* Country: Nigeria
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L,  "Victor", "Adewoyin", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

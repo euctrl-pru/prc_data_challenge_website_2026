@@ -1,0 +1,29 @@
+
+---
+title: optimistic-insect
+date: 2026-09-01
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+An M.Tech Data Science student at Amrita Vishwa Vidyapeetham, Bengaluru, with a strong background in machine learning,AI, NLP, and computer vision.
+
+Registered for the challenge to apply advanced AI and predictive modeling techniques to real-world data problems, push the boundaries of multimodal learning, and collaborate with data professionals to build impactful solutions.
+
+## Details
+
+* Type: Academia, Independent
+* Country: India
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename,     ~surname,                 ~affiliation,
+   1L, "Anil kumar", "pothireddy", "Amrita Vishwa Vidyapeetham"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
