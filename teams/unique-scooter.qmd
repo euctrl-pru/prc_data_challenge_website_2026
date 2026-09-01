@@ -1,0 +1,27 @@
+
+---
+title: unique-scooter
+date: 2026-09-01
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.
+
+## Details
+
+* Type: Independent
+* Country: Spain
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L,  "Andres", "Senaris", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

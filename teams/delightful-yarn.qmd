@@ -1,0 +1,28 @@
+
+---
+title: delightful-yarn
+date: 2026-09-01
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of data and technology professionals with a strong interest in aviation operations, analytics, and machine learning. Our backgrounds include data analysis, software engineering, system operations, and performance optimization, and we share a common passion for solving real-world challenges through data-driven approaches.
+
+## Details
+
+* Type: Independent
+* Country: Spain
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,          ~surname, ~affiliation,
+   1L, "José M.",   "Martínez Ruiz",        "ECI",
+   2L,    "Iván", "Martínez Cuevas",     "PROSUR"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

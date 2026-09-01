@@ -1,5 +1,44 @@
 [
   {
+    "objectID": "teams/versatile-violin.html",
+    "href": "teams/versatile-violin.html",
+    "title": "versatile-violin",
+    "section": "",
+    "text": "I’m Arnav Hemanth, a final-year Computer Science (Data Science) student at Dayananda Sagar Academy of Technology and Management in Bengaluru, India. Solo entry.\nMost of what I’ve built is aviation predictive maintenance. My main project is EngineWatch (enginewatch.tech), an interpretable engine health monitoring and remaining-useful-life system trained on NASA’s C-MAPSS turbofan data. It’s deployed and running, not a notebook. The thing I care about there is that every prediction traces back to specific sensors — no deep learning, no post-hoc explanation layer sitting on top of a black box.\nI registered because taxi-out is a problem I want to be better at. Engine degradation is slow and physical. Taxi-out is operational — queues, runway configuration, how an airport actually behaves at 07:00 on a Monday. Same tooling, completely different reasoning, and I’d rather learn that against a public leaderboard than on my own.\nI’m also curious whether a model you can actually explain stays competitive here. That’s the position I’ve been working from for about a year and I’ve never tested it somewhere the score is public. If it holds up, I want to write it up for JOAS. If it doesn’t, that’s worth writing up too.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "versatile-violin"
+    ]
+  },
+  {
+    "objectID": "teams/versatile-violin.html#description-and-rationale",
+    "href": "teams/versatile-violin.html#description-and-rationale",
+    "title": "versatile-violin",
+    "section": "",
+    "text": "I’m Arnav Hemanth, a final-year Computer Science (Data Science) student at Dayananda Sagar Academy of Technology and Management in Bengaluru, India. Solo entry.\nMost of what I’ve built is aviation predictive maintenance. My main project is EngineWatch (enginewatch.tech), an interpretable engine health monitoring and remaining-useful-life system trained on NASA’s C-MAPSS turbofan data. It’s deployed and running, not a notebook. The thing I care about there is that every prediction traces back to specific sensors — no deep learning, no post-hoc explanation layer sitting on top of a black box.\nI registered because taxi-out is a problem I want to be better at. Engine degradation is slow and physical. Taxi-out is operational — queues, runway configuration, how an airport actually behaves at 07:00 on a Monday. Same tooling, completely different reasoning, and I’d rather learn that against a public leaderboard than on my own.\nI’m also curious whether a model you can actually explain stays competitive here. That’s the position I’ve been working from for about a year and I’ve never tested it somewhere the score is public. If it holds up, I want to write it up for JOAS. If it doesn’t, that’s worth writing up too.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "versatile-violin"
+    ]
+  },
+  {
+    "objectID": "teams/versatile-violin.html#details",
+    "href": "teams/versatile-violin.html#details",
+    "title": "versatile-violin",
+    "section": "Details",
+    "text": "Details\n\nType: Academia, Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nArnav\nHemanth\nDayananda Sagar Academy of Technology and Management",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "versatile-violin"
+    ]
+  },
+  {
     "objectID": "teams/thoughtful-scooter.html",
     "href": "teams/thoughtful-scooter.html",
     "title": "thoughtful-scooter",
@@ -39,93 +78,159 @@
     ]
   },
   {
-    "objectID": "teams/modest-quilt.html",
-    "href": "teams/modest-quilt.html",
-    "title": "modest-quilt",
+    "objectID": "teams/strong-crane.html",
+    "href": "teams/strong-crane.html",
+    "title": "strong-crane",
     "section": "",
-    "text": "Data scientist and aviation enthusiast based in LA, excited to be back for a third year of this challenge!",
+    "text": "I am a reseracher working in aviation domain.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "modest-quilt"
+      "strong-crane"
     ]
   },
   {
-    "objectID": "teams/modest-quilt.html#description-and-rationale",
-    "href": "teams/modest-quilt.html#description-and-rationale",
-    "title": "modest-quilt",
+    "objectID": "teams/strong-crane.html#description-and-rationale",
+    "href": "teams/strong-crane.html#description-and-rationale",
+    "title": "strong-crane",
     "section": "",
-    "text": "Data scientist and aviation enthusiast based in LA, excited to be back for a third year of this challenge!",
+    "text": "I am a reseracher working in aviation domain.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "modest-quilt"
+      "strong-crane"
     ]
   },
   {
-    "objectID": "teams/modest-quilt.html#details",
-    "href": "teams/modest-quilt.html#details",
-    "title": "modest-quilt",
+    "objectID": "teams/strong-crane.html#details",
+    "href": "teams/strong-crane.html#details",
+    "title": "strong-crane",
     "section": "Details",
-    "text": "Details\n\nType: Industry\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nConor\nMcLaughlin\nIndependent",
+    "text": "Details\n\nType: Academia\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSomnath\nPanigrahi\nTU Dresden",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "modest-quilt"
+      "strong-crane"
     ]
   },
   {
-    "objectID": "teams/index.html#teams",
-    "href": "teams/index.html#teams",
-    "title": "Registrations et al.",
-    "section": "Teams",
-    "text": "Teams",
-    "crumbs": [
-      "Publications",
-      "Registrations",
-      "Stats"
-    ]
-  },
-  {
-    "objectID": "teams/generous-jungle.html",
-    "href": "teams/generous-jungle.html",
-    "title": "generous-jungle",
+    "objectID": "teams/jolly-snowflake.html",
+    "href": "teams/jolly-snowflake.html",
+    "title": "jolly-snowflake",
     "section": "",
-    "text": "Aviation and data enthusiasts",
+    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "generous-jungle"
+      "jolly-snowflake"
     ]
   },
   {
-    "objectID": "teams/generous-jungle.html#description-and-rationale",
-    "href": "teams/generous-jungle.html#description-and-rationale",
-    "title": "generous-jungle",
+    "objectID": "teams/jolly-snowflake.html#description-and-rationale",
+    "href": "teams/jolly-snowflake.html#description-and-rationale",
+    "title": "jolly-snowflake",
     "section": "",
-    "text": "Aviation and data enthusiasts",
+    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "generous-jungle"
+      "jolly-snowflake"
     ]
   },
   {
-    "objectID": "teams/generous-jungle.html#details",
-    "href": "teams/generous-jungle.html#details",
-    "title": "generous-jungle",
+    "objectID": "teams/jolly-snowflake.html#details",
+    "href": "teams/jolly-snowflake.html#details",
+    "title": "jolly-snowflake",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: Switzerland\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nChristopher\nTibaldo\nUnknow",
+    "text": "Details\n\nType: Industry\nCountry: Ghana\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nIsaac Oluwafemi\nOgunniyi\nindependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "generous-jungle"
+      "jolly-snowflake"
+    ]
+  },
+  {
+    "objectID": "teams/gentle-xylophone.html",
+    "href": "teams/gentle-xylophone.html",
+    "title": "gentle-xylophone",
+    "section": "",
+    "text": "I’m a technology leader who enjoys working with messy, real-world operational data and turning it into solid models and pipelines. As to why I joined, I just love a good challenge. especially one like this that will likely require models that aren’t necessarily traditional. Ground operations have so many dynamic moving parts, and exploring creative, non-standard approaches to predict taxi-out times is exactly the kind of puzzle I enjoy tackling.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "gentle-xylophone"
+    ]
+  },
+  {
+    "objectID": "teams/gentle-xylophone.html#description-and-rationale",
+    "href": "teams/gentle-xylophone.html#description-and-rationale",
+    "title": "gentle-xylophone",
+    "section": "",
+    "text": "I’m a technology leader who enjoys working with messy, real-world operational data and turning it into solid models and pipelines. As to why I joined, I just love a good challenge. especially one like this that will likely require models that aren’t necessarily traditional. Ground operations have so many dynamic moving parts, and exploring creative, non-standard approaches to predict taxi-out times is exactly the kind of puzzle I enjoy tackling.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "gentle-xylophone"
+    ]
+  },
+  {
+    "objectID": "teams/gentle-xylophone.html#details",
+    "href": "teams/gentle-xylophone.html#details",
+    "title": "gentle-xylophone",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: Egypt\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nKhaled\nAbbas\nindependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "gentle-xylophone"
+    ]
+  },
+  {
+    "objectID": "teams/enthusiastic-daisy.html",
+    "href": "teams/enthusiastic-daisy.html",
+    "title": "enthusiastic-daisy",
+    "section": "",
+    "text": "I am a PhD student conducting research on deep learning-based aircraft trajectory prediction and data-driven methods for aviation applications. My research focuses on using advanced deep learning models to better understand and predict aircraft motion from real-world flight data.\nI decided to participate in the PRC Data Challenge because taxi-out time prediction is a challenging and practically important problem that connects closely with my research interests in aviation data analytics and prediction. The challenge provides a valuable opportunity to apply modern machine learning and deep learning methods to real operational data, explore the factors affecting airport surface operations, and evaluate these methods in a rigorous and competitive setting.\nI also hope to learn from the wider aviation research community and contribute reproducible and useful methodologies that may help improve the efficiency and sustainability of air traffic operations.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "enthusiastic-daisy"
+    ]
+  },
+  {
+    "objectID": "teams/enthusiastic-daisy.html#description-and-rationale",
+    "href": "teams/enthusiastic-daisy.html#description-and-rationale",
+    "title": "enthusiastic-daisy",
+    "section": "",
+    "text": "I am a PhD student conducting research on deep learning-based aircraft trajectory prediction and data-driven methods for aviation applications. My research focuses on using advanced deep learning models to better understand and predict aircraft motion from real-world flight data.\nI decided to participate in the PRC Data Challenge because taxi-out time prediction is a challenging and practically important problem that connects closely with my research interests in aviation data analytics and prediction. The challenge provides a valuable opportunity to apply modern machine learning and deep learning methods to real operational data, explore the factors affecting airport surface operations, and evaluate these methods in a rigorous and competitive setting.\nI also hope to learn from the wider aviation research community and contribute reproducible and useful methodologies that may help improve the efficiency and sustainability of air traffic operations.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "enthusiastic-daisy"
+    ]
+  },
+  {
+    "objectID": "teams/enthusiastic-daisy.html#details",
+    "href": "teams/enthusiastic-daisy.html#details",
+    "title": "enthusiastic-daisy",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: China\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJunguo\nSong\nnortheast university",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "enthusiastic-daisy"
     ]
   },
   {
@@ -384,159 +489,210 @@
     ]
   },
   {
-    "objectID": "teams/enthusiastic-daisy.html",
-    "href": "teams/enthusiastic-daisy.html",
-    "title": "enthusiastic-daisy",
+    "objectID": "teams/delightful-yarn.html",
+    "href": "teams/delightful-yarn.html",
+    "title": "delightful-yarn",
     "section": "",
-    "text": "I am a PhD student conducting research on deep learning-based aircraft trajectory prediction and data-driven methods for aviation applications. My research focuses on using advanced deep learning models to better understand and predict aircraft motion from real-world flight data.\nI decided to participate in the PRC Data Challenge because taxi-out time prediction is a challenging and practically important problem that connects closely with my research interests in aviation data analytics and prediction. The challenge provides a valuable opportunity to apply modern machine learning and deep learning methods to real operational data, explore the factors affecting airport surface operations, and evaluate these methods in a rigorous and competitive setting.\nI also hope to learn from the wider aviation research community and contribute reproducible and useful methodologies that may help improve the efficiency and sustainability of air traffic operations.",
+    "text": "We are a team of data and technology professionals with a strong interest in aviation operations, analytics, and machine learning. Our backgrounds include data analysis, software engineering, system operations, and performance optimization, and we share a common passion for solving real-world challenges through data-driven approaches.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "enthusiastic-daisy"
+      "delightful-yarn"
     ]
   },
   {
-    "objectID": "teams/enthusiastic-daisy.html#description-and-rationale",
-    "href": "teams/enthusiastic-daisy.html#description-and-rationale",
-    "title": "enthusiastic-daisy",
+    "objectID": "teams/delightful-yarn.html#description-and-rationale",
+    "href": "teams/delightful-yarn.html#description-and-rationale",
+    "title": "delightful-yarn",
     "section": "",
-    "text": "I am a PhD student conducting research on deep learning-based aircraft trajectory prediction and data-driven methods for aviation applications. My research focuses on using advanced deep learning models to better understand and predict aircraft motion from real-world flight data.\nI decided to participate in the PRC Data Challenge because taxi-out time prediction is a challenging and practically important problem that connects closely with my research interests in aviation data analytics and prediction. The challenge provides a valuable opportunity to apply modern machine learning and deep learning methods to real operational data, explore the factors affecting airport surface operations, and evaluate these methods in a rigorous and competitive setting.\nI also hope to learn from the wider aviation research community and contribute reproducible and useful methodologies that may help improve the efficiency and sustainability of air traffic operations.",
+    "text": "We are a team of data and technology professionals with a strong interest in aviation operations, analytics, and machine learning. Our backgrounds include data analysis, software engineering, system operations, and performance optimization, and we share a common passion for solving real-world challenges through data-driven approaches.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "enthusiastic-daisy"
+      "delightful-yarn"
     ]
   },
   {
-    "objectID": "teams/enthusiastic-daisy.html#details",
-    "href": "teams/enthusiastic-daisy.html#details",
-    "title": "enthusiastic-daisy",
+    "objectID": "teams/delightful-yarn.html#details",
+    "href": "teams/delightful-yarn.html#details",
+    "title": "delightful-yarn",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: China\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJunguo\nSong\nnortheast university",
+    "text": "Details\n\nType: Independent\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJosé M.\nMartínez Ruiz\nECI\n\n\n2\nIván\nMartínez Cuevas\nPROSUR",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "enthusiastic-daisy"
+      "delightful-yarn"
     ]
   },
   {
-    "objectID": "teams/gentle-xylophone.html",
-    "href": "teams/gentle-xylophone.html",
-    "title": "gentle-xylophone",
+    "objectID": "teams/generous-jungle.html",
+    "href": "teams/generous-jungle.html",
+    "title": "generous-jungle",
     "section": "",
-    "text": "I’m a technology leader who enjoys working with messy, real-world operational data and turning it into solid models and pipelines. As to why I joined, I just love a good challenge. especially one like this that will likely require models that aren’t necessarily traditional. Ground operations have so many dynamic moving parts, and exploring creative, non-standard approaches to predict taxi-out times is exactly the kind of puzzle I enjoy tackling.",
+    "text": "Aviation and data enthusiasts",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "gentle-xylophone"
+      "generous-jungle"
     ]
   },
   {
-    "objectID": "teams/gentle-xylophone.html#description-and-rationale",
-    "href": "teams/gentle-xylophone.html#description-and-rationale",
-    "title": "gentle-xylophone",
+    "objectID": "teams/generous-jungle.html#description-and-rationale",
+    "href": "teams/generous-jungle.html#description-and-rationale",
+    "title": "generous-jungle",
     "section": "",
-    "text": "I’m a technology leader who enjoys working with messy, real-world operational data and turning it into solid models and pipelines. As to why I joined, I just love a good challenge. especially one like this that will likely require models that aren’t necessarily traditional. Ground operations have so many dynamic moving parts, and exploring creative, non-standard approaches to predict taxi-out times is exactly the kind of puzzle I enjoy tackling.",
+    "text": "Aviation and data enthusiasts",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "gentle-xylophone"
+      "generous-jungle"
     ]
   },
   {
-    "objectID": "teams/gentle-xylophone.html#details",
-    "href": "teams/gentle-xylophone.html#details",
-    "title": "gentle-xylophone",
+    "objectID": "teams/generous-jungle.html#details",
+    "href": "teams/generous-jungle.html#details",
+    "title": "generous-jungle",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Egypt\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nKhaled\nAbbas\nindependent",
+    "text": "Details\n\nType: Academia\nCountry: Switzerland\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nChristopher\nTibaldo\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "gentle-xylophone"
+      "generous-jungle"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html",
-    "href": "teams/jolly-snowflake.html",
-    "title": "jolly-snowflake",
+    "objectID": "teams/index.html#teams",
+    "href": "teams/index.html#teams",
+    "title": "Registrations et al.",
+    "section": "Teams",
+    "text": "Teams",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Stats"
+    ]
+  },
+  {
+    "objectID": "teams/modest-quilt.html",
+    "href": "teams/modest-quilt.html",
+    "title": "modest-quilt",
     "section": "",
-    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "text": "Data scientist and aviation enthusiast based in LA, excited to be back for a third year of this challenge!",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "modest-quilt"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html#description-and-rationale",
-    "href": "teams/jolly-snowflake.html#description-and-rationale",
-    "title": "jolly-snowflake",
+    "objectID": "teams/modest-quilt.html#description-and-rationale",
+    "href": "teams/modest-quilt.html#description-and-rationale",
+    "title": "modest-quilt",
     "section": "",
-    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "text": "Data scientist and aviation enthusiast based in LA, excited to be back for a third year of this challenge!",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "modest-quilt"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html#details",
-    "href": "teams/jolly-snowflake.html#details",
-    "title": "jolly-snowflake",
+    "objectID": "teams/modest-quilt.html#details",
+    "href": "teams/modest-quilt.html#details",
+    "title": "modest-quilt",
     "section": "Details",
-    "text": "Details\n\nType: Industry\nCountry: Ghana\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nIsaac Oluwafemi\nOgunniyi\nindependent",
+    "text": "Details\n\nType: Industry\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nConor\nMcLaughlin\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "modest-quilt"
     ]
   },
   {
-    "objectID": "teams/strong-crane.html",
-    "href": "teams/strong-crane.html",
-    "title": "strong-crane",
+    "objectID": "teams/thoughtful-kiwi.html",
+    "href": "teams/thoughtful-kiwi.html",
+    "title": "thoughtful-kiwi",
     "section": "",
-    "text": "I am a reseracher working in aviation domain.",
+    "text": "Private Pilot, Aviation enthusiast and independant researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "strong-crane"
+      "thoughtful-kiwi"
     ]
   },
   {
-    "objectID": "teams/strong-crane.html#description-and-rationale",
-    "href": "teams/strong-crane.html#description-and-rationale",
-    "title": "strong-crane",
+    "objectID": "teams/thoughtful-kiwi.html#description-and-rationale",
+    "href": "teams/thoughtful-kiwi.html#description-and-rationale",
+    "title": "thoughtful-kiwi",
     "section": "",
-    "text": "I am a reseracher working in aviation domain.",
+    "text": "Private Pilot, Aviation enthusiast and independant researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "strong-crane"
+      "thoughtful-kiwi"
     ]
   },
   {
-    "objectID": "teams/strong-crane.html#details",
-    "href": "teams/strong-crane.html#details",
-    "title": "strong-crane",
+    "objectID": "teams/thoughtful-kiwi.html#details",
+    "href": "teams/thoughtful-kiwi.html#details",
+    "title": "thoughtful-kiwi",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSomnath\nPanigrahi\nTU Dresden",
+    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJeffrey\nSchafer\nindependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "strong-crane"
+      "thoughtful-kiwi"
+    ]
+  },
+  {
+    "objectID": "teams/unique-scooter.html",
+    "href": "teams/unique-scooter.html",
+    "title": "unique-scooter",
+    "section": "",
+    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "unique-scooter"
+    ]
+  },
+  {
+    "objectID": "teams/unique-scooter.html#description-and-rationale",
+    "href": "teams/unique-scooter.html#description-and-rationale",
+    "title": "unique-scooter",
+    "section": "",
+    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "unique-scooter"
+    ]
+  },
+  {
+    "objectID": "teams/unique-scooter.html#details",
+    "href": "teams/unique-scooter.html#details",
+    "title": "unique-scooter",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAndres\nSenaris\nIndependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "unique-scooter"
     ]
   }
 ]

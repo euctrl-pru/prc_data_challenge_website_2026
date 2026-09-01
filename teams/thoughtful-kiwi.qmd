@@ -1,0 +1,27 @@
+
+---
+title: thoughtful-kiwi
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Private Pilot, Aviation enthusiast and independant researcher
+
+## Details
+
+* Type: Independent
+* Country: United States
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L, "Jeffrey", "Schafer", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

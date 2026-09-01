@@ -1,0 +1,33 @@
+
+---
+title: versatile-violin
+date: 2026-09-01
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Arnav Hemanth, a final-year Computer Science (Data Science) student at Dayananda Sagar Academy of Technology and Management in Bengaluru, India. Solo entry.
+
+Most of what I've built is aviation predictive maintenance. My main project is EngineWatch (enginewatch.tech), an interpretable engine health monitoring and remaining-useful-life system trained on NASA's C-MAPSS turbofan data. It's deployed and running, not a notebook. The thing I care about there is that every prediction traces back to specific sensors — no deep learning, no post-hoc explanation layer sitting on top of a black box.
+
+I registered because taxi-out is a problem I want to be better at. Engine degradation is slow and physical. Taxi-out is operational — queues, runway configuration, how an airport actually behaves at 07:00 on a Monday. Same tooling, completely different reasoning, and I'd rather learn that against a public leaderboard than on my own.
+
+I'm also curious whether a model you can actually explain stays competitive here. That's the position I've been working from for about a year and I've never tested it somewhere the score is public. If it holds up, I want to write it up for JOAS. If it doesn't, that's worth writing up too.
+
+## Details
+
+* Type: Academia, Independent
+* Country: India
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,                                           ~affiliation,
+   1L,   "Arnav", "Hemanth", "Dayananda Sagar Academy of Technology and Management"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
