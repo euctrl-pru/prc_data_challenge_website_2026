@@ -117,42 +117,54 @@
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html",
-    "href": "teams/jolly-snowflake.html",
-    "title": "jolly-snowflake",
+    "objectID": "teams/joyous-pencil.html",
+    "href": "teams/joyous-pencil.html",
+    "title": "joyous-pencil",
     "section": "",
-    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "text": "Incident Response analyst, working on projects involving AI (deep learning and agentic AI) and cyber-defense. I am an aviation geek and love to also apply AI within the aviation sector. This is the best opportunity to perform such thing.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "joyous-pencil"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html#description-and-rationale",
-    "href": "teams/jolly-snowflake.html#description-and-rationale",
-    "title": "jolly-snowflake",
+    "objectID": "teams/joyous-pencil.html#description-and-rationale",
+    "href": "teams/joyous-pencil.html#description-and-rationale",
+    "title": "joyous-pencil",
     "section": "",
-    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "text": "Incident Response analyst, working on projects involving AI (deep learning and agentic AI) and cyber-defense. I am an aviation geek and love to also apply AI within the aviation sector. This is the best opportunity to perform such thing.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "joyous-pencil"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html#details",
-    "href": "teams/jolly-snowflake.html#details",
-    "title": "jolly-snowflake",
+    "objectID": "teams/joyous-pencil.html#details",
+    "href": "teams/joyous-pencil.html#details",
+    "title": "joyous-pencil",
     "section": "Details",
-    "text": "Details\n\nType: Industry\nCountry: Ghana\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nIsaac Oluwafemi\nOgunniyi\nindependent",
+    "text": "Details\n\nType: Independent\nCountry: Algeria\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nImad Eddine\nYamani\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "joyous-pencil"
+    ]
+  },
+  {
+    "objectID": "teams/index.html#teams",
+    "href": "teams/index.html#teams",
+    "title": "Registrations et al.",
+    "section": "Teams",
+    "text": "Teams",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Stats"
     ]
   },
   {
@@ -567,15 +579,81 @@
     ]
   },
   {
-    "objectID": "teams/index.html#teams",
-    "href": "teams/index.html#teams",
-    "title": "Registrations et al.",
-    "section": "Teams",
-    "text": "Teams",
+    "objectID": "teams/hardworking-kiwi.html",
+    "href": "teams/hardworking-kiwi.html",
+    "title": "hardworking-kiwi",
+    "section": "",
+    "text": "I’m a 4th year undergraduate of a BEng in Artificial Intelligence. I like participating in competitions of this kind since I always learn something new.",
     "crumbs": [
       "Publications",
       "Registrations",
-      "Stats"
+      "Teams",
+      "hardworking-kiwi"
+    ]
+  },
+  {
+    "objectID": "teams/hardworking-kiwi.html#description-and-rationale",
+    "href": "teams/hardworking-kiwi.html#description-and-rationale",
+    "title": "hardworking-kiwi",
+    "section": "",
+    "text": "I’m a 4th year undergraduate of a BEng in Artificial Intelligence. I like participating in competitions of this kind since I always learn something new.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "hardworking-kiwi"
+    ]
+  },
+  {
+    "objectID": "teams/hardworking-kiwi.html#details",
+    "href": "teams/hardworking-kiwi.html#details",
+    "title": "hardworking-kiwi",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJacobo\nMartin\nUniversity Francisco de Vitoria",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "hardworking-kiwi"
+    ]
+  },
+  {
+    "objectID": "teams/jolly-snowflake.html",
+    "href": "teams/jolly-snowflake.html",
+    "title": "jolly-snowflake",
+    "section": "",
+    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "jolly-snowflake"
+    ]
+  },
+  {
+    "objectID": "teams/jolly-snowflake.html#description-and-rationale",
+    "href": "teams/jolly-snowflake.html#description-and-rationale",
+    "title": "jolly-snowflake",
+    "section": "",
+    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "jolly-snowflake"
+    ]
+  },
+  {
+    "objectID": "teams/jolly-snowflake.html#details",
+    "href": "teams/jolly-snowflake.html#details",
+    "title": "jolly-snowflake",
+    "section": "Details",
+    "text": "Details\n\nType: Industry\nCountry: Ghana\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nIsaac Oluwafemi\nOgunniyi\nindependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "jolly-snowflake"
     ]
   },
   {
