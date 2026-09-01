@@ -1,27 +1,27 @@
 
 ---
-title: outgoing-wizard
+title: peaceful-rainbow
 date: 2026-09-01
-subtitle: Georgia
+subtitle: France
 acronyms:
   insert_loa: false
 ---
 
 ## Description and Rationale
 
-i am solopreneur making apps in web field and also passionate about aviation
+Enthusiastic Data Analyst seeking for challenges
 
 ## Details
 
 * Type: Independent
-* Country: Georgia
+* Country: France
 
 ```{r echo=FALSE}
 library(gt)
 
 gt(tibble::tribble(
   ~id, ~forename,   ~surname,  ~affiliation,
-   1L,    "AKIM", "KHALILOV", "Independent"
+   1L,   "Louis", "Beaulieu", "independant"
 )
 ) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
 ```
