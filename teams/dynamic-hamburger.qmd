@@ -1,0 +1,27 @@
+
+---
+title: dynamic-hamburger
+date: 2026-09-01
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent applied scientist and passionate ADS-B telemetry enthusiast competing as a single-person team. Combines professional experience in large-scale machine learning systems with hands-on aviation data workflows to model surface congestion, airport operational dynamics, and ground movement. Eager to leverage open datasets to deliver accurate, reproducible taxi-out time predictions for European airspace efficiency.
+
+## Details
+
+* Type: Independent
+* Country: Netherlands
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename,         ~surname,  ~affiliation,
+   1L, "Theofilos", "Papapanagiotou", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

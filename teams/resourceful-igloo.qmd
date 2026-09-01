@@ -1,0 +1,27 @@
+
+---
+title: resourceful-igloo
+date: 2026-09-01
+subtitle: Canada
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+An aviation enthusiast and future aerobatics pilot. Currently working as a data scientist, familiarizing with aviation industry through data and processes. I am joining this competition to learn while building impactful models.
+
+## Details
+
+* Type: Independent
+* Country: Canada
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Ruchir",  "Attri", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

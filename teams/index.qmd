@@ -39,9 +39,12 @@ acronyms:
 </style>
 
 <iframe
-  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard@753?cells=cumulative_registrations">
+  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard?cells=cumulative_registrations">
 </iframe>
 ```
+
+In case of problems with the embedded `iframe` you can have a look at the
+Observable notebook <https://observablehq.com/@espinielli/dc26-leaderboard>
 
 
 ## Teams 
