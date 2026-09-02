@@ -1,0 +1,27 @@
+
+---
+title: amiable-teapot
+date: 2026-09-01
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+A recent graduate trying to learn more about machine learning and deep learning. Planning on getting into research (current working as a SDE)
+
+## Details
+
+* Type: Independent
+* Country: India
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L, "Dhruval",  "Padia", "Independent"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

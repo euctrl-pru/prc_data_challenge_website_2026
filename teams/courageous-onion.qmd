@@ -1,0 +1,27 @@
+
+---
+title: courageous-onion
+date: 2026-09-02
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+ML Researcher specializing in optimization
+
+## Details
+
+* Type: Academia
+* Country: India
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,         ~forename,     ~surname,                    ~affiliation,
+   1L, "Ananta Krishnan", "Manoranjan", "New York University Abu Dhabi"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

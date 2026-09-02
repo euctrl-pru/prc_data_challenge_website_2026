@@ -1,0 +1,27 @@
+
+---
+title: respectful-volcano
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent data researcher and AV geek. Passionate about open technologies and wanted to learn more about the data behind the challenge.
+
+## Details
+
+* Type: Independent
+* Country: United States
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname, ~affiliation,
+   1L, "EDWARD J",   "DOWD",  "Bulk Data"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

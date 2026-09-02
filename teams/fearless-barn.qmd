@@ -1,0 +1,27 @@
+
+---
+title: fearless-barn
+date: 2026-09-02
+subtitle: Singapore
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Student in Singapore Institute of Technology. To challenge myself in tackling AI ML problems
+
+## Details
+
+* Type: Academia
+* Country: Singapore
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                        ~affiliation,
+   1L,   "Eddie",   "Seet", "Singapore Institute of Technology"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -25,6 +25,6 @@ gt(tibble::tribble(
    1L,      "Alioune Badara",  "DUPUY", "independent",
    2L,       "Ibrahima Sory", "Diallo", "SIMSkyGreen",
    3L, "Mouhamadou Mousliou", "Diallo", "SIMSKyGreen"
-)
+  )
 ) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
 ```
