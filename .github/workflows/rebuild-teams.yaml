@@ -2,8 +2,12 @@ name: Rebuild teams pages
 
 on:
   schedule:
-    # every 15 minutes
-    - cron: "*/15 * * * *"
+    # Hourly. GitHub's scheduler is a shared, contended queue: high-frequency
+    # crons such as */15 are routinely delayed or dropped altogether, so an
+    # hourly slot is in practice more dependable than a quarter-hourly one.
+    # Use the workflow_dispatch trigger to rebuild immediately when a team
+    # has just been approved.
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 concurrency:
