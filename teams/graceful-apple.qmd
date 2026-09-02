@@ -1,0 +1,27 @@
+
+---
+title: graceful-apple
+date: 2026-09-02
+subtitle: Switzerland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I signed up for this EUROCONTROL PRC event because I am passionate about applying data science and analytics to real-world aviation challenges. I’m excited to work with open data, collaborate with other experts, and tackle complex problems like improving flight predictability and reducing fuel burn. It’s a fantastic opportunity to test my technical skills while contributing to a more efficient and sustainable European air traffic network.
+
+## Details
+
+* Type: Independent
+* Country: Switzerland
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
