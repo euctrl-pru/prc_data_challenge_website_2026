@@ -151,10 +151,22 @@ get_teams_all <- function(teams_raw) {
 get_teams_raw <- function() {
   teams_gsheet <- "1nrV_N0T8141dI6cFty6-EA1v7tWeqxzZWo_Bi3dACIk"
 
-  googlesheets4::gs4_auth(
-    email = "enrico.spinielli@gmail.com",
-    scope = "https://www.googleapis.com/auth/drive"
-  )
+  # In CI (or any headless environment) authenticate with a service account
+  # whose JSON key path is given by GOOGLE_SHEETS_SA_JSON; the sheet must be
+  # shared with that service account's email. Locally, fall back to the
+  # interactive OAuth flow.
+  sa_json <- Sys.getenv("GOOGLE_SHEETS_SA_JSON")
+  if (nzchar(sa_json)) {
+    googlesheets4::gs4_auth(
+      path = sa_json,
+      scope = "https://www.googleapis.com/auth/drive"
+    )
+  } else {
+    googlesheets4::gs4_auth(
+      email = "enrico.spinielli@gmail.com",
+      scope = "https://www.googleapis.com/auth/drive"
+    )
+  }
   googlesheets4::read_sheet(teams_gsheet, sheet = "better_colnames") |>
     dplyr::filter(
       !account %in%
