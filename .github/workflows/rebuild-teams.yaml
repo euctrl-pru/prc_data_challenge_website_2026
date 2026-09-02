@@ -2,8 +2,12 @@ name: Rebuild teams pages
 
 on:
   schedule:
-    # every 15 minutes
-    - cron: "*/15 * * * *"
+    # Hourly. GitHub's scheduler is a shared, contended queue: high-frequency
+    # crons such as */15 are routinely delayed or dropped altogether, so an
+    # hourly slot is in practice more dependable than a quarter-hourly one.
+    # Use the workflow_dispatch trigger to rebuild immediately when a team
+    # has just been approved.
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -90,7 +94,7 @@ jobs:
         if: always()
         run: rm -f "$RUNNER_TEMP/gsheets-sa.json"
 
-      - name: Commit and push if the output changed
+      - name: Commit and push the rebuilt pages
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -100,10 +104,8 @@ jobs:
           # the `publish-teams` just recipe
           git add -f _site _freeze teams
 
-          if git diff --cached --quiet; then
-            echo "No changes to the generated pages; nothing to push."
-            exit 0
-          fi
-
-          git commit -m "regenerate teams pages"
+          # Commit unconditionally, even when the rebuilt output is identical
+          # to the previous run: --allow-empty keeps the step from failing
+          # under `set -e` when there is nothing staged.
+          git commit --allow-empty -m "regenerate teams pages"
           git push origin "HEAD:$TARGET_BRANCH"
