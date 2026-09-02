@@ -1,0 +1,27 @@
+
+---
+title: nimble-moose
+date: 2026-09-02
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Researcher from an aerospace engineering school in France, participating in the PRC Challenge out of interest in aviation data problems.
+
+## Details
+
+* Type: Academia
+* Country: France
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename, ~surname,  ~affiliation,
+   1L, "Chung-Huan",    "LIU", "independent"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

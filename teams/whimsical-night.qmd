@@ -1,0 +1,36 @@
+
+---
+title: whimsical-night
+date: 2026-09-01
+subtitle: Poland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a multidisciplinary aviation and data science team from Viaratech, combining expertise in aerospace engineering, software and data engineering, machine learning, and aviation operations.
+
+Our team brings together experience from both the aviation industry and large-scale data and technology environments. This gives us an opportunity to approach the challenge not only as a machine-learning prediction problem, but also from the perspective of the physical and operational factors that influence aircraft ground movements.
+
+We decided to participate in the PRC Data Challenge because taxi-out time is a particularly interesting example of a highly variable aviation process where operational conditions, airport configuration, traffic intensity, aircraft characteristics and network effects interact. Developing a model that performs well across 11 major European airports therefore represents both an interesting data-science problem and a practical aviation challenge.
+
+Our objective is to explore a transparent and reproducible modelling approach that combines aviation-domain understanding with data-driven feature engineering and machine-learning methods. We are particularly interested in understanding which operational variables explain taxi-out variability and how well those relationships generalise across different airports and operating conditions.
+
+The challenge also strongly aligns with our interest in open aviation research. Beyond achieving a competitive prediction accuracy, we hope to produce an interpretable and reproducible methodology that contributes useful insights to the wider aviation community.
+
+## Details
+
+* Type: Independent
+* Country: Poland
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename, ~surname, ~affiliation,
+   1L, "Malgorzata", "Tolisz",  "Viaratech",
+   2L,      "Kasia", "Tolisz",  "Viaratech"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

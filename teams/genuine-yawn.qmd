@@ -1,0 +1,27 @@
+
+---
+title: genuine-yawn
+date: 2026-09-02
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a recent graduate participating independently, with a strong interest in data science, machine learning, and real-world optimisation. I decided to join the PRC Data Challenge because it offers an opportunity to apply open data and reproducible methods to a practical aviation problem: predicting aircraft taxi-out times. Through the challenge, I hope to develop a useful and well-documented solution, deepen my understanding of aviation operations, and openly share my code and findings with the wider community.
+
+## Details
+
+* Type: Independent
+* Country: United Kingdom
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname, ~affiliation,
+   1L, "Chun Yin",   "Chiu",     "Unknow"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

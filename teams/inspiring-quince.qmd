@@ -1,0 +1,27 @@
+
+---
+title: inspiring-quince
+date: 2026-09-02
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am currently doing my Master‘s degree in Mathematics in Data Science @TUM. I decided to join the competition because I could definitely use some practice in Deep Learning, and have always been a huge aviation enthusiast.
+
+## Details
+
+* Type: Independent
+* Country: Germany
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L,  "Julius", "Platzer", "Independent"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

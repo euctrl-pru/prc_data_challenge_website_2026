@@ -1,0 +1,27 @@
+
+---
+title: intelligent-ladder
+date: 2026-09-02
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are final year B.tech student and backend freelance developer on FIverr. We have decided to register for the challenge to evaluate our skill on a global platform.
+
+## Details
+
+* Type: Academia, Independent
+* Country: India
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L,  "Atharv", "Chauhan", "independent"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

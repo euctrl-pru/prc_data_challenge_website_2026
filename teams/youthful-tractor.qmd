@@ -1,0 +1,27 @@
+
+---
+title: youthful-tractor
+date: 2026-09-02
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm someone who's always been motivated with subjects relating to aviation, and loves data analysis. I decided to sign up because I think it's an interesting topic and challenge and, while I don't think I will win, I think it's worth a shot
+
+## Details
+
+* Type: Independent
+* Country: Spain
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Fèlix", "Aubets",     "Unknow"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

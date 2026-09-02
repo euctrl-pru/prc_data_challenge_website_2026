@@ -1,0 +1,29 @@
+
+---
+title: quick-witted-yarn
+date: 2026-09-02
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an Aerospace Engineering Master's student participating as a solo data scientist. While I am still relatively early in my data science journey, my specific focus and passion lie in translating physical aviation principles and complex engine concepts into machine learning models, specifically for aircraft performance and remaining life prediction.
+
+I registered for the 2026 PRC Data Challenge to take the machine learning techniques I’ve learned from modeling engine degradation and apply them to a completely new operational problem. Predicting taxi-out times is the perfect opportunity to test and adapt my growing data science skill set on real-world air traffic management data, allowing me to step outside of vehicle-level physics and apply my predictive modeling experience to broader aviation operations.
+
+## Details
+
+* Type: Independent
+* Country: Germany
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,         ~forename,             ~surname,  ~affiliation,
+   1L, "Jaseel Mohammed", "Pallikunnil Najeem", "Independent"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

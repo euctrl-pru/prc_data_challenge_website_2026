@@ -1,0 +1,27 @@
+
+---
+title: funny-firefly
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent scientist, entering as a solo team. Taxi-out prediction overlaps directly with my own work on congestion modelling for constrained ground operations, and the open-data, open-solution framing is what made me pick this challenge over other benchmarks.
+
+## Details
+
+* Type: Independent
+* Country: United States
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Hunter",   "Bell", "Independent"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
