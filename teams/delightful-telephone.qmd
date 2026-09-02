@@ -9,7 +9,7 @@ acronyms:
 
 ## Description and Rationale
 
-Test myself
+As a recent aerospace engineering graduate with a strong passion for data, I am looking forward to my first PCR data challenge. Participating as a solo entrant, my primary goal is to learn, explore new analytical methods, and apply engineering problem-solving to real-world datasets.
 
 ## Details
 
