@@ -1,0 +1,28 @@
+
+---
+title: kind-mango
+date: 2026-09-02
+subtitle: Italy
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Sergio an high school student on his final year. I'm passionate in ML and AI as well aviation data. I decided to gring in my friend too, David, to this competition to give me moral support and to help me with paperwork and stuff. I always like challenges and always passionate about resolving real life problems thats why i found this interesting in the first place. Additionally i think it would benefit my curriculum too.
+
+## Details
+
+* Type: Independent
+* Country: Italy
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,                                       ~affiliation,
+   1L,  "Sergio",  "Nicolini", "Independent, SkyLink API (Self-Employed/Founder)",
+   2L,   "David", "Schnaider",         "Independent, SkyLink API (Self-Employed)"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

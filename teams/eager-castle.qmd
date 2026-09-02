@@ -1,0 +1,31 @@
+
+---
+title: eager-castle
+date: 2026-09-02
+subtitle: Korea South
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Our team consists of three members with academic and research backgrounds in air traffic management. We share a strong interest in data-driven research and in applying advanced analytical methods to real-world air traffic challenges.
+
+We decided to participate in the PRC Challenge because it provides a unique opportunity to apply our expertise to a challenging real-world problem, explore new data-driven approaches, and learn from other researchers and teams in the field. Through this challenge, we hope to develop practical and innovative solutions while further deepening our understanding of air traffic management.
+
+## Details
+
+* Type: Academia
+* Country: Korea South
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,                                    ~affiliation,
+   1L,  "Hyewook",    "Kim",            "Korea Aerospace Research Institute",
+   2L, "Hyungjun",   "Park", "Korea Institute of Aviation Safety Technology",
+   3L,  "Seokbin",   "Yoon",              "The George Washington University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
