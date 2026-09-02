@@ -39,6 +39,45 @@
     ]
   },
   {
+    "objectID": "teams/youthful-zebra.html",
+    "href": "teams/youthful-zebra.html",
+    "title": "youthful-zebra",
+    "section": "",
+    "text": "for fun",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "youthful-zebra"
+    ]
+  },
+  {
+    "objectID": "teams/youthful-zebra.html#description-and-rationale",
+    "href": "teams/youthful-zebra.html#description-and-rationale",
+    "title": "youthful-zebra",
+    "section": "",
+    "text": "for fun",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "youthful-zebra"
+    ]
+  },
+  {
+    "objectID": "teams/youthful-zebra.html#details",
+    "href": "teams/youthful-zebra.html#details",
+    "title": "youthful-zebra",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "youthful-zebra"
+    ]
+  },
+  {
     "objectID": "teams/youthful-giraffe.html",
     "href": "teams/youthful-giraffe.html",
     "title": "youthful-giraffe",
@@ -780,120 +819,159 @@
     ]
   },
   {
-    "objectID": "teams/optimistic-panda.html",
-    "href": "teams/optimistic-panda.html",
-    "title": "optimistic-panda",
+    "objectID": "teams/optimistic-radio.html",
+    "href": "teams/optimistic-radio.html",
+    "title": "optimistic-radio",
     "section": "",
-    "text": "I am a lifelong avgeek, and for many years have been using opensource ADSB data to enhance my hobby and now have a comprehensive platform built that is able to detect and alert me on interesting events such as missed approaches, holding, diversions etc and more recently have added AI commentary to dig into why as well as the what. So this is the next step to be able to predict.",
+    "text": "We are a small data science team with experience in machine learning, big data analytics, feature engineering, and the development of reproducible data-driven solutions.\nWe decided to join the PRC Data Challenge because taxi-out time prediction combines several areas we are particularly interested in: large-scale operational data, temporal and congestion-related patterns, interpretable machine learning, and real-world decision support. We are especially interested in reconstructing latent airport surface congestion from historical movement patterns and operational features, and in evaluating how much these signals can improve taxi-out time prediction across different airports and seasonal conditions.\nBeyond the leaderboard, we value the open-science nature of the challenge. Our goal is to develop an original, reproducible methodology, openly share the resulting code and documentation, and, if the results are strong enough, contribute the findings to the broader aviation research community through an open-access publication.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-panda"
+      "optimistic-radio"
     ]
   },
   {
-    "objectID": "teams/optimistic-panda.html#description-and-rationale",
-    "href": "teams/optimistic-panda.html#description-and-rationale",
-    "title": "optimistic-panda",
+    "objectID": "teams/optimistic-radio.html#description-and-rationale",
+    "href": "teams/optimistic-radio.html#description-and-rationale",
+    "title": "optimistic-radio",
     "section": "",
-    "text": "I am a lifelong avgeek, and for many years have been using opensource ADSB data to enhance my hobby and now have a comprehensive platform built that is able to detect and alert me on interesting events such as missed approaches, holding, diversions etc and more recently have added AI commentary to dig into why as well as the what. So this is the next step to be able to predict.",
+    "text": "We are a small data science team with experience in machine learning, big data analytics, feature engineering, and the development of reproducible data-driven solutions.\nWe decided to join the PRC Data Challenge because taxi-out time prediction combines several areas we are particularly interested in: large-scale operational data, temporal and congestion-related patterns, interpretable machine learning, and real-world decision support. We are especially interested in reconstructing latent airport surface congestion from historical movement patterns and operational features, and in evaluating how much these signals can improve taxi-out time prediction across different airports and seasonal conditions.\nBeyond the leaderboard, we value the open-science nature of the challenge. Our goal is to develop an original, reproducible methodology, openly share the resulting code and documentation, and, if the results are strong enough, contribute the findings to the broader aviation research community through an open-access publication.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-panda"
+      "optimistic-radio"
     ]
   },
   {
-    "objectID": "teams/optimistic-panda.html#details",
-    "href": "teams/optimistic-panda.html#details",
-    "title": "optimistic-panda",
+    "objectID": "teams/optimistic-radio.html#details",
+    "href": "teams/optimistic-radio.html#details",
+    "title": "optimistic-radio",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSean\nJohnston\nSMJ Consultancy Ltd",
+    "text": "Details\n\nType: Independent\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nömer\nkiraz\nindependent\n\n\n2\nEmre\nÇırak\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-panda"
+      "optimistic-radio"
     ]
   },
   {
-    "objectID": "teams/optimistic-insect.html",
-    "href": "teams/optimistic-insect.html",
-    "title": "optimistic-insect",
+    "objectID": "teams/optimistic-orchid.html",
+    "href": "teams/optimistic-orchid.html",
+    "title": "optimistic-orchid",
     "section": "",
-    "text": "An M.Tech Data Science student at Amrita Vishwa Vidyapeetham, Bengaluru, with a strong background in machine learning,AI, NLP, and computer vision.\nRegistered for the challenge to apply advanced AI and predictive modeling techniques to real-world data problems, push the boundaries of multimodal learning, and collaborate with data professionals to build impactful solutions.",
+    "text": "For fun",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-insect"
+      "optimistic-orchid"
     ]
   },
   {
-    "objectID": "teams/optimistic-insect.html#description-and-rationale",
-    "href": "teams/optimistic-insect.html#description-and-rationale",
-    "title": "optimistic-insect",
+    "objectID": "teams/optimistic-orchid.html#description-and-rationale",
+    "href": "teams/optimistic-orchid.html#description-and-rationale",
+    "title": "optimistic-orchid",
     "section": "",
-    "text": "An M.Tech Data Science student at Amrita Vishwa Vidyapeetham, Bengaluru, with a strong background in machine learning,AI, NLP, and computer vision.\nRegistered for the challenge to apply advanced AI and predictive modeling techniques to real-world data problems, push the boundaries of multimodal learning, and collaborate with data professionals to build impactful solutions.",
+    "text": "For fun",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-insect"
+      "optimistic-orchid"
     ]
   },
   {
-    "objectID": "teams/optimistic-insect.html#details",
-    "href": "teams/optimistic-insect.html#details",
-    "title": "optimistic-insect",
+    "objectID": "teams/optimistic-orchid.html#details",
+    "href": "teams/optimistic-orchid.html#details",
+    "title": "optimistic-orchid",
     "section": "Details",
-    "text": "Details\n\nType: Academia, Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAnil kumar\npothireddy\nAmrita Vishwa Vidyapeetham",
+    "text": "Details\n\nType: Independent\nCountry: Poland\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAlex\nOktaba\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-insect"
+      "optimistic-orchid"
     ]
   },
   {
-    "objectID": "teams/nimble-sandwich.html",
-    "href": "teams/nimble-sandwich.html",
-    "title": "nimble-sandwich",
+    "objectID": "teams/optimistic-fireplace.html",
+    "href": "teams/optimistic-fireplace.html",
+    "title": "optimistic-fireplace",
     "section": "",
-    "text": "An engineering-driven team focused on applying advanced data methodologies, queueing theory, and predictive modeling to solve complex aviation congestion and operational challenges.",
+    "text": "Who we are: Cosmic Tortuga, a veteran-owned aerospace engineering company. I’m an Army vet, 25 years in aviation MRO, MS in Space Systems from Embry-Riddle.\nWhy we’re here: Taxi-out is a problem I’ve lived for 25 years. I know what drives it: the congestion, the runway assignments, the stand-to-runway distances, the operator and aircraft-type effects. Most teams will throw a generic model at the data. We’re going to use the domain knowledge first, then the model. That’s where the accuracy is.\nWhat we bring: Real aviation operations experience, a physics-informed approach to modeling, and a track record of building aerospace AI. We’re here to compete, contribute to open aviation research, and prove that domain expertise beats generic ML.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "nimble-sandwich"
+      "optimistic-fireplace"
     ]
   },
   {
-    "objectID": "teams/nimble-sandwich.html#description-and-rationale",
-    "href": "teams/nimble-sandwich.html#description-and-rationale",
-    "title": "nimble-sandwich",
+    "objectID": "teams/optimistic-fireplace.html#description-and-rationale",
+    "href": "teams/optimistic-fireplace.html#description-and-rationale",
+    "title": "optimistic-fireplace",
     "section": "",
-    "text": "An engineering-driven team focused on applying advanced data methodologies, queueing theory, and predictive modeling to solve complex aviation congestion and operational challenges.",
+    "text": "Who we are: Cosmic Tortuga, a veteran-owned aerospace engineering company. I’m an Army vet, 25 years in aviation MRO, MS in Space Systems from Embry-Riddle.\nWhy we’re here: Taxi-out is a problem I’ve lived for 25 years. I know what drives it: the congestion, the runway assignments, the stand-to-runway distances, the operator and aircraft-type effects. Most teams will throw a generic model at the data. We’re going to use the domain knowledge first, then the model. That’s where the accuracy is.\nWhat we bring: Real aviation operations experience, a physics-informed approach to modeling, and a track record of building aerospace AI. We’re here to compete, contribute to open aviation research, and prove that domain expertise beats generic ML.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "nimble-sandwich"
+      "optimistic-fireplace"
     ]
   },
   {
-    "objectID": "teams/nimble-sandwich.html#details",
-    "href": "teams/nimble-sandwich.html#details",
-    "title": "nimble-sandwich",
+    "objectID": "teams/optimistic-fireplace.html#details",
+    "href": "teams/optimistic-fireplace.html#details",
+    "title": "optimistic-fireplace",
     "section": "Details",
-    "text": "Details\n\nType: Industry, Independent\nCountry: Portugal\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nNelson\nVicente\nSerial Alice Lda",
+    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJorge\nOtero\nCosmic Tortuga",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "nimble-sandwich"
+      "optimistic-fireplace"
+    ]
+  },
+  {
+    "objectID": "teams/nimble-moose.html",
+    "href": "teams/nimble-moose.html",
+    "title": "nimble-moose",
+    "section": "",
+    "text": "Researcher from an aerospace engineering school in France, participating in the PRC Challenge out of interest in aviation data problems.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "nimble-moose"
+    ]
+  },
+  {
+    "objectID": "teams/nimble-moose.html#description-and-rationale",
+    "href": "teams/nimble-moose.html#description-and-rationale",
+    "title": "nimble-moose",
+    "section": "",
+    "text": "Researcher from an aerospace engineering school in France, participating in the PRC Challenge out of interest in aviation data problems.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "nimble-moose"
+    ]
+  },
+  {
+    "objectID": "teams/nimble-moose.html#details",
+    "href": "teams/nimble-moose.html#details",
+    "title": "nimble-moose",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nChung-Huan\nLIU\nindependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "nimble-moose"
     ]
   },
   {
@@ -3036,81 +3114,120 @@
     ]
   },
   {
-    "objectID": "teams/optimistic-fireplace.html",
-    "href": "teams/optimistic-fireplace.html",
-    "title": "optimistic-fireplace",
+    "objectID": "teams/nimble-sandwich.html",
+    "href": "teams/nimble-sandwich.html",
+    "title": "nimble-sandwich",
     "section": "",
-    "text": "Who we are: Cosmic Tortuga, a veteran-owned aerospace engineering company. I’m an Army vet, 25 years in aviation MRO, MS in Space Systems from Embry-Riddle.\nWhy we’re here: Taxi-out is a problem I’ve lived for 25 years. I know what drives it: the congestion, the runway assignments, the stand-to-runway distances, the operator and aircraft-type effects. Most teams will throw a generic model at the data. We’re going to use the domain knowledge first, then the model. That’s where the accuracy is.\nWhat we bring: Real aviation operations experience, a physics-informed approach to modeling, and a track record of building aerospace AI. We’re here to compete, contribute to open aviation research, and prove that domain expertise beats generic ML.",
+    "text": "An engineering-driven team focused on applying advanced data methodologies, queueing theory, and predictive modeling to solve complex aviation congestion and operational challenges.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-fireplace"
+      "nimble-sandwich"
     ]
   },
   {
-    "objectID": "teams/optimistic-fireplace.html#description-and-rationale",
-    "href": "teams/optimistic-fireplace.html#description-and-rationale",
-    "title": "optimistic-fireplace",
+    "objectID": "teams/nimble-sandwich.html#description-and-rationale",
+    "href": "teams/nimble-sandwich.html#description-and-rationale",
+    "title": "nimble-sandwich",
     "section": "",
-    "text": "Who we are: Cosmic Tortuga, a veteran-owned aerospace engineering company. I’m an Army vet, 25 years in aviation MRO, MS in Space Systems from Embry-Riddle.\nWhy we’re here: Taxi-out is a problem I’ve lived for 25 years. I know what drives it: the congestion, the runway assignments, the stand-to-runway distances, the operator and aircraft-type effects. Most teams will throw a generic model at the data. We’re going to use the domain knowledge first, then the model. That’s where the accuracy is.\nWhat we bring: Real aviation operations experience, a physics-informed approach to modeling, and a track record of building aerospace AI. We’re here to compete, contribute to open aviation research, and prove that domain expertise beats generic ML.",
+    "text": "An engineering-driven team focused on applying advanced data methodologies, queueing theory, and predictive modeling to solve complex aviation congestion and operational challenges.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-fireplace"
+      "nimble-sandwich"
     ]
   },
   {
-    "objectID": "teams/optimistic-fireplace.html#details",
-    "href": "teams/optimistic-fireplace.html#details",
-    "title": "optimistic-fireplace",
+    "objectID": "teams/nimble-sandwich.html#details",
+    "href": "teams/nimble-sandwich.html#details",
+    "title": "nimble-sandwich",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJorge\nOtero\nCosmic Tortuga",
+    "text": "Details\n\nType: Industry, Independent\nCountry: Portugal\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nNelson\nVicente\nSerial Alice Lda",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-fireplace"
+      "nimble-sandwich"
     ]
   },
   {
-    "objectID": "teams/optimistic-orchid.html",
-    "href": "teams/optimistic-orchid.html",
-    "title": "optimistic-orchid",
+    "objectID": "teams/optimistic-insect.html",
+    "href": "teams/optimistic-insect.html",
+    "title": "optimistic-insect",
     "section": "",
-    "text": "For fun",
+    "text": "An M.Tech Data Science student at Amrita Vishwa Vidyapeetham, Bengaluru, with a strong background in machine learning,AI, NLP, and computer vision.\nRegistered for the challenge to apply advanced AI and predictive modeling techniques to real-world data problems, push the boundaries of multimodal learning, and collaborate with data professionals to build impactful solutions.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-orchid"
+      "optimistic-insect"
     ]
   },
   {
-    "objectID": "teams/optimistic-orchid.html#description-and-rationale",
-    "href": "teams/optimistic-orchid.html#description-and-rationale",
-    "title": "optimistic-orchid",
+    "objectID": "teams/optimistic-insect.html#description-and-rationale",
+    "href": "teams/optimistic-insect.html#description-and-rationale",
+    "title": "optimistic-insect",
     "section": "",
-    "text": "For fun",
+    "text": "An M.Tech Data Science student at Amrita Vishwa Vidyapeetham, Bengaluru, with a strong background in machine learning,AI, NLP, and computer vision.\nRegistered for the challenge to apply advanced AI and predictive modeling techniques to real-world data problems, push the boundaries of multimodal learning, and collaborate with data professionals to build impactful solutions.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-orchid"
+      "optimistic-insect"
     ]
   },
   {
-    "objectID": "teams/optimistic-orchid.html#details",
-    "href": "teams/optimistic-orchid.html#details",
-    "title": "optimistic-orchid",
+    "objectID": "teams/optimistic-insect.html#details",
+    "href": "teams/optimistic-insect.html#details",
+    "title": "optimistic-insect",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Poland\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAlex\nOktaba\nUnknow",
+    "text": "Details\n\nType: Academia, Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAnil kumar\npothireddy\nAmrita Vishwa Vidyapeetham",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "optimistic-orchid"
+      "optimistic-insect"
+    ]
+  },
+  {
+    "objectID": "teams/optimistic-panda.html",
+    "href": "teams/optimistic-panda.html",
+    "title": "optimistic-panda",
+    "section": "",
+    "text": "I am a lifelong avgeek, and for many years have been using opensource ADSB data to enhance my hobby and now have a comprehensive platform built that is able to detect and alert me on interesting events such as missed approaches, holding, diversions etc and more recently have added AI commentary to dig into why as well as the what. So this is the next step to be able to predict.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "optimistic-panda"
+    ]
+  },
+  {
+    "objectID": "teams/optimistic-panda.html#description-and-rationale",
+    "href": "teams/optimistic-panda.html#description-and-rationale",
+    "title": "optimistic-panda",
+    "section": "",
+    "text": "I am a lifelong avgeek, and for many years have been using opensource ADSB data to enhance my hobby and now have a comprehensive platform built that is able to detect and alert me on interesting events such as missed approaches, holding, diversions etc and more recently have added AI commentary to dig into why as well as the what. So this is the next step to be able to predict.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "optimistic-panda"
+    ]
+  },
+  {
+    "objectID": "teams/optimistic-panda.html#details",
+    "href": "teams/optimistic-panda.html#details",
+    "title": "optimistic-panda",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSean\nJohnston\nSMJ Consultancy Ltd",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "optimistic-panda"
     ]
   },
   {
@@ -3855,42 +3972,81 @@
     ]
   },
   {
-    "objectID": "teams/youthful-zebra.html",
-    "href": "teams/youthful-zebra.html",
-    "title": "youthful-zebra",
+    "objectID": "teams/youthful-tractor.html",
+    "href": "teams/youthful-tractor.html",
+    "title": "youthful-tractor",
     "section": "",
-    "text": "for fun",
+    "text": "I’m someone who’s always been motivated with subjects relating to aviation, and loves data analysis. I decided to sign up because I think it’s an interesting topic and challenge and, while I don’t think I will win, I think it’s worth a shot",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "youthful-zebra"
+      "youthful-tractor"
     ]
   },
   {
-    "objectID": "teams/youthful-zebra.html#description-and-rationale",
-    "href": "teams/youthful-zebra.html#description-and-rationale",
-    "title": "youthful-zebra",
+    "objectID": "teams/youthful-tractor.html#description-and-rationale",
+    "href": "teams/youthful-tractor.html#description-and-rationale",
+    "title": "youthful-tractor",
     "section": "",
-    "text": "for fun",
+    "text": "I’m someone who’s always been motivated with subjects relating to aviation, and loves data analysis. I decided to sign up because I think it’s an interesting topic and challenge and, while I don’t think I will win, I think it’s worth a shot",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "youthful-zebra"
+      "youthful-tractor"
     ]
   },
   {
-    "objectID": "teams/youthful-zebra.html#details",
-    "href": "teams/youthful-zebra.html#details",
-    "title": "youthful-zebra",
+    "objectID": "teams/youthful-tractor.html#details",
+    "href": "teams/youthful-tractor.html#details",
+    "title": "youthful-tractor",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed",
+    "text": "Details\n\nType: Independent\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nFèlix\nAubets\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "youthful-zebra"
+      "youthful-tractor"
+    ]
+  },
+  {
+    "objectID": "teams/zestful-fountain.html",
+    "href": "teams/zestful-fountain.html",
+    "title": "zestful-fountain",
+    "section": "",
+    "text": "PhoenixAI is the cutting edge state of the art platform for Maritime and Aerospace compliance",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "zestful-fountain"
+    ]
+  },
+  {
+    "objectID": "teams/zestful-fountain.html#description-and-rationale",
+    "href": "teams/zestful-fountain.html#description-and-rationale",
+    "title": "zestful-fountain",
+    "section": "",
+    "text": "PhoenixAI is the cutting edge state of the art platform for Maritime and Aerospace compliance",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "zestful-fountain"
+    ]
+  },
+  {
+    "objectID": "teams/zestful-fountain.html#details",
+    "href": "teams/zestful-fountain.html#details",
+    "title": "zestful-fountain",
+    "section": "Details",
+    "text": "Details\n\nType: Industry\nCountry: Italy\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMichael\nLEVY\nPhoenixAI",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "zestful-fountain"
     ]
   }
 ]
