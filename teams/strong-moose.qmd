@@ -1,0 +1,27 @@
+
+---
+title: strong-moose
+date: 2026-09-03
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a data enthusiast and machine learning practitioner passionate about solving real-world operational challenges. I decided to register for the PRC Data Challenge 2026 to apply my predictive modeling skills to the complex dynamics of aviation data. Predicting taxi-out times presents a fascinating optimization problem, and I am excited to contribute to open science and improve European aviation efficiency.
+
+## Details
+
+* Type: Independent
+* Country: Turkey
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname, ~affiliation,
+   1L,    "Emre", "Tavukçu",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
