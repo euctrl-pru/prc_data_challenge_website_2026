@@ -1,0 +1,27 @@
+
+---
+title: energetic-accordion
+date: 2026-09-01
+subtitle: Finland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I worked with aviation data before, and would like to take this challenge.
+
+## Details
+
+* Type: Academia
+* Country: Finland
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
