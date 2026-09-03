@@ -1,0 +1,28 @@
+
+---
+title: inspiring-quilt
+date: 2026-09-03
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are the data team from Guardian Jet and we are always up for a great challenge
+
+## Details
+
+* Type: Industry
+* Country: United States
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,       ~affiliation,
+   1L, "Levente", "György", "Guardian Jet LLC",
+   2L,   "Xyzzy",  "XYZZY",      "Undisclosed"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
