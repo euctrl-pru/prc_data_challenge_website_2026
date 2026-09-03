@@ -7,7 +7,7 @@ on:
     # hourly slot is in practice more dependable than a quarter-hourly one.
     # Use the workflow_dispatch trigger to rebuild immediately when a team
     # has just been approved.
-    - cron: "0/20 * * * *"
+    - cron: "5/30 * * * *"
   workflow_dispatch:
 
 concurrency:
