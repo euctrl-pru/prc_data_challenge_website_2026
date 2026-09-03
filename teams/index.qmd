@@ -28,12 +28,14 @@ acronyms:
 ---
 
 ::: {.callout-note title="Note"}
-**Observable migrated to its new Notebook framework exactly on 1st Sep...which broke
+**
+Observable migrated to its new Notebook framework exactly on 1st Sep...which broke
 the leaderboard below and the plot of registered teams in the Stats page.
-I am trying to fix it.**
 
----
-The data is availavle via the API, see the Ranking page for details.
+I am trying to fix it.
+
+You can retrieve all submissions info via the API as explained in the Ranking page.
+**
 
 :::
 
