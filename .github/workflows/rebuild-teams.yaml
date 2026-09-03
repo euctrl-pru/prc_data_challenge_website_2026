@@ -1,0 +1,111 @@
+name: Rebuild teams pages
+
+on:
+  schedule:
+    # Hourly. GitHub's scheduler is a shared, contended queue: high-frequency
+    # crons such as */15 are routinely delayed or dropped altogether, so an
+    # hourly slot is in practice more dependable than a quarter-hourly one.
+    # Use the workflow_dispatch trigger to rebuild immediately when a team
+    # has just been approved.
+    - cron: "0/20 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  # never let two rebuilds race for the same branch
+  group: rebuild-teams
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TARGET_BRANCH: dev
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Switch to ${{ env.TARGET_BRANCH }}
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin "$TARGET_BRANCH" >/dev/null 2>&1; then
+            git switch "$TARGET_BRANCH"
+          else
+            echo "Branch '$TARGET_BRANCH' does not exist yet; creating it from ${{ github.ref_name }}."
+            git switch -c "$TARGET_BRANCH"
+          fi
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R package dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::conflicted
+            any::datapasta
+            any::dplyr
+            any::fs
+            any::googledrive
+            any::googlesheets4
+            any::gt
+            any::here
+            any::janitor
+            any::jsonlite
+            any::knitr
+            any::magrittr
+            any::purrr
+            any::quarto
+            any::rmarkdown
+            any::tidyverse
+            any::withr
+
+      - name: Write Google service account credentials
+        env:
+          GOOGLE_SHEETS_SA_JSON_CONTENT: ${{ secrets.GOOGLE_SHEETS_SA_JSON }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GOOGLE_SHEETS_SA_JSON_CONTENT:-}" ]; then
+            echo "::error::Secret GOOGLE_SHEETS_SA_JSON is not set. The teams Google Sheet cannot be read without it."
+            exit 1
+          fi
+          printf '%s' "$GOOGLE_SHEETS_SA_JSON_CONTENT" > "$RUNNER_TEMP/gsheets-sa.json"
+          chmod 600 "$RUNNER_TEMP/gsheets-sa.json"
+
+      - name: Regenerate teams pages and render the site
+        env:
+          GOOGLE_SHEETS_SA_JSON: ${{ runner.temp }}/gsheets-sa.json
+        run: |
+          set -euo pipefail
+          Rscript ./R/generate_quarto_teams.R
+          quarto render
+
+      - name: Remove service account credentials
+        if: always()
+        run: rm -f "$RUNNER_TEMP/gsheets-sa.json"
+
+      - name: Commit and push the rebuilt pages
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # -f because _site/ is gitignored but tracked deliberately, as in
+          # the `publish-teams` just recipe
+          git add -f _site _freeze teams
+
+          # Commit unconditionally, even when the rebuilt output is identical
+          # to the previous run: --allow-empty keeps the step from failing
+          # under `set -e` when there is nothing staged.
+          git commit --allow-empty -m "regenerate teams pages"
+          git push origin "HEAD:$TARGET_BRANCH"
