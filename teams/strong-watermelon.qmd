@@ -1,0 +1,29 @@
+
+---
+title: strong-watermelon
+date: 2026-09-03
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of transportation and aviation data professionals with backgrounds in transportation engineering, data science, optimization, and aviation analytics. Our work involves using large-scale mobility and aviation datasets to better understand transportation systems, identify operational patterns, and develop data-driven approaches to planning and decision-making.
+
+We decided to participate in the OpenSky Network PRC Data Challenge 2026 because it provides an opportunity to work with real-world aviation data on a challenging research problem and to explore analytical methods beyond our day-to-day project work. We see it as both a technical challenge and an opportunity to contribute to the growing use of open aviation data for research and practical decision-making.
+
+## Details
+
+* Type: Industry
+* Country: United States
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,   ~affiliation,
+   1L,  "Keshav", "Kothari", "Woolpert Inc"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

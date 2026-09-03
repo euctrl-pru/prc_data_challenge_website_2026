@@ -312,276 +312,315 @@
     ]
   },
   {
-    "objectID": "teams/upbeat-goblin.html",
-    "href": "teams/upbeat-goblin.html",
-    "title": "upbeat-goblin",
+    "objectID": "teams/upbeat-net.html",
+    "href": "teams/upbeat-net.html",
+    "title": "upbeat-net",
     "section": "",
-    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
+    "text": "I participated in the 2025 challenge with a fun “alternative method”. I come back now with more ideas 🙂",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-goblin"
+      "upbeat-net"
     ]
   },
   {
-    "objectID": "teams/upbeat-goblin.html#description-and-rationale",
-    "href": "teams/upbeat-goblin.html#description-and-rationale",
-    "title": "upbeat-goblin",
+    "objectID": "teams/upbeat-net.html#description-and-rationale",
+    "href": "teams/upbeat-net.html#description-and-rationale",
+    "title": "upbeat-net",
     "section": "",
-    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
+    "text": "I participated in the 2025 challenge with a fun “alternative method”. I come back now with more ideas 🙂",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-goblin"
+      "upbeat-net"
     ]
   },
   {
-    "objectID": "teams/upbeat-goblin.html#details",
-    "href": "teams/upbeat-goblin.html#details",
-    "title": "upbeat-goblin",
+    "objectID": "teams/upbeat-net.html#details",
+    "href": "teams/upbeat-net.html#details",
+    "title": "upbeat-net",
     "section": "Details",
-    "text": "Details\n\nType: Industry\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nHenri\nBano\nm-click.aero GmbH , TH Wildau\n\n\n2\nEnrico\nKhan\nm-click.aero GmbH",
+    "text": "Details\n\nType: Independent\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nRayane\nHachemi\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-goblin"
+      "upbeat-net"
     ]
   },
   {
-    "objectID": "teams/unique-scooter.html",
-    "href": "teams/unique-scooter.html",
-    "title": "unique-scooter",
+    "objectID": "teams/unique-umbrella.html",
+    "href": "teams/unique-umbrella.html",
+    "title": "unique-umbrella",
     "section": "",
-    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
+    "text": "Independent aviation enthusiast and software engineer in training. I’m taking on the challenge to further my skills and gain experience to aid with my job hunt.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-scooter"
+      "unique-umbrella"
     ]
   },
   {
-    "objectID": "teams/unique-scooter.html#description-and-rationale",
-    "href": "teams/unique-scooter.html#description-and-rationale",
-    "title": "unique-scooter",
+    "objectID": "teams/unique-umbrella.html#description-and-rationale",
+    "href": "teams/unique-umbrella.html#description-and-rationale",
+    "title": "unique-umbrella",
     "section": "",
-    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
+    "text": "Independent aviation enthusiast and software engineer in training. I’m taking on the challenge to further my skills and gain experience to aid with my job hunt.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-scooter"
+      "unique-umbrella"
     ]
   },
   {
-    "objectID": "teams/unique-scooter.html#details",
-    "href": "teams/unique-scooter.html#details",
-    "title": "unique-scooter",
+    "objectID": "teams/unique-umbrella.html#details",
+    "href": "teams/unique-umbrella.html#details",
+    "title": "unique-umbrella",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAndres\nSenaris\nIndependent",
+    "text": "Details\n\nType: Independent\nCountry: Canada\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nKristian\nAllin\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-scooter"
+      "unique-umbrella"
     ]
   },
   {
-    "objectID": "teams/trustworthy-llama.html",
-    "href": "teams/trustworthy-llama.html",
-    "title": "trustworthy-llama",
+    "objectID": "teams/understated-muffin.html",
+    "href": "teams/understated-muffin.html",
+    "title": "understated-muffin",
     "section": "",
-    "text": "Our team brings together data science expertise and operational aviation experience. Stefano Billeter is an engineer specialised in data science, with a track record of scientific publications (ORCID: https://orcid.org/0009-0008-0331-1644). Lorenzo Della Casa is a commercial airline pilot with a working knowledge of machine learning, contributing first-hand operational insight into flight operations. We believe this combination of analytical and domain knowledge will allow us to approach the challenge from both a modelling and a practical perspective.",
+    "text": "We are a team of two. Haris Andronis a mechanical engineer with PPL pilot license and owner of X-Fly Aviation company and Margarita Mastori an Air Traffic Controller in LGTS Macedonia International Airport",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "trustworthy-llama"
+      "understated-muffin"
     ]
   },
   {
-    "objectID": "teams/trustworthy-llama.html#description-and-rationale",
-    "href": "teams/trustworthy-llama.html#description-and-rationale",
-    "title": "trustworthy-llama",
+    "objectID": "teams/understated-muffin.html#description-and-rationale",
+    "href": "teams/understated-muffin.html#description-and-rationale",
+    "title": "understated-muffin",
     "section": "",
-    "text": "Our team brings together data science expertise and operational aviation experience. Stefano Billeter is an engineer specialised in data science, with a track record of scientific publications (ORCID: https://orcid.org/0009-0008-0331-1644). Lorenzo Della Casa is a commercial airline pilot with a working knowledge of machine learning, contributing first-hand operational insight into flight operations. We believe this combination of analytical and domain knowledge will allow us to approach the challenge from both a modelling and a practical perspective.",
+    "text": "We are a team of two. Haris Andronis a mechanical engineer with PPL pilot license and owner of X-Fly Aviation company and Margarita Mastori an Air Traffic Controller in LGTS Macedonia International Airport",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "trustworthy-llama"
+      "understated-muffin"
     ]
   },
   {
-    "objectID": "teams/trustworthy-llama.html#details",
-    "href": "teams/trustworthy-llama.html#details",
-    "title": "trustworthy-llama",
+    "objectID": "teams/understated-muffin.html#details",
+    "href": "teams/understated-muffin.html#details",
+    "title": "understated-muffin",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Switzerland\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nStefano\nBilleter\nUnknow\n\n\n2\nLorenzo\nDella Casa\nUnknow",
+    "text": "Details\n\nType: Independent\nCountry: Greece\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nHaris\nAndronis\nX-Fly Aviation\n\n\n2\nXyzzy\nXYZZY\nUndisclosed",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "trustworthy-llama"
+      "understated-muffin"
     ]
   },
   {
-    "objectID": "teams/tiny-clown.html",
-    "href": "teams/tiny-clown.html",
-    "title": "tiny-clown",
+    "objectID": "teams/tiny-flamingo.html",
+    "href": "teams/tiny-flamingo.html",
+    "title": "tiny-flamingo",
     "section": "",
-    "text": "I am an independent participant based in the United Kingdom with a strong interest in aviation data, analytics and machine learning. I joined the PRC Data Challenge to work with real-world aviation data, test different analytical and modelling approaches, and improve my understanding of operational performance and air traffic data. The challenge is also an opportunity to learn from the wider research and aviation data community and develop practical, data-driven solutions.",
+    "text": "Management PhD transitioning to data science, with a deep interest in aviation data",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-clown"
+      "tiny-flamingo"
     ]
   },
   {
-    "objectID": "teams/tiny-clown.html#description-and-rationale",
-    "href": "teams/tiny-clown.html#description-and-rationale",
-    "title": "tiny-clown",
+    "objectID": "teams/tiny-flamingo.html#description-and-rationale",
+    "href": "teams/tiny-flamingo.html#description-and-rationale",
+    "title": "tiny-flamingo",
     "section": "",
-    "text": "I am an independent participant based in the United Kingdom with a strong interest in aviation data, analytics and machine learning. I joined the PRC Data Challenge to work with real-world aviation data, test different analytical and modelling approaches, and improve my understanding of operational performance and air traffic data. The challenge is also an opportunity to learn from the wider research and aviation data community and develop practical, data-driven solutions.",
+    "text": "Management PhD transitioning to data science, with a deep interest in aviation data",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-clown"
+      "tiny-flamingo"
     ]
   },
   {
-    "objectID": "teams/tiny-clown.html#details",
-    "href": "teams/tiny-clown.html#details",
-    "title": "tiny-clown",
+    "objectID": "teams/tiny-flamingo.html#details",
+    "href": "teams/tiny-flamingo.html#details",
+    "title": "tiny-flamingo",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nPriyank\nRaval\nIndependent",
+    "text": "Details\n\nType: Independent\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nEkaterina\nVoropanova-Gicquel\nUniversité Catholique de l'Ouest (Guingamp, France)",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-clown"
+      "tiny-flamingo"
     ]
   },
   {
-    "objectID": "teams/tidy-nugget.html",
-    "href": "teams/tidy-nugget.html",
-    "title": "tidy-nugget",
+    "objectID": "teams/tiny-boat.html",
+    "href": "teams/tiny-boat.html",
+    "title": "tiny-boat",
     "section": "",
-    "text": "I am a researcher in air cargo and air cargo sustainability at Frankfurt UAS Institute for Aviation and Tourism. Our research is driven by a genuine interest in the development of solutions for optimized operations in aviation that benefit the industry and especially address the environmental challenges of the aviation sector. By participating in the challenge, we can potentially help address the high burden of emissions in taxiing events. By publishing our results, we not only benefit the industry but also contribute to scientific knowledge.",
+    "text": "I’m a final-year B.Tech student in Mathematics and Computing at Netaji Subhas University of Technology (NSUT), Delhi, with a strong interest in applied machine learning, computer vision, and data-driven problem solving. I recently completed a technical internship at Microsoft India, where I worked on AI-driven tools involving evidence verification and proposal evaluation systems, and I’ve also worked on ML-based projects such as forest fire susceptibility mapping using XGBoost.\nI registered for the PRC Data Challenge because it combines two things I enjoy — working with real-world operational data and building predictive models that solve genuinely useful problems. Predicting taxi-out times at major European airports is a great opportunity to apply time-series and ML techniques to aviation data at scale, while also contributing to EUROCONTROL’s open science and reproducibility goals.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tidy-nugget"
+      "tiny-boat"
     ]
   },
   {
-    "objectID": "teams/tidy-nugget.html#description-and-rationale",
-    "href": "teams/tidy-nugget.html#description-and-rationale",
-    "title": "tidy-nugget",
+    "objectID": "teams/tiny-boat.html#description-and-rationale",
+    "href": "teams/tiny-boat.html#description-and-rationale",
+    "title": "tiny-boat",
     "section": "",
-    "text": "I am a researcher in air cargo and air cargo sustainability at Frankfurt UAS Institute for Aviation and Tourism. Our research is driven by a genuine interest in the development of solutions for optimized operations in aviation that benefit the industry and especially address the environmental challenges of the aviation sector. By participating in the challenge, we can potentially help address the high burden of emissions in taxiing events. By publishing our results, we not only benefit the industry but also contribute to scientific knowledge.",
+    "text": "I’m a final-year B.Tech student in Mathematics and Computing at Netaji Subhas University of Technology (NSUT), Delhi, with a strong interest in applied machine learning, computer vision, and data-driven problem solving. I recently completed a technical internship at Microsoft India, where I worked on AI-driven tools involving evidence verification and proposal evaluation systems, and I’ve also worked on ML-based projects such as forest fire susceptibility mapping using XGBoost.\nI registered for the PRC Data Challenge because it combines two things I enjoy — working with real-world operational data and building predictive models that solve genuinely useful problems. Predicting taxi-out times at major European airports is a great opportunity to apply time-series and ML techniques to aviation data at scale, while also contributing to EUROCONTROL’s open science and reproducibility goals.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tidy-nugget"
+      "tiny-boat"
     ]
   },
   {
-    "objectID": "teams/tidy-nugget.html#details",
-    "href": "teams/tidy-nugget.html#details",
-    "title": "tidy-nugget",
+    "objectID": "teams/tiny-boat.html#details",
+    "href": "teams/tiny-boat.html#details",
+    "title": "tiny-boat",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nBernardo\nPuente-Mejia\nFrankfurt University of Applied Sciences",
+    "text": "Details\n\nType: Academia\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAyush\nGupta\nNetaji Subhas University of Technology",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tidy-nugget"
+      "tiny-boat"
     ]
   },
   {
-    "objectID": "teams/thoughtful-octopus.html",
-    "href": "teams/thoughtful-octopus.html",
-    "title": "thoughtful-octopus",
+    "objectID": "teams/thoughtful-scooter.html",
+    "href": "teams/thoughtful-scooter.html",
+    "title": "thoughtful-scooter",
     "section": "",
-    "text": "A data scientist and air-travel nerd",
+    "text": "ATM Researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-octopus"
+      "thoughtful-scooter"
     ]
   },
   {
-    "objectID": "teams/thoughtful-octopus.html#description-and-rationale",
-    "href": "teams/thoughtful-octopus.html#description-and-rationale",
-    "title": "thoughtful-octopus",
+    "objectID": "teams/thoughtful-scooter.html#description-and-rationale",
+    "href": "teams/thoughtful-scooter.html#description-and-rationale",
+    "title": "thoughtful-scooter",
     "section": "",
-    "text": "A data scientist and air-travel nerd",
+    "text": "ATM Researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-octopus"
+      "thoughtful-scooter"
     ]
   },
   {
-    "objectID": "teams/thoughtful-octopus.html#details",
-    "href": "teams/thoughtful-octopus.html#details",
-    "title": "thoughtful-octopus",
+    "objectID": "teams/thoughtful-scooter.html#details",
+    "href": "teams/thoughtful-scooter.html#details",
+    "title": "thoughtful-scooter",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nThomas\nMcEldowney\nUnknow",
+    "text": "Details\n\nType: Academia\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nEnes\nÖzçelik\nEskişehir Technical University",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-octopus"
+      "thoughtful-scooter"
     ]
   },
   {
-    "objectID": "teams/thoughtful-glove.html",
-    "href": "teams/thoughtful-glove.html",
-    "title": "thoughtful-glove",
+    "objectID": "teams/thoughtful-kiwi.html",
+    "href": "teams/thoughtful-kiwi.html",
+    "title": "thoughtful-kiwi",
     "section": "",
-    "text": "Ph.D. in Artificial Intelligence student from the University of the Philippines Diliman who builds practical machine learning and AI for aviation.",
+    "text": "Private Pilot, Aviation enthusiast and independant researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-glove"
+      "thoughtful-kiwi"
     ]
   },
   {
-    "objectID": "teams/thoughtful-glove.html#description-and-rationale",
-    "href": "teams/thoughtful-glove.html#description-and-rationale",
-    "title": "thoughtful-glove",
+    "objectID": "teams/thoughtful-kiwi.html#description-and-rationale",
+    "href": "teams/thoughtful-kiwi.html#description-and-rationale",
+    "title": "thoughtful-kiwi",
     "section": "",
-    "text": "Ph.D. in Artificial Intelligence student from the University of the Philippines Diliman who builds practical machine learning and AI for aviation.",
+    "text": "Private Pilot, Aviation enthusiast and independant researcher",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-glove"
+      "thoughtful-kiwi"
     ]
   },
   {
-    "objectID": "teams/thoughtful-glove.html#details",
-    "href": "teams/thoughtful-glove.html#details",
-    "title": "thoughtful-glove",
+    "objectID": "teams/thoughtful-kiwi.html#details",
+    "href": "teams/thoughtful-kiwi.html#details",
+    "title": "thoughtful-kiwi",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: Philippines\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMichael\nIgnacio\nUniversity of the Philippines Diliman",
+    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJeffrey\nSchafer\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-glove"
+      "thoughtful-kiwi"
+    ]
+  },
+  {
+    "objectID": "teams/strong-watermelon.html",
+    "href": "teams/strong-watermelon.html",
+    "title": "strong-watermelon",
+    "section": "",
+    "text": "We are a team of transportation and aviation data professionals with backgrounds in transportation engineering, data science, optimization, and aviation analytics. Our work involves using large-scale mobility and aviation datasets to better understand transportation systems, identify operational patterns, and develop data-driven approaches to planning and decision-making.\nWe decided to participate in the OpenSky Network PRC Data Challenge 2026 because it provides an opportunity to work with real-world aviation data on a challenging research problem and to explore analytical methods beyond our day-to-day project work. We see it as both a technical challenge and an opportunity to contribute to the growing use of open aviation data for research and practical decision-making.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "strong-watermelon"
+    ]
+  },
+  {
+    "objectID": "teams/strong-watermelon.html#description-and-rationale",
+    "href": "teams/strong-watermelon.html#description-and-rationale",
+    "title": "strong-watermelon",
+    "section": "",
+    "text": "We are a team of transportation and aviation data professionals with backgrounds in transportation engineering, data science, optimization, and aviation analytics. Our work involves using large-scale mobility and aviation datasets to better understand transportation systems, identify operational patterns, and develop data-driven approaches to planning and decision-making.\nWe decided to participate in the OpenSky Network PRC Data Challenge 2026 because it provides an opportunity to work with real-world aviation data on a challenging research problem and to explore analytical methods beyond our day-to-day project work. We see it as both a technical challenge and an opportunity to contribute to the growing use of open aviation data for research and practical decision-making.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "strong-watermelon"
+    ]
+  },
+  {
+    "objectID": "teams/strong-watermelon.html#details",
+    "href": "teams/strong-watermelon.html#details",
+    "title": "strong-watermelon",
+    "section": "Details",
+    "text": "Details\n\nType: Industry\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nKeshav\nKothari\nWoolpert Inc",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "strong-watermelon"
     ]
   },
   {
@@ -819,81 +858,120 @@
     ]
   },
   {
-    "objectID": "teams/reliable-hamburger.html",
-    "href": "teams/reliable-hamburger.html",
-    "title": "reliable-hamburger",
+    "objectID": "teams/reliable-zebra.html",
+    "href": "teams/reliable-zebra.html",
+    "title": "reliable-zebra",
     "section": "",
-    "text": "I worked at Nice Airport in the operations center, and I also have a bachelor’s degree in artificial intelligence. It’s rare to find challenges like this, so I’m simply interested,I fully intend to go as far as I can.",
+    "text": "We’re a two-person team from Air Canada Flight Operations - one of us works in operations excellence and data validation, the other brings stronger data science/modeling experience. We registered because taxi-out time prediction is directly relevant to the operational and fuel-efficiency work we do day to day, and we saw this challenge as a great opportunity to apply that domain knowledge to a real, open dataset while growing our modeling skills. We’re looking forward to learning from the process, from other teams, and from the PRC/OSN community, and to contributing an open, well-documented approach.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "reliable-hamburger"
+      "reliable-zebra"
     ]
   },
   {
-    "objectID": "teams/reliable-hamburger.html#description-and-rationale",
-    "href": "teams/reliable-hamburger.html#description-and-rationale",
-    "title": "reliable-hamburger",
+    "objectID": "teams/reliable-zebra.html#description-and-rationale",
+    "href": "teams/reliable-zebra.html#description-and-rationale",
+    "title": "reliable-zebra",
     "section": "",
-    "text": "I worked at Nice Airport in the operations center, and I also have a bachelor’s degree in artificial intelligence. It’s rare to find challenges like this, so I’m simply interested,I fully intend to go as far as I can.",
+    "text": "We’re a two-person team from Air Canada Flight Operations - one of us works in operations excellence and data validation, the other brings stronger data science/modeling experience. We registered because taxi-out time prediction is directly relevant to the operational and fuel-efficiency work we do day to day, and we saw this challenge as a great opportunity to apply that domain knowledge to a real, open dataset while growing our modeling skills. We’re looking forward to learning from the process, from other teams, and from the PRC/OSN community, and to contributing an open, well-documented approach.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "reliable-hamburger"
+      "reliable-zebra"
     ]
   },
   {
-    "objectID": "teams/reliable-hamburger.html#details",
-    "href": "teams/reliable-hamburger.html#details",
-    "title": "reliable-hamburger",
+    "objectID": "teams/reliable-zebra.html#details",
+    "href": "teams/reliable-zebra.html#details",
+    "title": "reliable-zebra",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMarius\nCasamiam\nCôte Azur University",
+    "text": "Details\n\nType: Independent\nCountry: Canada\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSushrut\nBorkar\nIndependent\n\n\n2\nVipin Chandran\nMuthirikkaparambil\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "reliable-hamburger"
+      "reliable-zebra"
     ]
   },
   {
-    "objectID": "teams/refreshing-yacht.html",
-    "href": "teams/refreshing-yacht.html",
-    "title": "refreshing-yacht",
+    "objectID": "teams/reliable-deer.html",
+    "href": "teams/reliable-deer.html",
+    "title": "reliable-deer",
     "section": "",
-    "text": "I am a First Year B.Tech Computer Engineering Undergraduate. With an always growing interest in aviation and technology, I love to go through the details behind a flying aircraft. Wanting to pursue a career in Aviation Finance , I love to understand the world of aircrafts. I have built multiple projects, databases , dashboards to understand the market as well as flying airspace and also make people get them.",
+    "text": "I’m a master’s student at QMUL and my machine learning professor (Dr Jun Chen) got me interested in the problem of taxi times at airports and the problems/delays that arise due to this. I came across this competition trying to study (and possibly solve) this problem and it got me instantly interested.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "refreshing-yacht"
+      "reliable-deer"
     ]
   },
   {
-    "objectID": "teams/refreshing-yacht.html#description-and-rationale",
-    "href": "teams/refreshing-yacht.html#description-and-rationale",
-    "title": "refreshing-yacht",
+    "objectID": "teams/reliable-deer.html#description-and-rationale",
+    "href": "teams/reliable-deer.html#description-and-rationale",
+    "title": "reliable-deer",
     "section": "",
-    "text": "I am a First Year B.Tech Computer Engineering Undergraduate. With an always growing interest in aviation and technology, I love to go through the details behind a flying aircraft. Wanting to pursue a career in Aviation Finance , I love to understand the world of aircrafts. I have built multiple projects, databases , dashboards to understand the market as well as flying airspace and also make people get them.",
+    "text": "I’m a master’s student at QMUL and my machine learning professor (Dr Jun Chen) got me interested in the problem of taxi times at airports and the problems/delays that arise due to this. I came across this competition trying to study (and possibly solve) this problem and it got me instantly interested.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "refreshing-yacht"
+      "reliable-deer"
     ]
   },
   {
-    "objectID": "teams/refreshing-yacht.html#details",
-    "href": "teams/refreshing-yacht.html#details",
-    "title": "refreshing-yacht",
+    "objectID": "teams/reliable-deer.html#details",
+    "href": "teams/reliable-deer.html#details",
+    "title": "reliable-deer",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSATVIK\nGOYAL\ncaelum",
+    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nKushagra\nSoni\nindependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "refreshing-yacht"
+      "reliable-deer"
+    ]
+  },
+  {
+    "objectID": "teams/radiant-flamingo.html",
+    "href": "teams/radiant-flamingo.html",
+    "title": "radiant-flamingo",
+    "section": "",
+    "text": "We are a pair of PhD students at Imperial. One team member is interested in optimising aircraft and shipping routes to reduce emissions (more focused in the cruising phase), so decided to register for the challenge as it is related to her main topic. The other team member is interested in machine learning and its applications, so wanted to apply their knowledge to a new dataset.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "radiant-flamingo"
+    ]
+  },
+  {
+    "objectID": "teams/radiant-flamingo.html#description-and-rationale",
+    "href": "teams/radiant-flamingo.html#description-and-rationale",
+    "title": "radiant-flamingo",
+    "section": "",
+    "text": "We are a pair of PhD students at Imperial. One team member is interested in optimising aircraft and shipping routes to reduce emissions (more focused in the cruising phase), so decided to register for the challenge as it is related to her main topic. The other team member is interested in machine learning and its applications, so wanted to apply their knowledge to a new dataset.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "radiant-flamingo"
+    ]
+  },
+  {
+    "objectID": "teams/radiant-flamingo.html#details",
+    "href": "teams/radiant-flamingo.html#details",
+    "title": "radiant-flamingo",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed\n\n\n2\nXyzzy\nXYZZY\nUndisclosed",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "radiant-flamingo"
     ]
   },
   {
@@ -1716,120 +1794,159 @@
     ]
   },
   {
-    "objectID": "teams/jolly-xylophone.html",
-    "href": "teams/jolly-xylophone.html",
-    "title": "jolly-xylophone",
+    "objectID": "teams/jovial-net.html",
+    "href": "teams/jovial-net.html",
+    "title": "jovial-net",
     "section": "",
-    "text": "Aircraft Performance Engineer with a focus on machine learning",
+    "text": "I am an ML engineer, with a background Electrical Engineering and Computer Science. I came across OpenSky during my time in my MBA for a group project, and thought this challenge looked interesting",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-xylophone"
+      "jovial-net"
     ]
   },
   {
-    "objectID": "teams/jolly-xylophone.html#description-and-rationale",
-    "href": "teams/jolly-xylophone.html#description-and-rationale",
-    "title": "jolly-xylophone",
+    "objectID": "teams/jovial-net.html#description-and-rationale",
+    "href": "teams/jovial-net.html#description-and-rationale",
+    "title": "jovial-net",
     "section": "",
-    "text": "Aircraft Performance Engineer with a focus on machine learning",
+    "text": "I am an ML engineer, with a background Electrical Engineering and Computer Science. I came across OpenSky during my time in my MBA for a group project, and thought this challenge looked interesting",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-xylophone"
+      "jovial-net"
     ]
   },
   {
-    "objectID": "teams/jolly-xylophone.html#details",
-    "href": "teams/jolly-xylophone.html#details",
-    "title": "jolly-xylophone",
+    "objectID": "teams/jovial-net.html#details",
+    "href": "teams/jovial-net.html#details",
+    "title": "jovial-net",
     "section": "Details",
-    "text": "Details\n\nType: Industry\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nNestor\nCarmona Moreno\nUnknow",
+    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAditya\nNair\nindependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-xylophone"
+      "jovial-net"
     ]
   },
   {
-    "objectID": "teams/intelligent-xylophone.html",
-    "href": "teams/intelligent-xylophone.html",
-    "title": "intelligent-xylophone",
+    "objectID": "teams/jolly-snowflake.html",
+    "href": "teams/jolly-snowflake.html",
+    "title": "jolly-snowflake",
     "section": "",
-    "text": "Since I have a background in Civil Engineering and Specifically Transportation, as an Machine Learning Engineer i strive for such competitions!",
+    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "intelligent-xylophone"
+      "jolly-snowflake"
     ]
   },
   {
-    "objectID": "teams/intelligent-xylophone.html#description-and-rationale",
-    "href": "teams/intelligent-xylophone.html#description-and-rationale",
-    "title": "intelligent-xylophone",
+    "objectID": "teams/jolly-snowflake.html#description-and-rationale",
+    "href": "teams/jolly-snowflake.html#description-and-rationale",
+    "title": "jolly-snowflake",
     "section": "",
-    "text": "Since I have a background in Civil Engineering and Specifically Transportation, as an Machine Learning Engineer i strive for such competitions!",
+    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "intelligent-xylophone"
+      "jolly-snowflake"
     ]
   },
   {
-    "objectID": "teams/intelligent-xylophone.html#details",
-    "href": "teams/intelligent-xylophone.html#details",
-    "title": "intelligent-xylophone",
+    "objectID": "teams/jolly-snowflake.html#details",
+    "href": "teams/jolly-snowflake.html#details",
+    "title": "jolly-snowflake",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Greece\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed",
+    "text": "Details\n\nType: Industry\nCountry: Ghana\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nIsaac Oluwafemi\nOgunniyi\nindependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "intelligent-xylophone"
+      "jolly-snowflake"
     ]
   },
   {
-    "objectID": "teams/inspiring-quince.html",
-    "href": "teams/inspiring-quince.html",
-    "title": "inspiring-quince",
+    "objectID": "teams/intelligent-ladder.html",
+    "href": "teams/intelligent-ladder.html",
+    "title": "intelligent-ladder",
     "section": "",
-    "text": "I am currently doing my Master‘s degree in Mathematics in Data Science (TUM?). I decided to join the competition because I could definitely use some practice in Deep Learning, and have always been a huge aviation enthusiast.",
+    "text": "We are final year B.tech student and backend freelance developer on FIverr. We have decided to register for the challenge to evaluate our skill on a global platform.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "inspiring-quince"
+      "intelligent-ladder"
     ]
   },
   {
-    "objectID": "teams/inspiring-quince.html#description-and-rationale",
-    "href": "teams/inspiring-quince.html#description-and-rationale",
-    "title": "inspiring-quince",
+    "objectID": "teams/intelligent-ladder.html#description-and-rationale",
+    "href": "teams/intelligent-ladder.html#description-and-rationale",
+    "title": "intelligent-ladder",
     "section": "",
-    "text": "I am currently doing my Master‘s degree in Mathematics in Data Science (TUM?). I decided to join the competition because I could definitely use some practice in Deep Learning, and have always been a huge aviation enthusiast.",
+    "text": "We are final year B.tech student and backend freelance developer on FIverr. We have decided to register for the challenge to evaluate our skill on a global platform.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "inspiring-quince"
+      "intelligent-ladder"
     ]
   },
   {
-    "objectID": "teams/inspiring-quince.html#details",
-    "href": "teams/inspiring-quince.html#details",
-    "title": "inspiring-quince",
+    "objectID": "teams/intelligent-ladder.html#details",
+    "href": "teams/intelligent-ladder.html#details",
+    "title": "intelligent-ladder",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJulius\nPlatzer\nIndependent",
+    "text": "Details\n\nType: Academia, Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAtharv\nChauhan\nindependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "inspiring-quince"
+      "intelligent-ladder"
+    ]
+  },
+  {
+    "objectID": "teams/ingenious-kangaroo.html",
+    "href": "teams/ingenious-kangaroo.html",
+    "title": "ingenious-kangaroo",
+    "section": "",
+    "text": "working within informas aviationweek and my university dissertation in optimising taxiway efficiency for reduced emissions has made me apply for this unique challenge. It will allow me to develop and learn new skills and dive deeper into the aviation world.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "ingenious-kangaroo"
+    ]
+  },
+  {
+    "objectID": "teams/ingenious-kangaroo.html#description-and-rationale",
+    "href": "teams/ingenious-kangaroo.html#description-and-rationale",
+    "title": "ingenious-kangaroo",
+    "section": "",
+    "text": "working within informas aviationweek and my university dissertation in optimising taxiway efficiency for reduced emissions has made me apply for this unique challenge. It will allow me to develop and learn new skills and dive deeper into the aviation world.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "ingenious-kangaroo"
+    ]
+  },
+  {
+    "objectID": "teams/ingenious-kangaroo.html#details",
+    "href": "teams/ingenious-kangaroo.html#details",
+    "title": "ingenious-kangaroo",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nFaiz\nAzam\nindependant",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "ingenious-kangaroo"
     ]
   },
   {
@@ -2769,252 +2886,144 @@
     ]
   },
   {
-    "objectID": "teams/amiable-zipper.html",
-    "href": "teams/amiable-zipper.html",
-    "title": "amiable-zipper",
+    "objectID": "teams/athletic-nightlight.html",
+    "href": "teams/athletic-nightlight.html",
+    "title": "athletic-nightlight",
     "section": "",
-    "text": "I am studying Computer Engineering at Selcuk University and have a strong interest in data, data mining, and aviation analytics. For a previous university data mining project, I chose to classify flight arrival times and draw insights from the resulting patterns. When I discovered that a similar topic was the focus of this challenge, I saw it as a valuable opportunity to build on my previous experience, deepen my knowledge, and test my skills using real-world aviation data. I am also passionate about aviation and hope to pursue a career in this field in the future, which further motivated me to register and participate.",
+    "text": "Student of Data Science. Passion regarding data analytic of real world data.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-zipper"
+      "athletic-nightlight"
     ]
   },
   {
-    "objectID": "teams/amiable-zipper.html#description-and-rationale",
-    "href": "teams/amiable-zipper.html#description-and-rationale",
-    "title": "amiable-zipper",
+    "objectID": "teams/athletic-nightlight.html#description-and-rationale",
+    "href": "teams/athletic-nightlight.html#description-and-rationale",
+    "title": "athletic-nightlight",
     "section": "",
-    "text": "I am studying Computer Engineering at Selcuk University and have a strong interest in data, data mining, and aviation analytics. For a previous university data mining project, I chose to classify flight arrival times and draw insights from the resulting patterns. When I discovered that a similar topic was the focus of this challenge, I saw it as a valuable opportunity to build on my previous experience, deepen my knowledge, and test my skills using real-world aviation data. I am also passionate about aviation and hope to pursue a career in this field in the future, which further motivated me to register and participate.",
+    "text": "Student of Data Science. Passion regarding data analytic of real world data.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-zipper"
+      "athletic-nightlight"
     ]
   },
   {
-    "objectID": "teams/amiable-zipper.html#details",
-    "href": "teams/amiable-zipper.html#details",
-    "title": "amiable-zipper",
+    "objectID": "teams/athletic-nightlight.html#details",
+    "href": "teams/athletic-nightlight.html#details",
+    "title": "athletic-nightlight",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nÖmer\nAtıcı\nSelcuk University",
+    "text": "Details\n\nType: Academia, Independent\nCountry: Malaysia\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nFong Teng\nWong\nSunway University",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-zipper"
+      "athletic-nightlight"
     ]
   },
   {
-    "objectID": "teams/amiable-teapot.html",
-    "href": "teams/amiable-teapot.html",
-    "title": "amiable-teapot",
+    "objectID": "teams/amiable-zeppelin.html",
+    "href": "teams/amiable-zeppelin.html",
+    "title": "amiable-zeppelin",
     "section": "",
-    "text": "A recent graduate trying to learn more about machine learning and deep learning. Planning on getting into research (current working as a SDE)",
+    "text": "I am a recent graduate in Computer Science and I am passionate about data science and ML. I participate in real life hackathons and competitions so that I can hone my skills further.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-teapot"
+      "amiable-zeppelin"
     ]
   },
   {
-    "objectID": "teams/amiable-teapot.html#description-and-rationale",
-    "href": "teams/amiable-teapot.html#description-and-rationale",
-    "title": "amiable-teapot",
+    "objectID": "teams/amiable-zeppelin.html#description-and-rationale",
+    "href": "teams/amiable-zeppelin.html#description-and-rationale",
+    "title": "amiable-zeppelin",
     "section": "",
-    "text": "A recent graduate trying to learn more about machine learning and deep learning. Planning on getting into research (current working as a SDE)",
+    "text": "I am a recent graduate in Computer Science and I am passionate about data science and ML. I participate in real life hackathons and competitions so that I can hone my skills further.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-teapot"
+      "amiable-zeppelin"
     ]
   },
   {
-    "objectID": "teams/amiable-teapot.html#details",
-    "href": "teams/amiable-teapot.html#details",
-    "title": "amiable-teapot",
+    "objectID": "teams/amiable-zeppelin.html#details",
+    "href": "teams/amiable-zeppelin.html#details",
+    "title": "amiable-zeppelin",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nDhruval\nPadia\nIndependent",
+    "text": "Details\n\nType: Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAditya\nSingh\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-teapot"
+      "amiable-zeppelin"
     ]
   },
   {
-    "objectID": "teams/adventurous-ant.html",
-    "href": "teams/adventurous-ant.html",
-    "title": "adventurous-ant",
+    "objectID": "teams/adventurous-bicycle.html",
+    "href": "teams/adventurous-bicycle.html",
+    "title": "adventurous-bicycle",
     "section": "",
-    "text": "I am an independent participant with an interest in data analysis, data science, and machine learning, particularly in their applications to aviation. I decided to register for the PRC Data Challenge to gain practical experience working with real-world aviation data and to further develop my skills in data processing, analysis, and machine learning. I am particularly interested in exploring how data-driven approaches can be applied to better understand and address challenges in the aviation domain. Through this challenge, I hope to enhance my technical skills, gain valuable experience, and learn from other participants and the wider aviation and data science community.",
+    "text": "Specialist from within the ATM filed with analytical mind. I want to challenge myself and I enjoy challenged related to ATM.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "adventurous-ant"
+      "adventurous-bicycle"
     ]
   },
   {
-    "objectID": "teams/adventurous-ant.html#description-and-rationale",
-    "href": "teams/adventurous-ant.html#description-and-rationale",
-    "title": "adventurous-ant",
+    "objectID": "teams/adventurous-bicycle.html#description-and-rationale",
+    "href": "teams/adventurous-bicycle.html#description-and-rationale",
+    "title": "adventurous-bicycle",
     "section": "",
-    "text": "I am an independent participant with an interest in data analysis, data science, and machine learning, particularly in their applications to aviation. I decided to register for the PRC Data Challenge to gain practical experience working with real-world aviation data and to further develop my skills in data processing, analysis, and machine learning. I am particularly interested in exploring how data-driven approaches can be applied to better understand and address challenges in the aviation domain. Through this challenge, I hope to enhance my technical skills, gain valuable experience, and learn from other participants and the wider aviation and data science community.",
+    "text": "Specialist from within the ATM filed with analytical mind. I want to challenge myself and I enjoy challenged related to ATM.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "adventurous-ant"
+      "adventurous-bicycle"
     ]
   },
   {
-    "objectID": "teams/adventurous-ant.html#details",
-    "href": "teams/adventurous-ant.html#details",
-    "title": "adventurous-ant",
+    "objectID": "teams/adventurous-bicycle.html#details",
+    "href": "teams/adventurous-bicycle.html#details",
+    "title": "adventurous-bicycle",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Indonesia\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAmirah AB\nZubaidi\nIndependent",
+    "text": "Details\n\nType: Independent\nCountry: Sweden\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "adventurous-ant"
+      "adventurous-bicycle"
     ]
   },
   {
-    "objectID": "ranking.html",
-    "href": "ranking.html",
-    "title": "Ranking",
+    "objectID": "rationale.html",
+    "href": "rationale.html",
+    "title": "Rationale",
     "section": "",
-    "text": "NotePlease be aware\n\n\n\nWe will monitor submissions for attempts to learn from or exploit the ranking process. We consider such practices unfair and inconsistent with the purposes and goals of the Data Challenge.",
+    "text": "The choice of predicting taxi-out time for this year’s Data Challenge builds on previous challenges, which have focused on using data to better understand environmental and operational impacts.\nTaxi-out time is particularly interesting because it is often difficult to obtain and challenging to predict accurately.\nA model to estimate taxi-out time can be used in post-operations analysis to identify constrained operations intervals and measure excess fuel burnt/CO2 production compared to unconstrained status.\nThe reasons for variability of taxi-out time are various and interlinked. These include airline-specific constraints, airport procedures and load, and Air Traffic Flow Management (ATFM)-related reasons.",
     "crumbs": [
       "Publications",
-      "Leaderboard",
-      "Ranking"
+      "Challenge",
+      "Rationale"
     ]
   },
   {
-    "objectID": "ranking.html#leaderboard",
-    "href": "ranking.html#leaderboard",
-    "title": "Ranking",
-    "section": "Leaderboard",
-    "text": "Leaderboard\n\n\n\n\n\n\nImportantImportant\n\n\n\nWe will post urgent and important news news here, but we strongly recommend following the updates on the OSN Discord  channel, especially #prc-data-competition\nIf you haven’t joined the OSN Discord server yet, you’ll need to do so first to access the channel.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteNote\n\n\n\nIn case of problems with the embedded iframe you can have a look at the Observable notebook https://observablehq.com/@espinielli/dc26-leaderboard\n\n\nAll paginated submission rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nOther endpoints are also available; have a look here and use competitionId = bb3693e1-26bc-4a9e-8619-4fe78b4eab0c.",
-    "crumbs": [
-      "Publications",
-      "Leaderboard",
-      "Ranking"
-    ]
-  },
-  {
-    "objectID": "ranking.html#submission-instructions",
-    "href": "ranking.html#submission-instructions",
-    "title": "Ranking",
-    "section": "Submission Instructions",
-    "text": "Submission Instructions\nTeams will be ranked based on the best Root Mean Square Error (RMSE) achieved across their submissions.\nThe submitting.parquet file is provided as a template. To make a submission, fill in the TAXITIME_SEC_mvt column with your predicted taxi-out times for the corresponding MVT_ID_mvt values.\nEach team must submit its predictions to its own bucket using the following file naming convention:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nFor a submission to be valid, each row must match the corresponding MVT_ID_mvt before the ranking script can use the prediction to calculate the RMSE.\nThe ranking script will issue an error if:\n\nan MVT_ID_mvt does not match;\nany rows are missing; or\nextra rows are included.",
-    "crumbs": [
-      "Publications",
-      "Leaderboard",
-      "Ranking"
-    ]
-  },
-  {
-    "objectID": "ranking.html#acronyms_HEADER_LOA",
-    "href": "ranking.html#acronyms_HEADER_LOA",
-    "title": "Ranking",
+    "objectID": "rationale.html#acronyms_HEADER_LOA",
+    "href": "rationale.html#acronyms_HEADER_LOA",
+    "title": "Rationale",
     "section": "List of Acronyms",
-    "text": "List of Acronyms\n\nRMSE: Root Mean Square Error",
-    "crumbs": [
-      "Publications",
-      "Leaderboard",
-      "Ranking"
-    ]
-  },
-  {
-    "objectID": "eligibility.html",
-    "href": "eligibility.html",
-    "title": "Eligibility",
-    "section": "",
-    "text": "NotePlease note\n\n\n\nWe have made every effort to ensure that the registration process complies with the applicable eligibility rules. However, we reserve the right to refuse/stop participation of teams from countries/companies subject to restrictions at any stage of the challenge.",
-    "crumbs": [
-      "Publications",
-      "Overview",
-      "Eligibility"
-    ]
-  },
-  {
-    "objectID": "eligibility.html#eligibility-for-participation",
-    "href": "eligibility.html#eligibility-for-participation",
-    "title": "Eligibility",
-    "section": "Eligibility for participation",
-    "text": "Eligibility for participation\nParticipation is open to teams worldwide, subject to applicable sanctions and restrictions.\nRestrictions apply to teams originating from, or affiliated with, institutions or companies in countries that are either not EUROCONTROL Member States or Comprehensive Agreement States, or are subject to sanctions.\nRegardless of the reason for the sanctions, these restrictions are also in place because of the practical difficulties involved in transferring prize money to winning teams based in these countries.\nThe registration form implements these restrictions as far as possible.\nPlease refer to the EU Sanctions Map and to the EUROCONTROL Member and Comprehensive Agreement States for the list of EUROCONTROL states.",
-    "crumbs": [
-      "Publications",
-      "Overview",
-      "Eligibility"
-    ]
-  },
-  {
-    "objectID": "eligibility.html#eligibility-for-prize",
-    "href": "eligibility.html#eligibility-for-prize",
-    "title": "Eligibility",
-    "section": "Eligibility for Prize",
-    "text": "Eligibility for Prize\nThe winning submissions/solutions will only be eligible for the awards if:\n\nThe team is NOT related in any way to sanctioned non-EUROCONTROL states. See above.\nAll used external datasets are openly accessible/usable and documented.\nAll produced source code are made openly available on GitHub under the GNU GPLv3 license. Note: It will then be forked by the Challenge GitHub account for organisational purposes.\nAll additional datasets used are openly available under an open source license.\nSufficient documentation is provided to understand and reproduce the results.\nThe solution is original: Teams must use their own original solutions. Re-using any existing implementation is only allowed if the original authors grant you the rights to use their solution and if you made significant modifications to the algorithm or model. In particular, simply re-using existing code and rewriting the data input and output mechanism is not sufficient. Adding parameters to the model and modifying filters to match the specific peculiarities of the data, however, can be considered sufficient.",
-    "crumbs": [
-      "Publications",
-      "Overview",
-      "Eligibility"
-    ]
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
-    "section": "",
-    "text": "To help you solve this year’s Data challenge, we provide the following (logical) datasets:\nThe movements table rows have been (left) joined with the flight table ones.\nThere are a total of 4,167,797 movements at the 11 airports as shown in in Table 1.",
+    "text": "List of Acronyms\n\nATFM: Air Traffic Flow Management",
     "crumbs": [
       "Publications",
       "Challenge",
-      "Data"
-    ]
-  },
-  {
-    "objectID": "data.html#buckets",
-    "href": "data.html#buckets",
-    "title": "Data",
-    "section": "Buckets",
-    "text": "Buckets\nThe 2024 PRC Data Challenge website has some instructions about how to use Minio to access OpenSky buckets at\nhttps://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client\n\nThe Training Dataset\nThe training dataset is split into monthly files. Each file contains the movements for the airports of the challenge:\n\ntraining_2025-01-01_2025-02-01.parquet (21M)\ntraining_2025-02-01_2025-03-01.parquet (19M)\ntraining_2025-03-01_2025-04-01.parquet (22M)\ntraining_2025-04-01_2025-05-01.parquet (23M)\ntraining_2025-05-01_2025-06-01.parquet (25M)\ntraining_2025-06-01_2025-07-01.parquet (24M)\ntraining_2025-07-01_2025-08-01.parquet (25M)\ntraining_2025-08-01_2025-09-01.parquet (25M)\ntraining_2025-09-01_2025-10-01.parquet (24M)\ntraining_2025-10-01_2025-11-01.parquet (25M)\ntraining_2025-11-01_2025-12-01.parquet (22M)\ntraining_2025-12-01_2026-01-01.parquet (22M)\n\n\n\nThe Ranking Dataset\nThe ranking dataset contains the same columns as the training data with:\n\nMovements for Jan and Jul 2026.\nBLOCK_TIME_UTC_mvt and TAXITIME_SEC_mvt for departures (movements with PHASE = \"DEP\") have been blanked out.\n\nIt consists of a single file:\n\nranking.parquet (27M)\n\n\n\nThe Submitting Dataset\nThe submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns MVT_ID_mvt and TAXITIME_SEC_mvt where MVT_ID_mvt values match those of the departures in the ranking dataset. It consists of only one file:\n\nsubmitting.parquet (1.1M)\n\nSee Submission Instructions.",
-    "crumbs": [
-      "Publications",
-      "Challenge",
-      "Data"
-    ]
-  },
-  {
-    "objectID": "data.html#column-description",
-    "href": "data.html#column-description",
-    "title": "Data",
-    "section": "Column Description",
-    "text": "Column Description\nColumns postfixed with _mvt are associated with the reporting airport.\nColumns postfixed with _flt are associated with information from NM flight list.\n\nMovement\n\nMVT_ID_mvt: unique identifier for the movement record\nFLIGHT_ID_mvt: unique identifier for the NM flight (if matched)\nFLIGHT_mvt: flight number, i.e. what you see on your boarding pass\nFLIGHT_RULE_mvt: which sets of regulations the flight is operated under. Possible values are:\n\nI for Instrument Flight Rules (IFR)\nV for Visual Flight Rules (VFR)\nNA if unknown\n\nADEP_mvt: the (ICAO code of the) Aerodrome of DEParture (ADEP).\nADES_mvt: the (ICAO code of the) Aerodrome of DEStination (ADES).\nPHASE_mvt: movement phase. DEP=departure, ARR=arrival.\nMVT_TIME_UTC_mvt: (best available) movement time (takeoff if PHASE = DEP, landing if PHASE = ARR.)\nBLOCK_TIME_UTC_mvt: block time (off-block if PHASE = DEP, in-block if PHASE = ARR.)\nSCHED_TIME_UTC_mvt: scheduled time (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nAIRCRAFT_TYPE_mvt: the ICAO code for the aircraft type, for example A21N for Airbus A321neo.\nRUNWAY_mvt: the Runway (RWY) ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nSTAND_mvt: the stand ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nTAXITIME_SEC_mvt: amount of seconds for taxi time (taxi-out if PHASE = DEP, taxi-in if PHASE = ARR.)\n\n\n\nFlight\nThe following columns come from data recorded by NM.\n\nLOBT_flt: last known off-block time\nCALLSIGN_flt: the callsign of the relevant flight, e.g. BAW6VB.\nADEP_flt: the ICAO code of the ADEP.\nADES_flt: the ICAO code of the ADES.\nADES_FILED_flt: the ADES initially filed in the Flight Plan (FPL). If different from ADES_flt, then the flight has been diverted.\nMARKET_SEGMENT_flt: the market segment type as defined in the Market Segment Rules, it can be:\n\n“Mainline”\n“Regional”\n“Low-Cost”\n“Business Aviation”\n“All-Cargo”\n“Charter” (Non-Scheduled)\n“Military”\n“Other”\n“Not classified”\n\nIOBT_flt: Initial Off-Block Time (IOBT).\nFLIGHT_RULE_flt: which sets of regulations the flight is operated under (see FPL Item 8). Possible values are:\n\nI for IFR\nV for VFR\nY first IFR thereafter VFR\nZ first VFR thereafter IFR\n\nFLIGHT_TYPE_flt: flight type (see FPL Item 8). Possible values are:\n\nS for scheduled air service\nN for non-scheduled air service\nG for general aviation\nM for military (note: filtered out)\nX for other than the preceding categories\n\nAIRCRAFT_TYPE_flt: the ICAO code for the aircraft type, for example A30B for an Airbus A-300B2-200.\nWK_TBL_CAT_flt: wake turbulence category (see FPL Item 9), can be:\n\nL LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.\nM MEDIUM, i.e. maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).\nH HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J).\nJ SUPER, presently only the AIRBUS A-380-800.\n\nAIRCRAFT_OPERATOR_flt: the (anonymized) ICAO Airline Designator.\nEOBT_1_flt: the Estimated Off-Block Time (EOBT) for FPL-based (M1) trajectory.\nARVT_1_flt: the arrival time for FPL-based (M1) trajectory.\nAOBT_3_flt: the Actual Off-Block Time (AOBT) for flown (M3) trajectory.\nARVT_3_flt: the arrival time for flown (M3) trajectory.",
-    "crumbs": [
-      "Publications",
-      "Challenge",
-      "Data"
-    ]
-  },
-  {
-    "objectID": "data.html#acronyms_HEADER_LOA",
-    "href": "data.html#acronyms_HEADER_LOA",
-    "title": "Data",
-    "section": "List of Acronyms",
-    "text": "List of Acronyms\n\nADEP: Aerodrome of DEParture\nADES: Aerodrome of DEStination\nAOBT: Actual Off-Block Time\nEOBT: Estimated Off-Block Time\nFPL: Flight Plan\nIFR: Instrument Flight Rules\nIOBT: Initial Off-Block Time\nNM: Network Manager\nRWY: Runway\nVFR: Visual Flight Rules",
-    "crumbs": [
-      "Publications",
-      "Challenge",
-      "Data"
+      "Rationale"
     ]
   },
   {
@@ -3078,105 +3087,252 @@
     ]
   },
   {
-    "objectID": "rationale.html",
-    "href": "rationale.html",
-    "title": "Rationale",
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
     "section": "",
-    "text": "The choice of predicting taxi-out time for this year’s Data Challenge builds on previous challenges, which have focused on using data to better understand environmental and operational impacts.\nTaxi-out time is particularly interesting because it is often difficult to obtain and challenging to predict accurately.\nA model to estimate taxi-out time can be used in post-operations analysis to identify constrained operations intervals and measure excess fuel burnt/CO2 production compared to unconstrained status.\nThe reasons for variability of taxi-out time are various and interlinked. These include airline-specific constraints, airport procedures and load, and Air Traffic Flow Management (ATFM)-related reasons.",
+    "text": "To help you solve this year’s Data challenge, we provide the following (logical) datasets:\nThe movements table rows have been (left) joined with the flight table ones.\nThere are a total of 4,167,797 movements at the 11 airports as shown in in Table 1.",
     "crumbs": [
       "Publications",
       "Challenge",
-      "Rationale"
+      "Data"
     ]
   },
   {
-    "objectID": "rationale.html#acronyms_HEADER_LOA",
-    "href": "rationale.html#acronyms_HEADER_LOA",
-    "title": "Rationale",
+    "objectID": "data.html#buckets",
+    "href": "data.html#buckets",
+    "title": "Data",
+    "section": "Buckets",
+    "text": "Buckets\nThe 2024 PRC Data Challenge website has some instructions about how to use Minio to access OpenSky buckets at\nhttps://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client\n\nThe Training Dataset\nThe training dataset is split into monthly files. Each file contains the movements for the airports of the challenge:\n\ntraining_2025-01-01_2025-02-01.parquet (21M)\ntraining_2025-02-01_2025-03-01.parquet (19M)\ntraining_2025-03-01_2025-04-01.parquet (22M)\ntraining_2025-04-01_2025-05-01.parquet (23M)\ntraining_2025-05-01_2025-06-01.parquet (25M)\ntraining_2025-06-01_2025-07-01.parquet (24M)\ntraining_2025-07-01_2025-08-01.parquet (25M)\ntraining_2025-08-01_2025-09-01.parquet (25M)\ntraining_2025-09-01_2025-10-01.parquet (24M)\ntraining_2025-10-01_2025-11-01.parquet (25M)\ntraining_2025-11-01_2025-12-01.parquet (22M)\ntraining_2025-12-01_2026-01-01.parquet (22M)\n\n\n\nThe Ranking Dataset\nThe ranking dataset contains the same columns as the training data with:\n\nMovements for Jan and Jul 2026.\nBLOCK_TIME_UTC_mvt and TAXITIME_SEC_mvt for departures (movements with PHASE = \"DEP\") have been blanked out.\n\nIt consists of a single file:\n\nranking.parquet (27M)\n\n\n\nThe Submitting Dataset\nThe submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns MVT_ID_mvt and TAXITIME_SEC_mvt where MVT_ID_mvt values match those of the departures in the ranking dataset. It consists of only one file:\n\nsubmitting.parquet (1.1M)\n\nSee Submission Instructions.",
+    "crumbs": [
+      "Publications",
+      "Challenge",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#column-description",
+    "href": "data.html#column-description",
+    "title": "Data",
+    "section": "Column Description",
+    "text": "Column Description\nColumns postfixed with _mvt are associated with the reporting airport.\nColumns postfixed with _flt are associated with information from NM flight list.\n\nMovement\n\nMVT_ID_mvt: unique identifier for the movement record\nFLIGHT_ID_mvt: unique identifier for the NM flight (if matched)\nFLIGHT_mvt: flight number, i.e. what you see on your boarding pass\nFLIGHT_RULE_mvt: which sets of regulations the flight is operated under. Possible values are:\n\nI for Instrument Flight Rules (IFR)\nV for Visual Flight Rules (VFR)\nNA if unknown\n\nADEP_mvt: the (ICAO code of the) Aerodrome of DEParture (ADEP).\nADES_mvt: the (ICAO code of the) Aerodrome of DEStination (ADES).\nPHASE_mvt: movement phase. DEP=departure, ARR=arrival.\nMVT_TIME_UTC_mvt: (best available) movement time (takeoff if PHASE = DEP, landing if PHASE = ARR.)\nBLOCK_TIME_UTC_mvt: block time (off-block if PHASE = DEP, in-block if PHASE = ARR.)\nSCHED_TIME_UTC_mvt: scheduled time (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nAIRCRAFT_TYPE_mvt: the ICAO code for the aircraft type, for example A21N for Airbus A321neo.\nRUNWAY_mvt: the Runway (RWY) ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nSTAND_mvt: the stand ID (of departure if PHASE = DEP, of arrival if PHASE = ARR.)\nTAXITIME_SEC_mvt: amount of seconds for taxi time (taxi-out if PHASE = DEP, taxi-in if PHASE = ARR.)\n\n\n\nFlight\nThe following columns come from data recorded by NM.\n\nLOBT_flt: last known off-block time\nCALLSIGN_flt: the callsign of the relevant flight, e.g. BAW6VB.\nADEP_flt: the ICAO code of the ADEP.\nADES_flt: the ICAO code of the ADES.\nADES_FILED_flt: the ADES initially filed in the Flight Plan (FPL). If different from ADES_flt, then the flight has been diverted.\nMARKET_SEGMENT_flt: the market segment type as defined in the Market Segment Rules, it can be:\n\n“Mainline”\n“Regional”\n“Low-Cost”\n“Business Aviation”\n“All-Cargo”\n“Charter” (Non-Scheduled)\n“Military”\n“Other”\n“Not classified”\n\nIOBT_flt: Initial Off-Block Time (IOBT).\nFLIGHT_RULE_flt: which sets of regulations the flight is operated under (see FPL Item 8). Possible values are:\n\nI for IFR\nV for VFR\nY first IFR thereafter VFR\nZ first VFR thereafter IFR\n\nFLIGHT_TYPE_flt: flight type (see FPL Item 8). Possible values are:\n\nS for scheduled air service\nN for non-scheduled air service\nG for general aviation\nM for military (note: filtered out)\nX for other than the preceding categories\n\nAIRCRAFT_TYPE_flt: the ICAO code for the aircraft type, for example A30B for an Airbus A-300B2-200.\nWK_TBL_CAT_flt: wake turbulence category (see FPL Item 9), can be:\n\nL LIGHT, i.e. maximum certificated takeoff mass of 7000 kg (15_500 lbs) or less.\nM MEDIUM, i.e. maximum certificated takeoff mass less than 136_000 kg (300_000 lbs), but more than 7_000 kg (15_500 lbs).\nH HEAVY, i.e. maximum certificated takeoff mass of 136_000 kg (300_000 lbs) or more (except those specified as J).\nJ SUPER, presently only the AIRBUS A-380-800.\n\nAIRCRAFT_OPERATOR_flt: the (anonymized) ICAO Airline Designator.\nEOBT_1_flt: the Estimated Off-Block Time (EOBT) for FPL-based (M1) trajectory.\nARVT_1_flt: the arrival time for FPL-based (M1) trajectory.\nAOBT_3_flt: the Actual Off-Block Time (AOBT) for flown (M3) trajectory.\nARVT_3_flt: the arrival time for flown (M3) trajectory.",
+    "crumbs": [
+      "Publications",
+      "Challenge",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#acronyms_HEADER_LOA",
+    "href": "data.html#acronyms_HEADER_LOA",
+    "title": "Data",
     "section": "List of Acronyms",
-    "text": "List of Acronyms\n\nATFM: Air Traffic Flow Management",
+    "text": "List of Acronyms\n\nADEP: Aerodrome of DEParture\nADES: Aerodrome of DEStination\nAOBT: Actual Off-Block Time\nEOBT: Estimated Off-Block Time\nFPL: Flight Plan\nIFR: Instrument Flight Rules\nIOBT: Initial Off-Block Time\nNM: Network Manager\nRWY: Runway\nVFR: Visual Flight Rules",
     "crumbs": [
       "Publications",
       "Challenge",
-      "Rationale"
+      "Data"
     ]
   },
   {
-    "objectID": "teams/adventurous-bicycle.html",
-    "href": "teams/adventurous-bicycle.html",
-    "title": "adventurous-bicycle",
+    "objectID": "eligibility.html",
+    "href": "eligibility.html",
+    "title": "Eligibility",
     "section": "",
-    "text": "Specialist from within the ATM filed with analytical mind. I want to challenge myself and I enjoy challenged related to ATM.",
+    "text": "NotePlease note\n\n\n\nWe have made every effort to ensure that the registration process complies with the applicable eligibility rules. However, we reserve the right to refuse/stop participation of teams from countries/companies subject to restrictions at any stage of the challenge.",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "Eligibility"
+    ]
+  },
+  {
+    "objectID": "eligibility.html#eligibility-for-participation",
+    "href": "eligibility.html#eligibility-for-participation",
+    "title": "Eligibility",
+    "section": "Eligibility for participation",
+    "text": "Eligibility for participation\nParticipation is open to teams worldwide, subject to applicable sanctions and restrictions.\nRestrictions apply to teams originating from, or affiliated with, institutions or companies in countries that are either not EUROCONTROL Member States or Comprehensive Agreement States, or are subject to sanctions.\nRegardless of the reason for the sanctions, these restrictions are also in place because of the practical difficulties involved in transferring prize money to winning teams based in these countries.\nThe registration form implements these restrictions as far as possible.\nPlease refer to the EU Sanctions Map and to the EUROCONTROL Member and Comprehensive Agreement States for the list of EUROCONTROL states.",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "Eligibility"
+    ]
+  },
+  {
+    "objectID": "eligibility.html#eligibility-for-prize",
+    "href": "eligibility.html#eligibility-for-prize",
+    "title": "Eligibility",
+    "section": "Eligibility for Prize",
+    "text": "Eligibility for Prize\nThe winning submissions/solutions will only be eligible for the awards if:\n\nThe team is NOT related in any way to sanctioned non-EUROCONTROL states. See above.\nAll used external datasets are openly accessible/usable and documented.\nAll produced source code are made openly available on GitHub under the GNU GPLv3 license. Note: It will then be forked by the Challenge GitHub account for organisational purposes.\nAll additional datasets used are openly available under an open source license.\nSufficient documentation is provided to understand and reproduce the results.\nThe solution is original: Teams must use their own original solutions. Re-using any existing implementation is only allowed if the original authors grant you the rights to use their solution and if you made significant modifications to the algorithm or model. In particular, simply re-using existing code and rewriting the data input and output mechanism is not sufficient. Adding parameters to the model and modifying filters to match the specific peculiarities of the data, however, can be considered sufficient.",
+    "crumbs": [
+      "Publications",
+      "Overview",
+      "Eligibility"
+    ]
+  },
+  {
+    "objectID": "ranking.html",
+    "href": "ranking.html",
+    "title": "Ranking",
+    "section": "",
+    "text": "NotePlease be aware\n\n\n\nWe will monitor submissions for attempts to learn from or exploit the ranking process. We consider such practices unfair and inconsistent with the purposes and goals of the Data Challenge.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "ranking.html#leaderboard",
+    "href": "ranking.html#leaderboard",
+    "title": "Ranking",
+    "section": "Leaderboard",
+    "text": "Leaderboard\n\n\n\n\n\n\nImportantImportant\n\n\n\nWe will post urgent and important news news here, but we strongly recommend following the updates on the OSN Discord  channel, especially #prc-data-competition\nIf you haven’t joined the OSN Discord server yet, you’ll need to do so first to access the channel.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteNote\n\n\n\nIn case of problems with the embedded iframe you can have a look at the Observable notebook https://observablehq.com/@espinielli/dc26-leaderboard\n\n\nAll paginated submission rankings can be retrieved via the REST API at the full leaderboard JSON (use the value of nextCursor in the cursor= parameter in the URL query).\nOther endpoints are also available; have a look here and use competitionId = bb3693e1-26bc-4a9e-8619-4fe78b4eab0c.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "ranking.html#submission-instructions",
+    "href": "ranking.html#submission-instructions",
+    "title": "Ranking",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nTeams will be ranked based on the best Root Mean Square Error (RMSE) achieved across their submissions.\nThe submitting.parquet file is provided as a template. To make a submission, fill in the TAXITIME_SEC_mvt column with your predicted taxi-out times for the corresponding MVT_ID_mvt values.\nEach team must submit its predictions to its own bucket using the following file naming convention:\n\n&lt;team-name&gt;_v&lt;incremental integer&gt;.parquet\n\nFor a submission to be valid, each row must match the corresponding MVT_ID_mvt before the ranking script can use the prediction to calculate the RMSE.\nThe ranking script will issue an error if:\n\nan MVT_ID_mvt does not match;\nany rows are missing; or\nextra rows are included.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "ranking.html#acronyms_HEADER_LOA",
+    "href": "ranking.html#acronyms_HEADER_LOA",
+    "title": "Ranking",
+    "section": "List of Acronyms",
+    "text": "List of Acronyms\n\nRMSE: Root Mean Square Error",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "Ranking"
+    ]
+  },
+  {
+    "objectID": "teams/adventurous-ant.html",
+    "href": "teams/adventurous-ant.html",
+    "title": "adventurous-ant",
+    "section": "",
+    "text": "I am an independent participant with an interest in data analysis, data science, and machine learning, particularly in their applications to aviation. I decided to register for the PRC Data Challenge to gain practical experience working with real-world aviation data and to further develop my skills in data processing, analysis, and machine learning. I am particularly interested in exploring how data-driven approaches can be applied to better understand and address challenges in the aviation domain. Through this challenge, I hope to enhance my technical skills, gain valuable experience, and learn from other participants and the wider aviation and data science community.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "adventurous-bicycle"
+      "adventurous-ant"
     ]
   },
   {
-    "objectID": "teams/adventurous-bicycle.html#description-and-rationale",
-    "href": "teams/adventurous-bicycle.html#description-and-rationale",
-    "title": "adventurous-bicycle",
+    "objectID": "teams/adventurous-ant.html#description-and-rationale",
+    "href": "teams/adventurous-ant.html#description-and-rationale",
+    "title": "adventurous-ant",
     "section": "",
-    "text": "Specialist from within the ATM filed with analytical mind. I want to challenge myself and I enjoy challenged related to ATM.",
+    "text": "I am an independent participant with an interest in data analysis, data science, and machine learning, particularly in their applications to aviation. I decided to register for the PRC Data Challenge to gain practical experience working with real-world aviation data and to further develop my skills in data processing, analysis, and machine learning. I am particularly interested in exploring how data-driven approaches can be applied to better understand and address challenges in the aviation domain. Through this challenge, I hope to enhance my technical skills, gain valuable experience, and learn from other participants and the wider aviation and data science community.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "adventurous-bicycle"
+      "adventurous-ant"
     ]
   },
   {
-    "objectID": "teams/adventurous-bicycle.html#details",
-    "href": "teams/adventurous-bicycle.html#details",
-    "title": "adventurous-bicycle",
+    "objectID": "teams/adventurous-ant.html#details",
+    "href": "teams/adventurous-ant.html#details",
+    "title": "adventurous-ant",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Sweden\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed",
+    "text": "Details\n\nType: Independent\nCountry: Indonesia\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAmirah AB\nZubaidi\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "adventurous-bicycle"
+      "adventurous-ant"
     ]
   },
   {
-    "objectID": "teams/amiable-zeppelin.html",
-    "href": "teams/amiable-zeppelin.html",
-    "title": "amiable-zeppelin",
+    "objectID": "teams/amiable-teapot.html",
+    "href": "teams/amiable-teapot.html",
+    "title": "amiable-teapot",
     "section": "",
-    "text": "I am a recent graduate in Computer Science and I am passionate about data science and ML. I participate in real life hackathons and competitions so that I can hone my skills further.",
+    "text": "A recent graduate trying to learn more about machine learning and deep learning. Planning on getting into research (current working as a SDE)",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-zeppelin"
+      "amiable-teapot"
     ]
   },
   {
-    "objectID": "teams/amiable-zeppelin.html#description-and-rationale",
-    "href": "teams/amiable-zeppelin.html#description-and-rationale",
-    "title": "amiable-zeppelin",
+    "objectID": "teams/amiable-teapot.html#description-and-rationale",
+    "href": "teams/amiable-teapot.html#description-and-rationale",
+    "title": "amiable-teapot",
     "section": "",
-    "text": "I am a recent graduate in Computer Science and I am passionate about data science and ML. I participate in real life hackathons and competitions so that I can hone my skills further.",
+    "text": "A recent graduate trying to learn more about machine learning and deep learning. Planning on getting into research (current working as a SDE)",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-zeppelin"
+      "amiable-teapot"
     ]
   },
   {
-    "objectID": "teams/amiable-zeppelin.html#details",
-    "href": "teams/amiable-zeppelin.html#details",
-    "title": "amiable-zeppelin",
+    "objectID": "teams/amiable-teapot.html#details",
+    "href": "teams/amiable-teapot.html#details",
+    "title": "amiable-teapot",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAditya\nSingh\nIndependent",
+    "text": "Details\n\nType: Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nDhruval\nPadia\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "amiable-zeppelin"
+      "amiable-teapot"
+    ]
+  },
+  {
+    "objectID": "teams/amiable-zipper.html",
+    "href": "teams/amiable-zipper.html",
+    "title": "amiable-zipper",
+    "section": "",
+    "text": "I am studying Computer Engineering at Selcuk University and have a strong interest in data, data mining, and aviation analytics. For a previous university data mining project, I chose to classify flight arrival times and draw insights from the resulting patterns. When I discovered that a similar topic was the focus of this challenge, I saw it as a valuable opportunity to build on my previous experience, deepen my knowledge, and test my skills using real-world aviation data. I am also passionate about aviation and hope to pursue a career in this field in the future, which further motivated me to register and participate.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "amiable-zipper"
+    ]
+  },
+  {
+    "objectID": "teams/amiable-zipper.html#description-and-rationale",
+    "href": "teams/amiable-zipper.html#description-and-rationale",
+    "title": "amiable-zipper",
+    "section": "",
+    "text": "I am studying Computer Engineering at Selcuk University and have a strong interest in data, data mining, and aviation analytics. For a previous university data mining project, I chose to classify flight arrival times and draw insights from the resulting patterns. When I discovered that a similar topic was the focus of this challenge, I saw it as a valuable opportunity to build on my previous experience, deepen my knowledge, and test my skills using real-world aviation data. I am also passionate about aviation and hope to pursue a career in this field in the future, which further motivated me to register and participate.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "amiable-zipper"
+    ]
+  },
+  {
+    "objectID": "teams/amiable-zipper.html#details",
+    "href": "teams/amiable-zipper.html#details",
+    "title": "amiable-zipper",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nÖmer\nAtıcı\nSelcuk University",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "amiable-zipper"
     ]
   },
   {
@@ -4128,120 +4284,159 @@
     ]
   },
   {
-    "objectID": "teams/intelligent-ladder.html",
-    "href": "teams/intelligent-ladder.html",
-    "title": "intelligent-ladder",
+    "objectID": "teams/inspiring-quince.html",
+    "href": "teams/inspiring-quince.html",
+    "title": "inspiring-quince",
     "section": "",
-    "text": "We are final year B.tech student and backend freelance developer on FIverr. We have decided to register for the challenge to evaluate our skill on a global platform.",
+    "text": "I am currently doing my Master‘s degree in Mathematics in Data Science (TUM?). I decided to join the competition because I could definitely use some practice in Deep Learning, and have always been a huge aviation enthusiast.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "intelligent-ladder"
+      "inspiring-quince"
     ]
   },
   {
-    "objectID": "teams/intelligent-ladder.html#description-and-rationale",
-    "href": "teams/intelligent-ladder.html#description-and-rationale",
-    "title": "intelligent-ladder",
+    "objectID": "teams/inspiring-quince.html#description-and-rationale",
+    "href": "teams/inspiring-quince.html#description-and-rationale",
+    "title": "inspiring-quince",
     "section": "",
-    "text": "We are final year B.tech student and backend freelance developer on FIverr. We have decided to register for the challenge to evaluate our skill on a global platform.",
+    "text": "I am currently doing my Master‘s degree in Mathematics in Data Science (TUM?). I decided to join the competition because I could definitely use some practice in Deep Learning, and have always been a huge aviation enthusiast.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "intelligent-ladder"
+      "inspiring-quince"
     ]
   },
   {
-    "objectID": "teams/intelligent-ladder.html#details",
-    "href": "teams/intelligent-ladder.html#details",
-    "title": "intelligent-ladder",
+    "objectID": "teams/inspiring-quince.html#details",
+    "href": "teams/inspiring-quince.html#details",
+    "title": "inspiring-quince",
     "section": "Details",
-    "text": "Details\n\nType: Academia, Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAtharv\nChauhan\nindependent",
+    "text": "Details\n\nType: Independent\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJulius\nPlatzer\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "intelligent-ladder"
+      "inspiring-quince"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html",
-    "href": "teams/jolly-snowflake.html",
-    "title": "jolly-snowflake",
+    "objectID": "teams/intelligent-xylophone.html",
+    "href": "teams/intelligent-xylophone.html",
+    "title": "intelligent-xylophone",
     "section": "",
-    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "text": "Since I have a background in Civil Engineering and Specifically Transportation, as an Machine Learning Engineer i strive for such competitions!",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "intelligent-xylophone"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html#description-and-rationale",
-    "href": "teams/jolly-snowflake.html#description-and-rationale",
-    "title": "jolly-snowflake",
+    "objectID": "teams/intelligent-xylophone.html#description-and-rationale",
+    "href": "teams/intelligent-xylophone.html#description-and-rationale",
+    "title": "intelligent-xylophone",
     "section": "",
-    "text": "I am a data scientist with an aerospace Engineering background who loves the opportunity to apply my data science skills to aviation",
+    "text": "Since I have a background in Civil Engineering and Specifically Transportation, as an Machine Learning Engineer i strive for such competitions!",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "intelligent-xylophone"
     ]
   },
   {
-    "objectID": "teams/jolly-snowflake.html#details",
-    "href": "teams/jolly-snowflake.html#details",
-    "title": "jolly-snowflake",
+    "objectID": "teams/intelligent-xylophone.html#details",
+    "href": "teams/intelligent-xylophone.html#details",
+    "title": "intelligent-xylophone",
     "section": "Details",
-    "text": "Details\n\nType: Industry\nCountry: Ghana\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nIsaac Oluwafemi\nOgunniyi\nindependent",
+    "text": "Details\n\nType: Independent\nCountry: Greece\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nXyzzy\nXYZZY\nUndisclosed",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jolly-snowflake"
+      "intelligent-xylophone"
     ]
   },
   {
-    "objectID": "teams/jovial-net.html",
-    "href": "teams/jovial-net.html",
-    "title": "jovial-net",
+    "objectID": "teams/jolly-xylophone.html",
+    "href": "teams/jolly-xylophone.html",
+    "title": "jolly-xylophone",
     "section": "",
-    "text": "I am an ML engineer, with a background Electrical Engineering and Computer Science. I came across OpenSky during my time in my MBA for a group project, and thought this challenge looked interesting",
+    "text": "Aircraft Performance Engineer with a focus on machine learning",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jovial-net"
+      "jolly-xylophone"
     ]
   },
   {
-    "objectID": "teams/jovial-net.html#description-and-rationale",
-    "href": "teams/jovial-net.html#description-and-rationale",
-    "title": "jovial-net",
+    "objectID": "teams/jolly-xylophone.html#description-and-rationale",
+    "href": "teams/jolly-xylophone.html#description-and-rationale",
+    "title": "jolly-xylophone",
     "section": "",
-    "text": "I am an ML engineer, with a background Electrical Engineering and Computer Science. I came across OpenSky during my time in my MBA for a group project, and thought this challenge looked interesting",
+    "text": "Aircraft Performance Engineer with a focus on machine learning",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jovial-net"
+      "jolly-xylophone"
     ]
   },
   {
-    "objectID": "teams/jovial-net.html#details",
-    "href": "teams/jovial-net.html#details",
-    "title": "jovial-net",
+    "objectID": "teams/jolly-xylophone.html#details",
+    "href": "teams/jolly-xylophone.html#details",
+    "title": "jolly-xylophone",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAditya\nNair\nindependent",
+    "text": "Details\n\nType: Industry\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nNestor\nCarmona Moreno\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "jovial-net"
+      "jolly-xylophone"
+    ]
+  },
+  {
+    "objectID": "teams/jovial-onion.html",
+    "href": "teams/jovial-onion.html",
+    "title": "jovial-onion",
+    "section": "",
+    "text": "We are a small team of researchers who enjoy using data to understand complex real-world systems. Our backgrounds combine quantitative research, economics, data analysis, and programming, with Kianoush also bringing previous experience related to this area.\nWe joined the PRC Data Challenge because we genuinely find the problem fascinating. Airports are complex systems in which thousands of individual operational decisions interact, and predicting something as seemingly simple as taxi-out time requires understanding both systematic patterns and the uncertainty behind them. We see the challenge as a great opportunity to learn more about aviation, work with an unusually rich open dataset, and push ourselves methodologically.\nMore than anything, we are excited by the spirit of the challenge: solving a difficult real-world problem, learning from other teams, and developing a solution that is transparent, reproducible, and potentially useful beyond the competition itself.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "jovial-onion"
+    ]
+  },
+  {
+    "objectID": "teams/jovial-onion.html#description-and-rationale",
+    "href": "teams/jovial-onion.html#description-and-rationale",
+    "title": "jovial-onion",
+    "section": "",
+    "text": "We are a small team of researchers who enjoy using data to understand complex real-world systems. Our backgrounds combine quantitative research, economics, data analysis, and programming, with Kianoush also bringing previous experience related to this area.\nWe joined the PRC Data Challenge because we genuinely find the problem fascinating. Airports are complex systems in which thousands of individual operational decisions interact, and predicting something as seemingly simple as taxi-out time requires understanding both systematic patterns and the uncertainty behind them. We see the challenge as a great opportunity to learn more about aviation, work with an unusually rich open dataset, and push ourselves methodologically.\nMore than anything, we are excited by the spirit of the challenge: solving a difficult real-world problem, learning from other teams, and developing a solution that is transparent, reproducible, and potentially useful beyond the competition itself.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "jovial-onion"
+    ]
+  },
+  {
+    "objectID": "teams/jovial-onion.html#details",
+    "href": "teams/jovial-onion.html#details",
+    "title": "jovial-onion",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: Sweden\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMehdi\nAmani\nStockholm University\n\n\n2\nKianoush\nSaeedi\nStockholms Universitet\n\n\n3\nGhazal\nKazemi Khanghah\nKungliga Tekniska Högskolan",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "jovial-onion"
     ]
   },
   {
@@ -5064,42 +5259,81 @@
     ]
   },
   {
-    "objectID": "teams/reliable-deer.html",
-    "href": "teams/reliable-deer.html",
-    "title": "reliable-deer",
+    "objectID": "teams/refreshing-yacht.html",
+    "href": "teams/refreshing-yacht.html",
+    "title": "refreshing-yacht",
     "section": "",
-    "text": "I’m a master’s student at QMUL and my machine learning professor (Dr Jun Chen) got me interested in the problem of taxi times at airports and the problems/delays that arise due to this. I came across this competition trying to study (and possibly solve) this problem and it got me instantly interested.",
+    "text": "I am a First Year B.Tech Computer Engineering Undergraduate. With an always growing interest in aviation and technology, I love to go through the details behind a flying aircraft. Wanting to pursue a career in Aviation Finance , I love to understand the world of aircrafts. I have built multiple projects, databases , dashboards to understand the market as well as flying airspace and also make people get them.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "reliable-deer"
+      "refreshing-yacht"
     ]
   },
   {
-    "objectID": "teams/reliable-deer.html#description-and-rationale",
-    "href": "teams/reliable-deer.html#description-and-rationale",
-    "title": "reliable-deer",
+    "objectID": "teams/refreshing-yacht.html#description-and-rationale",
+    "href": "teams/refreshing-yacht.html#description-and-rationale",
+    "title": "refreshing-yacht",
     "section": "",
-    "text": "I’m a master’s student at QMUL and my machine learning professor (Dr Jun Chen) got me interested in the problem of taxi times at airports and the problems/delays that arise due to this. I came across this competition trying to study (and possibly solve) this problem and it got me instantly interested.",
+    "text": "I am a First Year B.Tech Computer Engineering Undergraduate. With an always growing interest in aviation and technology, I love to go through the details behind a flying aircraft. Wanting to pursue a career in Aviation Finance , I love to understand the world of aircrafts. I have built multiple projects, databases , dashboards to understand the market as well as flying airspace and also make people get them.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "reliable-deer"
+      "refreshing-yacht"
     ]
   },
   {
-    "objectID": "teams/reliable-deer.html#details",
-    "href": "teams/reliable-deer.html#details",
-    "title": "reliable-deer",
+    "objectID": "teams/refreshing-yacht.html#details",
+    "href": "teams/refreshing-yacht.html#details",
+    "title": "refreshing-yacht",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nKushagra\nSoni\nindependent",
+    "text": "Details\n\nType: Independent\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nSATVIK\nGOYAL\ncaelum",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "reliable-deer"
+      "refreshing-yacht"
+    ]
+  },
+  {
+    "objectID": "teams/reliable-hamburger.html",
+    "href": "teams/reliable-hamburger.html",
+    "title": "reliable-hamburger",
+    "section": "",
+    "text": "I worked at Nice Airport in the operations center, and I also have a bachelor’s degree in artificial intelligence. It’s rare to find challenges like this, so I’m simply interested,I fully intend to go as far as I can.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "reliable-hamburger"
+    ]
+  },
+  {
+    "objectID": "teams/reliable-hamburger.html#description-and-rationale",
+    "href": "teams/reliable-hamburger.html#description-and-rationale",
+    "title": "reliable-hamburger",
+    "section": "",
+    "text": "I worked at Nice Airport in the operations center, and I also have a bachelor’s degree in artificial intelligence. It’s rare to find challenges like this, so I’m simply interested,I fully intend to go as far as I can.",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "reliable-hamburger"
+    ]
+  },
+  {
+    "objectID": "teams/reliable-hamburger.html#details",
+    "href": "teams/reliable-hamburger.html#details",
+    "title": "reliable-hamburger",
+    "section": "Details",
+    "text": "Details\n\nType: Academia\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMarius\nCasamiam\nCôte Azur University",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "reliable-hamburger"
     ]
   },
   {
@@ -5376,276 +5610,315 @@
     ]
   },
   {
-    "objectID": "teams/thoughtful-kiwi.html",
-    "href": "teams/thoughtful-kiwi.html",
-    "title": "thoughtful-kiwi",
+    "objectID": "teams/thoughtful-glove.html",
+    "href": "teams/thoughtful-glove.html",
+    "title": "thoughtful-glove",
     "section": "",
-    "text": "Private Pilot, Aviation enthusiast and independant researcher",
+    "text": "Ph.D. in Artificial Intelligence student from the University of the Philippines Diliman who builds practical machine learning and AI for aviation.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-kiwi"
+      "thoughtful-glove"
     ]
   },
   {
-    "objectID": "teams/thoughtful-kiwi.html#description-and-rationale",
-    "href": "teams/thoughtful-kiwi.html#description-and-rationale",
-    "title": "thoughtful-kiwi",
+    "objectID": "teams/thoughtful-glove.html#description-and-rationale",
+    "href": "teams/thoughtful-glove.html#description-and-rationale",
+    "title": "thoughtful-glove",
     "section": "",
-    "text": "Private Pilot, Aviation enthusiast and independant researcher",
+    "text": "Ph.D. in Artificial Intelligence student from the University of the Philippines Diliman who builds practical machine learning and AI for aviation.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-kiwi"
+      "thoughtful-glove"
     ]
   },
   {
-    "objectID": "teams/thoughtful-kiwi.html#details",
-    "href": "teams/thoughtful-kiwi.html#details",
-    "title": "thoughtful-kiwi",
+    "objectID": "teams/thoughtful-glove.html#details",
+    "href": "teams/thoughtful-glove.html#details",
+    "title": "thoughtful-glove",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nJeffrey\nSchafer\nIndependent",
+    "text": "Details\n\nType: Academia\nCountry: Philippines\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nMichael\nIgnacio\nUniversity of the Philippines Diliman",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-kiwi"
+      "thoughtful-glove"
     ]
   },
   {
-    "objectID": "teams/thoughtful-scooter.html",
-    "href": "teams/thoughtful-scooter.html",
-    "title": "thoughtful-scooter",
+    "objectID": "teams/thoughtful-octopus.html",
+    "href": "teams/thoughtful-octopus.html",
+    "title": "thoughtful-octopus",
     "section": "",
-    "text": "ATM Researcher",
+    "text": "A data scientist and air-travel nerd",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-scooter"
+      "thoughtful-octopus"
     ]
   },
   {
-    "objectID": "teams/thoughtful-scooter.html#description-and-rationale",
-    "href": "teams/thoughtful-scooter.html#description-and-rationale",
-    "title": "thoughtful-scooter",
+    "objectID": "teams/thoughtful-octopus.html#description-and-rationale",
+    "href": "teams/thoughtful-octopus.html#description-and-rationale",
+    "title": "thoughtful-octopus",
     "section": "",
-    "text": "ATM Researcher",
+    "text": "A data scientist and air-travel nerd",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-scooter"
+      "thoughtful-octopus"
     ]
   },
   {
-    "objectID": "teams/thoughtful-scooter.html#details",
-    "href": "teams/thoughtful-scooter.html#details",
-    "title": "thoughtful-scooter",
+    "objectID": "teams/thoughtful-octopus.html#details",
+    "href": "teams/thoughtful-octopus.html#details",
+    "title": "thoughtful-octopus",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: Turkey\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nEnes\nÖzçelik\nEskişehir Technical University",
+    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nThomas\nMcEldowney\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "thoughtful-scooter"
+      "thoughtful-octopus"
     ]
   },
   {
-    "objectID": "teams/tiny-boat.html",
-    "href": "teams/tiny-boat.html",
-    "title": "tiny-boat",
+    "objectID": "teams/tidy-nugget.html",
+    "href": "teams/tidy-nugget.html",
+    "title": "tidy-nugget",
     "section": "",
-    "text": "I’m a final-year B.Tech student in Mathematics and Computing at Netaji Subhas University of Technology (NSUT), Delhi, with a strong interest in applied machine learning, computer vision, and data-driven problem solving. I recently completed a technical internship at Microsoft India, where I worked on AI-driven tools involving evidence verification and proposal evaluation systems, and I’ve also worked on ML-based projects such as forest fire susceptibility mapping using XGBoost.\nI registered for the PRC Data Challenge because it combines two things I enjoy — working with real-world operational data and building predictive models that solve genuinely useful problems. Predicting taxi-out times at major European airports is a great opportunity to apply time-series and ML techniques to aviation data at scale, while also contributing to EUROCONTROL’s open science and reproducibility goals.",
+    "text": "I am a researcher in air cargo and air cargo sustainability at Frankfurt UAS Institute for Aviation and Tourism. Our research is driven by a genuine interest in the development of solutions for optimized operations in aviation that benefit the industry and especially address the environmental challenges of the aviation sector. By participating in the challenge, we can potentially help address the high burden of emissions in taxiing events. By publishing our results, we not only benefit the industry but also contribute to scientific knowledge.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-boat"
+      "tidy-nugget"
     ]
   },
   {
-    "objectID": "teams/tiny-boat.html#description-and-rationale",
-    "href": "teams/tiny-boat.html#description-and-rationale",
-    "title": "tiny-boat",
+    "objectID": "teams/tidy-nugget.html#description-and-rationale",
+    "href": "teams/tidy-nugget.html#description-and-rationale",
+    "title": "tidy-nugget",
     "section": "",
-    "text": "I’m a final-year B.Tech student in Mathematics and Computing at Netaji Subhas University of Technology (NSUT), Delhi, with a strong interest in applied machine learning, computer vision, and data-driven problem solving. I recently completed a technical internship at Microsoft India, where I worked on AI-driven tools involving evidence verification and proposal evaluation systems, and I’ve also worked on ML-based projects such as forest fire susceptibility mapping using XGBoost.\nI registered for the PRC Data Challenge because it combines two things I enjoy — working with real-world operational data and building predictive models that solve genuinely useful problems. Predicting taxi-out times at major European airports is a great opportunity to apply time-series and ML techniques to aviation data at scale, while also contributing to EUROCONTROL’s open science and reproducibility goals.",
+    "text": "I am a researcher in air cargo and air cargo sustainability at Frankfurt UAS Institute for Aviation and Tourism. Our research is driven by a genuine interest in the development of solutions for optimized operations in aviation that benefit the industry and especially address the environmental challenges of the aviation sector. By participating in the challenge, we can potentially help address the high burden of emissions in taxiing events. By publishing our results, we not only benefit the industry but also contribute to scientific knowledge.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-boat"
+      "tidy-nugget"
     ]
   },
   {
-    "objectID": "teams/tiny-boat.html#details",
-    "href": "teams/tiny-boat.html#details",
-    "title": "tiny-boat",
+    "objectID": "teams/tidy-nugget.html#details",
+    "href": "teams/tidy-nugget.html#details",
+    "title": "tidy-nugget",
     "section": "Details",
-    "text": "Details\n\nType: Academia\nCountry: India\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAyush\nGupta\nNetaji Subhas University of Technology",
+    "text": "Details\n\nType: Academia\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nBernardo\nPuente-Mejia\nFrankfurt University of Applied Sciences",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-boat"
+      "tidy-nugget"
     ]
   },
   {
-    "objectID": "teams/tiny-flamingo.html",
-    "href": "teams/tiny-flamingo.html",
-    "title": "tiny-flamingo",
+    "objectID": "teams/tiny-clown.html",
+    "href": "teams/tiny-clown.html",
+    "title": "tiny-clown",
     "section": "",
-    "text": "Management PhD transitioning to data science, with a deep interest in aviation data",
+    "text": "I am an independent participant based in the United Kingdom with a strong interest in aviation data, analytics and machine learning. I joined the PRC Data Challenge to work with real-world aviation data, test different analytical and modelling approaches, and improve my understanding of operational performance and air traffic data. The challenge is also an opportunity to learn from the wider research and aviation data community and develop practical, data-driven solutions.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-flamingo"
+      "tiny-clown"
     ]
   },
   {
-    "objectID": "teams/tiny-flamingo.html#description-and-rationale",
-    "href": "teams/tiny-flamingo.html#description-and-rationale",
-    "title": "tiny-flamingo",
+    "objectID": "teams/tiny-clown.html#description-and-rationale",
+    "href": "teams/tiny-clown.html#description-and-rationale",
+    "title": "tiny-clown",
     "section": "",
-    "text": "Management PhD transitioning to data science, with a deep interest in aviation data",
+    "text": "I am an independent participant based in the United Kingdom with a strong interest in aviation data, analytics and machine learning. I joined the PRC Data Challenge to work with real-world aviation data, test different analytical and modelling approaches, and improve my understanding of operational performance and air traffic data. The challenge is also an opportunity to learn from the wider research and aviation data community and develop practical, data-driven solutions.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-flamingo"
+      "tiny-clown"
     ]
   },
   {
-    "objectID": "teams/tiny-flamingo.html#details",
-    "href": "teams/tiny-flamingo.html#details",
-    "title": "tiny-flamingo",
+    "objectID": "teams/tiny-clown.html#details",
+    "href": "teams/tiny-clown.html#details",
+    "title": "tiny-clown",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nEkaterina\nVoropanova-Gicquel\nUniversité Catholique de l'Ouest (Guingamp, France)",
+    "text": "Details\n\nType: Independent\nCountry: United Kingdom\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nPriyank\nRaval\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "tiny-flamingo"
+      "tiny-clown"
     ]
   },
   {
-    "objectID": "teams/understated-muffin.html",
-    "href": "teams/understated-muffin.html",
-    "title": "understated-muffin",
+    "objectID": "teams/trustworthy-llama.html",
+    "href": "teams/trustworthy-llama.html",
+    "title": "trustworthy-llama",
     "section": "",
-    "text": "We are a team of two. Haris Andronis a mechanical engineer with PPL pilot license and owner of X-Fly Aviation company and Margarita Mastori an Air Traffic Controller in LGTS Macedonia International Airport",
+    "text": "Our team brings together data science expertise and operational aviation experience. Stefano Billeter is an engineer specialised in data science, with a track record of scientific publications (ORCID: https://orcid.org/0009-0008-0331-1644). Lorenzo Della Casa is a commercial airline pilot with a working knowledge of machine learning, contributing first-hand operational insight into flight operations. We believe this combination of analytical and domain knowledge will allow us to approach the challenge from both a modelling and a practical perspective.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "understated-muffin"
+      "trustworthy-llama"
     ]
   },
   {
-    "objectID": "teams/understated-muffin.html#description-and-rationale",
-    "href": "teams/understated-muffin.html#description-and-rationale",
-    "title": "understated-muffin",
+    "objectID": "teams/trustworthy-llama.html#description-and-rationale",
+    "href": "teams/trustworthy-llama.html#description-and-rationale",
+    "title": "trustworthy-llama",
     "section": "",
-    "text": "We are a team of two. Haris Andronis a mechanical engineer with PPL pilot license and owner of X-Fly Aviation company and Margarita Mastori an Air Traffic Controller in LGTS Macedonia International Airport",
+    "text": "Our team brings together data science expertise and operational aviation experience. Stefano Billeter is an engineer specialised in data science, with a track record of scientific publications (ORCID: https://orcid.org/0009-0008-0331-1644). Lorenzo Della Casa is a commercial airline pilot with a working knowledge of machine learning, contributing first-hand operational insight into flight operations. We believe this combination of analytical and domain knowledge will allow us to approach the challenge from both a modelling and a practical perspective.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "understated-muffin"
+      "trustworthy-llama"
     ]
   },
   {
-    "objectID": "teams/understated-muffin.html#details",
-    "href": "teams/understated-muffin.html#details",
-    "title": "understated-muffin",
+    "objectID": "teams/trustworthy-llama.html#details",
+    "href": "teams/trustworthy-llama.html#details",
+    "title": "trustworthy-llama",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Greece\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nHaris\nAndronis\nX-Fly Aviation\n\n\n2\nXyzzy\nXYZZY\nUndisclosed",
+    "text": "Details\n\nType: Independent\nCountry: Switzerland\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nStefano\nBilleter\nUnknow\n\n\n2\nLorenzo\nDella Casa\nUnknow",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "understated-muffin"
+      "trustworthy-llama"
     ]
   },
   {
-    "objectID": "teams/unique-umbrella.html",
-    "href": "teams/unique-umbrella.html",
-    "title": "unique-umbrella",
+    "objectID": "teams/unique-scooter.html",
+    "href": "teams/unique-scooter.html",
+    "title": "unique-scooter",
     "section": "",
-    "text": "Independent aviation enthusiast and software engineer in training. I’m taking on the challenge to further my skills and gain experience to aid with my job hunt.",
+    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-umbrella"
+      "unique-scooter"
     ]
   },
   {
-    "objectID": "teams/unique-umbrella.html#description-and-rationale",
-    "href": "teams/unique-umbrella.html#description-and-rationale",
-    "title": "unique-umbrella",
+    "objectID": "teams/unique-scooter.html#description-and-rationale",
+    "href": "teams/unique-scooter.html#description-and-rationale",
+    "title": "unique-scooter",
     "section": "",
-    "text": "Independent aviation enthusiast and software engineer in training. I’m taking on the challenge to further my skills and gain experience to aid with my job hunt.",
+    "text": "We are an independent team from Galicia, Spain, with a strong interest in aviation, ADS-B data and open aviation research. Our involvement with the OpenSky Network through our own ADS-B receiving station sparked our interest in exploring how real-world aviation data can be used for predictive modelling. We joined the PRC Data Challenge 2026 to learn, experiment and develop a practical data-driven approach to taxi-out time prediction, while contributing to the wider open aviation community.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-umbrella"
+      "unique-scooter"
     ]
   },
   {
-    "objectID": "teams/unique-umbrella.html#details",
-    "href": "teams/unique-umbrella.html#details",
-    "title": "unique-umbrella",
+    "objectID": "teams/unique-scooter.html#details",
+    "href": "teams/unique-scooter.html#details",
+    "title": "unique-scooter",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: Canada\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nKristian\nAllin\nUnknow",
+    "text": "Details\n\nType: Independent\nCountry: Spain\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nAndres\nSenaris\nIndependent",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "unique-umbrella"
+      "unique-scooter"
     ]
   },
   {
-    "objectID": "teams/upbeat-net.html",
-    "href": "teams/upbeat-net.html",
-    "title": "upbeat-net",
+    "objectID": "teams/upbeat-goblin.html",
+    "href": "teams/upbeat-goblin.html",
+    "title": "upbeat-goblin",
     "section": "",
-    "text": "I participated in the 2025 challenge with a fun “alternative method”. I come back now with more ideas 🙂",
+    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-net"
+      "upbeat-goblin"
     ]
   },
   {
-    "objectID": "teams/upbeat-net.html#description-and-rationale",
-    "href": "teams/upbeat-net.html#description-and-rationale",
-    "title": "upbeat-net",
+    "objectID": "teams/upbeat-goblin.html#description-and-rationale",
+    "href": "teams/upbeat-goblin.html#description-and-rationale",
+    "title": "upbeat-goblin",
     "section": "",
-    "text": "I participated in the 2025 challenge with a fun “alternative method”. I come back now with more ideas 🙂",
+    "text": "I am Henri Bano, a Master’s student at TH Wildau in Germany, working at m-click.aero in Berlin. My thesis reconstructs the moment an aircraft reaches its stand at Berlin Brandenburg from ground surveillance data, because that timestamp is missing from the network stream. It taught me how IOBT, EOBT and AOBT actually behave, and that taxi duration in Berlin follows the distance from runway exit to stand more than it follows traffic load. Taxi-out is the half of the problem I never had to predict, and I want to see whether that physical reasoning survives across eleven different airports.",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-net"
+      "upbeat-goblin"
     ]
   },
   {
-    "objectID": "teams/upbeat-net.html#details",
-    "href": "teams/upbeat-net.html#details",
-    "title": "upbeat-net",
+    "objectID": "teams/upbeat-goblin.html#details",
+    "href": "teams/upbeat-goblin.html#details",
+    "title": "upbeat-goblin",
     "section": "Details",
-    "text": "Details\n\nType: Independent\nCountry: France\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nRayane\nHachemi\nIndependent",
+    "text": "Details\n\nType: Industry\nCountry: Germany\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nHenri\nBano\nm-click.aero GmbH , TH Wildau\n\n\n2\nEnrico\nKhan\nm-click.aero GmbH",
     "crumbs": [
       "Publications",
       "Registrations",
       "Teams",
-      "upbeat-net"
+      "upbeat-goblin"
+    ]
+  },
+  {
+    "objectID": "teams/versatile-igloo.html",
+    "href": "teams/versatile-igloo.html",
+    "title": "versatile-igloo",
+    "section": "",
+    "text": "Personal interest in aviation & machine learning",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "versatile-igloo"
+    ]
+  },
+  {
+    "objectID": "teams/versatile-igloo.html#description-and-rationale",
+    "href": "teams/versatile-igloo.html#description-and-rationale",
+    "title": "versatile-igloo",
+    "section": "",
+    "text": "Personal interest in aviation & machine learning",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "versatile-igloo"
+    ]
+  },
+  {
+    "objectID": "teams/versatile-igloo.html#details",
+    "href": "teams/versatile-igloo.html#details",
+    "title": "versatile-igloo",
+    "section": "Details",
+    "text": "Details\n\nType: Independent\nCountry: United States\n\n\n\n\n\n\n\n\n\nID\nForename\nSurname\nAffiliation\n\n\n\n\n1\nBrenden\nPanageas\nIndependent",
+    "crumbs": [
+      "Publications",
+      "Registrations",
+      "Teams",
+      "versatile-igloo"
     ]
   },
   {
