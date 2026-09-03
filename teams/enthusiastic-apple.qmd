@@ -1,0 +1,27 @@
+
+---
+title: enthusiastic-apple
+date: 2026-09-02
+subtitle: China
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an independent data scientist with a strong interest in aviation performance and open data. I joined the PRC Data Challenge 2026 to build an open, reproducible machine-learning model for taxi-out time prediction across the 11 European airports, to learn more about airport operations, and to contribute to open aviation research. I look forward to sharing the approach and results with the community.
+
+## Details
+
+* Type: Independent
+* Country: China
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,             ~affiliation,
+   1L,   "ka po",     "Ma", "Independent Researcher"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

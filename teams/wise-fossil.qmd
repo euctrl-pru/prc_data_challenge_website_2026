@@ -1,0 +1,33 @@
+
+---
+title: wise-fossil
+date: 2026-09-02
+subtitle: China
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of professionals from China Unicom with backgrounds in digital technology, data platforms, AI applications, and software engineering. While aviation is not our primary field of expertise, we share a strong interest in applying data-driven and machine learning methods to real-world operational problems.
+
+We decided to join the PRC Data Challenge because it provides a valuable opportunity to work with large-scale, real-world aviation data and to explore a practical prediction problem with clear operational relevance. The taxi-out time prediction task is particularly interesting to us because it combines data analysis, feature engineering, machine learning, and domain understanding.
+
+Through this challenge, we hope to learn more about aviation operations, strengthen our practical skills in data science and predictive modelling, and explore how different technical approaches can improve prediction accuracy. We also see the competition as a good opportunity for cross-disciplinary teamwork, experimentation, and learning from the wider data science and aviation communities.
+
+Our goal is not only to achieve a competitive result, but also to build a reproducible and well-documented solution and gain practical experience that can be applied to other complex data-driven optimisation problems.
+
+## Details
+
+* Type: Industry, Independent
+* Country: China
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                             ~affiliation,
+   1L,   "Yulin",    "SUN", "China Unicom Data Intelligence Co.,Ltd"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
