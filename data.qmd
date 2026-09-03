@@ -22,7 +22,7 @@ To help you solve this year’s Data challenge, we provide the following
 
 The movements table rows have been (left) joined with the flight table ones.  
 
-There are a total of 4,167,797 movements at the 11 airports as shown in in @tbl-airports.
+There are a total of 4,167,797 movements at the 10 airports as shown in in @tbl-airports.
 
 
 | ICAO | IATA | 	Name                              |
@@ -35,7 +35,6 @@ There are a total of 4,167,797 movements at the 11 airports as shown in in @tbl-
 | LEMD | MAD  | Adolfo Suárez Madrid–Barajas        |
 | LFPG | CDG  | Charles de Gaulle                   |
 | LIRF | FCO  | Rome–Fiumicino Leonardo da Vinci    |
-| LTAI | AYT  | Antalya                             |
 | LTFM | IST  | İstanbul                            |
 | LSZH | ZRH  | Zürich                              |
 

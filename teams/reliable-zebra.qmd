@@ -1,0 +1,28 @@
+
+---
+title: reliable-zebra
+date: 2026-09-03
+subtitle: Canada
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We're a two-person team from Air Canada Flight Operations - one of us works in operations excellence and data validation, the other brings stronger data science/modeling experience. We registered because taxi-out time prediction is directly relevant to the operational and fuel-efficiency work we do day to day, and we saw this challenge as a great opportunity to apply that domain knowledge to a real, open dataset while growing our modeling skills. We're looking forward to learning from the process, from other teams, and from the PRC/OSN community, and to contributing an open, well-documented approach.
+
+## Details
+
+* Type: Independent
+* Country: Canada
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,        ~forename,             ~surname,  ~affiliation,
+   1L,        "Sushrut",             "Borkar", "Independent",
+   2L, "Vipin Chandran", "Muthirikkaparambil", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
