@@ -2,8 +2,10 @@
   {
     "listing": "/teams/index.html",
     "items": [
+      "/teams/adventurous-ant.html",
       "/teams/adventurous-bicycle.html",
       "/teams/amiable-teapot.html",
+      "/teams/amiable-zeppelin.html",
       "/teams/amiable-zipper.html",
       "/teams/brave-lobster.html",
       "/teams/breezy-dinosaur.html",
@@ -61,10 +63,12 @@
       "/teams/kindly-igloo.html",
       "/teams/knowing-jungle.html",
       "/teams/knowledgeable-nightlight.html",
+      "/teams/logical-xylophone.html",
       "/teams/merry-hippo.html",
       "/teams/merry-llama.html",
       "/teams/merry-rose.html",
       "/teams/merry-utensil.html",
+      "/teams/mindful-mountain.html",
       "/teams/modest-quilt.html",
       "/teams/motivated-beetle.html",
       "/teams/motivated-forest.html",
