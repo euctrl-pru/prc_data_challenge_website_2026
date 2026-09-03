@@ -1,0 +1,27 @@
+
+---
+title: mindful-mountain
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Software developer and founder of ibuildbots.dev, an independent verification service for AI agents. Coming to aviation data from outside the domain and treating taxi-out prediction as a rigorous, reproducible ML problem — physical drivers first, pre-registered validation, and a full log of experiments including the null results. Code will be published under GPLv3 with documentation sufficient to reproduce the results.
+
+## Details
+
+* Type: Industry
+* Country: United States
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,         ~affiliation,
+   1L, "michael", "weldon", "ibuildbots.dev LLC"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

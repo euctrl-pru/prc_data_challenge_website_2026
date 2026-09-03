@@ -1,0 +1,31 @@
+
+---
+title: happy-caterpillar
+date: 2026-09-03
+subtitle: Greece
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+stand-by is a one-person team: Georgios Stavropoulos, a researcher based in Thessaloniki, Greece, participating in a personal capacity. My day-to-day work is applied machine learning and data engineering on European collaborative research projects, mostly on messy real-world operational data rather than clean benchmarks.
+
+I registered because taxi-out time is a genuinely hard prediction problem hiding inside a very ordinary-looking tabular dataset: the signal lives in airport congestion, queueing at the runway, stand-to-runway geometry and time-of-day effects rather than in any single column. That is exactly the kind of problem I enjoy - most of the work is in constructing the right features from context, not in tuning a model.
+
+My aim is to build a well-documented, fully reproducible baseline and iterate on queueing and congestion features, and to share the whole pipeline openly on GitHub regardless of where it lands on the leaderboard. If the results are interesting enough, I would like to write them up for the Journal of Open Aviation Science.
+
+## Details
+
+* Type: Independent
+* Country: Greece
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,       ~surname,  ~affiliation,
+   1L, "Georgios", "Stavropoulos", "Independent"
+  )
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
