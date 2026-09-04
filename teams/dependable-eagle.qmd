@@ -1,12 +1,27 @@
-## dependable-eagle
 
-### Description and Rationale
+---
+title: dependable-eagle
+date: 2026-09-04
+subtitle: Greece
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Explore data analytics for aviation efficiency and creation of prediction model
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: HAF
 * Country: Greece
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,     ~surname, ~affiliation,
+   1L, "Nikolaos", "Koroniadis",        "HAF"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

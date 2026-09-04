@@ -1,12 +1,28 @@
-## smart-apple
 
-### Description and Rationale
+---
+title: smart-apple
+date: 2026-09-02
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 We are a husband and wife pair of amateur data/charts and graph enthusiasts who aren't afraid to try to learn something new.
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Independent
-* Affiliation: Linzalytics
 * Country: Netherlands
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                  ~affiliation,
+   1L,   "Derek",   "Linz",                 "Linzalytics",
+   2L,    "Alia",   "Linz", "Linz Perspectief Fotografie"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

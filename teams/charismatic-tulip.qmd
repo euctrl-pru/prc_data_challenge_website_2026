@@ -1,12 +1,27 @@
-## charismatic-tulip
 
-### Description and Rationale
+---
+title: charismatic-tulip
+date: 2026-09-01
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Solo entry. I'm a software engineer who runs a small network of ADS-B and MLAT receiver stations. Recently worked on an mlat-server implementation in Rust (mlatd). Heard about the challenge through OpenSky's discord, and thought it would be fun to enter and challenge myself working on this problem.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: independent
 * Country: France
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L,   "Yoann", "Tilmont", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

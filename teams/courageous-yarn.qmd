@@ -1,12 +1,27 @@
-## courageous-yarn
 
-### Description and Rationale
+---
+title: courageous-yarn
+date: 2026-09-04
+subtitle: Czech Republic
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am an IT and cybersecurity student interested in data analysis and machine learning. I joined the challenge to gain experience with real-world data, improve my skills, and explore aviation analytics.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Academia
-* Affiliation: Smíchovská střední průmyslová škola, gymnázium a hotelová škola Radlická, příspěvková organizace
 * Country: Czech Republic
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,     "Jan", "Marval", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

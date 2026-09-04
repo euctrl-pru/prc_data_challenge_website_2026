@@ -1,12 +1,27 @@
-## enthusiastic-snowflake
 
-### Description and Rationale
+---
+title: enthusiastic-snowflake
+date: 2026-09-01
+subtitle: Nigeria
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a machine learning engineer with over 6 years experience solving real life problems with machine learning and competing in ML challenges
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Industry
-* Affiliation: Omdena
 * Country: Nigeria
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename,  ~surname, ~affiliation,
+   1L, "Adetomiwa", "Adedeji",     "Omdena"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

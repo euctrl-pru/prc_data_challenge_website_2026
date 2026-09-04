@@ -1,12 +1,27 @@
-## youthful-giraffe
 
-### Description and Rationale
+---
+title: youthful-giraffe
+date: 2026-09-01
+subtitle: Indonesia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 It's an interesting challenge
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: None
 * Country: Indonesia
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Matthew", "Motoki",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

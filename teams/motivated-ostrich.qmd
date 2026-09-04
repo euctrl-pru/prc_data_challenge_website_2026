@@ -1,14 +1,29 @@
-## motivated-ostrich
 
-### Description and Rationale
+---
+title: motivated-ostrich
+date: 2026-09-03
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am an aeronautics student specializing in data science, currently studying between Centrale Lille and Cranfield University. Throughout my studies, I have had the opportunity to work on a variety of data science and machine learning projects, ranging from healthcare applications and hospital tools to more advanced topics such as Physics-Informed Neural Networks (PINNs) applied on the A320.
 
 I decided to take part in the PRC Data Challenge to put my experience to the test on a new and challenging problem. I am motivated by the opportunity to push the limits of my current skills, explore new approaches, and learn from the challenge. I also see it as a great opportunity to apply the knowledge I have gained through my previous projects in a competitive and practical environment.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Ecole Centrale de Lille / Cranfield University
 * Country: France
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,      ~surname, ~affiliation,
+   1L,     "Ugo", "Roccamatisi",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

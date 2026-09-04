@@ -1,12 +1,28 @@
-## radiant-flamingo
 
-### Description and Rationale
+---
+title: radiant-flamingo
+date: 2026-09-03
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 We are a pair of PhD students at Imperial. One team member is interested in optimising aircraft and shipping routes to reduce emissions (more focused in the cruising phase), so decided to register for the challenge as it is related to her main topic. The other team member is interested in machine learning and its applications, so wanted to apply their knowledge to a new dataset.
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Academia
-* Affiliation: Imperial College London
 * Country: United Kingdom
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed",
+   2L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

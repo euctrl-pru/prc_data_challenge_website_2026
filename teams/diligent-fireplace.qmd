@@ -1,12 +1,27 @@
-## diligent-fireplace
 
-### Description and Rationale
+---
+title: diligent-fireplace
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a Data Scientist and an Aviation Geek. I love building software.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: United States
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Saurabh",  "Damle",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

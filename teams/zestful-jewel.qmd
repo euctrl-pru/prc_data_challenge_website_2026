@@ -1,12 +1,27 @@
-## zestful-jewel
 
-### Description and Rationale
+---
+title: zestful-jewel
+date: 2026-09-01
+subtitle: Norway
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am an independent developer from Norway working on aviation‑related map tools, including liveearthmap.com. I joined the PRC Data Challenge to learn more about airport operations, improve my data‑science skills, and contribute to open aviation research. I am especially interested in real‑time flight data and prediction models, so this challenge fits well with my current projects.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent — liveearthmap.com
 * Country: Norway
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,                     ~affiliation,
+   1L, "Mohammed", "Hassen", "Independent - liveearthmap.com"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

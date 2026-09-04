@@ -1,12 +1,27 @@
-## intelligent-xylophone
 
-### Description and Rationale
+---
+title: intelligent-xylophone
+date: 2026-09-01
+subtitle: Greece
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Since I have a background in Civil Engineering and Specifically Transportation, as an Machine Learning Engineer i strive for such competitions!
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Synthetica
 * Country: Greece
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

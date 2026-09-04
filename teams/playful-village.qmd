@@ -1,12 +1,28 @@
-## playful-village
 
-### Description and Rationale
+---
+title: playful-village
+date: 2026-09-04
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 A team of 2 GCSE/A level students with an interest in data challenges and aviation. To undertake an interesting challenge and see if we can get a result!
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Independent
-* Affiliation: N/A (independent)
 * Country: United Kingdom
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,      ~surname,  ~affiliation,
+   1L,   "Savva", "Solonchenko", "Independent",
+   2L,  "Harris",       "Huang", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

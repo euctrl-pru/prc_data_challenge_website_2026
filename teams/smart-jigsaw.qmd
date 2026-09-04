@@ -1,12 +1,28 @@
-## smart-jigsaw
 
-### Description and Rationale
+---
+title: smart-jigsaw
+date: 2026-09-01
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Computer science students who like planes :D
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Independent
-* Affiliation: TU Delft
 * Country: Netherlands
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,    "Yuqi",   "Wang",     "Unknow",
+   2L,  "Letong",  "Zhang",   "TU Delft"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

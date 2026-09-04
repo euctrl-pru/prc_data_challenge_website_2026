@@ -1,12 +1,27 @@
-## trustworthy-unicorn
 
-### Description and Rationale
+---
+title: trustworthy-unicorn
+date: 2026-09-04
+subtitle: Bangladesh
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I'm a maker by hand and aviation enthusiast by heart with a background spanning embedded systems, data pipelines, and machine learning — the kind of person who builds physical cockpit panels and flight trackers on my own desk just for fun, and who's increasingly focused on applying ML to real-world data problems. A dataset of actual European airport movements was hard to pass up: taxi-out time is a problem where physical intuition (congestion, runway/stand assignment, aircraft type) actually pays off in a model, and I wanted to test that intuition against real operational data using proper ML techniques rather than simulated flight-sim traffic. It's also a good excuse to build a genuinely useful ML pipeline end to end and publish it in the open, in the spirit of the challenge.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Singapore International School Dhaka
 * Country: Bangladesh
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,                 ~forename, ~surname, ~affiliation,
+   1L, "Mir Muhammad Abidul Haq",  "Ahnaf",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

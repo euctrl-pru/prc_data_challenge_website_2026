@@ -1,6 +1,14 @@
-## humble-jacket
 
-### Description and Rationale
+---
+title: humble-jacket
+date: 2026-09-04
+subtitle: Cyprus
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am Andreas Hadjinicolaou, a computer science student at the University of
 Cyprus, entering my final year. I am entering on my own rather than as part of a
 research group or a company.
@@ -16,10 +24,17 @@ The other reason is how this challenge is run. Previous editions publish every
 team's code and the write-ups go to an open journal, so the work stays useful
 after the deadline. That is uncommon in data competitions and worth supporting.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: University of Cyprus
 * Country: Cyprus
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,        ~surname,  ~affiliation,
+   1L, "Andreas", "Hadjinicolaou", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

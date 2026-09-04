@@ -1,12 +1,27 @@
-## kind-earthquake
 
-### Description and Rationale
+---
+title: kind-earthquake
+date: 2026-09-04
+subtitle: Armenia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I have several years of software development experience and a strong interest in machine learning and data science. I have also won three Telegram developer contests (contest.com) . I would like to apply this experience to the PRC Data Challenge by developing a robust ML solution for taxi-out time prediction using real-world aviation data.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: --
 * Country: Armenia
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "MIKE",   "MINE", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

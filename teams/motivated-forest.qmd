@@ -1,12 +1,28 @@
-## motivated-forest
 
-### Description and Rationale
+---
+title: motivated-forest
+date: 2026-09-02
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 AI enthusiats looking for usefull applications of technical knowledge
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Academia
-* Affiliation: University of Strasbourg
 * Country: France
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed",
+   2L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

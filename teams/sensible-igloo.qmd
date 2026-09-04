@@ -1,12 +1,27 @@
-## sensible-igloo
 
-### Description and Rationale
+---
+title: sensible-igloo
+date: 2026-09-04
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Independent researcher, signed up for fun
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: Germany
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

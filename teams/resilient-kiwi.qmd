@@ -1,6 +1,14 @@
-## resilient-kiwi
 
-### Description and Rationale
+---
+title: resilient-kiwi
+date: 2026-09-01
+subtitle: Sweden
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am Stephen Thorne, based in Johannesburg. Twenty five years in enterprise technology, most of it spent persuading other people's data to behave itself, and these days I run AI and data science at group level. I am Group CTO for AI and Data Science at White Pearl Technology Group, a Nasdaq First North listed Swedish AI and data science group.
 
 I registered because taxi-out time is the kind of problem I actually enjoy. It is bounded, it is measurable, and there is nowhere to hide ; the RMSE either comes down or it does not. No steering committee is going to rescue a bad model.
@@ -11,10 +19,17 @@ The open science side matters to me as well. Public repo, published method, resu
 
 And honestly, I want to know whether the instincts still hold up against a leaderboard.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Industry
-* Affiliation: WPTG.ai
 * Country: Sweden
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Stephen", "Thorne",    "wptg.ai"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

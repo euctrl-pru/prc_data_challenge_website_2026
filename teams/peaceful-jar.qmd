@@ -1,12 +1,27 @@
-## peaceful-jar
 
-### Description and Rationale
+---
+title: peaceful-jar
+date: 2026-09-04
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am an aerospace engineer with a strong background in simulation, programming and data analysis. I decided to participate in the PRC Data Challenge because it combines aviation operations with data-driven modelling and offers an opportunity to explore real-world airport operations. My goal is to develop and evaluate practical approaches for predicting taxi-out times while learning from a challenging real aviation dataset.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: None
 * Country: Spain
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L, "Eduardo",    "Cid", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

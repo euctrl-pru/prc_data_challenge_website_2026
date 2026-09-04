@@ -1,12 +1,28 @@
-## nice-igloo
 
-### Description and Rationale
+---
+title: nice-igloo
+date: 2026-09-04
+subtitle: Ukraine
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I'm a student of techinal-aviation university in Ukraine, the information about this challenge I met at the telegram channel of my faculty(Faculty of Aeronavigation, eletronics and telecomunicatios)
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Academia, Independent
-* Affiliation: National University 'Kyiv Aviation Institute'
 * Country: Ukraine
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,                                                                          ~affiliation,
+   1L, "Evgeniy",  "Sedmirov",                                       "National University 'Kyiv Aviation Institute'",
+   2L,  "Maksym", "Prykhodko", "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

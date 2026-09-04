@@ -1,16 +1,31 @@
-## optimistic-dragon
 
-### Description and Rationale
+---
+title: optimistic-dragon
+date: 2026-09-02
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a student researcher at the University of Westminster working on an aviation project focused on airport catchment areas, accessibility, and data-driven analysis. My experience includes Python, statistical analysis, geospatial data, and the development of reproducible analytical pipelines using open datasets.
 
 I decided to participate in the PRC Data Challenge because it is an opportunity to apply these skills to a real operational aviation problem and expand my experience in predictive modelling. I am particularly interested in understanding how airport infrastructure, traffic demand, runway operations, aircraft characteristics, and temporal patterns affect taxi-out time.
 
 My goal is to develop an accurate, transparent, and reproducible open-source solution that contributes useful insights to the aviation community while strengthening my practical experience with large-scale operational flight data.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Academia, Independent
-* Affiliation: University of Westminster
 * Country: United Kingdom
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,             ~affiliation,
+   1L,  "Daniel", "Hernandez", "Transport Research Lab"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

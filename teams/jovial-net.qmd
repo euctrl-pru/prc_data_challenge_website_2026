@@ -1,12 +1,27 @@
-## jovial-net
 
-### Description and Rationale
+---
+title: jovial-net
+date: 2026-09-02
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am an ML engineer, with a background Electrical Engineering and Computer Science. I came across OpenSky during my time in my MBA for a group project, and thought this challenge looked interesting
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: independent
 * Country: United States
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Aditya",   "Nair", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

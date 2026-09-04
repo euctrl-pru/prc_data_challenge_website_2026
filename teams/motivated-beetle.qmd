@@ -1,12 +1,27 @@
-## motivated-beetle
 
-### Description and Rationale
+---
+title: motivated-beetle
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a Machine Learning educator based in Honolulu, Hawai'i. This challenge offers students an opportunity to apply learned methods to real data in service of novel questions.
 
-### Details
+## Details
 
-* Number of team members: 11
 * Type: Academia
-* Affiliation: Iolani School
 * Country: United States
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,    ~affiliation,
+   1L,    "Drey", "Tengan", "Iolani School"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

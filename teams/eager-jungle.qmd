@@ -1,12 +1,27 @@
-## eager-jungle
 
-### Description and Rationale
+---
+title: eager-jungle
+date: 2026-09-04
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Mechanical Engineer working as a Data Analyst. I like challenges, especially if its about data. Looking for new ways to implement what I have been learning.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Amazon
 * Country: Spain
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

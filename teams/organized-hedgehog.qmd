@@ -1,13 +1,29 @@
-## organized-hedgehog
 
-### Description and Rationale
+---
+title: organized-hedgehog
+date: 2026-09-04
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 We are two bachelor's students studying Computer Science and Engineering, and Aerospace Engineering at Eindhoven University of Technology and Delft University of Technology respectively.
 We are competing because we are curious to see how far we can get in this competition by combining our expertise.
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Academia
-* Affiliation: TU Delft & TU Eindhoven
 * Country: Netherlands
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,         ~surname,                                               ~affiliation,
+   1L,    "Rens", "van der Avoird",  "Bachelor's Student @ Eindhoven University of Technology",
+   2L, "You-Han",          "Huang",                           "Delft University of Technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

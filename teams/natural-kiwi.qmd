@@ -1,12 +1,27 @@
-## natural-kiwi
 
-### Description and Rationale
+---
+title: natural-kiwi
+date: 2026-09-04
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Hi, i’m a recent computer science graduate currently working in a data team at an audit firm. I’m always looking to improve my machine learning and data science knowledge and this competition is the perfect opportunity!
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: United Kingdom
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Karim",  "Abbas",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

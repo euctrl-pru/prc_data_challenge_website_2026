@@ -1,16 +1,32 @@
-## optimistic-radio
 
-### Description and Rationale
+---
+title: optimistic-radio
+date: 2026-09-02
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 We are a small data science team with experience in machine learning, big data analytics, feature engineering, and the development of reproducible data-driven solutions.
 
 We decided to join the PRC Data Challenge because taxi-out time prediction combines several areas we are particularly interested in: large-scale operational data, temporal and congestion-related patterns, interpretable machine learning, and real-world decision support. We are especially interested in reconstructing latent airport surface congestion from historical movement patterns and operational features, and in evaluating how much these signals can improve taxi-out time prediction across different airports and seasonal conditions.
 
 Beyond the leaderboard, we value the open-science nature of the challenge. Our goal is to develop an original, reproducible methodology, openly share the resulting code and documentation, and, if the results are strong enough, contribute the findings to the broader aviation research community through an open-access publication.
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Independent
-* Affiliation: TurkStat
 * Country: Turkey
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "ömer",  "kiraz", "independent",
+   2L,    "Emre",  "Çırak",      "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

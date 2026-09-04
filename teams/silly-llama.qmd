@@ -1,12 +1,27 @@
-## silly-llama
 
-### Description and Rationale
+---
+title: silly-llama
+date: 2026-09-01
+subtitle: Slovakia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 BI and Data Analyst, due to explore new challenge, experience
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: FK Consult
 * Country: Slovakia
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename,  ~surname, ~affiliation,
+   1L, "Ferdinand", "Fojtlin", "FK Consult"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

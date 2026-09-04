@@ -1,12 +1,27 @@
-## reliable-deer
 
-### Description and Rationale
+---
+title: reliable-deer
+date: 2026-09-01
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I'm a master's student at QMUL and my machine learning professor (Dr Jun Chen) got me interested in the problem of taxi times at airports and the problems/delays that arise due to this. I came across this competition trying to study (and possibly solve) this problem and it got me instantly interested.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Queen Mary University of London
 * Country: United Kingdom
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,  ~affiliation,
+   1L, "Kushagra",   "Soni", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

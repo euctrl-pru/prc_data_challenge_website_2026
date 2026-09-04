@@ -1,0 +1,33 @@
+
+---
+title: friendly-strawberry
+date: 2026-09-04
+subtitle: Kenya
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am Morris Maina, a Data Scientist and aviation enthusiast based in Nairobi, Kenya, with a background in machine learning, data analytics and aviation-focused predictive modelling. My work sits at the intersection of data and real-world operational problems, with a particular interest in using machine learning to improve how aviation systems anticipate and respond to disruption.
+
+I decided to participate in the PRC Data Challenge because taxi-out time is a problem where data science can have a direct operational impact. It is influenced by traffic demand, airport capacity, runway operations, weather and the constantly changing state of the airport surface. That makes it both technically challenging and highly relevant to aviation.
+
+I am particularly interested in understanding whether machine learning can move beyond simply predicting taxi-out time to identifying the operational conditions that cause excessive taxiing and congestion. I hope to build a model that is accurate, explainable and grounded in how airports actually operate.
+
+The challenge also provides an opportunity to contribute to aviation research while learning from a real-world European ATM dataset. As someone developing aviation intelligence solutions, I see this as an opportunity to deepen my understanding of airport surface operations and explore ideas that could eventually support more proactive decision-making in aviation.
+
+## Details
+
+* Type: Independent
+* Country: Kenya
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Morrris",  "Maina",  "AeroIntel"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

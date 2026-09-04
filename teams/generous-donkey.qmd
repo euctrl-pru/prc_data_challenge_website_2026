@@ -1,12 +1,27 @@
-## generous-donkey
 
-### Description and Rationale
+---
+title: generous-donkey
+date: 2026-09-02
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I like challenging puzzles and aviation so why would I not want to be a part of this amazing opportunity?
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: United States
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L,   "Sarah", "Montoya", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

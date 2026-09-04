@@ -1,12 +1,27 @@
-## graceful-cabbage
 
-### Description and Rationale
+---
+title: graceful-cabbage
+date: 2026-09-02
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a Assistant Professor working in Business Administration. I do work in the field of Data Science and Quantitative Methods for Business. Therefore, I am interested in this challenge and I believe I will enjoy it.
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Academia
-* Affiliation: Bitlis Eren University
 * Country: Turkey
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,             ~affiliation,
+   1L, "Hidayet", "BEYHAN", "Bitlis Eren University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

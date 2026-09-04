@@ -1,12 +1,27 @@
-## motivated-lemon
 
-### Description and Rationale
+---
+title: motivated-lemon
+date: 2026-09-01
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I'm an aviation professional (work as french ATCO) who wants to learn about ML for educational purpose. Self-learner in that field.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: France
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

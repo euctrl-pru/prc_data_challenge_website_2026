@@ -1,12 +1,27 @@
-## gentle-xylophone
 
-### Description and Rationale
+---
+title: gentle-xylophone
+date: 2026-09-01
+subtitle: Egypt
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I'm a technology leader who enjoys working with messy, real-world operational data and turning it into solid models and pipelines. As to why I joined, I just love a good challenge. especially one like this that will likely require models that aren't necessarily traditional. Ground operations have so many dynamic moving parts, and exploring creative, non-standard approaches to predict taxi-out times is exactly the kind of puzzle I enjoy tackling.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: N/A
 * Country: Egypt
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Khaled",  "Abbas", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

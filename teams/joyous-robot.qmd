@@ -1,12 +1,27 @@
-## joyous-robot
 
-### Description and Rationale
+---
+title: joyous-robot
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a data analyst with an interest in aviation operations and safety. It is a meaningful goal to participate in this challenge to help improve our world.
 
-### Details
+## Details
 
-* Number of team members: 2
 * Type: Independent
-* Affiliation: Independent
 * Country: United States
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L,    "Gary", "Langshaw", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

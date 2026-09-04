@@ -1,14 +1,29 @@
-## playful-anchor
 
-### Description and Rationale
+---
+title: playful-anchor
+date: 2026-09-01
+subtitle: Taiwan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Solo team led by CHEN CHIEN CHANG, based in Taiwan. Professional background in airline operations, including flight dispatch, fuel planning, trajectory analysis and airport performance. Combining operational knowledge of taxi, departure sequencing and airport capacity with data analysis and applied machine learning.
 
 Registering to build an open, reproducible model of taxi-out time at the 11 challenge airports. Taxi-out time affects block time, fuel burn, stand occupancy and departure punctuality, yet planning still often uses schedule or average values that miss configuration, traffic intensity and runway in use. The intended approach is to start from transparent operational baselines, then add supervised models with documented features. Code and any additional open datasets will be released under GNU GPLv3 so results can be reproduced, in line with the challenge conditions.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: independent
 * Country: Taiwan
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

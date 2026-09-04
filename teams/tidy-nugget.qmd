@@ -1,12 +1,27 @@
-## tidy-nugget
 
-### Description and Rationale
+---
+title: tidy-nugget
+date: 2026-09-03
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a researcher in air cargo and air cargo sustainability at Frankfurt UAS Institute for Aviation and Tourism. Our research is driven by a genuine interest in the development of solutions for optimized operations in aviation that benefit the industry and especially address the environmental challenges of the aviation sector. By participating in the challenge, we can potentially help address the high burden of emissions in taxiing events. By publishing our results, we not only benefit the industry but also contribute to scientific knowledge.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Academia
-* Affiliation: Frankfurt University of Applied Sciences
 * Country: Germany
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,       ~surname,                               ~affiliation,
+   1L, "Bernardo", "Puente-Mejia", "Frankfurt University of Applied Sciences"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

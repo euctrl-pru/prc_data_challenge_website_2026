@@ -1,6 +1,14 @@
-## resourceful-horse
 
-### Description and Rationale
+---
+title: resourceful-horse
+date: 2026-09-04
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Who we are
 
 I'm Abhishek Patil, a Data Science and Applications undergraduate at IIT Madras, currently interning as an AI/ML engineer at Fincepta. I'm competing solo under the handle zeroday19. My background is in distributed ML systems, GPU inference optimization, and forecasting on time-series and tabular data, most recently as a Kaggle Gold Medalist (11th of 1,711 globally) in the MITSUI&CO. Commodity Prediction Challenge and a Silver Medalist in the Jane Street Real-Time Market Data Forecasting Competition.
@@ -13,10 +21,17 @@ What I'm hoping to get out of it
 
 A model I'm proud of, plus a sharper understanding of how fuel efficiency and emissions modeling works in aviation, a domain where good predictions have a real environmental impact. It's also a chance to add another solid result to a track record built on Kaggle and quant-research competitions.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Indian Institute of Technology Madras
 * Country: India
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,                            ~affiliation,
+   1L, "Abhishek",  "Patil", "Indian Institute of Technology Madras"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

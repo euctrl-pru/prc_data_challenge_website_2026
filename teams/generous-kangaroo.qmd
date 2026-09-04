@@ -1,12 +1,27 @@
-## generous-kangaroo
 
-### Description and Rationale
+---
+title: generous-kangaroo
+date: 2026-09-02
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a 38-year-old family physician in Turkey, married. Big data is my hobby. AI education and statistics are my areas of interest.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: Turkey
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,     ~forename,     ~surname,               ~affiliation,
+   1L, "ufuk mahmut", "Bilgilisoy", "Sağlık bakanlığı türkiye"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

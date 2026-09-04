@@ -1,12 +1,27 @@
-## dependable-flamingo
 
-### Description and Rationale
+---
+title: dependable-flamingo
+date: 2026-09-04
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I'm a PhD student at Georgia Tech's Aerospace Systems Design Laboratory (ASDL), working on aircraft trajectory optimization. Taxi-out time is a bit outside my usual arrival-side focus, but it's close enough to be genuinely interesting, and I couldn't resist a good excuse to dig into real ops data from major European airports. Looking forward to seeing what I can build!
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Academia
-* Affiliation: Georgia Institute of Technology
 * Country: United States
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,                      ~affiliation,
+   1L, "Anushka", "Moharir", "Georgia Institute of Technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

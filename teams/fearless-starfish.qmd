@@ -1,14 +1,29 @@
-## fearless-starfish
 
-### Description and Rationale
+---
+title: fearless-starfish
+date: 2026-09-04
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I’m a recent MSc graduate from Imperial College London with a background in engineering and software development, and a strong interest in aviation and emerging technologies. Outside of engineering, I’m a private pilot and have also completed a seaplane rating, giving me a practical perspective on aviation alongside my technical background.
 
 I joined the PRC Challenge for the opportunity to tackle an ambitious real-world problem, explore new ideas and develop a solution from the ground up.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: United Kingdom
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "Adam",  "Pavie", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

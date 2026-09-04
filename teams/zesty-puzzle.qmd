@@ -1,12 +1,27 @@
-## zesty-puzzle
 
-### Description and Rationale
+---
+title: zesty-puzzle
+date: 2026-09-04
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 Solo team: Luis Melzer, CS student at Leibniz Universität Hannover specializing in machine learning. A recent AutoML competition sparked my passion for applied ML on real-world data. I registered for the PRC challenge because predicting taxi-out times offers a focused prediction problem with tangible environmental relevance.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Leibnitz Universität Hannover
 * Country: Germany
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "Luis", "Melzer", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,16 +1,31 @@
-## enthusiastic-daisy
 
-### Description and Rationale
+---
+title: enthusiastic-daisy
+date: 2026-09-01
+subtitle: China
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a PhD student conducting research on deep learning-based aircraft trajectory prediction and data-driven methods for aviation applications. My research focuses on using advanced deep learning models to better understand and predict aircraft motion from real-world flight data.
 
 I decided to participate in the PRC Data Challenge because taxi-out time prediction is a challenging and practically important problem that connects closely with my research interests in aviation data analytics and prediction. The challenge provides a valuable opportunity to apply modern machine learning and deep learning methods to real operational data, explore the factors affecting airport surface operations, and evaluate these methods in a rigorous and competitive setting.
 
 I also hope to learn from the wider aviation research community and contribute reproducible and useful methodologies that may help improve the efficiency and sustainability of air traffic operations.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Academia
-* Affiliation: northeast university
 * Country: China
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,           ~affiliation,
+   1L,  "Junguo",   "Song", "northeast university"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

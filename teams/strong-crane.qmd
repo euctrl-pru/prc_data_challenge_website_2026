@@ -1,12 +1,27 @@
-## strong-crane
 
-### Description and Rationale
+---
+title: strong-crane
+date: 2026-09-01
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I am a reseracher working in aviation domain.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Academia
-* Affiliation: TU Dresden
 * Country: India
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname, ~affiliation,
+   1L, "Somnath", "Panigrahi", "TU Dresden"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

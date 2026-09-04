@@ -1,12 +1,27 @@
-## breezy-dinosaur
 
-### Description and Rationale
+---
+title: breezy-dinosaur
+date: 2026-09-02
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 I'm a PhD chemist who just recently earned a PSM in Bioinformatics & Biological Data Science.  I work in cancer drug discovery during the day, but in my free time I'm trying to gain as much experience as possible with AI/ML in a way that benefits someone/some cause.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Independent
 * Country: United States
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

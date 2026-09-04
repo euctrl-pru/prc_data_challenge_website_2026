@@ -1,12 +1,27 @@
-## merry-rose
 
-### Description and Rationale
+---
+title: merry-rose
+date: 2026-09-02
+subtitle: Australia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
 We specialise in aviation and flow logistics across the industry. Realising patterns and solving planning and logistical issues with data and experience.
 
-### Details
+## Details
 
-* Number of team members: 1
 * Type: Independent
-* Affiliation: Advanced Aviation Platform Pty Ltd
 * Country: Australia
 
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,                 ~affiliation,
+   1L,   "David", "Farrell", "Advanced Aviation Platform"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
