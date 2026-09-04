@@ -1,0 +1,27 @@
+
+---
+title: zany-zeppelin
+date: 2026-09-04
+subtitle: Singapore
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a one man team and like to explore deeper in the field of data science.
+
+## Details
+
+* Type: Academia
+* Country: Singapore
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,            ~forename, ~surname,                       ~affiliation,
+   1L, "Brandon Zheng Hang",   "Wong", "National University of Singapore"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,27 @@
+
+---
+title: talented-jelly
+date: 2026-09-04
+subtitle: Switzerland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Master's student in Aviation at Zurich University of Applied Sciences. I also work as a research assistant at the Centre for Aviation. Both my studies and my work focus on airport-related applications of data science, machine learning, and deep learning. I want to use this competition as an opportunity to challenge myself and further develop my skills.
+
+## Details
+
+* Type: Academia
+* Country: Switzerland
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                            ~affiliation,
+   1L,   "Kevin", "Hänggi", "Zurich University of Applied Sciences"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

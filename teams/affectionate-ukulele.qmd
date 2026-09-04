@@ -1,0 +1,29 @@
+
+---
+title: affectionate-ukulele
+date: 2026-09-04
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are ITU students who aim to investigate and implement the potential of ML models in aviation.
+
+## Details
+
+* Type: Independent
+* Country: Turkey
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Miraç",  "Kılıç",     "Unknow",
+   2L,   "Yusuf",  "Keleş",     "Unknow",
+   3L,  "Tayfun",   "Talı",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
