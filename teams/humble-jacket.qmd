@@ -1,0 +1,40 @@
+
+---
+title: humble-jacket
+date: 2026-09-04
+subtitle: Cyprus
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am Andreas Hadjinicolaou, a computer science student at the University of
+Cyprus, entering my final year. I am entering on my own rather than as part of a
+research group or a company.
+
+I registered because taxi-out time is the kind of problem I want more practice
+on: real operational data, a metric nobody can argue with, and a held-out period
+that settles the question. Most public datasets I have worked with are either
+toy problems or financial series where almost everything is noise. Airport
+surface movements are neither, and the drivers are physical and schedulable
+rather than random.
+
+The other reason is how this challenge is run. Previous editions publish every
+team's code and the write-ups go to an open journal, so the work stays useful
+after the deadline. That is uncommon in data competitions and worth supporting.
+
+## Details
+
+* Type: Independent
+* Country: Cyprus
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,        ~surname,  ~affiliation,
+   1L, "Andreas", "Hadjinicolaou", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
