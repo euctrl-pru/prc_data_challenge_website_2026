@@ -1,0 +1,28 @@
+
+---
+title: gentle-octopus
+date: 2026-09-04
+subtitle: New Zealand
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm a principal security engineer working at a tech company.
+I like open data initiatives, stochastic systems modeling and planes so...
+
+## Details
+
+* Type: Independent
+* Country: New Zealand
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L,   "Joris", "Decombe", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,28 @@
+
+---
+title: zany-xylophone
+date: 2026-09-03
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am interested in planes and data.
+
+## Details
+
+* Type: Academia, Independent
+* Country: Netherlands
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,               ~affiliation,
+   1L,   "Daria", "Dingová",              "Independent",
+   2L, "Richard",   "Dinga", "Jena University Hospital"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

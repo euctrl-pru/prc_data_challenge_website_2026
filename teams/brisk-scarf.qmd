@@ -1,0 +1,28 @@
+
+---
+title: brisk-scarf
+date: 2026-09-03
+subtitle: Italy
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Machine Learning Researcher
+Enthusiast about machine learning challenge and discovery
+
+## Details
+
+* Type: Academia
+* Country: Italy
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Carlo",  "Metta",   "ISTI CNR"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

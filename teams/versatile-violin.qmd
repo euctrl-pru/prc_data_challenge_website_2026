@@ -27,7 +27,8 @@ library(gt)
 
 gt(tibble::tribble(
   ~id, ~forename,  ~surname,                                           ~affiliation,
-   1L,   "Arnav", "Hemanth", "Dayananda Sagar Academy of Technology and Management"
+   1L,   "Arnav", "Hemanth", "Dayananda Sagar Academy of Technology and Management",
+   2L,        NA,        NA,                                               "Unknow"
 )
 ) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
 ```
