@@ -1,0 +1,27 @@
+
+---
+title: knowing-helicopter
+date: 2026-09-04
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I’m an AI engineer with a strong interest in aviation and data-driven approaches to improving airport operations. I decided to join the PRC Challenge because it combines two areas I’m passionate about: machine learning and aviation. I’m particularly interested in exploring how flight and airport data can be used to better predict taxi-out times and understand operational constraints.
+
+## Details
+
+* Type: Independent
+* Country: Spain
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,       ~surname,  ~affiliation,
+   1L, "Santiago", "Souto Ortega", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
