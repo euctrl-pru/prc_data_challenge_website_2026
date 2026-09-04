@@ -9,7 +9,7 @@ acronyms:
 
 ## Description and Rationale
 
-I am currently doing my Master‘s degree in Mathematics in Data Science @TUM. I decided to join the competition because I could definitely use some practice in Deep Learning, and have always been a huge aviation enthusiast.
+I am currently doing my Master‘s degree in Mathematics in Data Science at TUM. I decided to join the competition because I could definitely use some practice in Deep Learning, and have always been a huge aviation enthusiast.
 
 ## Details
 
