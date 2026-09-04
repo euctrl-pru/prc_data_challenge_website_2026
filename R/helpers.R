@@ -58,13 +58,18 @@ prepare_teams_df <- function() {
 # generate QMD page for one team
 generate_team_page <- function(team) {
   t <- team |> filter(row_number() == 1)
-  page <- "
-  ## {name}
+  page <- "---
+acronyms:
+  insert_loa: false
+---
+## {name}
 
-  ### Description and Rationale
-  {description}
 
-  ### Details
+### Description and Rationale
+
+{description}
+
+### Details
   
   * Number of team members: {num}
   * Type: {type}
