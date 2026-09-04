@@ -1,27 +1,12 @@
+## gentle-igloo
 
----
-title: gentle-igloo
-date: 2026-09-01
-subtitle: Portugal
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I maintain an open, DOI-versioned corpus of aviation occurrence records harmonised from 128 sources, published with full provenance and a deterministic, documented deduplication pipeline. My interest here is the ground-operations side: reconstructing airport state at off-block from movement data is a data-engineering problem before it is a modelling one, and the open-code condition matches how I already work.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: Independent researcher
 * Country: Portugal
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,     ~surname,             ~affiliation,
-   1L,   "Denys", "Kolomiiets", "Independent researcher"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

@@ -1,27 +1,12 @@
+## sociable-cactus
 
----
-title: sociable-cactus
-date: 2026-09-04
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I'm Parth Patil, a 3rd-year B.Tech IT student at Vishwakarma Institute of Technology (VIT Pune), India, working on AI/ML and full-stack projects including a patent-pending AI elderly-care system and a property-intelligence platform. I'm registering solo to get hands-on with a real-world regression problem on operational aviation data — predicting taxi-out times is a great test of feature engineering and time-series thinking beyond typical coursework datasets. I'm using this challenge to build a rigorous, published project (code + open-access paper) that strengthens my applied ML portfolio ahead of research and international opportunities.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Academia
+* Affiliation: Vishwakarma Institute of Technology
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,                                ~affiliation,
-   1L,   "Parth",  "Patil", "Vishwakarma Institute of Technology, Pune"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

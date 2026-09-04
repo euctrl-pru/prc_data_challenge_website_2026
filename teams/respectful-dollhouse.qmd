@@ -1,27 +1,12 @@
+## respectful-dollhouse
 
----
-title: respectful-dollhouse
-date: 2026-09-01
-subtitle: United Kingdom
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I'm obsessed with using graph theory to structure data. I have two patents pending for creative applications on my theories in graph data in the fields of cyber security and neural networks in AI.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: None
 * Country: United Kingdom
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,   ~surname,             ~affiliation,
-   1L, "Richard", "Benfield", "Independent Researcher"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

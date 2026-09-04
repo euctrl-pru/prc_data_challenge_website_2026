@@ -1,33 +1,16 @@
+## jovial-onion
 
----
-title: jovial-onion
-date: 2026-09-03
-subtitle: Sweden
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a small team of researchers who enjoy using data to understand complex real-world systems. Our backgrounds combine quantitative research, economics, data analysis, and programming, with Kianoush also bringing previous experience related to this area.
 
 We joined the PRC Data Challenge because we genuinely find the problem fascinating. Airports are complex systems in which thousands of individual operational decisions interact, and predicting something as seemingly simple as taxi-out time requires understanding both systematic patterns and the uncertainty behind them. We see the challenge as a great opportunity to learn more about aviation, work with an unusually rich open dataset, and push ourselves methodologically.
 
 More than anything, we are excited by the spirit of the challenge: solving a difficult real-world problem, learning from other teams, and developing a solution that is transparent, reproducible, and potentially useful beyond the competition itself.
 
-## Details
+### Details
 
+* Number of team members: 3
 * Type: Academia
+* Affiliation: stockholm universitet
 * Country: Sweden
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename,          ~surname,                  ~affiliation,
-   1L,    "Mehdi",           "Amani",        "Stockholm University",
-   2L, "Kianoush",          "Saeedi",      "Stockholms Universitet",
-   3L,   "Ghazal", "Kazemi Khanghah", "Kungliga Tekniska Högskolan"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

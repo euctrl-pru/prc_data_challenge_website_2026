@@ -1,27 +1,12 @@
+## versatile-radio
 
----
-title: versatile-radio
-date: 2026-09-01
-subtitle: United States
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am an aviation enthusiast working in the GIS field with a keen interest in machine learning.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: None
 * Country: United States
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,  ~affiliation,
-   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

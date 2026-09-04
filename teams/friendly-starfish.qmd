@@ -1,27 +1,12 @@
+## friendly-starfish
 
----
-title: friendly-starfish
-date: 2026-09-02
-subtitle: United Kingdom
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I’m a recent graduate looking for opportunities to advance my skills and also challenge myself with taking various different opportunities such as this one
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: University of Westminster
 * Country: United Kingdom
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename,    ~surname,                ~affiliation,
-   1L, "Griselle", "Fernandes", "University of Westminster"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

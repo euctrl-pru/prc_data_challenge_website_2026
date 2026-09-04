@@ -1,27 +1,12 @@
+## mellow-zeppelin
 
----
-title: mellow-zeppelin
-date: 2026-09-03
-subtitle: Tanzania
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I'm a solo data scientist who likes solving problems and challenges, but has a taste in aviation.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Industry
+* Affiliation: N/A
 * Country: Tanzania
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,  ~surname, ~affiliation,
-   1L,  "Gideon", "Ndabuye",        "N/A"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

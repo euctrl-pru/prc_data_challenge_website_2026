@@ -1,27 +1,12 @@
+## generous-jungle
 
----
-title: generous-jungle
-date: 2026-09-01
-subtitle: Switzerland
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 Aviation and data enthusiasts
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Academia
+* Affiliation: ETH Zurich
 * Country: Switzerland
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,     ~forename,  ~surname, ~affiliation,
-   1L, "Christopher", "Tibaldo",     "Unknow"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

@@ -1,27 +1,12 @@
+## nice-scooter
 
----
-title: nice-scooter
-date: 2026-09-01
-subtitle: United States
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a team of students doing MS in Artificial Intelligence and this kind of challenge is really a breakthrough for us to face real world data and real world problem which can help us understand the project in details
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Academia, Independent
+* Affiliation: City University Of Seattle, WA
 * Country: United States
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,       ~surname,                 ~affiliation,
-   1L,  "Shagun", "Sharma Tamta", "City University Of Seattle"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

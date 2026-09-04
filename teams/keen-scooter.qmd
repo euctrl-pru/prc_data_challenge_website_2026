@@ -1,29 +1,12 @@
+## keen-scooter
 
----
-title: keen-scooter
-date: 2026-09-02
-subtitle: United Kingdom
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 Studying MSc in Applied AI at Cranfield (part time) but interested from a personal perspective.
 
-## Details
+### Details
 
+* Number of team members: 3
 * Type: Independent
+* Affiliation: N/A
 * Country: United Kingdom
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,   ~surname,  ~affiliation,
-   1L,   "Lewis", "Brereton", "Independent",
-   2L,  "Thomas",  "Prosser",         "N/A",
-   3L,     "Noe",  "Claudel",         "N/A"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

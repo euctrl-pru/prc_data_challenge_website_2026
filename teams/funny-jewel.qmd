@@ -1,28 +1,12 @@
+## funny-jewel
 
----
-title: funny-jewel
-date: 2026-09-04
-subtitle: Austria
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are two motivated people, we wanted to test our skills thats why we joined
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Independent
+* Affiliation: independent
 * Country: Austria
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,   ~forename,  ~surname,  ~affiliation,
-   1L,       "Max", "Reischl", "independent",
-   2L, "Alexander",  "Feurer", "independent"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

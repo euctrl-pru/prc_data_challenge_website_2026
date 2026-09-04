@@ -1,28 +1,12 @@
+## spirited-jigsaw
 
----
-title: spirited-jigsaw
-date: 2026-09-01
-subtitle: Ireland
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are two aviation enthusiasts who want to work with aviation data and produce meaningful insights and outputs. We both specialize in data analytics and data science, and we believe this challenge would be the perfect platform for us to test, apply, and further develop our skills. It would also provide us with a valuable opportunity to learn more about the aviation industry, work on a real-world problem, and create a meaningful project that we can showcase on our resumes.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Academia
-* Country: Ireland
+* Affiliation: University College Dublin
+* Country: Ireland {Republic}
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,    ~surname,                ~affiliation,
-   1L,   "Parth",      "Soni", "University College Dublin",
-   2L, "Bhargav", "Chaudhari", "University College Dublin"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

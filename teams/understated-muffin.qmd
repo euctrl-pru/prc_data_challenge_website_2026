@@ -1,28 +1,12 @@
+## understated-muffin
 
----
-title: understated-muffin
-date: 2026-09-02
-subtitle: Greece
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a team of two. Haris Andronis a mechanical engineer with PPL pilot license and owner of X-Fly Aviation company and Margarita Mastori an Air Traffic Controller in LGTS Macedonia International Airport
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Independent
+* Affiliation: X-Fly Aviation
 * Country: Greece
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,   ~surname,     ~affiliation,
-   1L,   "Haris", "Andronis", "X-Fly Aviation",
-   2L,   "Xyzzy",    "XYZZY",    "Undisclosed"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

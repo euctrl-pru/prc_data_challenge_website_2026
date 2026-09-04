@@ -1,27 +1,12 @@
+## vibrant-tornado
 
----
-title: vibrant-tornado
-date: 2026-09-04
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I'm a CSE undergrad student who also happens to love aviation and travelling. This makes this challenge the perfect place for me to take part.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Academia
+* Affiliation: Indian Institute of information technology, Sri City, India
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename, ~surname,                                                  ~affiliation,
-   1L, "Shriansh",   "Jain", "Indian institute of information technology, Sri City, India"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

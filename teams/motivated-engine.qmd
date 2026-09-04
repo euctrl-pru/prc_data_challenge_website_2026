@@ -1,28 +1,12 @@
+## motivated-engine
 
----
-title: motivated-engine
-date: 2026-09-04
-subtitle: Saudi Arabia
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a group of software engineer who are enthused about data, machine learning and aviation.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Independent
+* Affiliation: No affiliation
 * Country: Saudi Arabia
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename,   ~surname,     ~affiliation,
-   1L, "Mohammed",  "Mahgoub",         "Unknow",
-   2L,    "Malaz", "Elhassan", "No affiliation"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

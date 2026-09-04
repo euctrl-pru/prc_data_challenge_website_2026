@@ -1,27 +1,12 @@
+## positive-kiwi
 
----
-title: positive-kiwi
-date: 2026-09-01
-subtitle: France
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 Assistant Professor at ENAC, wanting to toy with new data :-)
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Academia
+* Affiliation: ENAC
 * Country: France
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,   ~surname, ~affiliation,
-   1L, "Richard", "Alligier",       "ENAC"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

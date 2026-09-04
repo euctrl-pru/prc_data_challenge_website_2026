@@ -1,31 +1,16 @@
+## faithful-donkey
 
----
-title: faithful-donkey
-date: 2026-09-01
-subtitle: United States
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a student-led team interested in using technology to solve real-world problems. Our backgrounds span technology, economics, finance, and product development, which gives us different perspectives on how to approach complex challenges.
 
 We registered for the PRC Challenge because we wanted to push ourselves beyond building projects in a classroom or for a portfolio. We saw an opportunity to work on a real problem, test our ideas under constraints, and build something that could have practical value.
 
 For us, the challenge is a chance to learn quickly, experiment, and see how far we can take an idea when we focus on execution.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Academia
+* Affiliation: University of Texas at Austin
 * Country: United States
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename, ~surname, ~affiliation,
-   1L, "Vishanth",  "Ashko",     "Unknow"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

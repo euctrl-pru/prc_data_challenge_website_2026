@@ -1,28 +1,12 @@
+## wise-lemon
 
----
-title: wise-lemon
-date: 2026-09-01
-subtitle: Germany
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are two former fellow students and friends who are interested in machine learning. One of us is starting a data science PhD, and the other is an engineering master's student with a passion for aviation and already competed here as an undergraduate.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Academia, Independent
+* Affiliation: Independent
 * Country: Germany
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,    ~forename,     ~surname,                            ~affiliation,
-   1L,     "Stefan", "Stivasarov",                           "independent",
-   2L, "Maximilian",   "Knechtel", "University of Hamburg Business School"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

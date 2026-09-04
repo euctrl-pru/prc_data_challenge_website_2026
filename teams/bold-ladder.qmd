@@ -1,27 +1,12 @@
+## bold-ladder
 
----
-title: bold-ladder
-date: 2026-09-03
-subtitle: Turkey
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am an independent researcher and developer focused on building data-driven solutions. My motivation for joining DC2026 is to tackle the complex variables behind airport traffic and accurate taxi-out time prediction. I strongly believe in the power of open-source collaboration for aviation intelligence, and I want to contribute my technical expertise to this valuable ecosystem.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: None
 * Country: Turkey
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname, ~affiliation,
-   1L,   "Yasin", "Baykal",     "Unknow"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

@@ -1,27 +1,12 @@
+## joyous-pencil
 
----
-title: joyous-pencil
-date: 2026-09-01
-subtitle: Algeria
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 Incident Response analyst, working on projects involving AI (deep learning and agentic AI) and cyber-defense. I am an aviation geek and love to also apply AI within the aviation sector. This is the best opportunity to perform such thing.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: None
 * Country: Algeria
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,     ~forename, ~surname,  ~affiliation,
-   1L, "Imad Eddine", "Yamani", "Independent"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

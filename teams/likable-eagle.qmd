@@ -1,30 +1,12 @@
+## likable-eagle
 
----
-title: likable-eagle
-date: 2026-09-04
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a student team passionate about AI, and building intelligent systems to solve real-world problems. We joined PRC 2026 to challenge ourselves, gain hands-on experience, and turn our ideas into a practical solution.
 
-## Details
+### Details
 
+* Number of team members: 4
 * Type: Independent
+* Affiliation: Sai Vidya Institute of Technology
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname, ~affiliation,
-   1L, "Mukundh",  "Reddy",     "Unknow",
-   2L, "Chandan",  "Hedge",     "Unknow",
-   3L,  "Balaji",      "M",     "Unknow",
-   4L,    "Arun",   "Arya",     "Unknow"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

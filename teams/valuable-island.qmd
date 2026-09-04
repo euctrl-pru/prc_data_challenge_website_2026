@@ -1,28 +1,12 @@
+## valuable-island
 
----
-title: valuable-island
-date: 2026-09-04
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 A software engineer, focused on data engineering, infrastructure and cloud.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Independent
+* Affiliation: NA
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,  ~surname,    ~affiliation,
-   1L,   "Rohan",     "Das", "Solafune Inc.",
-   2L,     "Sai", "Kishore",            "NA"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

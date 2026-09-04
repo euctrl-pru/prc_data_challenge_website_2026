@@ -1,30 +1,12 @@
+## logical-xylophone
 
----
-title: logical-xylophone
-date: 2026-09-03
-subtitle: United States
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am the Principal Researcher at Obsidian Watch, you have helped me in some of my investigations and other work, I love any case that has public interest/saftey at play. And why not? you guys do not try and swindle us like other Corpo losers. Tell me you all were at defcon.
 
-## Details
+### Details
 
+* Number of team members: 4
 * Type: Independent
+* Affiliation: Obsidian Watch Group
 * Country: United States
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename,  ~surname,            ~affiliation,
-   1L,    "Xyzzy",   "XYZZY",           "Undisclosed",
-   2L, "Brittany", "Puckett",          "Fellow/Staff",
-   3L,    "Amber",   "klump",   "Sr Research Analyst",
-   4L,   "Tanner",   "Klump", "Sr Researcher Analyst"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

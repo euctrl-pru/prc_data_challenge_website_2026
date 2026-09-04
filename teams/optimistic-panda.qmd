@@ -1,27 +1,12 @@
+## optimistic-panda
 
----
-title: optimistic-panda
-date: 2026-09-01
-subtitle: United Kingdom
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am a lifelong avgeek, and for many years have been using opensource ADSB data to enhance my hobby and now have a comprehensive platform built that is able to detect and alert me on interesting events such as missed approaches, holding, diversions etc and more recently have added AI commentary to dig into why as well as the what.  So this is the next step to be able to predict.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: SMJ Consultancy Ltd
 * Country: United Kingdom
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,   ~surname,          ~affiliation,
-   1L,    "Sean", "Johnston", "SMJ Consultancy Ltd"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

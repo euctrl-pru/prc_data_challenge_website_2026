@@ -1,27 +1,12 @@
+## thoughtful-scooter
 
----
-title: thoughtful-scooter
-date: 2026-09-01
-subtitle: Turkey
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 ATM Researcher
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Academia
+* Affiliation: Eskişehir Technical University
 * Country: Turkey
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,  ~surname,                     ~affiliation,
-   1L,    "Enes", "Özçelik", "Eskişehir Technical University"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

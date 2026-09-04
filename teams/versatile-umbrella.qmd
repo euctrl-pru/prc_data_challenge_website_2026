@@ -1,27 +1,12 @@
+## versatile-umbrella
 
----
-title: versatile-umbrella
-date: 2026-09-04
-subtitle: Australia
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am a student studying machine learning at uni and this seemed like it was right up my alley.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: Independent
 * Country: Australia
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,  ~affiliation,
-   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

@@ -1,27 +1,12 @@
+## silly-net
 
----
-title: silly-net
-date: 2026-09-03
-subtitle: Netherlands
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 Final year PhD student. Curious to see the data, unfortunately not much time to tinker with it because I need to graduate.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Academia
+* Affiliation: TU Delft
 * Country: Netherlands
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname, ~affiliation,
-   1L,  "Fazlur", "Rahman",   "TU Delft"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

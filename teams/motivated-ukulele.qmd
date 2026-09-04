@@ -1,27 +1,12 @@
+## motivated-ukulele
 
----
-title: motivated-ukulele
-date: 2026-09-01
-subtitle: Vietnam
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am a former Air traffic controller from Vietnam, now transitioning into data science. I joined this challenge to apply my aviation domain knowledge, strengthen my data-analysis skills, and explore how data-driven solutions can improve air traffic operations.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: Independent
 * Country: Vietnam
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,  ~affiliation,
-   1L,   "Giang",    "Bui", "Independent"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

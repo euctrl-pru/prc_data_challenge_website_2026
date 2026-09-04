@@ -1,27 +1,12 @@
+## gracious-yogurt
 
----
-title: gracious-yogurt
-date: 2026-09-02
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I'm a junior data scientist working in the aviation domain, where I currently tackle problems very close to this one —modelling operational timings and airport performance from messy, real-world movement data.I'm taking part to benchmark my approaches against the wider community, learn from how others handle the same challenges I face at work, and hopefully contribute a useful model for estimating excess taxi fuel burn and CO2. Beyond the leaderboard, I see this as an opportunity to give back to the open aviation-data community that my own work relies on.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: None
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname, ~affiliation,
-   1L, "Shantnu",  "Kumar",     "Unknow"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

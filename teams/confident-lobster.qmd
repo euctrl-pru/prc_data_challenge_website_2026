@@ -1,27 +1,12 @@
+## confident-lobster
 
----
-title: confident-lobster
-date: 2026-09-03
-subtitle: Germany
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I'd like to explore the provided datasets and improve my Data Engineering skills
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: independent
 * Country: Germany
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,  ~affiliation,
-   1L,    "Juri", "Hebeis", "independent"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

@@ -1,27 +1,12 @@
+## understated-volcano
 
----
-title: understated-volcano
-date: 2026-09-04
-subtitle: Ireland
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am a experienced ML engineer who is pursuing his masters from UCD Ireland. I am participating cause I find the problem interesting.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
-* Country: Ireland
+* Affiliation: University College Dublin
+* Country: Ireland {Republic}
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname, ~affiliation,
-   1L,  "Ruchin",  "Dhama",     "Unknow"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

@@ -1,28 +1,13 @@
+## refreshing-yacht
 
----
-title: refreshing-yacht
-date: 2026-09-01
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am a First Year B.Tech Computer Engineering Undergraduate. With an always growing interest in aviation and technology,  I love to go through the details behind a flying aircraft. 
 Wanting to pursue a career in Aviation Finance , I love to understand the world of aircrafts. I have built multiple projects,  databases , dashboards to understand the market as well as flying airspace and also make people get them.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: NMIMS MUKESH PATEL SCHOOL OF TECHNOLOGY, MANAGEMENT AND ENGINEERING MUMBAI
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname, ~affiliation,
-   1L,  "SATVIK",  "GOYAL",     "caelum"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

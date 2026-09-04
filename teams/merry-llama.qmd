@@ -1,28 +1,12 @@
+## merry-llama
 
----
-title: merry-llama
-date: 2026-09-02
-subtitle: United States
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 A group of Embry-Riddle Aeronautical University students and researchers interested in flight data research and aviation safety. Participation in the challenge will enable exploration of machine learning methods to aviation data, support sustainability initiatives in aviation, and help students develop competencies necessary for success in their data analytics professions.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Academia
+* Affiliation: Embry-Riddle Aeronautical University
 * Country: United States
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,            ~surname,                           ~affiliation,
-   1L,    "Joao", "Souza Dias Garcia", "Embry-Riddle Aeronautical University",
-   2L,  "Taeyun",               "Yoo", "Embry-Riddle Aeronautical University"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

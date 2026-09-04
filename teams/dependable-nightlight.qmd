@@ -1,27 +1,12 @@
+## dependable-nightlight
 
----
-title: dependable-nightlight
-date: 2026-09-04
-subtitle: Spain
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am currently a second year PhD student in aerospace engineering. I joined this challenge to explore airport data and investigate whether the prediction results could provide useful insights or inspiration for my current research.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: Polytechnic University of Catalonia
 * Country: Spain
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename, ~surname,  ~affiliation,
-   1L, "espresso",  "mochi", "independent"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

@@ -1,30 +1,14 @@
+## knowledgeable-koala
 
----
-title: knowledgeable-koala
-date: 2026-09-04
-subtitle: Poland
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a two-person team combining **Software Engineering and Aviation Operations expertise**. Our team consists of a Software Engineer with experience in data, machine learning, and geospatial systems, and an Operations Analyst with aviation industry experience.
 
 We joined the PRC Data Challenge to combine technical and operational perspectives and explore how data-driven methods can improve taxi-out time prediction. Beyond model performance, we aim to better understand the operational factors behind taxi-out variability and build an interpretable, practical solution.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Independent
+* Affiliation: no
 * Country: Poland
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,  ~forename,     ~surname, ~affiliation,
-   1L, "Krystian", "Szturemski",     "Unknow",
-   2L,   "Hubert",    "Ostrach",         "no"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

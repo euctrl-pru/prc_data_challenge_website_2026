@@ -1,27 +1,12 @@
+## wise-yacht
 
----
-title: wise-yacht
-date: 2026-09-04
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 My name is Satyam Singh , I'm from India pursuing mechanical engineering , I decided to participate in it because this competition is relevant to my skillset and e.g. i can contribute in it .
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: Punjab Engineering College , Chandigarh
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,                                      ~affiliation,
-   1L,  "Satyam",  "Singh", "Punjab Engineering College , Chnadigarh , India"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

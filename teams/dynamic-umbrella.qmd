@@ -1,27 +1,12 @@
+## dynamic-umbrella
 
----
-title: dynamic-umbrella
-date: 2026-09-02
-subtitle: United States
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 am a travel-industry analyst who enjoys exploring data, learning new analytical methods, and developing predictive models. I am applying to this challenge to apply those interests to real-world aviation data, strengthen my skills, and learn from others in the aviation and data science community.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: independent
 * Country: United States
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,  ~affiliation,
-   1L, "Timothy", "Ponden", "independent"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

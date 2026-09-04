@@ -1,32 +1,12 @@
+## hospitable-nightlight
 
----
-title: hospitable-nightlight
-date: 2026-09-02
-subtitle: Spain
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a team of six professionals from Indra Air Traffic, working at the intersection of data, technology, and industry expertise. We decided to register for the PRC Challenge because we are passionate about contributing to the ongoing innovation of Air Traffic Management. Through the application of Artificial Intelligence, we aim to help develop more efficient, sustainable, and data-driven solutions for the aviation sector. This challenge represents an exciting opportunity to put our expertise to the test and contribute meaningfully to a field we are truly passionate about.
 
-## Details
+### Details
 
+* Number of team members: 6
 * Type: Industry
+* Affiliation: Indra Air Traffic
 * Country: Spain
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,    ~forename,              ~surname,        ~affiliation,
-   1L,     "Carlos", "Dominguez Monferrer", "Indra Air Traffic",
-   2L, "Marc Josep",     "Bennasar Romero",       "Indra Group",
-   3L,     "Alvaro",   "Quintanar Pascual", "Indra Air Traffic",
-   4L,      "David",     "Civantos Prieto",       "Indra Group",
-   5L,    "Gabriel",       "Martin Solier", "Indra Air Traffic",
-   6L,      "Lucia",       "Bragado Perez", "Indra Air Traffic"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

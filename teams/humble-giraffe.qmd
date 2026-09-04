@@ -1,31 +1,12 @@
+## humble-giraffe
 
----
-title: humble-giraffe
-date: 2026-09-04
-subtitle: India
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 We are a group of high-school students passionate about data science! We are super excited to have a chance to work with such a large real world data set.
 
-## Details
+### Details
 
+* Number of team members: 5
 * Type: Academia
+* Affiliation: Indus International School Pune
 * Country: India
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id,      ~forename,    ~surname,                      ~affiliation,
-   1L,        "Kanav",      "Romi", "Indus International School Pune",
-   2L,       "Yuvraj",     "Verma", "Indus International School Pune",
-   3L,        "Arjun",    "Veluri", "Indus International School Pune",
-   4L,        "Rishi",     "Kamat", "Indus International School Pune",
-   5L, "Ravi Krishna", "Ackermann", "Indus International School Pune"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

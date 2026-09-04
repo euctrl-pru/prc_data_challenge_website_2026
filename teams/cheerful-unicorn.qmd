@@ -1,31 +1,16 @@
+## cheerful-unicorn
 
----
-title: cheerful-unicorn
-date: 2026-09-01
-subtitle: Italy
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 I am an independent participant registering under CO2gap, with an interest in aviation data, operational efficiency and CO2 emissions.
 
 I am joining the challenge to explore a practical taxi-out time prediction problem using open data and reproducible methods. I will use AI-assisted development tools to support the work, while retaining responsibility for the modelling choices, validation and documentation.
 
 My aim is to develop and openly share a clear, original and reproducible solution.
 
-## Details
+### Details
 
+* Number of team members: 1
 * Type: Independent
+* Affiliation: co2gap
 * Country: Italy
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename, ~surname,  ~affiliation,
-   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```

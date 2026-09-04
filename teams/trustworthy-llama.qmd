@@ -1,28 +1,12 @@
+## trustworthy-llama
 
----
-title: trustworthy-llama
-date: 2026-09-01
-subtitle: Switzerland
-acronyms:
-  insert_loa: false
----
-
-## Description and Rationale
-
+### Description and Rationale
 Our team brings together data science expertise and operational aviation experience. Stefano Billeter is an engineer specialised in data science, with a track record of scientific publications (ORCID: https://orcid.org/0009-0008-0331-1644). Lorenzo Della Casa is a commercial airline pilot with a working knowledge of machine learning, contributing first-hand operational insight into flight operations. We believe this combination of analytical and domain knowledge will allow us to approach the challenge from both a modelling and a practical perspective.
 
-## Details
+### Details
 
+* Number of team members: 2
 * Type: Independent
+* Affiliation: Independent
 * Country: Switzerland
 
-```{r echo=FALSE}
-library(gt)
-
-gt(tibble::tribble(
-  ~id, ~forename,     ~surname, ~affiliation,
-   1L, "Stefano",   "Billeter",     "Unknow",
-   2L, "Lorenzo", "Della Casa",     "Unknow"
-)
-) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
-```
