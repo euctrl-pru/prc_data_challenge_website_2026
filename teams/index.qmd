@@ -47,7 +47,7 @@ You can retrieve all submissions info via the API as explained in the Ranking pa
 </style>
 
 <iframe
-  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard?cells=cumulative_registrations">
+  src="https://old.observablehq.com/embed/@espinielli/dc26-leaderboard@868?cells=cumulative_registrations">
 </iframe>
 ```
 

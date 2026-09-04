@@ -46,7 +46,7 @@ yet, you’ll need to do so first to access the channel.
 
 
 <iframe
-  src="https://observablehq.com/embed/@espinielli/dc26-leaderboard?cells=leaderboard">
+  src="https://old.observablehq.com/embed/@espinielli/dc26-leaderboard@868?cells=leaderboard">
 </iframe>
 ```
 

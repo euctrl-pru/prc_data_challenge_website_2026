@@ -98,7 +98,7 @@ It consists of a single file:
 * `ranking.parquet` (27M)
 
 ### The Submitting Dataset
-The submitting dataset is the template to be filled with the predicted taxi-out times for submission. It only contains the columns `MVT_ID_mvt` and `TAXITIME_SEC_mvt` where `MVT_ID_mvt` values match those of the departures in the ranking dataset. It consists of only one file:
+The submitting dataset is the template to be filled with the predicted taxi-out times, i.e. `TAXITIME_SEC_mvt` = `MVT_TIME_UTC_mvt` - `BLOCK_TIME_UTC_mvt` (for the departure). It only contains the columns `MVT_ID_mvt` and `TAXITIME_SEC_mvt` where `MVT_ID_mvt` values match those of the departures in the ranking dataset. It consists of only one file:
 
 * `submitting.parquet` (1.1M)
 
