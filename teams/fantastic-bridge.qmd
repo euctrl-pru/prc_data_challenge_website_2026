@@ -1,0 +1,27 @@
+
+---
+title: fantastic-bridge
+date: 2026-09-04
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a student at Université Paris Cité with a strong interest in data science, machine learning, and aviation. I decided to participate in the PRC Data Challenge to apply my skills to a real-world problem and learn more about air traffic management and predictive modeling
+
+## Details
+
+* Type: Independent
+* Country: France
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

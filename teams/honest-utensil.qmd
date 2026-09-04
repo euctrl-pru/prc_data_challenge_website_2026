@@ -1,0 +1,27 @@
+
+---
+title: honest-utensil
+date: 2026-09-04
+subtitle: Ukraine
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Data Scientist and Data Engineer. In my professional life, I worked in the Marketing Department of KLM Royal Dutch Airlines. That is why I still feel close to the industry and understand the importance of the problem.
+
+## Details
+
+* Type: Academia
+* Country: Ukraine
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
