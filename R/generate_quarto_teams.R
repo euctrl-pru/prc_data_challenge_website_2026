@@ -70,6 +70,7 @@ acronyms:
 
 * Type: %s
 * Country: %s
+* Number of team members: %s
 
 ```{r echo=FALSE}
 library(gt)
@@ -83,6 +84,7 @@ gt(%s) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~
         team_description,
         team_type,
         team_country,
+        team_members_count,
         team_members |> datapasta::tribble_construct()
       ),
       file = paste0("teams/", team_name, '.qmd')

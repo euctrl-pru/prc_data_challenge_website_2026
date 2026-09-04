@@ -27,5 +27,7 @@ ttt <- teams_valid |>
 #########################
 ttt |>
   group_by(team_name) |>
-  # filter(row_number() == 1) |>
+  filter(row_number() == 1) |>
+  ungroup() |>
+  filter(row_number() == 1) |>
   purrrlyr::by_row(generate_team_page)
