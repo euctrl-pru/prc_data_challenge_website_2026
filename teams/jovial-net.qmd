@@ -15,6 +15,7 @@ I am an ML engineer, with a background Electrical Engineering and Computer Scien
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

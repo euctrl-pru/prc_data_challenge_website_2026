@@ -15,6 +15,7 @@ I'm obsessed with using graph theory to structure data. I have two patents pendi
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

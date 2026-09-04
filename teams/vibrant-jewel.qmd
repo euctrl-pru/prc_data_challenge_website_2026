@@ -19,6 +19,7 @@ I registered because the combination of open data, a clearly defined target and 
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

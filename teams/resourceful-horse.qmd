@@ -25,6 +25,7 @@ A model I'm proud of, plus a sharper understanding of how fuel efficiency and em
 
 * Type: Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

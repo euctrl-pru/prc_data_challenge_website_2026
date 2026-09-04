@@ -15,6 +15,7 @@ We are a team of 2 people working independently with aviation agentic and softwa
 
 * Type: Independent
 * Country: Cyprus
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

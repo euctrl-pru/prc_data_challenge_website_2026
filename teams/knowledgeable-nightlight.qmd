@@ -15,6 +15,7 @@ I have an advanced degree in economics and a bachelor in engineering. I would li
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

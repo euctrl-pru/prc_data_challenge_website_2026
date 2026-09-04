@@ -16,6 +16,7 @@ We are competing because we are curious to see how far we can get in this compet
 
 * Type: Academia
 * Country: Netherlands
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

@@ -16,6 +16,7 @@ I like open data initiatives, stochastic systems modeling and planes so...
 
 * Type: Independent
 * Country: New Zealand
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

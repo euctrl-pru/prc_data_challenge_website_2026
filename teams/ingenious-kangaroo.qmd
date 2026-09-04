@@ -15,6 +15,7 @@ working within informas aviationweek and my university dissertation in optimisin
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -19,6 +19,7 @@ More than anything, we are excited by the spirit of the challenge: solving a dif
 
 * Type: Academia
 * Country: Sweden
+* Number of team members: 3
 
 ```{r echo=FALSE}
 library(gt)

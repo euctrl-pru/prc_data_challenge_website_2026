@@ -15,6 +15,7 @@ I'm a master's student at QMUL and my machine learning professor (Dr Jun Chen) g
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

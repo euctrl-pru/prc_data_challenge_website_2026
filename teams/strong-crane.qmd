@@ -15,6 +15,7 @@ I am a reseracher working in aviation domain.
 
 * Type: Academia
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

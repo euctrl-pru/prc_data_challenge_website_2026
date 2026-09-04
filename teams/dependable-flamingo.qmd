@@ -15,6 +15,7 @@ I'm a PhD student at Georgia Tech's Aerospace Systems Design Laboratory (ASDL), 
 
 * Type: Academia
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

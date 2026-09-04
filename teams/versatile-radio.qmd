@@ -15,6 +15,7 @@ I am an aviation enthusiast working in the GIS field with a keen interest in mac
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ We are AI and software engineers working in the IT and biotechnology industries.
 
 * Type: Industry
 * Country: Taiwan
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

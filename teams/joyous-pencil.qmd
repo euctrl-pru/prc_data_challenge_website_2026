@@ -15,6 +15,7 @@ Incident Response analyst, working on projects involving AI (deep learning and a
 
 * Type: Independent
 * Country: Algeria
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

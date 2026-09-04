@@ -15,6 +15,7 @@ I am a student at Université Paris Cité with a strong interest in data science
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

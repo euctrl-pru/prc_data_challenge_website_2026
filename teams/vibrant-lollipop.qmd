@@ -19,6 +19,7 @@ What I intend to deliver: a faithful reimplementation of EUROCONTROL's own addit
 
 * Type: Independent
 * Country: Turkey
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

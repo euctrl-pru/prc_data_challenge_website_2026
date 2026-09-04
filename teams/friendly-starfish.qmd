@@ -15,6 +15,7 @@ I’m a recent graduate looking for opportunities to advance my skills and also 
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

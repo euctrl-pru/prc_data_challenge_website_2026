@@ -21,6 +21,7 @@ I'm also curious whether a model you can actually explain stays competitive here
 
 * Type: Academia, Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

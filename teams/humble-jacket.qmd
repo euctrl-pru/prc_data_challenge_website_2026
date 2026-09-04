@@ -28,6 +28,7 @@ after the deadline. That is uncommon in data competitions and worth supporting.
 
 * Type: Independent
 * Country: Cyprus
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

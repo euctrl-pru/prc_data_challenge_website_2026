@@ -15,6 +15,7 @@ I am a lifelong avgeek, and for many years have been using opensource ADSB data 
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

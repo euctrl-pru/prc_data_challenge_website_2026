@@ -15,6 +15,7 @@ SevinHub is an independent technology initiative based in Belgium, led by Sergiu
 
 * Type: Independent
 * Country: Belgium
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

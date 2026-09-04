@@ -15,6 +15,7 @@ Machine learning engineers with experience in aviation
 
 * Type: Industry
 * Country: Finland
+* Number of team members: 3
 
 ```{r echo=FALSE}
 library(gt)

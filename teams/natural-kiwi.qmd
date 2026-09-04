@@ -15,6 +15,7 @@ Hi, i’m a recent computer science graduate currently working in a data team at
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

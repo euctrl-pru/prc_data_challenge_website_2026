@@ -15,6 +15,7 @@ I am a 38-year-old family physician in Turkey, married. Big data is my hobby. AI
 
 * Type: Independent
 * Country: Turkey
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

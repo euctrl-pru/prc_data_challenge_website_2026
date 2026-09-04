@@ -21,6 +21,7 @@ The challenge also provides an opportunity to contribute to aviation research wh
 
 * Type: Independent
 * Country: Kenya
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I'm a physicist working in research, focusing on numerical simulations. Aviation
 
 * Type: Academia, Independent
 * Country: Switzerland
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

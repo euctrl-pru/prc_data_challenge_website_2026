@@ -16,6 +16,7 @@ Passion regarding data analytic of real world data.
 
 * Type: Academia, Independent
 * Country: Malaysia
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

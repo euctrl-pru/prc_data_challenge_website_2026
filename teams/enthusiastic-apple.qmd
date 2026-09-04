@@ -15,6 +15,7 @@ I am an independent data scientist with a strong interest in aviation performanc
 
 * Type: Independent
 * Country: China
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

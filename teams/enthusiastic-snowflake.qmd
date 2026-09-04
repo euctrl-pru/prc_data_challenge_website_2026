@@ -15,6 +15,7 @@ I am a machine learning engineer with over 6 years experience solving real life 
 
 * Type: Industry
 * Country: Nigeria
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

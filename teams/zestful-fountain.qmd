@@ -15,6 +15,7 @@ PhoenixAI is the cutting edge state of the art platform for Maritime and Aerospa
 
 * Type: Industry
 * Country: Italy
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

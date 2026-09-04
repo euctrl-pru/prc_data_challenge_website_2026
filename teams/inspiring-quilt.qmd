@@ -15,6 +15,7 @@ We are the data team from Guardian Jet and we are always up for a great challeng
 
 * Type: Industry
 * Country: United States
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

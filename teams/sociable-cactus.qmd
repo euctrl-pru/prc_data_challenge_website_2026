@@ -15,6 +15,7 @@ I'm Parth Patil, a 3rd-year B.Tech IT student at Vishwakarma Institute of Techno
 
 * Type: Academia
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

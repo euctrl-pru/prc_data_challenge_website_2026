@@ -17,6 +17,7 @@ Registering to build an open, reproducible model of taxi-out time at the 11 chal
 
 * Type: Independent
 * Country: Taiwan
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

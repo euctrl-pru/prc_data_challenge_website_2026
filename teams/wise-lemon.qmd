@@ -15,6 +15,7 @@ We are two former fellow students and friends who are interested in machine lear
 
 * Type: Academia, Independent
 * Country: Germany
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

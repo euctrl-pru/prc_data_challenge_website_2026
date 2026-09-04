@@ -15,6 +15,7 @@ I am a high school student (probably going to work with some friends on this com
 
 * Type: Independent
 * Country: Australia
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

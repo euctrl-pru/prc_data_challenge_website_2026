@@ -15,6 +15,7 @@ Aircraft Performance Engineer with a focus on machine learning
 
 * Type: Industry
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

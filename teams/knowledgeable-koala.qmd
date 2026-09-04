@@ -17,6 +17,7 @@ We joined the PRC Data Challenge to combine technical and operational perspectiv
 
 * Type: Independent
 * Country: Poland
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

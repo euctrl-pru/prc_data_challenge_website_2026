@@ -15,6 +15,7 @@ I'm Feyyaz Orhan Toksöz from Ankara, Turkey, with a strong interest in software
 
 * Type: Independent
 * Country: Turkey
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

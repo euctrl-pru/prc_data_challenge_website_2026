@@ -15,6 +15,7 @@ I am a data scientist with an aerospace Engineering background who loves the opp
 
 * Type: Industry
 * Country: Ghana
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

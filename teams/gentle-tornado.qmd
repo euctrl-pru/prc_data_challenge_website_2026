@@ -15,6 +15,7 @@ An aviation data enthusiast, who is always motivated to learn new things
 
 * Type: Industry
 * Country: Saudi Arabia
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

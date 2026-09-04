@@ -15,6 +15,7 @@ We are a team of two. Haris Andronis a mechanical engineer with PPL pilot licens
 
 * Type: Independent
 * Country: Greece
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

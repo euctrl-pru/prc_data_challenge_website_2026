@@ -15,6 +15,7 @@ We are a group of high-school students passionate about data science! We are sup
 
 * Type: Academia
 * Country: India
+* Number of team members: 5
 
 ```{r echo=FALSE}
 library(gt)

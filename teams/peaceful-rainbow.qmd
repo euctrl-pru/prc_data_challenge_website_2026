@@ -15,6 +15,7 @@ Enthusiastic Data Analyst seeking for challenges
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

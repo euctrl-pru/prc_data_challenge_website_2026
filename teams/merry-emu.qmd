@@ -15,6 +15,7 @@ Rohan and Joshua. Best friends from school. Graduated in robotics and computer s
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ A recent graduate trying to learn more about machine learning and deep learning.
 
 * Type: Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

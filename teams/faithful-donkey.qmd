@@ -19,6 +19,7 @@ For us, the challenge is a chance to learn quickly, experiment, and see how far 
 
 * Type: Academia
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

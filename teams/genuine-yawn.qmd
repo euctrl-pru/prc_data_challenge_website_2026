@@ -15,6 +15,7 @@ I am a recent graduate participating independently, with a strong interest in da
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

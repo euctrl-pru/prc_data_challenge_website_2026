@@ -15,6 +15,7 @@ I like challenging puzzles and aviation so why would I not want to be a part of 
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I am a recent graduate in Computer Science and I am passionate about data scienc
 
 * Type: Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I am a researcher in air cargo and air cargo sustainability at Frankfurt UAS Ins
 
 * Type: Academia
 * Country: Germany
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

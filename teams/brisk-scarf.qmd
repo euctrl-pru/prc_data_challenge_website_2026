@@ -16,6 +16,7 @@ Enthusiast about machine learning challenge and discovery
 
 * Type: Academia
 * Country: Italy
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

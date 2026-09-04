@@ -15,6 +15,7 @@ We are a husband and wife pair of amateur data/charts and graph enthusiasts who 
 
 * Type: Independent
 * Country: Netherlands
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

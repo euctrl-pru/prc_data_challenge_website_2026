@@ -15,6 +15,7 @@ I am a former Air traffic controller from Vietnam, now transitioning into data s
 
 * Type: Independent
 * Country: Vietnam
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

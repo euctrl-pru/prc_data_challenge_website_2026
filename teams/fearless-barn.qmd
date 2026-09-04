@@ -15,6 +15,7 @@ Student in Singapore Institute of Technology. To challenge myself in tackling AI
 
 * Type: Academia
 * Country: Singapore
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

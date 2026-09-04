@@ -15,6 +15,7 @@ Software developer and founder of ibuildbots.dev, an independent verification se
 
 * Type: Industry
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

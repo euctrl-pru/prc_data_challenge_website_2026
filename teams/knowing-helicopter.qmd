@@ -15,6 +15,7 @@ I’m an AI engineer with a strong interest in aviation and data-driven approach
 
 * Type: Independent
 * Country: Spain
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

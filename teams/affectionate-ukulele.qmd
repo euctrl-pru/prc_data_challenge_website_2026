@@ -15,6 +15,7 @@ We are ITU students who aim to investigate and implement the potential of ML mod
 
 * Type: Independent
 * Country: Turkey
+* Number of team members: 3
 
 ```{r echo=FALSE}
 library(gt)

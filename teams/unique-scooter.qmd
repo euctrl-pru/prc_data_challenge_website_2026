@@ -15,6 +15,7 @@ We are an independent team from Galicia, Spain, with a strong interest in aviati
 
 * Type: Independent
 * Country: Spain
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

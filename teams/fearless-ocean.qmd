@@ -15,6 +15,7 @@ passionate about air traffic management and engineering
 
 * Type: Industry
 * Country: Italy
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

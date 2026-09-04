@@ -17,6 +17,7 @@ I registered for this challenge as I am a second time participant and want to se
 
 * Type: Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

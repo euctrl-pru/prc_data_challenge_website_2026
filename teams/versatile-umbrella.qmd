@@ -15,6 +15,7 @@ I am a student studying machine learning at uni and this seemed like it was righ
 
 * Type: Independent
 * Country: Australia
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

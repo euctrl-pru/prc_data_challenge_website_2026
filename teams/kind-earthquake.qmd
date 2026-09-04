@@ -15,6 +15,7 @@ I have several years of software development experience and a strong interest in
 
 * Type: Independent
 * Country: Armenia
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

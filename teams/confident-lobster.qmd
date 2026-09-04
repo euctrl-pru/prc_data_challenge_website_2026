@@ -15,6 +15,7 @@ I'd like to explore the provided datasets and improve my Data Engineering skills
 
 * Type: Independent
 * Country: Germany
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

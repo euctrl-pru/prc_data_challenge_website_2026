@@ -15,6 +15,7 @@ I am a Data Scientist and Data Engineer. In my professional life, I worked in th
 
 * Type: Academia
 * Country: Ukraine
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

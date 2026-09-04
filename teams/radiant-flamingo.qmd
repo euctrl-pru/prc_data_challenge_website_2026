@@ -15,6 +15,7 @@ We are a pair of PhD students at Imperial. One team member is interested in opti
 
 * Type: Academia
 * Country: United Kingdom
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

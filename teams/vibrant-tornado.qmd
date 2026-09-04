@@ -15,6 +15,7 @@ I'm a CSE undergrad student who also happens to love aviation and travelling. Th
 
 * Type: Academia
 * Country: India
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

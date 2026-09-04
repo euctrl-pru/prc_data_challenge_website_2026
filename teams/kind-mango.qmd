@@ -15,6 +15,7 @@ I'm Sergio an high school student on his final year. I'm passionate in ML and AI
 
 * Type: Independent
 * Country: Italy
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

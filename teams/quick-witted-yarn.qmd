@@ -17,6 +17,7 @@ I registered for the 2026 PRC Data Challenge to take the machine learning techni
 
 * Type: Independent
 * Country: Germany
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

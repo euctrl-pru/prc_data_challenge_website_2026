@@ -21,6 +21,7 @@ Our goal is not only to achieve a competitive result, but also to build a reprod
 
 * Type: Industry, Independent
 * Country: China
+* Number of team members: 4
 
 ```{r echo=FALSE}
 library(gt)

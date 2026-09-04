@@ -15,6 +15,7 @@ Solo team: Luis Melzer, CS student at Leibniz Universität Hannover specializing
 
 * Type: Independent
 * Country: Germany
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

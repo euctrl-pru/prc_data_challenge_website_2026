@@ -15,6 +15,7 @@ I am at operations department. I decided to participate in this challenge for sk
 
 * Type: Independent
 * Country: Japan
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

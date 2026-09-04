@@ -15,6 +15,7 @@ AI enthusiats looking for usefull applications of technical knowledge
 
 * Type: Academia
 * Country: France
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I am a Master's student in Aviation at Zurich University of Applied Sciences. I 
 
 * Type: Academia
 * Country: Switzerland
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

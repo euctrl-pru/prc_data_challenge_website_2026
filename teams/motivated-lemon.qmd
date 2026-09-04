@@ -15,6 +15,7 @@ I'm an aviation professional (work as french ATCO) who wants to learn about ML f
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I am an aerospace engineer with a strong background in simulation, programming a
 
 * Type: Independent
 * Country: Spain
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

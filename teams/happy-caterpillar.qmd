@@ -19,6 +19,7 @@ My aim is to build a well-documented, fully reproducible baseline and iterate on
 
 * Type: Independent
 * Country: Greece
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

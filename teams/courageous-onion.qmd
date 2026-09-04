@@ -15,6 +15,7 @@ ML Researcher specializing in optimization
 
 * Type: Academia
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

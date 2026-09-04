@@ -19,6 +19,7 @@ Beyond the leaderboard, we value the open-science nature of the challenge. Our g
 
 * Type: Independent
 * Country: Turkey
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

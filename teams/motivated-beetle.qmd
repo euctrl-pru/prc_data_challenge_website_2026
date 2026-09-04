@@ -15,6 +15,7 @@ I am a Machine Learning educator based in Honolulu, Hawai'i. This challenge offe
 
 * Type: Academia
 * Country: United States
+* Number of team members: 11
 
 ```{r echo=FALSE}
 library(gt)

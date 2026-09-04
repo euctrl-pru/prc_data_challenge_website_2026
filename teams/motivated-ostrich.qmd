@@ -17,6 +17,7 @@ I decided to take part in the PRC Data Challenge to put my experience to the tes
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

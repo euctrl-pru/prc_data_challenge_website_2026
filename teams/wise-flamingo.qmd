@@ -15,6 +15,7 @@ I'm a software consultant who enjoys taking on challenges.
 
 * Type: Independent
 * Country: Canada
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

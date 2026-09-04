@@ -15,6 +15,7 @@ I am a solo data scientist who is also an Av-geek
 
 * Type: NA
 * Country: Denmark
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

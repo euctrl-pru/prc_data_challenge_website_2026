@@ -16,6 +16,7 @@ Looking to enhance my Data Modeling and Data Science understanding
 
 * Type: Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

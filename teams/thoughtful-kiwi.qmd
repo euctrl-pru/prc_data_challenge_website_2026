@@ -15,6 +15,7 @@ Private Pilot, Aviation enthusiast and independant researcher
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

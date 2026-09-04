@@ -15,6 +15,7 @@ I am an independent researcher with a strong background in data science and anal
 
 * Type: Independent
 * Country: Pakistan
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

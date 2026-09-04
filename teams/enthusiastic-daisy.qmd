@@ -19,6 +19,7 @@ I also hope to learn from the wider aviation research community and contribute r
 
 * Type: Academia
 * Country: China
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

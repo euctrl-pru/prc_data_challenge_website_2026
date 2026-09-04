@@ -15,6 +15,7 @@ I am a one man team and like to explore deeper in the field of data science.
 
 * Type: Academia
 * Country: Singapore
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

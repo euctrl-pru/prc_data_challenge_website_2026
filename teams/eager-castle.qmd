@@ -17,6 +17,7 @@ We decided to participate in the PRC Challenge because it provides a unique oppo
 
 * Type: Academia
 * Country: Korea South
+* Number of team members: 3
 
 ```{r echo=FALSE}
 library(gt)

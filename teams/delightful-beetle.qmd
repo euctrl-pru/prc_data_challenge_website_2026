@@ -15,6 +15,7 @@ I am a Data Science and AI enthusiast with a strong focus on machine learning, d
 
 * Type: Independent
 * Country: Morocco
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ A group of Embry-Riddle Aeronautical University students and researchers interes
 
 * Type: Academia
 * Country: United States
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

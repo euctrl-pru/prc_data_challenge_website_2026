@@ -15,6 +15,7 @@ I am Lee Marshall with Elysium Labs, a BS in Computer Science at UCF and current
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ A long term user and enthusiast of commercial aviation. Working in an adjacent f
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

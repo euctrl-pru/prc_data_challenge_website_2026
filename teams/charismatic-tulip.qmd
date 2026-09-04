@@ -15,6 +15,7 @@ Solo entry. I'm a software engineer who runs a small network of ADS-B and MLAT r
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ Mechanical Engineer working as a Data Analyst. I like challenges, especially if 
 
 * Type: Independent
 * Country: Spain
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

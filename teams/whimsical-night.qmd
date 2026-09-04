@@ -23,6 +23,7 @@ The challenge also strongly aligns with our interest in open aviation research. 
 
 * Type: Independent
 * Country: Poland
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

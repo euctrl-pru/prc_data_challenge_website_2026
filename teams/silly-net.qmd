@@ -15,6 +15,7 @@ Final year PhD student. Curious to see the data, unfortunately not much time to 
 
 * Type: Academia
 * Country: Netherlands
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

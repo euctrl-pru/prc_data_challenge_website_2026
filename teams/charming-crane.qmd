@@ -15,6 +15,7 @@ Individual, Participating for practice
 
 * Type: Industry
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

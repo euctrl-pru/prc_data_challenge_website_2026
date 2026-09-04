@@ -15,6 +15,7 @@ Huge fan of aviation and I wanted to start my journey in data science
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I am working in AI Team at PANSA. I would like to play with fun air traffic data
 
 * Type: Industry
 * Country: Poland
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

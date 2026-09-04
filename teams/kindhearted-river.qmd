@@ -15,6 +15,7 @@ I am a Data Scientist. I want to try my skills on the aviation domain
 
 * Type: Independent
 * Country: Uganda
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

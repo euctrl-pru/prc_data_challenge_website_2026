@@ -23,6 +23,7 @@ And honestly, I want to know whether the instincts still hold up against a leade
 
 * Type: Industry
 * Country: Sweden
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

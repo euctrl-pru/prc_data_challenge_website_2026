@@ -17,6 +17,7 @@ I registered for the PRC Data Challenge because it combines two things I enjoy â
 
 * Type: Academia
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

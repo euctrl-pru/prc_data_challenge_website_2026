@@ -15,6 +15,7 @@ I worked at Nice Airport in the operations center, and I also have a bachelor's 
 
 * Type: Academia
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

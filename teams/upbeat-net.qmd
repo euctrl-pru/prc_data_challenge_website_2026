@@ -15,6 +15,7 @@ I participated in the 2025 challenge with a fun "alternative method". I come bac
 
 * Type: Independent
 * Country: France
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

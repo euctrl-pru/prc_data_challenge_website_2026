@@ -15,6 +15,7 @@ A team of 2 GCSE/A level students with an interest in data challenges and aviati
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I am an aviation enthusiast who is currently studying machine learning and data 
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

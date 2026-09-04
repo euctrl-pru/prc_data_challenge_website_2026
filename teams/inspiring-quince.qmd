@@ -15,6 +15,7 @@ I am currently doing my Master‘s degree in Mathematics in Data Science at TUM.
 
 * Type: Independent
 * Country: Germany
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

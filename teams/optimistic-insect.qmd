@@ -17,6 +17,7 @@ Registered for the challenge to apply advanced AI and predictive modeling techni
 
 * Type: Academia, Independent
 * Country: India
+* Number of team members: 5
 
 ```{r echo=FALSE}
 library(gt)

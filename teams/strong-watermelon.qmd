@@ -17,6 +17,7 @@ We decided to participate in the OpenSky Network PRC Data Challenge 2026 because
 
 * Type: Industry
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I currently work in climate science and am also a pilot. I have a degree in Comp
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

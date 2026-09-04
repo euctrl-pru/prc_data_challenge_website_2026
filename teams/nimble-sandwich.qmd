@@ -15,6 +15,7 @@ An engineering-driven team focused on applying advanced data methodologies, queu
 
 * Type: Industry, Independent
 * Country: Portugal
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

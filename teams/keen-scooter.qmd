@@ -15,6 +15,7 @@ Studying MSc in Applied AI at Cranfield (part time) but interested from a person
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 3
 
 ```{r echo=FALSE}
 library(gt)

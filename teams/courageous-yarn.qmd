@@ -15,6 +15,7 @@ I am an IT and cybersecurity student interested in data analysis and machine lea
 
 * Type: Academia
 * Country: Czech Republic
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

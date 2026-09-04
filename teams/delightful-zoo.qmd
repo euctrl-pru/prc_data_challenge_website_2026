@@ -16,6 +16,7 @@ A primary driver for our participation in the PRC Challenge is pushing sustainab
 
 * Type: Industry, Independent
 * Country: Senegal
+* Number of team members: 3
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ Independent data researcher and AV geek. Passionate about open technologies and 
 
 * Type: Independent
 * Country: United States
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

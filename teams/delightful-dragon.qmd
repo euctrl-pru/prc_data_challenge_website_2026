@@ -15,6 +15,7 @@ I am an independent machine learning engineer based in Vienna, Austria, with sev
 
 * Type: Independent
 * Country: Austria
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

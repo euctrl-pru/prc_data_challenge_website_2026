@@ -15,6 +15,7 @@ We are a very very small team of app developers with a sepcial interest in aviat
 
 * Type: Independent
 * Country: United Kingdom
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ An aviation enthusiast and future aerobatics pilot. Currently working as a data 
 
 * Type: Independent
 * Country: Canada
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

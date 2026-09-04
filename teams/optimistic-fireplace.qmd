@@ -19,6 +19,7 @@ What we bring: Real aviation operations experience, a physics-informed approach 
 
 * Type: Independent
 * Country: United States
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

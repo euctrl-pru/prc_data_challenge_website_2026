@@ -16,6 +16,7 @@ Wanting to pursue a career in Aviation Finance , I love to understand the world 
 
 * Type: Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

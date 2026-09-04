@@ -15,6 +15,7 @@ I am Henri Bano, a Master's student at TH Wildau in Germany, working at m-click.
 
 * Type: Industry
 * Country: Germany
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

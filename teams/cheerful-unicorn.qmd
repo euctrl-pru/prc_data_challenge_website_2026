@@ -19,6 +19,7 @@ My aim is to develop and openly share a clear, original and reproducible solutio
 
 * Type: Independent
 * Country: Italy
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

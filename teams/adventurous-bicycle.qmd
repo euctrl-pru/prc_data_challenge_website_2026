@@ -15,6 +15,7 @@ Specialist from within the ATM filed with analytical mind. I want to challenge m
 
 * Type: Independent
 * Country: Sweden
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

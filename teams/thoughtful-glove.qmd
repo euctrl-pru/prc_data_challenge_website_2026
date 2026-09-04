@@ -15,6 +15,7 @@ Ph.D. in Artificial Intelligence student from the University of the Philippines 
 
 * Type: Academia
 * Country: Philippines
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

@@ -15,6 +15,7 @@ I am a data science and machine learning enthusiast with an interest in aviation
 
 * Type: Independent
 * Country: India
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

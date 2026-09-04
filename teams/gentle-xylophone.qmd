@@ -15,6 +15,7 @@ I'm a technology leader who enjoys working with messy, real-world operational da
 
 * Type: Independent
 * Country: Egypt
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

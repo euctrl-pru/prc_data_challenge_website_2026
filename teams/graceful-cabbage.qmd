@@ -15,6 +15,7 @@ I am a Assistant Professor working in Business Administration. I do work in the 
 
 * Type: Academia
 * Country: Turkey
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)

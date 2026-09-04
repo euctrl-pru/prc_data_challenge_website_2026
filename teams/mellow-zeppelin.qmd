@@ -15,6 +15,7 @@ I'm a solo data scientist who likes solving problems and challenges, but has a t
 
 * Type: Industry
 * Country: Tanzania
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)

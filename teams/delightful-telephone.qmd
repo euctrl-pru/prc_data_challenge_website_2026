@@ -15,6 +15,7 @@ As a recent aerospace engineering graduate with a strong passion for data, I am 
 
 * Type: Independent
 * Country: Belgium
+* Number of team members: 1
 
 ```{r echo=FALSE}
 library(gt)
