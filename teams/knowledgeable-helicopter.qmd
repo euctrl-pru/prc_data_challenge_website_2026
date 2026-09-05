@@ -1,0 +1,29 @@
+
+---
+title: knowledgeable-helicopter
+date: 2026-09-04
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a couple students studying ML who are interested in applying our skills to real-world data. This is an excellent opportunity to work with a large dataset.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,  ~affiliation,
+   1L,    "Sandy",    "Tam", "Independent",
+   2L, "Guanghan",     "Li", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

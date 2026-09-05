@@ -1,0 +1,29 @@
+
+---
+title: joyful-goblin
+date: 2026-09-05
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a high school student with a strong interest in engineering, aviation, and technology. I enjoy working with data, building models, and understanding how complex systems work. I am particularly interested in pursuing engineering in the future, and I see opportunities like this challenge as a great way to apply what I have learned to a real-world problem.
+I have always found air traffic control and aviation systems fascinating. Managing aircraft moving at high speeds, making decisions with limited time, and ensuring that a complex network operates safely and efficiently requires a combination of engineering, analytical thinking, and decision-making that I find extremely interesting.What especially attracted me to this challenge is the opportunity to combine that interest in aviation with AI and data science. I enjoy building models and working with data, and the idea of using real aviation data to predict taxi-out times feels like a meaningful engineering problem rather than just a theoretical exercise.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "Kian", "Jindal", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

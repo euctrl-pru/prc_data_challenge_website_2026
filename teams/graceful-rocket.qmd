@@ -1,0 +1,30 @@
+
+---
+title: graceful-rocket
+date: 2026-09-04
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a software engineer with an academic foundation in CS and mathematics. I specialize in building highly concurrent distributed systems, managing robust infrastructure, and approaching complex problems with a multidisciplinary, analytical mindset.
+
+Aviation networks are the ultimate distributed system. I registered to apply my systems architecture and mathematical modeling skills to a massive, real-world dataset. My goal is to contribute to open-source aviation research while sharpening my analytical capabilities for future graduate studies.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Asher",   "Ejaz",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

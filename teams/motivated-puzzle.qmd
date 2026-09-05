@@ -1,0 +1,28 @@
+
+---
+title: motivated-puzzle
+date: 2026-09-05
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+My motivation to participate in this challenge is to build real world solution and refine my skills.
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename, ~surname,   ~affiliation,
+   1L, "Tejaswani",  "Yadav", "indepenndent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
