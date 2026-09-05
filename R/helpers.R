@@ -117,14 +117,15 @@ get_teams_members <- function(teams_raw) {
 get_teams_limbo <- function(teams_raw) {
   teams_raw |>
     dplyr::filter(status == "approved", is.na(team_name)) |>
-    dplyr::select(timestamp, forename_1, surname_1, email_1, account)
+    dplyr::mutate(account = as.character(account)) |>
+    dplyr::select(timestamp, email_1, forename_1, surname_1, account)
 }
 
 # get new teams requests to be assessed/approved
 get_teams_new <- function(teams_raw) {
   teams_raw |>
     dplyr::filter(is.na(status), is.na(team_name)) |>
-    dplyr::select(timestamp, forename_1, surname_1, email_1)
+    dplyr::select(timestamp, email_1, forename_1, surname_1)
 }
 
 # get valid teams
