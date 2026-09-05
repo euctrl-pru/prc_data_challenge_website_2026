@@ -1,0 +1,28 @@
+
+---
+title: generous-pencil
+date: 2026-09-05
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Majored in statistics in college and have an interest in ML and data science. I registered for this challenge to further hone my skills in data science/ML and apply to it to aviation.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,  "Ashfin", "Enayet",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

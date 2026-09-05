@@ -1,0 +1,29 @@
+
+---
+title: strong-zipper
+date: 2026-09-05
+subtitle: Poland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+IT specialists who likes who would like to practice and challenge yourself. See what we can achieve
+
+## Details
+
+* Type: Independent
+* Country: Poland
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,   ~surname,  ~affiliation,
+   1L, "Wojciech", "Waliszek", "independent",
+   2L,    "Xyzzy",    "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

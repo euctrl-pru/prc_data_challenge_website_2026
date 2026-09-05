@@ -1,0 +1,28 @@
+
+---
+title: eager-xylophone
+date: 2026-09-05
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Master's student in Computer Science at Leibniz University Hannover with a strong interest in machine learning and aviation. I joined the challenge because it combines both areas and gives me the opportunity to work on a real-world problem with real aviation data.
+
+## Details
+
+* Type: Independent
+* Country: Germany
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
