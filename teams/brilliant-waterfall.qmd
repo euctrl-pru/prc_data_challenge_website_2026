@@ -1,0 +1,30 @@
+
+---
+title: brilliant-waterfall
+date: 2026-09-01
+subtitle: Ivory Coast
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are students in data science and big data passionate about new challenges and we decided to do this challenge to solve real problems
+
+## Details
+
+* Type: Academia, Independent
+* Country: Ivory Coast
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,          ~forename,     ~surname,        ~affiliation,
+   1L,  "Mamadou matambo",     "Sanogo",            "Mat-IA",
+   2L,   "Moussa Ibrahim",      "Maiga",     "Mat-IA Moussa",
+   3L, "Lassana Boubacar", "Samassekou", "Mat-IA SAMASSEKOU"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

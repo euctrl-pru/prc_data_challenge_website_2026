@@ -1,0 +1,28 @@
+
+---
+title: courageous-dolphin
+date: 2026-09-01
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Developer of all things realtime, already doing similar so looks like fun.
+
+## Details
+
+* Type: Independent
+* Country: United Kingdom
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname, ~affiliation,
+   1L,    "ewan", "richardson",    "Wispayr"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

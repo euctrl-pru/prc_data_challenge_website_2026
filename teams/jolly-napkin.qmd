@@ -1,0 +1,31 @@
+
+---
+title: jolly-napkin
+date: 2026-09-05
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a two-person team combining backgrounds in Computer Science and Aerospace Engineering / Air Traffic Control (ATC). One of us is a Computer Science student focused on machine learning and scalable data pipelines, while the other brings domain knowledge as an aerospace engineer and current ATC trainee with a deep interest in ATM efficiency.
+
+We registered for the PRC Data Challenge 2026 because predicting taxi-out times sits precisely at the intersection of our skill sets. Accurately modeling ground congestion, airport surface dynamics, and pushback-to-takeoff delays presents a realistic, high-impact operational challenge. We are strongly aligned with the challenge's open-science mission and look forward to developing robust, open-source models on OpenSky Network data and contributing our solution to the broader aviation research community.
+
+## Details
+
+* Type: Independent
+* Country: Spain
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,      ~surname,  ~affiliation,
+   1L,     "Roc",   "Lang Rius", "independent",
+   2L,    "Marc", "López Durán", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

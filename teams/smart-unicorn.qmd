@@ -1,0 +1,28 @@
+
+---
+title: smart-unicorn
+date: 2026-09-02
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I've finished a private aviation prediction project and turned it into an iOS app. It includes many other predictions, but I've built my own personal database of average taxi times/takeoff times, so it's quite easy to make predictions. You just need to look at which airport and time of year, and it's more or less always the same. The app is called "Jet Noir," but Apple has rejected it from the store (it's free) because they prohibit data collection for profiling and predictions! If you can convince Apple to publish my app, I'm happy to provide you with the taxi prediction system, even without being paid ☺️💪
+
+## Details
+
+* Type: Independent
+* Country: France
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,       ~forename, ~surname,  ~affiliation,
+   1L, "Michael Ratto",   "Mika", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
