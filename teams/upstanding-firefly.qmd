@@ -1,0 +1,28 @@
+
+---
+title: upstanding-firefly
+date: 2026-09-06
+subtitle: Japan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+MKHR is a one-person team from Makuhari Development Corporation (Chiba, Japan), a small company working on open data pipelines and time-series analysis for energy and infrastructure. We have been using OpenSky ADS-B data for an aircraft-noise research project and would like to apply the same feature-engineering and gradient-boosting toolkit to airport surface operations. We joined the challenge to learn from the community, to publish our approach openly (code on GitHub, write-up for JOAS), and to build reproducible open models for taxi-out time prediction.
+
+## Details
+
+* Type: Industry
+* Country: Japan
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                       ~affiliation,
+   1L,  "Jiawei",   "Jing", "Makuhari Development Corporation"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
