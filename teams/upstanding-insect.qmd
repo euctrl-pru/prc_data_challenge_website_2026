@@ -1,0 +1,31 @@
+
+---
+title: upstanding-insect
+date: 2026-09-06
+subtitle: Brazil
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are nerds from south america looking for interesting problems and to network with another Aviation Nerds.
+
+## Details
+
+* Type: Independent
+* Country: Brazil
+* Number of team members: 4
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,         ~forename,         ~surname,     ~affiliation,
+   1L, "MARCUS VINICIUS", "GONZAGA GARCIA",         "Unknow",
+   2L,       "Guilherme",         "Marthe",         "Unknow",
+   3L,           "Bruno",         "Vilela",  "Latam Airline",
+   4L,        "Raimundo",       "Contrera", "Latam Airlines"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
