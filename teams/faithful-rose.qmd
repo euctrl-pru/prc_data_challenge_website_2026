@@ -1,0 +1,28 @@
+
+---
+title: faithful-rose
+date: 2026-09-07
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent U.S.-based computer science graduate and data engineer. I am participating to apply reproducible machine learning and aviation-domain feature engineering to operational taxi-out prediction, and to contribute an open, well-documented solution.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

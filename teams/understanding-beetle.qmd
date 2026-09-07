@@ -1,0 +1,28 @@
+
+---
+title: understanding-beetle
+date: 2026-09-07
+subtitle: Rwanda
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am currently a student in Big Data Analytics, I feel like I am equipped with all necessary knowledge to challenge for this competition
+
+## Details
+
+* Type: Academia
+* Country: Rwanda
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname,                             ~affiliation,
+   1L, "Ishimwe", "Aime Cesar", "Adventist University of Central Africa"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

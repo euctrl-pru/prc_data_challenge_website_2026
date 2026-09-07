@@ -1,0 +1,28 @@
+
+---
+title: amazing-quiche
+date: 2026-09-06
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a faculty member working in operations research.  My primary research interest involves human-in-the-loop control and decision systems within the context of stochastic dynamics. I most enjoy working on projects involving the modeling, simulation, and analysis of air transportation systems. My past efforts include coupled pilot-control-aircraft models; aircraft blunder and anomaly detection systems; next-generation collision avoidance systems; safety analysis of NextGen concepts; and agent-based simulations of air transportation systems. 
+
+## Details
+
+* Type: Academia
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                    ~affiliation,
+   1L,    "Adan",   "Vela", "University of Central Florida"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
