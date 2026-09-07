@@ -1,0 +1,28 @@
+
+---
+title: adventurous-firefly
+date: 2026-09-07
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a PhD student researching deep learning for anomaly detection in spatiotemporal data, and an aviation enthusiast well before that. The two met once already, in an academic project built on OpenSky ADS-B data, and this challenge is the natural next meeting: airport surface movements are spatiotemporal data in the most literal sense.
+
+## Details
+
+* Type: Academia
+* Country: France
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                                ~affiliation,
+   1L,  "Marwan",   "Taia", "LITIS Lab. - University of Rouen Normandy"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

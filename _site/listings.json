@@ -4,6 +4,7 @@
     "items": [
       "/teams/adventurous-ant.html",
       "/teams/adventurous-bicycle.html",
+      "/teams/adventurous-firefly.html",
       "/teams/adventurous-helicopter.html",
       "/teams/adventurous-iceberg.html",
       "/teams/affectionate-ukulele.html",
@@ -44,6 +45,7 @@
       "/teams/dependable-quicksand.html",
       "/teams/diligent-fireplace.html",
       "/teams/dynamic-hamburger.html",
+      "/teams/dynamic-muffin.html",
       "/teams/dynamic-penguin.html",
       "/teams/dynamic-umbrella.html",
       "/teams/eager-castle.html",
@@ -76,6 +78,7 @@
       "/teams/friendly-strawberry.html",
       "/teams/funny-firefly.html",
       "/teams/funny-jewel.html",
+      "/teams/funny-zoo.html",
       "/teams/generous-donkey.html",
       "/teams/generous-jungle.html",
       "/teams/generous-kangaroo.html",
@@ -183,6 +186,7 @@
       "/teams/optimistic-radio.html",
       "/teams/optimistic-turtle.html",
       "/teams/organized-hedgehog.html",
+      "/teams/organized-marshmallow.html",
       "/teams/outgoing-igloo.html",
       "/teams/outgoing-ostrich.html",
       "/teams/outgoing-wizard.html",
@@ -292,7 +296,8 @@
       "/teams/zestful-eagle.html",
       "/teams/zestful-fountain.html",
       "/teams/zestful-jewel.html",
-      "/teams/zesty-puzzle.html"
+      "/teams/zesty-puzzle.html",
+      "/teams/zippy-ant.html"
     ]
   }
 ]

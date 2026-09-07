@@ -1,0 +1,28 @@
+
+---
+title: funny-zoo
+date: 2026-09-07
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an independent participant from India with an interest in artificial intelligence, machine learning, and data science. I decided to register for the PRC Data Challenge to gain practical experience working with real-world aviation data and to develop a machine learning model for predicting aircraft taxi-out time. I am particularly interested in exploring data analysis, feature engineering, and machine learning techniques to solve a real-world problem and improve my skills through the challenge.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,   ~surname,  ~affiliation,
+   1L, "Chikkeri", "Chinmaya", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
