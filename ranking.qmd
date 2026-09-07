@@ -82,5 +82,5 @@ The ranking script will issue an error if:
 * any rows are missing; or
 * extra rows are included.
 
-There is currently a **limit of 3 submissions per day** and a 
-**total max of 1GB per bucket**.
+There is currently a **limit of 5 submissions per day** (and a 
+**total max of 1GB per bucket**.)
