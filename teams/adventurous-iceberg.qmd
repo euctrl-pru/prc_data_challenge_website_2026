@@ -1,0 +1,29 @@
+
+---
+title: adventurous-iceberg
+date: 2026-09-07
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are two Business Information Systems Students from Berlin, that are interested in the field of aviation. We saw the challenge on social media and now we want to participate and see what both of us are capable doing.
+
+## Details
+
+* Type: Academia
+* Country: Germany
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname, ~affiliation,
+   1L,  "Tobias",     "Siegel",     "Unknow",
+   2L,    "Carl", "Zimmermann",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
