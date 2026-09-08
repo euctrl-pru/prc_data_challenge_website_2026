@@ -38,15 +38,15 @@ yet, you’ll need to do so first to access the channel.
       /* display: block; */
       /* background: #000; */
       border: 1px solid black;
-      height: 140px;
-      /* height: 100vh; */
+      /* height: 140px; */
+      height: 100vh;
       width: 100vh;
   }
 </style>
 
 
 <iframe
-  src="https://old.observablehq.com/embed/@espinielli/dc26-leaderboard@868?cells=leaderboard">
+  src="https://prc-challenge-2026.vercel.app/">
 </iframe>
 ```
 
