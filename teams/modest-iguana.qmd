@@ -1,0 +1,28 @@
+
+---
+title: modest-iguana
+date: 2026-09-08
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I’m someone who is deeply interested in aviation and developing software to solve problems within the space. I found the challenge to be incredibly interesting and motivating
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,          ~surname,  ~affiliation,
+   1L,  "Mithun", "Balasubramanian", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
