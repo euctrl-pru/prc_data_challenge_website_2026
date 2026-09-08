@@ -1,0 +1,28 @@
+
+---
+title: amiable-castle
+date: 2026-09-08
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an indvidual who would like to participte in a data challenge as being new to the field and want to challenge myself for my betterment
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L,   "ANAND", "KRISHNAN", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
