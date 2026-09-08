@@ -32,23 +32,8 @@ yet, you’ll need to do so first to access the channel.
 
 
 
-```{=html}
-<style>
-  iframe {
-      /* display: block; */
-      /* background: #000; */
-      border: 1px solid black;
-      /* height: 140px; */
-      height: 100vh;
-      width: 100vh;
-  }
-</style>
+Leaderboard: <https://prc-challenge-2026.vercel.app/>
 
-
-<iframe
-  src="https://prc-challenge-2026.vercel.app/">
-</iframe>
-```
 
 
 All paginated submission rankings can be retrieved via the REST API at the [full leaderboard JSON][leaderboard] (use the value of `nextCursor` in the `cursor=` parameter in the URL query).
