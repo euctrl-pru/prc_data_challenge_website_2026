@@ -1,0 +1,28 @@
+
+---
+title: mindful-clown
+date: 2026-09-09
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Im a Mechanical engineering student from Amrita School of Engineering specializing in computational modeling, telemetry analysis, and numerical simulation. We registered for the PRC Data Challenge to apply our data science workflows to large-scale, complex benchmarks, collaborate across multi-disciplinary engineering problems, and validate our analytical predictive models against real-world datasets.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,                   ~affiliation,
+   1L, "Juswanth", "Suresh", "Amrita School of engineering"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
