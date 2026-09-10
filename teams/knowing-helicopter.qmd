@@ -15,14 +15,15 @@ I’m an AI engineer with a strong interest in aviation and data-driven approach
 
 * Type: Independent
 * Country: Spain
-* Number of team members: 1
+* Number of team members: 2
 
 ```{r echo=FALSE}
 library(gt)
 
 gt(tibble::tribble(
   ~id,  ~forename,       ~surname,  ~affiliation,
-   1L, "Santiago", "Souto Ortega", "independent"
+   1L, "Santiago", "Souto Ortega", "independent",
+   2L,   "Víctor",  "Vega Sobral", "Independent"
 )
 ) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
 ```
