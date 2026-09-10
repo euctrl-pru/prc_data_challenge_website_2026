@@ -1,0 +1,40 @@
+
+---
+title: happy-quilt
+date: 2026-09-10
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of data scientists curious about aviation and passionate about solving real-world problems with data.
+
+We joined the PRC Data Challenge 2026 to:
+
+* Learn by working with real aviation datasets and new problem settings.
+* Explore interesting patterns and ideas that could contribute to aviation research.
+* Compete, challenge ourselves, and see how our approaches compare with others.
+* Build something meaningful while gaining practical experience and new perspectives.
+
+For us, the challenge is as much about learning and contributing new ideas as it is about competing.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 4
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,      ~forename,  ~surname,             ~affiliation,
+   1L,       "Kushal", "Bhargav", "Independent Researcher",
+   2L,    "Gokulnath",    "Mani", "Independent Researcher",
+   3L, "Sabarinathan",    "Raja", "Independent Researcher",
+   4L,        "Vinod", "Sampath", "Independent Researcher"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
