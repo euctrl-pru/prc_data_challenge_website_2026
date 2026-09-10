@@ -29,6 +29,21 @@ yet, you’ll need to do so first to access the channel.
 
 Leaderboard (thanks to [Arquimedes Canedo](https://github.com/arquicanedo/prc-challenge-2026)): <https://prc-challenge-2026.vercel.app/>
 
+```{=html}
+<style>
+  iframe {
+      /* display: block; */
+      /* background: #000; */
+      border: 1px solid black;
+      height: 440px;
+      width: 100vh;
+  }
+</style>
+
+<iframe
+  src="https://prc-challenge-2026.vercel.app/">
+</iframe>
+```
 
 
 All paginated submissions can be retrieved via the REST API at the [full leaderboard JSON][leaderboard] (use the value of `nextCursor` in the `cursor=` parameter in the URL query).
