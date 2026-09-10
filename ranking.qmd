@@ -27,7 +27,7 @@ yet, you’ll need to do so first to access the channel.
 
 
 
-Leaderboard: <https://prc-challenge-2026.vercel.app/>
+Leaderboard (thanks to [Arquimedes Canedo](https://github.com/arquicanedo/prc-challenge-2026)): <https://prc-challenge-2026.vercel.app/>
 
 
 
