@@ -27,13 +27,6 @@ acronyms:
   insert_loa: false
 ---
 
-::: {.callout-note title="Note"}
-**Observable migrated to its new Notebook framework exactly on 1st Sep...which broke
-the leaderboard below and the plot of registered teams in the Stats page.  
-I am trying to fix it.  
-You can retrieve all submissions info via the API as explained in the Ranking page.**
-:::
-
 
 ```{r plot_cumul, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
 library(conflicted)
@@ -238,6 +231,103 @@ ggplot() +
       "generated on ",
       lubridate::stamp("2013-01-01T06:00:00Z")(now())
     )
+  )
+```
+
+
+```{r table-countries, eval=FALSE}
+#| echo: false
+#| warning: false
+library(tidyverse)
+library(ggplot2)
+library(jsonlite)
+library(here)
+library(gt)
+
+
+library(countrycode)
+
+conflicts_prefer(dplyr::filter)
+
+here("R", "helpers.R") |> source()
+
+teams_raw <- get_teams_raw()
+
+teams_valid <- teams_raw |> get_teams_valid()
+
+members <- teams_raw |> get_teams_members()
+
+ttt <- teams_valid |>
+  mutate(registration_date = as_date(timestamp)) |>
+  complete(
+    registration_date = seq(ymd("2025-09-30"), ymd("2025-12-01"), by = "day")
+  )
+
+ccc <- teams_valid |>
+  count(team_country) |>
+  mutate(
+    team_country = if_else(
+      team_country == "Ireland {Republic}",
+      "Ireland",
+      team_country
+    ),
+    NULL
+  ) |>
+  mutate(
+    iso3c = countrycode(team_country, 'country.name', 'iso3c')
+  )
+
+
+ccc |>
+  dplyr::select(-iso3c) |>
+  dplyr::arrange(desc(n), team_country) |>
+  gt() |>
+  cols_label(
+    team_country = md("**Country**"),
+    n = md("**# of teams**")
+  )
+```
+
+
+```{r teams-bar-b2, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, eval=TRUE}
+#| fig-cap: 'Teams per country'
+library(countrycode)
+library(scales)
+library(here)
+conflicts_prefer(dplyr::filter)
+
+here("R", "helpers.R") |> source()
+
+teams_raw <- get_teams_raw()
+teams_valid <- teams_raw |> get_teams_valid()
+
+teams_valid |>
+  count(team_country) |>
+  mutate(
+    team_country = if_else(
+      team_country == "Ireland {Republic}",
+      "Ireland",
+      team_country
+    ),
+    team_country = fct_reorder(team_country, n)
+  ) |>
+  ggplot() +
+  geom_bar(aes(x = team_country, y = n), stat = "identity") +
+  scale_y_continuous(
+    breaks = breaks_pretty(),
+    sec.axis = dup_axis(),
+    expand = expansion(0)
+  ) +
+  coord_flip() +
+  labs(y = "Number of teams") +
+  theme_minimal() +
+  theme(
+    axis.title.y = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y = element_blank(),
+    # prism.ticks.length.y = unit(20, "pt"),
+    # axis.ticks.length = unit(1, "cm"),
+    NULL
   )
 ```
 
