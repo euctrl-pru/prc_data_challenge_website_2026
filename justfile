@@ -7,6 +7,7 @@ teams_file := justfile_directory() + "/media/teams_private.json"
 # regenerate teams pages
 @generate-teams-pages:
   #!/usr/bin/env sh
+  (cd teams; for i in $(ls | grep -v "index.qmd\|_metadata.yml") ; do rm -f $i; done)
   Rscript ./R/generate_quarto_teams.R
   quarto render
 
