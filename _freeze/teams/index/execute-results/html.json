@@ -1,0 +1,17 @@
+{
+  "hash": "a4a431433f218b38b6ed42dd19695c24",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Registrations et al.\nlisting:\n  id: teams-listings\n  contents: \"*.qmd\"\n  field-display-names:\n    title: \"Team\"\n    date: \"Request date\"\n    subtitle: \"Country\"\n  fields: [title, subtitle, date]\n#   # sort: \"date desc\"\n  type: table\n  date-format: \"iso\"\n#   # categories: unnumbered\n#   # sort-ui: false\n  filter-ui: [title, subtitle, date]\n#   # image-align: left\n#   # image-height: 1.75in\n# title-block-banner: false\n\nformat:\n  html:\n    toc: true\n    toc-depth: 2\n\nacronyms:\n  insert_loa: false\n---\n\n::: {.callout-note title=\"Note\"}\n**Observable migrated to its new Notebook framework exactly on 1st Sep...which broke\nthe leaderboard below and the plot of registered teams in the Stats page.  \nI am trying to fix it.  \nYou can retrieve all submissions info via the API as explained in the Ranking page.**\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/plot_cumul-1.png){width=672}\n:::\n:::\n\n\n\n## Teams \n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,30 @@
+
+---
+title: dynamic-emu
+date: 2026-09-11
+subtitle: Cyprus
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an ATM specialist and researcher interested in data-driven methods for aviation performance and sustainability.
+
+I decided to participate in the PRC Data Challenge 2026 to explore the operational factors driving taxi-out times across European hubs. Tackling airport surface congestion and sequencing with open flight data offers a great opportunity to benchmark predictive models, support the PRC’s open data initiative, and exchange ideas with fellow aviation data practitioners.
+
+## Details
+
+* Type: Government
+* Country: Cyprus
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename,    ~surname,                             ~affiliation,
+   1L, "Eftychios", "Eftychiou", "Department of Civil Aviation of Cyprus"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

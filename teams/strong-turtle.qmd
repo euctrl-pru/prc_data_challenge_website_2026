@@ -1,0 +1,30 @@
+
+---
+title: strong-turtle
+date: 2026-09-11
+subtitle: Nigeria
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+My name is Ehimen Nathaniel and I'm a Nigerian. I am a data scientist and reservoir engineer participating in the PRC Data Challenge 2026 to bridge my expertise in high-dimensional predictive modeling with complex physical systems. As a reservoir engineer, I specialize in modeling pressure dynamics, fluid flows, and network bottlenecks; this physics-guided intuition translates seamlessly to predicting airport surface congestion and taxi-out times. Viewing airport taxiways as localized pipelines where aircraft are the flowing components allows me to approach this logistics problem with a unique engineering lens, utilizing advanced time-series regressions like Gradient Boosting to minimize the competition’s RMSE metric.
+
+Participating in this challenge, backed by Europe's Performance Review Commission (PRC) and the OpenSky Network (OSN), provides an elite platform to showcase my ability to solve real-world, high-frequency data challenges outside of the energy sector. My goal is to leverage this robust 2025 dataset of major European airport movements to secure a spot in the 5,000 EUR prize pool and ultimately publish a multi-disciplinary, open-access paper in the Journal of Open Aviation Science (JOAS).
+
+## Details
+
+* Type: Independent
+* Country: Nigeria
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename, ~surname,  ~affiliation,
+   1L, "Nathaniel", "Ehimen", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

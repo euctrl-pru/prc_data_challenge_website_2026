@@ -248,3 +248,144 @@ quarto_render_move <- function(
     file.rename(from = output_path_from, to = output_path_to)
   }
 }
+
+get_teams_endpoint <- function() {
+  base_url <- "https://datacomp.opensky-network.org"
+  competition <- "bb3693e1-26bc-4a9e-8619-4fe78b4eab0c"
+
+  teams_endpoint <- paste0(
+    base_url,
+    "/api/competitions/",
+    competition,
+    "/teams"
+  )
+
+  teams_params <- list(
+    participants = "true",
+    size = 100
+  )
+  teams_endpoint
+}
+
+get_submissions_endpoint <- function() {
+  base_url <- "https://datacomp.opensky-network.org"
+  competition <- "bb3693e1-26bc-4a9e-8619-4fe78b4eab0c"
+  submissions_endpoint <- paste0(
+    base_url,
+    "/api/competitions/",
+    competition,
+    "/leaderboard"
+  )
+  submissions_endpoint
+}
+
+get_submissions_page <- function(
+  endpoint = get_submissions_endpoint(),
+  limit = 200,
+  cursor = NULL
+) {
+  req <- request(endpoint) |>
+    req_headers(Accept = "application/json") |>
+    req_url_query(limit = limit)
+
+  if (!is.null(cursor)) {
+    req <- req |>
+      req_url_query(cursor = cursor)
+  }
+
+  req |>
+    req_retry(max_tries = 3) |>
+    req_perform() |>
+    resp_body_json(simplifyVector = TRUE)
+}
+
+get_all_submissions <- function(endpoint, limit = 50, max_pages = 1000) {
+  first_page <- get_submissions_page(endpoint, limit)
+
+  pages <- accumulate(
+    seq_len(max_pages - 1L),
+    function(previous_page, page_number) {
+      cursor <- previous_page$nextCursor
+
+      if (
+        is.null(cursor) ||
+          length(cursor) == 0L ||
+          is.na(cursor) ||
+          !nzchar(cursor)
+      ) {
+        return(done())
+      }
+
+      get_submissions_page(endpoint, limit, cursor)
+    },
+    .init = first_page
+  )
+
+  if (!is.null(pages[[length(pages)]]$nextCursor)) {
+    stop("Pagination exceeded max_pages before reaching the final page.")
+  }
+
+  pages |>
+    map(function(page) {
+      if (is.data.frame(page$items)) page$items else NULL
+    }) |>
+    list_rbind()
+}
+
+prepare_teams_country <- function() {
+  teams_raw <- get_teams_raw()
+  teams_valid <- teams_raw |> get_teams_valid()
+  members <- teams_raw |> get_teams_members()
+
+  ccc <- teams_valid |>
+    count(team_country) |>
+    mutate(
+      team_country = if_else(
+        team_country == "Ireland {Republic}",
+        "Ireland",
+        team_country
+      ),
+      NULL
+    ) |>
+    mutate(
+      iso3c = countrycode(team_country, 'country.name', 'iso3c')
+    ) |>
+    write_csv(here::here("media", "teams_country.csv"))
+}
+
+prepare_cumulative_teams <- function() {
+  teams_raw <- get_teams_raw()
+  teams_valid <- teams_raw |> get_teams_valid()
+  members <- teams_raw |> get_teams_members()
+
+  ttt <- teams_valid |>
+    mutate(registration_date = as_date(timestamp)) |>
+    complete(
+      registration_date = seq(ymd("2026-08-31"), ymd("2026-10-11"), by = "day")
+    )
+
+  counts_in_time <- ttt |>
+    select(team_name, registration_date) |>
+    mutate(n = if_else(is.na(team_name), 0L, 1L)) |>
+    arrange(registration_date) |>
+    group_by(registration_date) |>
+    summarise(across(n, ~ sum(.x, na.rm = TRUE))) |>
+    mutate(
+      dc = year(registration_date),
+      future = registration_date > today(),
+      NULL
+    )
+
+  # ojs_define(teams_in_time = counts_in_time)
+
+  number_of_teams <- counts_in_time |>
+    summarise(across("n", ~ sum(.x, na.rm = TRUE))) |>
+    pull(n)
+
+  cumulative_counts_in_time <- counts_in_time |>
+    mutate(n = cumsum(n)) |>
+    select(dc, registration_date, n, future) |>
+    write_csv(here::here("media", "cumulative_registration_dc2026.csv"))
+
+  cumulative_counts_in_time
+}
