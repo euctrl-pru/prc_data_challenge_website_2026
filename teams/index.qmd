@@ -291,6 +291,7 @@ ccc |>
 
 ```{r teams-bar-b2, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, eval=TRUE}
 #| fig-cap: 'Teams per country'
+#| fig-height: 8
 library(countrycode)
 library(scales)
 library(here)
