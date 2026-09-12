@@ -7,17 +7,18 @@ teams_file := justfile_directory() + "/media/teams_private.json"
 # regenerate latest 20 teams pages
 @generate-latest-teams-pages:
   #!/usr/bin/env sh
+  # do not clean the generated pages
   # (cd teams; for i in $(ls | grep -v "index.qmd\|_metadata.yml") ; do rm -f $i; done)
   Rscript ./R/generate_quarto_latest_teams.R
-  touch teams/index.qmd
-  quarto render
- 
+  quarto render teams/index.qmd --execute
+  quarto render 
+
 # regenerate teams pages
 @generate-teams-pages:
   #!/usr/bin/env sh
   (cd teams; for i in $(ls | grep -v "index.qmd\|_metadata.yml") ; do rm -f $i; done)
   Rscript ./R/generate_quarto_teams.R
-  touch teams/index.qmd
+  quarto render teams/index.qmd --execute
   quarto render
 
 # publish team pages
