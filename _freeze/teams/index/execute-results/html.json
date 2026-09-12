@@ -1,8 +1,8 @@
 {
-  "hash": "f042c617a914ff868fb2b18fe8a6d963",
+  "hash": "7345d4557161719f5ad95ec163d0ab80",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: Registrations et al.\nlisting:\n  id: teams-listings\n  contents: \"*.qmd\"\n  field-display-names:\n    title: \"Team\"\n    date: \"Request date\"\n    subtitle: \"Country\"\n  fields: [title, subtitle, date]\n#   # sort: \"date desc\"\n  type: table\n  date-format: \"iso\"\n#   # categories: unnumbered\n#   # sort-ui: false\n  filter-ui: [title, subtitle, date]\n#   # image-align: left\n#   # image-height: 1.75in\n# title-block-banner: false\n\nformat:\n  html:\n    toc: true\n    toc-depth: 2\n\nacronyms:\n  insert_loa: false\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/plot_cumul-1.png){width=672}\n:::\n:::\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![Teams per country](index_files/figure-html/teams-bar-b2-1.png){width=672}\n:::\n:::\n\n\n\n## Teams \n",
+    "markdown": "---\ntitle: Registrations et al.\nlisting:\n  id: teams-listings\n  contents: \"*.qmd\"\n  field-display-names:\n    title: \"Team\"\n    date: \"Request date\"\n    subtitle: \"Country\"\n  fields: [title, subtitle, date]\n#   # sort: \"date desc\"\n  type: table\n  date-format: \"iso\"\n#   # categories: unnumbered\n#   # sort-ui: false\n  filter-ui: [title, subtitle, date]\n#   # image-align: left\n#   # image-height: 1.75in\n# title-block-banner: false\n\nformat:\n  html:\n    toc: true\n    toc-depth: 2\n\nacronyms:\n  insert_loa: false\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/plot_cumul_a1-1.png){width=672}\n:::\n:::\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![Teams per country](index_files/figure-html/teams-bar-a1-1.png){width=672}\n:::\n:::\n\n\n\n## Teams \n",
     "supporting": [
       "index_files"
     ],
