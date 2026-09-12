@@ -12,8 +12,6 @@ We will monitor submissions for attempts to learn from or exploit the ranking
 
 ## Leaderboard
 
-Leaderboard: <https://prc-challenge-2026.vercel.app/>
-
 ::: {.callout-important title="Important"}
 We will post **urgent and important news** news here, but we strongly recommend
 following the updates on the OSN Discord {{< fa brands discord >}} channel, especially
