@@ -1,0 +1,28 @@
+
+---
+title: creative-cactus
+date: 2026-09-10
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Jan, manager for the A-CDM at Schiphol. I'm an engineer who previously worked for the Dutch ANSP on innovation and think that we can do a lot more with the data we already have. In operations I can see everyday the impact of predicted times being off, so I am very interested to see what is possible with open-source data and what other teams come up with.
+
+## Details
+
+* Type: Industry
+* Country: Netherlands
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,       ~affiliation,
+   1L,     "Jan",   "Post", "Schiphol Airport"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

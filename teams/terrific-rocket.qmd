@@ -1,0 +1,28 @@
+
+---
+title: terrific-rocket
+date: 2026-09-04
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Interested in applying knowledge and skills in statistics and data science involving large-scale datasets to relevant problems
+
+## Details
+
+* Type: Academia
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,                   ~affiliation,
+   1L,  "Joseph", "Lukefahr", "US Naval Postgraduate School"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

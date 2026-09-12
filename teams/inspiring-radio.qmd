@@ -1,0 +1,28 @@
+
+---
+title: inspiring-radio
+date: 2026-09-04
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a recent mechanical engineering graduate, and an aviation enthusiast looking for a fun challenge!
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname, ~affiliation,
+   1L,    "Riya", "Nandakumar",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

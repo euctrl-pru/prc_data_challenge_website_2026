@@ -1,0 +1,29 @@
+
+---
+title: eager-vase
+date: 2026-09-05
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Dhiraj, BTech 3rd year student at IIT Delhi. I've been using ML Research since quite a long time to participate in the competitions and won a few of them at WorldQuant, Trexquant and BlackRock. I just love playing with the data and deploying models.
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,  ~surname, ~affiliation,
+   1L,   "Dhiraj", "Bhosale",     "Unknow",
+   2L, "Shriansh", "Jaiswal",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,28 @@
+
+---
+title: brisk-x-ray
+date: 2026-09-04
+subtitle: Morocco
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+My name is Boubkri Fouad , i am an electromecanique engineer, and i decided to register for the challenge to be able to help the planet earth a little bite as much as i can .
+
+## Details
+
+* Type: Independent
+* Country: Morocco
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,  ~affiliation,
+   1L,   "Fouad", "Boubkri", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,28 @@
+
+---
+title: nice-umbrella
+date: 2026-09-05
+subtitle: Italy
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Emanuele, 26 year old, fresh out of university (computer science), extremely passsionate about traveling and the flight industry (I have done some personal project with ML in the context of airport/flight tickets price prediction). Data science and aviations are 2 huge passions of mine, this is why I decided to sign up instantly!
+
+## Details
+
+* Type: Independent
+* Country: Italy
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,   ~surname,  ~affiliation,
+   1L, "Emanuele", "Salonico", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

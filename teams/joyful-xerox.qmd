@@ -1,0 +1,29 @@
+
+---
+title: joyful-xerox
+date: 2026-09-05
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Just two students who is trying to make systems efficient through modelling
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,  ~surname,                            ~affiliation,
+   1L, "Danush V", "Darshan",                                "Unknow",
+   2L,   "Ganesh",       "S", "Indian Institute of Technology Bombay"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

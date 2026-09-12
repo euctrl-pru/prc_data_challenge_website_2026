@@ -1,0 +1,28 @@
+
+---
+title: outgoing-igloo
+date: 2026-09-06
+subtitle: Nepal
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am currently working as an analyst at an automotive company in India. I like to solve analytical / data science challenges.
+
+## Details
+
+* Type: Independent
+* Country: Nepal
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Aashish",   "Shah",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

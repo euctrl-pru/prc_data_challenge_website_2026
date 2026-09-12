@@ -1,0 +1,29 @@
+
+---
+title: modest-accordion
+date: 2026-09-09
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are computer science and aerospace students at royal holloway and liverpool. we want to combine our skills and expertise and knowledge into something practical and where both of them have proper use.
+
+## Details
+
+* Type: Academia, Independent
+* Country: United Kingdom
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename, ~surname,                           ~affiliation,
+   1L,  "Alexander", "Girnus", "Royal Holloway, University of London",
+   2L, "Franciszek", "Boczar",              "University of Liverpool"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

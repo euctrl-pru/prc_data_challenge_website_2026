@@ -1,0 +1,28 @@
+
+---
+title: imaginative-lollipop
+date: 2026-09-12
+subtitle: Saudi Arabia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Abdullah Alghamdi student at IATC, and I want to join this competition to improve my coding skills in real-world problem, and trying to prove that rustlang is the future of aviation
+
+## Details
+
+* Type: Independent
+* Country: Saudi Arabia
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename,   ~surname,                                         ~affiliation,
+   1L, "ِAbdullah", "Alghamdi", "International Aviation Technical College at Riyadh"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

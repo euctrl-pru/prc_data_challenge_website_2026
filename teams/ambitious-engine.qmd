@@ -1,0 +1,29 @@
+
+---
+title: ambitious-engine
+date: 2026-09-07
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are AI research engineers passionate about aeronautics and always looking for new challenges bringing together aviation and AI
+
+## Details
+
+* Type: Industry
+* Country: France
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed",
+   2L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
