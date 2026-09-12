@@ -22,6 +22,9 @@ format:
   html:
     toc: true
     toc-depth: 2
+execute:
+  freeze: false
+  cache: false
 
 acronyms:
   insert_loa: false
