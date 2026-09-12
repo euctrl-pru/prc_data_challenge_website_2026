@@ -7,7 +7,7 @@ library(janitor)
 
 
 # prepare teams data frame
-prepare_teams_df <- function() {
+prepare_teams_df <- function(n = NULL) {
   teams_raw <- get_teams_raw()
 
   teams_valid <- teams_raw |>
@@ -37,6 +37,10 @@ prepare_teams_df <- function() {
         how_learnt
       )
     )
+
+  if (!is.null(n)) {
+    teams_valid <- teams_valid |> slice_tail(n = n)
+  }
 
   team_members <- teams_raw |>
     get_teams_members() |>
