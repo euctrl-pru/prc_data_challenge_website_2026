@@ -1,27 +1,6 @@
 [
   {
     "listing": "/teams/index.html",
-    "items": [
-      "/teams/amiable-xylophone.html",
-      "/teams/brave-igloo.html",
-      "/teams/cute-fossil.html",
-      "/teams/delightful-ladder.html",
-      "/teams/dynamic-deer.html",
-      "/teams/dynamic-emu.html",
-      "/teams/dynamic-lobster.html",
-      "/teams/gentle-monkey.html",
-      "/teams/gentle-tractor.html",
-      "/teams/helpful-yacht.html",
-      "/teams/honorable-castle.html",
-      "/teams/imaginative-lollipop.html",
-      "/teams/kindhearted-goblin.html",
-      "/teams/nimble-barn.html",
-      "/teams/organized-llama.html",
-      "/teams/outgoing-eel.html",
-      "/teams/strong-turtle.html",
-      "/teams/terrific-yeti.html",
-      "/teams/unbelievable-snowflake.html",
-      "/teams/valuable-lemon.html"
-    ]
+    "items": []
   }
 ]
