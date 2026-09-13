@@ -1,0 +1,28 @@
+
+---
+title: keen-icicle
+date: 2026-09-13
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am Data Analyst - AI working full time at Coforge. I am interested in solving ML related problem that can eventually help me in improving my CV as well. I previously as well won a $3000 competition and hoping I will achieve something from here too.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname, ~affiliation,
+   1L, "Kanishka",   "Garg",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
