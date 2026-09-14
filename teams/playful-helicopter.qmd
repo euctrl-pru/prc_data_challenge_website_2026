@@ -1,0 +1,28 @@
+
+---
+title: playful-helicopter
+date: 2026-09-14
+subtitle: Portugal
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm an aviation professional with experience in Aviation Management and currently undertaking a Master's Degree in Information Management. Working on this challenge would allow me to sharpen my data science skills while working on something I have a strong interest for.
+
+## Details
+
+* Type: Academia
+* Country: Portugal
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname, ~affiliation,
+   1L,    "João", "Cortiçadas",   "Nova IMS"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

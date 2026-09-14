@@ -1,0 +1,31 @@
+
+---
+title: gracious-emu
+date: 2026-09-14
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+One team member is studying Computer Science at the University of Portsmouth, the other team member is a cadet at Skyborne Airline Academy (UK) and a graduate computer scientist from the University of Portsmouth.
+
+We decided to enter the challenge as we believe we can potentially produce a solution to the challenge using machine learning in Python and R as well as produce a decent report of said solution. We would like the opportunity to put our studies into action on a real life issue and produce a usable solution.
+
+## Details
+
+* Type: Academia, Industry, Independent
+* Country: United Kingdom
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,               ~affiliation,
+   1L,     "Sam",   "Blewitt",              "independent",
+   2L,    "Anna", "Kennewell", "University of Portsmouth"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
