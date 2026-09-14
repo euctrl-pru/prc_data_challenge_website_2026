@@ -1,0 +1,30 @@
+
+---
+title: gracious-utensil
+date: 2026-09-13
+subtitle: Greece
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a data scientist interested in applying machine learning to real-world operational problems, especially complex systems like aviation.
+
+I decided to join the PRC Data Challenge because taxi-out time prediction is a practical and interesting problem, and I am curious to explore it using open data.
+
+## Details
+
+* Type: Independent
+* Country: Greece
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,  ~affiliation,
+   1L,  "Vlasis", "Megaritis", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
