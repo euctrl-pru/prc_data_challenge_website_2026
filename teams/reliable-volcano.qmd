@@ -1,0 +1,28 @@
+
+---
+title: reliable-volcano
+date: 2026-09-15
+subtitle: Indonesia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a ML engineer and I like to participate in competitions. This will help me grow by challenging myself doing something new
+
+## Details
+
+* Type: Independent
+* Country: Indonesia
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L, "Vallian", "Sayoga", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

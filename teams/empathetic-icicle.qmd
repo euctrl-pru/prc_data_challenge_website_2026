@@ -1,0 +1,31 @@
+
+---
+title: empathetic-icicle
+date: 2026-09-14
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are students at UC Berkeley doing Masters in Analytics. We are interested in aviation, and how to predict.
+
+## Details
+
+* Type: Academia
+* Country: United States
+* Number of team members: 4
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Andrew",  "Huang", "UC Berkeley",
+   2L, "Leonard",   "Chiu", "UC Berkeley",
+   3L,  "Justin",    "Phu", "UC Berkeley",
+   4L,   "Mihir",   "Raja", "UC Berkeley"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
