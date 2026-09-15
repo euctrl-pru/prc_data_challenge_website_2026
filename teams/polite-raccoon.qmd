@@ -1,0 +1,28 @@
+
+---
+title: polite-raccoon
+date: 2026-09-15
+subtitle: Canada
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am data professional working in Manitoba Canada, I am very enthusiastic about the aviation industry, and I am very curious as to how the algorithms that I use on a daily basis translate into the aviation sphere
+
+## Details
+
+* Type: Independent
+* Country: Canada
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "Arun", "K Mani", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
