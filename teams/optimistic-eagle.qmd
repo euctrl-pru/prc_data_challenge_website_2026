@@ -1,0 +1,29 @@
+
+---
+title: optimistic-eagle
+date: 2026-09-16
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm a BTech grad setting my foot in Data Science field and this seemed like a great opportunity to work on a fresh dataset and implement everything that I've learned so far.
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,      ~surname, ~affiliation,
+   1L,   "Harsh",       "Gupta",     "Unknow",
+   2L,  "Gaurav", "Singh Rawat",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,31 @@
+
+---
+title: athletic-yacht
+date: 2026-09-16
+subtitle: Japan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of university students interested in data science and machine learning.
+
+We joined this challenge because we wanted to use what we have learned in class on a real-world problem. We are excited to work with real aviation data, learn new skills, and improve our modeling skills together as a team.
+
+## Details
+
+* Type: Academia
+* Country: Japan
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,                  ~affiliation,
+   1L,     "Mai", "Honzawa", "Tokyo University of Science",
+   2L,    "Yuri", "Matsuda", "Tokyo University Of Science"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

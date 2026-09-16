@@ -1,0 +1,29 @@
+
+---
+title: joyful-strawberry
+date: 2026-09-15
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Aerospace Engineering and CompSci students at Uni of Liverpool and RHUL. We decided to register to contribute to the European aerospace knowledge domain.
+
+## Details
+
+* Type: Academia, Industry
+* Country: United Kingdom
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename, ~surname,                       ~affiliation,
+   1L, "Franciszek", "Boczar",          "University of Liverpool",
+   2L,  "Alexander", "Girnus", "Royal Holloway University London"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
