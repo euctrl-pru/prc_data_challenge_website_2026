@@ -1,0 +1,28 @@
+
+---
+title: ambitious-hippo
+date: 2026-09-17
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I’m a Computer Science & Engineering student at TU Delft with a strong interest in machine learning, data analysis, and algorithms. I joined the PRC Data Challenge to apply what I’ve learned to a real-world aviation problem, challenge myself, and see what I can build with data-driven methods.
+
+## Details
+
+* Type: Independent
+* Country: Netherlands
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,        ~forename,  ~surname, ~affiliation,
+   1L, "Juozas Mazeika", "Mazeika",   "TU Delft"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
