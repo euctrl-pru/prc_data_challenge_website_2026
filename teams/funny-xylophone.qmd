@@ -1,0 +1,29 @@
+
+---
+title: funny-xylophone
+date: 2026-09-16
+subtitle: Bangladesh
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Anik Chowdhury.
+I recently earned my BSc in Mechanical Engineering from Chittagong University of Engineering and Technology (CUET). Apart from that, I am a ML developer.  I'm passionate about learning new skills and love programming.
+
+## Details
+
+* Type: Independent
+* Country: Bangladesh
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,  ~affiliation,
+   1L,    "Anik", "Chowdhury", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

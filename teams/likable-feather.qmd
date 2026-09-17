@@ -1,0 +1,28 @@
+
+---
+title: likable-feather
+date: 2026-09-16
+subtitle: Greece
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Data scientist, looking for opportunities to apply machine learning to real life problems
+
+## Details
+
+* Type: Independent
+* Country: Greece
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,  ~affiliation,
+   1L, "Sotiris", "Papadelis", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

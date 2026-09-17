@@ -1,0 +1,28 @@
+
+---
+title: upbeat-river
+date: 2026-09-16
+subtitle: Italy
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a aerospace engineering master student. I have always been interested in the organization of air traffic control and airports, therefore during my bachelor degree I took many courses related to this subject which allowed me to visit and learn from major airports in Europe. I would like to use my knowledge in AI and coding to try to solve this interesting task, my university professor suggested me to apply for this challenge, hence I think I possess the ability and knowledge to optimize the current airports prediction system.
+
+## Details
+
+* Type: Academia
+* Country: Italy
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename,  ~surname,  ~affiliation,
+   1L, "Sara julia", "Bajardo", "Indipendent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
