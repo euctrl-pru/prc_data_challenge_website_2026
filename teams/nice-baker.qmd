@@ -1,0 +1,29 @@
+
+---
+title: nice-baker
+date: 2026-09-17
+subtitle: Uzbekistan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are mechanical engineering students who are interested in Aerospace industry, hence this opportunity seems as a good option to follow the interest project
+
+## Details
+
+* Type: Academia
+* Country: Uzbekistan
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,                ~affiliation,
+   1L, "Dilshod", "Azamjonov", "New Uzbekistan University",
+   2L,  "Ismoil", "Azamjonov",                      "None"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
