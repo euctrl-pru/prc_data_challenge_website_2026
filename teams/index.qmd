@@ -31,7 +31,7 @@ acronyms:
 ---
 
 
-```{r plot_cumul_a1, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+```{r plot_cumul, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
 library(conflicted)
 library(tidyverse)
 
@@ -292,7 +292,7 @@ ccc |>
 ```
 
 
-```{r teams-bar-a1, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, eval=TRUE}
+```{r teams-bar, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, eval=TRUE}
 #| fig-cap: 'Teams per country'
 #| fig-height: 8
 library(countrycode)

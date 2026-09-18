@@ -1,0 +1,47 @@
+
+---
+title: logical-ladder
+date: 2026-09-18
+subtitle: Pakistan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a multidisciplinary team of four students bringing together three Computer Science students and one Avionics student, with a shared interest in artificial intelligence, data science, aviation and building technology that can solve real-world problems.
+
+Our Computer Science members contribute skills in programming, machine learning, data analysis and model development, while our Avionics member brings an aviation and aircraft-systems perspective that helps us understand the physical and operational context behind the data. As a team, we also have an entrepreneurial mindset through our experience in building technology projects and developing a startup, which has taught us to approach technical problems not only from the perspective of “Can we build it?” but also “Can it work in the real world, and can it create meaningful value?”
+
+This combination is particularly relevant to the PRC Data Challenge. Taxi-out time is not simply a mathematical prediction problem; it is influenced by aircraft, airport operations, traffic and other interconnected operational factors. The challenge therefore gives us an opportunity to combine our different areas of expertise rather than treating data science and aviation as separate disciplines.
+
+We see ourselves as students who are still learning, but who are eager to work on problems where advanced technology, engineering and real-world operational data meet.
+
+We decided to participate in the PRC Data Challenge 2026 because it gives us the opportunity to apply artificial intelligence and data science to a genuine aviation problem rather than working only with classroom or synthetic examples.
+
+This year's challenge focuses on predicting aircraft taxi-out time using real operational data from major European airports. The problem is particularly interesting to us because taxi-out time is affected by multiple interacting factors, making it a meaningful machine-learning problem with a direct connection to aviation operations. EUROCONTROL notes that better prediction of taxi-out time can help identify periods of constrained airport operations and support the assessment of excess fuel burn and CO₂ emissions associated with those conditions.
+
+For our team, the challenge is also an opportunity to bring together our different backgrounds. Our Computer Science members can work on data processing, feature engineering, machine-learning models and evaluation, while our Avionics member can contribute aviation-domain understanding. Our entrepreneurial experience motivates us to look beyond simply producing a prediction and to think about how data-driven insights could eventually support more efficient aviation operations.
+
+We are participating to challenge ourselves against an international community, learn from a real-world aviation dataset, strengthen our ability to build reproducible AI solutions, and explore how our combined technical backgrounds can be applied to problems with practical significance.
+
+Ultimately, we see the PRC Data Challenge as a bridge between what we learn as students and the kind of data-driven engineering problems we hope to solve professionally.
+
+## Details
+
+* Type: Academia, Independent
+* Country: Pakistan
+* Number of team members: 4
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,           ~forename,       ~surname,                                         ~affiliation,
+   1L, "Muhammad Huzaifah",      "Shujjah", "Institute of Space Technology and Huvion Solutions",
+   2L,            "Hassan",          "Ali",                      "Institute of Space Technology",
+   3L, "Muhammad Abdullah", "Mehmood Khan",                      "Institute of Space Technology",
+   4L,      "Syeda Fatima",        "Zahra",                      "Institute of Space Technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
