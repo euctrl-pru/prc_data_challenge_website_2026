@@ -10,7 +10,7 @@ format:
 To help you solve this year’s Data challenge, we provide the following
 (logical) datasets:
 
-1. **Movements** (arrival and departure) information for 2025 at 11 major
+1. **Movements** (arrival and departure) information for 2025 at 10 major
   European airports including
    a. **taxi-out time** for each movement at the airport and
    a. **scheduled** and **actual** times

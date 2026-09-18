@@ -30,7 +30,7 @@ The 2026 edition of the \acr{PRC} Data Challenge invites participants to predict
 the taxi-out time of flights from 10 major European airports.
 
 ##### **Scope**
-The learning dataset will consist of all 11 airport movements for the full year of 2025.
+The learning dataset will consist of all 10 airport movements for the full year of 2025.
 
 ##### **Ranking**
 The applied ranking will use \acr{RMSE} for submitted predictions for the movements in January and July 2026.
