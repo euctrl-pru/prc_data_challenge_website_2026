@@ -1,0 +1,54 @@
+
+---
+title: jubilant-puzzle
+date: 2026-09-19
+subtitle: China
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+The team south-wind is a solo project run by a data analyst with several
+years of experience in data analytics and machine learning. After
+working in larger tech hubs, the participant now lives in Haikou, a
+coastal city on the south coast of Hainan Island, China, and works
+locally. The name "south-wind" comes from this setting: doing aviation
+research from a small coastal city in the south, where the south wind
+blows year-round.
+
+The team joined the PRC Data Challenge 2026 for three reasons:
+
+1. To learn and sharpen skills in time-series regression and gradient
+   boosting modelling. Predicting taxi-out time is a concrete,
+   well-scoped problem that is ideal for practising feature
+   engineering, time-series validation and ensemble methods.
+
+2. To contribute to open aviation research. Even if the final ranking   is modest, the team plans to release all code and notes under an
+   open licence so that future participants can build on this work.
+
+3. To do something useful and a bit different. Aviation operations
+   have real-world impact on emissions and passenger experience, and
+   being able to predict taxi-out time even roughly is genuinely
+   useful. Working on it from the south wind side of the world is the
+   team's small way to participate in open European aviation research.
+
+The team will work primarily in Python, using XGBoost, LightGBM and
+CatBoost as the main models, with feature engineering focused on
+time-of-day, congestion patterns and aircraft-specific factors.
+
+## Details
+
+* Type: Independent
+* Country: China
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "Fang",  "Huang", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

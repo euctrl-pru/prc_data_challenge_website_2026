@@ -1,0 +1,29 @@
+
+---
+title: faithful-beetle
+date: 2026-09-18
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Two motivated students from Erasmus University Rotterdam completing the Bachelor's of Econometrics and Operations Research. We are both passionate for data science and aviation, so it seemed like an interesting challenge to take on.
+
+## Details
+
+* Type: Academia
+* Country: Netherlands
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,          ~surname, ~affiliation,
+   1L, "Vinicius", "Branco Cosendey",    "Student",
+   2L,    "Lucas",           "Lopes",    "Student"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
