@@ -1,0 +1,29 @@
+
+---
+title: impressive-piano
+date: 2026-09-19
+subtitle: Finland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a group of colleagues specializing in Bayesian modeling and inference, looking to solve more problems.
+
+## Details
+
+* Type: Industry, Independent
+* Country: Finland
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname, ~affiliation,
+   1L,   "Teemu", "Säilynoja",  "PyMC Labs",
+   2L,  "Carlos",  "Trujillo",  "PyMC Labs"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
