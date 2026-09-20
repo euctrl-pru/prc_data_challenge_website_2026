@@ -1,0 +1,28 @@
+
+---
+title: genuine-cabbage
+date: 2026-09-19
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm a Master's student in the Netherlands majoring in Data science and AI. I'm interested in applying my Machine Learning skills on a real-world task.
+
+## Details
+
+* Type: Independent
+* Country: Netherlands
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,       ~surname, ~affiliation,
+   1L, "Ravindra", "Tarunokusumo",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
