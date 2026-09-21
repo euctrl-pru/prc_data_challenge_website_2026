@@ -1,0 +1,28 @@
+
+---
+title: gentle-hedgehog
+date: 2026-09-21
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a PhD candidate from Spain, and I want to participate in the challenge in my own time as an interesting side project and to get hands-on experience with large-scale aviation datasets.
+
+## Details
+
+* Type: Academia
+* Country: Spain
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,       ~surname,  ~affiliation,
+   1L, "Joaquin", "Vico Navarro", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

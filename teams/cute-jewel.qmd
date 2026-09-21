@@ -1,0 +1,28 @@
+
+---
+title: cute-jewel
+date: 2026-09-21
+subtitle: Singapore
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a technology consultant with an interest in real-world applications of data science, data analysis, and machine-learning. I joined the PRC Data Challenge to hone my skills, and contribute to understanding of the factors that determine taxi-out time which may help to reduce fuel consumption.
+
+## Details
+
+* Type: Independent
+* Country: Singapore
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,     ~affiliation,
+   1L,  "Utkala", "Mohanty", "Datanet Studio"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
