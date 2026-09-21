@@ -1,0 +1,28 @@
+
+---
+title: sincere-insect
+date: 2026-09-21
+subtitle: Poland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm passionate ML Engineer. I like to solve interesting ML tasks
+
+## Details
+
+* Type: Independent
+* Country: Poland
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
