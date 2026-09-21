@@ -1,0 +1,34 @@
+
+---
+title: zany-sailboat
+date: 2026-09-21
+subtitle: Vietnam
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are an independent team with a strong interest in aviation, data analytics, and technology. We joined the PRC Data Challenge primarily as a learning opportunity and to gain practical experience working with real-world aviation data.
+
+Our motivation is to explore how data analytics, visualization, and machine learning can be applied to better understand complex challenges in aviation. The challenge gives us an opportunity to improve our technical and analytical skills, experiment with new approaches, and learn from other participants and experts in the international aviation community.
+
+Rather than focusing only on competition, we see this challenge as a journey of learning, collaboration, and discovery. We hope to broaden our understanding of aviation data, exchange ideas with the community, and gain experience that can contribute to future data-driven projects.
+
+Most importantly, we are here to learn, challenge ourselves, and enjoy turning aviation data into meaningful insights.
+
+## Details
+
+* Type: Independent
+* Country: Vietnam
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,    "Linh",     "Le",        "TIA"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

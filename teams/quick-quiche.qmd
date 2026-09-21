@@ -1,0 +1,28 @@
+
+---
+title: quick-quiche
+date: 2026-09-21
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Data Scientist at Tecnalia, where I turn complex datasets into actionable insights. Beyond algorithms and statistical models, my true lifelong passion is aviation. I live and breathe everything related to aeronautics, flight dynamics, and skyward technology, constantly looking for ways to bridge the gap between advanced data analytics and the aviation industry. I decided to join the PRC Challenge to bring together my two biggest passions: data science and aviation. This challenge represents the perfect playground to test my technical skills against real-world, complex scenarios while contributing to the future of air transport and performance research. I am eager to tackle these complex problems, collaborate with the community, and push the boundaries of what data-driven aviation solutions can achieve.
+
+## Details
+
+* Type: Independent
+* Country: Spain
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Asier",  "Zubia", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
