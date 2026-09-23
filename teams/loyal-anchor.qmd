@@ -1,0 +1,28 @@
+
+---
+title: loyal-anchor
+date: 2026-09-23
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am Suliman Tadros, and I want to register for this challenge to learn and to grow as well as to maybe win.
+
+## Details
+
+* Type: NA
+* Country: United Kingdom
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Suliman", "Tadros",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
