@@ -9,21 +9,30 @@ acronyms:
 
 ## Description and Rationale
 
-A group of Embry-Riddle Aeronautical University students and researchers interested in flight data research and aviation safety. Participation in the challenge will enable exploration of machine learning methods to aviation data, support sustainability initiatives in aviation, and help students develop competencies necessary for success in their data analytics professions.
+A group of Embry-Riddle Aeronautical University and University of Michigan students and researchers interested in flight data research and aviation safety. Participation in the challenge will enable exploration of machine learning methods to aviation data, support sustainability initiatives in aviation, and help students develop competencies necessary for success in their data analytics professions. Taeyun Yoo serves as the student lead with support from faculty mentors Joao S D Garcia (ERAU), Max Z Li (UMich), and Chuyang Yang (ERAU).
 
 ## Details
 
 * Type: Academia
 * Country: United States
-* Number of team members: 2
+* Number of team members: 11
 
 ```{r echo=FALSE}
 library(gt)
 
 gt(tibble::tribble(
-  ~id, ~forename,            ~surname,                           ~affiliation,
-   1L,    "Joao", "Souza Dias Garcia", "Embry-Riddle Aeronautical University",
-   2L,  "Taeyun",               "Yoo", "Embry-Riddle Aeronautical University"
+  ~id,   ~forename,            ~surname,                           ~affiliation,
+   1L,      "Joao", "Souza Dias Garcia", "Embry-Riddle Aeronautical University",
+   2L,    "Taeyun",               "Yoo", "Embry-Riddle Aeronautical University",
+   3L,   "Chuyang",              "Yang", "Embry-Riddle Aeronautical University",
+   4L,          NA,                  NA,                               "Unknow",
+   5L,      "Juin",              "Park", "Embry-Riddle Aeronautical University",
+   6L, "Youngwook",                "Ko", "Embry-Riddle Aeronautical University",
+   7L,    "Rayyan",              "Asim", "Embry-Riddle Aeronautical University",
+   8L,      "Ayse",            "Okatan", "Embry-Riddle Aeronautical University",
+   9L,    "Haejoo",              "Song", "Embry-Riddle Aeronautical University",
+  10L,     "Dorde",             "Mikic", "Embry-Riddle Aeronautical University",
+  11L,     "Dylan",             "Piwko",               "University of Michigan"
 )
 ) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
 ```

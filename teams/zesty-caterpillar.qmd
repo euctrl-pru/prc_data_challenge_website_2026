@@ -1,0 +1,28 @@
+
+---
+title: zesty-caterpillar
+date: 2026-09-24
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an independent participant interested in machine learning, I decided to register to gain some practical experience of working with real-world aviation data.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,      ~forename,  ~surname,  ~affiliation,
+   1L, "Krithika Sai", "Devatha", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

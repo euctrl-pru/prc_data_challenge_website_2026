@@ -1,0 +1,38 @@
+
+---
+title: outgoing-boat
+date: 2026-09-24
+subtitle: Brazil
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Solo participant from Brazil. I am an independent developer learning
+data science and machine learning with Python, focusing on real-world
+prediction problems and competitions.
+
+I registered for the PRC Data Challenge 2026 because taxi-out time
+prediction is a well-defined tabular problem built on real, open
+aviation data, and it is a great opportunity to practice feature
+engineering, gradient boosting models and time-based validation.
+I also value the open-science approach of the challenge: I plan to
+publish my code on GitHub under GPLv3 and share what I learn with
+the community.
+
+## Details
+
+* Type: Independent
+* Country: Brazil
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "Enio", "Aguiar", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
