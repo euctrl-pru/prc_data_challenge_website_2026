@@ -21,9 +21,10 @@ We are a team of students from Université Paris Nanterre, enrolled in the CMI A
 library(gt)
 
 gt(tibble::tribble(
-  ~id,  ~forename, ~surname, ~affiliation,
-   1L,  "Bathily",  "Isaac",     "Unknow",
-   2L, "MECELLEM",   "Adam",     "Unknow"
+  ~id,  ~forename, ~surname,                                           ~affiliation,
+   1L,  "Bathily",  "Isaac",                                               "Unknow",
+   2L, "MECELLEM",   "Adam",                                               "Unknow",
+   3L,    "Bruno",  "Serio", "Paris Nanterre University (Full Professor (CMI-ATE))"
 )
 ) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
 ```
