@@ -15,7 +15,7 @@ We are a team of students from Université Paris Nanterre, enrolled in the CMI A
 
 * Type: Academia
 * Country: France
-* Number of team members: 2
+* Number of team members: 3
 
 ```{r echo=FALSE}
 library(gt)
