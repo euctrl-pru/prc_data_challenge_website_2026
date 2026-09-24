@@ -25,7 +25,7 @@ gt(tibble::tribble(
    1L,      "Joao", "Souza Dias Garcia", "Embry-Riddle Aeronautical University",
    2L,    "Taeyun",               "Yoo", "Embry-Riddle Aeronautical University",
    3L,   "Chuyang",              "Yang", "Embry-Riddle Aeronautical University",
-   4L,          NA,                  NA,                               "Unknow",
+   4L,     "Max Z",                "Li",               "University of Michigan",
    5L,      "Juin",              "Park", "Embry-Riddle Aeronautical University",
    6L, "Youngwook",                "Ko", "Embry-Riddle Aeronautical University",
    7L,    "Rayyan",              "Asim", "Embry-Riddle Aeronautical University",
