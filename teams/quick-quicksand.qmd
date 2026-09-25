@@ -1,0 +1,30 @@
+
+---
+title: quick-quicksand
+date: 2026-09-24
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+PI Project is an AI software company based in Bordeaux, France, founded in 2025. Our work focuses on making machine learning reliable and efficient in constrained, safety-minded environments, with aviation as a recurring field of application.
+
+We registered because the PRC Data Challenge is exactly the kind of problem we like. Our goal is not to chase the top of the leaderboard but to build an honest, well-documented entry.
+
+## Details
+
+* Type: Independent
+* Country: France
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname, ~affiliation,
+   1L,    "Paul", "PROVOST", "PI Project"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
