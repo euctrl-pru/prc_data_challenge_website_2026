@@ -1,0 +1,35 @@
+
+---
+title: vigorous-glove
+date: 2026-09-26
+subtitle: Singapore
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of students with a background in computing and software development, but relatively limited experience in machine learning and aviation.
+
+We decided to join the PRC Data Challenge 2026 because we saw it as an opportunity to step outside our current skill set and learn how data and machine learning can be applied to solve a real-world problem. Rather than working only with textbook examples, we wanted to challenge ourselves with a large, real dataset and a practical prediction problem with clear operational relevance.
+
+Our goal is not only to develop an accurate taxi-out time prediction model, but also to understand the process behind it — from exploring and interpreting the data, to identifying meaningful patterns, engineering useful features, building models and evaluating their performance.
+
+We see this challenge as an opportunity to learn by doing, experiment with ideas, and develop skills that we can carry into future projects.
+
+## Details
+
+* Type: Academia
+* Country: Singapore
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename, ~surname,                        ~affiliation,
+   1L,  "Peng Fei",    "Wee", "Singapore Institute of Technology",
+   2L, "Cheng Ann",   "Phua", "Singapore Institute of Technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
