@@ -1,0 +1,37 @@
+
+---
+title: faithful-daisy
+date: 2026-09-27
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of university students with backgrounds and interests in software engineering, data analysis, machine learning, and artificial intelligence. Our team brings together different technical skills, including Python programming, data processing, software development, and machine learning.
+
+We decided to participate in the PRC Data Challenge 2026 because it provides an opportunity to apply our academic knowledge to a real-world aviation problem. In particular, the challenge of predicting taxi-out times allows us to explore how data science and machine learning can be used to better understand and improve aviation operations.
+
+Our main motivation is to learn through practical experience. We want to strengthen our skills in exploratory data analysis, feature engineering, machine learning, model evaluation, and collaborative software development while working with real aviation data.
+
+Beyond the competition itself, we see the challenge as an opportunity to work as a team, learn more about the aviation domain, develop a reproducible data-driven solution, and contribute our findings to the wider research and aviation community.
+
+## Details
+
+* Type: Academia
+* Country: United Kingdom
+* Number of team members: 4
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,          ~surname,                ~affiliation,
+   1L,    "Akil",         "Hossain", "University of Westminster",
+   2L,   "Rudra",            "Seth", "University of Westminster",
+   3L,    "Aiza",          "Ashraf", "University of Westminster",
+   4L,  "Sabrin", "Bazza Ghazouane", "University of Westminster"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
