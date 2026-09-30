@@ -1,10 +1,15 @@
-library(conflicted)
-library(googlesheets4)
-library(googledrive)
-library(tidyverse)
-library(dplyr)
-library(janitor)
-
+suppressPackageStartupMessages(
+  suppressMessages(
+    suppressWarnings({
+      library(conflicted)
+      library(googlesheets4)
+      library(googledrive)
+      library(tidyverse)
+      library(dplyr)
+      library(janitor)
+    })
+  )
+)
 
 # prepare teams data frame
 prepare_teams_df <- function(n = NULL) {

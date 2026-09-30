@@ -77,3 +77,8 @@ The ranking script will issue an error if:
 
 There is currently a **limit of 5 submissions per day** (and a 
 **total max of 1GB per bucket**.)
+
+::: {.callout-note title="Please note"}
+You will **NOT** be able to submit via the webinterface, please use the 
+**MinIO CLI** as described in the [Data](data.qmd) section. 
+:::
