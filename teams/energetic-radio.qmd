@@ -1,0 +1,45 @@
+
+---
+title: energetic-radio
+date: 2026-09-17
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent solo developer from Türkiye, working
+primarily in Python. My background is in building
+reliable data and analysis tooling: static analysis
+and AST parsing, graph data modeling, deterministic
+CLI design, schema versioning, reproducible packaging
+and CI pipelines.
+
+I registered for this challenge because it combines
+three things I care about: a well-defined prediction
+problem on real operational data, a commitment to
+open data, and a requirement to publish the full
+solution as open source. Taxi-out time is a concrete,
+measurable target, and the open-science framing means
+the work stays useful after the competition ends.
+
+My aim is a clean, fully reproducible pipeline
+documented well enough that anyone can rerun it from
+scratch.
+
+## Details
+
+* Type: Independent
+* Country: Turkey
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,        ~forename,  ~surname,  ~affiliation,
+   1L, "Ahmet Buğrahan", "Altunok", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

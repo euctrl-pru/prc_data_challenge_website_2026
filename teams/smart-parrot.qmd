@@ -1,0 +1,28 @@
+
+---
+title: smart-parrot
+date: 2026-10-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Tayte Sartorelli, independent builder in New Hampshire, USA, working with an AI coding assistant (Claude Code) as a solo team. Registered to test a preregistered, fully reproducible approach to taxi-out prediction: queue and congestion features derived from the movement data itself (departures and arrivals per runway in the preceding minutes, stand-to-runway structure, time-of-day and season) plus open weather, with the evaluation protocol written down before any model is fitted. The solution will be published under GPLv3 with documentation to reproduce every submission. Motivation: learning the airport-operations domain through a well-defined open-data problem, and building a public record of open contributions (this month also the Vesuvius Challenge, with tooling pull requests to its open-source pipeline).
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname,  ~affiliation,
+   1L,   "Tayte", "Sartorelli", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

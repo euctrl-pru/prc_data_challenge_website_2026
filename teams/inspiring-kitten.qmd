@@ -1,0 +1,28 @@
+
+---
+title: inspiring-kitten
+date: 2026-09-14
+subtitle: Brazil
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I’m a research engineer working with AI, machine learning, modeling, and simulation, mainly in aerospace and defense. I joined the PRC Challenge to work on a real-world problem, try out new ideas, and learn from other participants.
+
+## Details
+
+* Type: Academia
+* Country: Brazil
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                            ~affiliation,
+   1L,    "Joao", "Dantas", "Instituto de Estudos Avançados (IEAv)"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

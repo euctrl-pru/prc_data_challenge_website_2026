@@ -1,0 +1,28 @@
+
+---
+title: respectful-radio
+date: 2026-09-08
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I’m Mihir, a data engineer/data scientist looking to join a team for the PRC Data Challenge. I’m interested in aviation analytics, predictive modeling, and open-source research, and I can contribute with Python, SQL, Spark, feature engineering, data pipelines, and ML workflows. I’d be excited to collaborate with teammates who enjoy experimenting, sharing ideas, and building a strong reproducible solution together.
+
+## Details
+
+* Type: Academia
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname, ~affiliation,
+   1L,   "Mihir", "Yanamandra",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

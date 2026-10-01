@@ -1,0 +1,38 @@
+
+---
+title: merry-quicksand
+date: 2026-09-01
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent researcher working on operational forecasting for aviation
+from open data. I run a live, continuously published forward record of
+GNSS interference built from open ADS-B integrity signals, scored daily
+against independent sources, with each forecast cryptographically
+timestamped before its outcome is known.
+
+Taxi-out is the same problem in a different layer — a short-horizon
+operational forecast over open trajectory data, where the difficulty is
+proving the evaluation is honest rather than fitting the model. I am
+registering to test that methodology against an external scoreboard and
+to contribute the leakage-control tooling back openly.
+
+## Details
+
+* Type: Industry
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Saurabh",  "Dixit",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

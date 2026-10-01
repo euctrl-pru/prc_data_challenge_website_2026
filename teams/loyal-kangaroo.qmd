@@ -1,0 +1,29 @@
+
+---
+title: loyal-kangaroo
+date: 2026-09-26
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent bored german data scientist
+I want to try my skill in this challenge
+
+## Details
+
+* Type: Independent
+* Country: Germany
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname, ~affiliation,
+   1L, "Dmitrii", "Rudenko",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

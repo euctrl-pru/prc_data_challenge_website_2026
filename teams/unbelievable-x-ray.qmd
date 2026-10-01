@@ -1,0 +1,28 @@
+
+---
+title: unbelievable-x-ray
+date: 2026-09-14
+subtitle: Korea South
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We decided to register for the PRC Data Challenge 2026 to tackle real-world aviation challenges by applying data-driven modeling to complex operational problems.
+
+## Details
+
+* Type: Academia, Independent
+* Country: Korea South
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Huiju",    "Lee", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

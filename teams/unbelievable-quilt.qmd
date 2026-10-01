@@ -1,0 +1,28 @@
+
+---
+title: unbelievable-quilt
+date: 2026-09-06
+subtitle: Canada
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm registering for this challenge as a hands-on project alongside the Data Science Certificate I'm currently completing on top of my Executive PhD. Predicting taxi-out time sits outside my usual commercial/distribution lane (industry experience). This is a deliberate step into the operations side of the industry, applying what I'm learning in ML to a real, structured aviation problem rather than the commercial side I know best.
+
+## Details
+
+* Type: Industry, Independent
+* Country: Canada
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                                                                                                                                                                       ~affiliation,
+   1L,   "Sonal", "Sharma", "No affiliation for this project. I am executive PhD student at IIM Udaipur, India + Student at Boston Instutute of Analytics (attending Data Science certification this summer)."
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

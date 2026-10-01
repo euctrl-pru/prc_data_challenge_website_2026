@@ -1,0 +1,30 @@
+
+---
+title: energetic-xylophone
+date: 2026-09-23
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a trio of TU Delft Aerospace Engineering MSc students eager to apply our knowledge and skills to tackle the problem at hand, and gain experience along the way. We participated in the 2025 edition and earned 4th place, so it can only go up from here :)
+
+## Details
+
+* Type: Academia
+* Country: Netherlands
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,       ~forename,    ~surname, ~affiliation,
+   1L,          "Emre",   "Demirci",   "TU Delft",
+   2L, "Egeberk Baruh", "Karabulut",   "TU Delft",
+   3L,  "Andrés Nieto",  "González",   "TU Delft"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

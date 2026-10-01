@@ -1,0 +1,30 @@
+
+---
+title: fantastic-zucchini
+date: 2026-09-24
+subtitle: Chile
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Soy Pablo Neirz, Quiero probar nuevos algoritmos en los que estoy trabajando.
+I'm Pablo Neirz. I want to test new algorithms I'm working on.
+
+## Details
+
+* Type: Academia
+* Country: Chile
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,    ~affiliation,
+   1L,   "Pablo",  "Neirz",   "Independent",
+   2L,  "Amanda", "Flores", "Independiente"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

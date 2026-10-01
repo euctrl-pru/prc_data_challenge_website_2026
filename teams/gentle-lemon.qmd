@@ -1,0 +1,33 @@
+
+---
+title: gentle-lemon
+date: 2026-09-05
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a small team interested in data, AI, and building practical things with technology. We enjoy exploring problems, experimenting with different approaches, and learning by actually working on challenging problems.
+
+We decided to join the PRC Data Challenge 2026 mainly because it looked like a fun opportunity to test our skills on a real-world data problem. We are not joining with a specific expectation of winning. We want to see how far we can get, learn from the challenge, and compare our approach with other teams.
+
+For us, the challenge is also a chance to step outside our usual projects and work on something different. We are looking forward to exploring the dataset, finding interesting patterns, and hopefully coming up with a solution that is both creative and effective.
+
+## Details
+
+* Type: NA
+* Country: Germany
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,    "Arda", "Gürses",     "Unknow",
+   2L,   "Tuğra", "Gülsoy",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,30 @@
+
+---
+title: friendly-jacket
+date: 2026-09-17
+subtitle: Ireland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Built By Gavin is an independent data and technology project focused on applied machine learning, predictive modelling and data-driven software. I have practical experience developing end-to-end machine learning pipelines using large real-world datasets, with a particular focus on feature engineering, model evaluation, validation and gradient-boosting methods.
+I decided to enter the PRC Data Challenge because it presents an interesting real-world prediction problem outside my usual domain. I am particularly interested in exploring how temporal patterns, airport activity, congestion and other operational features can be engineered to improve taxi-out time predictions.
+My aim is to develop a reproducible and interpretable approach, test my existing machine-learning methods in a new domain, and learn from the wider open-data and aviation research community.
+
+## Details
+
+* Type: Independent
+* Country: Ireland
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L,   "Gavin", "Campbell", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,28 @@
+
+---
+title: incredible-rose
+date: 2026-09-15
+subtitle: Japan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+ML Engineer with particular interest in solving problems for aviation industry. I'm learning gamedev/modeling as a hobby.
+
+## Details
+
+* Type: Independent
+* Country: Japan
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename, ~surname,  ~affiliation,
+   1L, "Aleksandr", "Nachyn", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

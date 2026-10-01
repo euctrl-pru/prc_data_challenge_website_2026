@@ -1,0 +1,30 @@
+
+---
+title: spirited-clown
+date: 2026-09-08
+subtitle: Canada
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+SMAC is made of a group of young data scientists that share a strong interest in using data to solve practical problems and uncover meaningful insights. We are excited by the opportunity to combine our different perspectives, strengthen our analytical skills, and develop a creative, evidence-based solution through the data challenge.
+
+## Details
+
+* Type: Independent
+* Country: Canada
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,  "Thomas",   "Wood",     "Unknow",
+   2L,  "Dennis",  "Huynh",     "Unknow",
+   3L,    "Jude", "Bashto",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

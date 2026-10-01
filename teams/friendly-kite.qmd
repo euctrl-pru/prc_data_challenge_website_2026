@@ -1,0 +1,29 @@
+
+---
+title: friendly-kite
+date: 2026-09-05
+subtitle: Ukraine
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+SkyNet A dedicated group of telecom engineers and software developers from Kyiv Aviation Institute, passionate about aviation data structures, 5G architectures, and low-latency radar telemetry (ASTERIX CAT 062). We are participating to redefine how airport ground movement is modeled. We believe that integrating telecommunications principles—like 5G RF-sensing concepts and network-based data reconstruction—into ML pipelines is the key to eliminating sensor blind spots and predicting highly accurate taxi-out times for Europe’s busiest airports.
+
+## Details
+
+* Type: Academia
+* Country: Ukraine
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,    ~surname,                                  ~affiliation,
+   1L, "Mykhailo", "Halchenko", "National University Kyiv Aviation Institute",
+   2L,   "Andrii",    "Buksha",                                      "SkyNet"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

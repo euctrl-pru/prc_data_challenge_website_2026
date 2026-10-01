@@ -1,0 +1,35 @@
+
+---
+title: witty-feather
+date: 2026-09-09
+subtitle: Belgium
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of 5 trainees at EUROCONTROL in Brussels, from Spain, Italy and France, working in different units across the Agency. Our backgrounds are a mix of air traffic management, aeronautical engineering, data science and operations research, and most of us joined the Agency for a 6 months traineship directly after finishing our studies. Our motivation comes from the format of the challenge. It asks for open data, open code and a paper others can reproduce. As people at the start of an aviation data-related career, that is a rare chance to learn by comparing our work against teams from research, industry and other ANSPs, and to leave something behind that outlives our traineeship. If we finish with a model we understand, a clean repository and an honest write-up of what did not work, we will consider the challenge worth it, whatever the leaderboard says.
+As a group of Trainees at EUROCONTROL, we acknowledge and accept the two additional conditions:
+- We would not be eligible for the prize money if we end up among the top-ranked teams; and
+- We will not use any EUROCONTROL data, relying exclusively on the open datasets.
+
+## Details
+
+* Type: Academia, Industry
+* Country: Belgium
+* Number of team members: 5
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,          ~forename,       ~surname, ~affiliation,
+   1L,           "Pelayo", "Aragón Presa",     "Unknow",
+   2L,             "Luca",     "Visintin",     "Unknow",
+   3L,          "Mahmoud",     "Makhlouf",     "Unknow",
+   4L, "Stefano Giovanni",       "Grillo",     "Unknow",
+   5L,           "Matteo",     "Marrocco",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

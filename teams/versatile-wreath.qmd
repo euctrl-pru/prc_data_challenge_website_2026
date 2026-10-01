@@ -1,0 +1,28 @@
+
+---
+title: versatile-wreath
+date: 2026-09-17
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Kailash Nath, an Applied AI student at IU International University of Applied Sciences in Berlin, competing solo. Most of my machine learning so far has been on tidy coursework datasets, so I registered to work on something real: messy operational data, a metric I can't argue with, and a public leaderboard. Taxi-out prediction appealed to me because the problem is physical and intuitive (stand, runway, and queue) but the data clearly isn't. I'm also building a portfolio as I move toward my first role in the field, and an open, documented solution seemed like a much better thing to show than another tutorial notebook.
+
+## Details
+
+* Type: Independent
+* Country: Germany
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,      ~forename,      ~surname,                                                  ~affiliation,
+   1L, "Kailash Nath", "Ashok Kumar", "I am a university student but I am doing this independently"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

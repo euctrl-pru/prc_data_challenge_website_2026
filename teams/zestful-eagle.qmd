@@ -1,0 +1,34 @@
+
+---
+title: zestful-eagle
+date: 2026-09-05
+subtitle: Canada
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Computer Science graduate from Concordia University with a strong interest in artificial intelligence, machine learning, and applied software systems. My previous work and projects have involved machine learning, autonomous AI agents, prediction models, and the evaluation of AI systems. I am particularly interested in problems where machine learning must work with large-scale, noisy, real-world data rather than only clean benchmark datasets.
+
+I decided to register for the PRC Data Challenge because it combines several areas that I want to develop further: large-scale data analysis, feature engineering, predictive modeling, and understanding complex operational systems. Predicting aircraft taxi-out time is especially interesting because the problem is influenced by many interacting factors, including airport congestion, runway and stand configuration, flight schedules, aircraft characteristics, and operational conditions.
+
+My goal in this challenge is not only to achieve a competitive prediction score, but also to better understand the underlying factors that drive taxi-time variability. I am interested in exploring how airport traffic patterns and operational information can be transformed into useful predictive features, and how different machine-learning approaches generalize across airports and time periods.
+
+I also see the challenge as an opportunity to strengthen my ability to build a complete and reproducible machine-learning pipeline, from exploratory data analysis and feature engineering to model validation, error analysis, and final prediction. More broadly, I hope to gain practical experience applying machine learning to a real transportation and aviation problem with potential implications for airport efficiency, fuel consumption, and environmental performance.
+
+## Details
+
+* Type: Academia
+* Country: Canada
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,      ~forename, ~surname,           ~affiliation,
+   1L, "Doan Gia Huy",     "Vu", "Concordia University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

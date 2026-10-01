@@ -1,0 +1,32 @@
+
+---
+title: vigorous-x-ray
+date: 2026-09-14
+subtitle: Serbia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Who I am. A one-person team. I hold a PhD in geoinformatics from the Faculty of Technical Sciences, University of Novi Sad, where I teach photogrammetry, laser scanning and geospatial data processing. My research has focused on managing and processing very large geospatial datasets — point-cloud data management on Apache Spark, LiDAR classification with machine learning, and spatial indexing for distributed workloads. In industry I work as a geospatial software engineer on production spatial platforms (PostGIS, raster and vector pipelines, cloud deployment). Data science, spatial processing and aviation are the three things I enjoy most, and this challenge happens to sit exactly where they meet.
+
+Why I registered. Taxi-out time is usually modelled as a temporal problem, with the stand–runway pair treated as a categorical key. I think a good part of it is geometric: the actual taxi route from stand to runway threshold, its length, the number of turns and intersections, and the runway crossings along the way. My plan is to build a taxiway graph for all ten airports from open OpenStreetMap aeroway data, derive route-based priors from it, and measure how much they add to a solid gradient-boosting baseline with congestion and runway-configuration features. The question I want to answer, and publish either way, is whether a small, open, geodetically grounded spatial layer is worth as much as the usual temporal feature engineering.
+
+Approach. Open data only, a reproducible pipeline, a public GitHub repository, and a short write-up for the Journal of Open Aviation Science.
+
+## Details
+
+* Type: Academia
+* Country: Serbia
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,                                            ~affiliation,
+   1L, "Vladimir",  "Pajic", "Faculty of Technical Sciences, University of Novi Sad"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

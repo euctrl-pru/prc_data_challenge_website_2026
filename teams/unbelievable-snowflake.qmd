@@ -1,0 +1,28 @@
+
+---
+title: unbelievable-snowflake
+date: 2026-09-12
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Electrical Engineer, interested in the competition
+
+## Details
+
+* Type: Independent
+* Country: Germany
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname, ~affiliation,
+   1L,  "Daniel", "Lindner",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

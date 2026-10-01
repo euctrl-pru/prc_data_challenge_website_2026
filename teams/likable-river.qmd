@@ -1,0 +1,28 @@
+
+---
+title: likable-river
+date: 2026-09-05
+subtitle: United Arab Emirates
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am Abdelrhman data engineer and I am registering because I love to solve problems using data and AI
+
+## Details
+
+* Type: Independent
+* Country: United Arab Emirates
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,    ~forename,  ~surname, ~affiliation,
+   1L, "Abdelrhman", "Mostafa",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

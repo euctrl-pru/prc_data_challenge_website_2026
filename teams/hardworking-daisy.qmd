@@ -1,0 +1,28 @@
+
+---
+title: hardworking-daisy
+date: 2026-09-22
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+professional independent data scientist kaggler is interested to participate
+
+## Details
+
+* Type: Independent
+* Country: Spain
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L, "Mikhail", "Pigolkin", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

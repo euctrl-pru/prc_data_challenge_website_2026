@@ -1,0 +1,28 @@
+
+---
+title: courageous-caterpillar
+date: 2026-09-17
+subtitle: Singapore
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Hi, I'm Edwin, I'm in my final year of Computer Science at SIT (Real-Time Interactive Simulation track), and right now I'm doing an 11-month internship at Infineon working on data automation and visualization. I've been getting more into machine learning lately, mostly through my capstone project where I'm using clustering methods to benchmark semiconductor yield data. I signed up for this challenge because taxi-out time prediction is a completely different domain from what I usually work on, and I wanted to test myself on a real dataset with real stakes instead of another toy project. Honestly I'm also doing this to build something solid I can point to when I start job hunting next year but mostly I just think it's a genuinely interesting problem and I want to see how far I can push a model on messy real-world data.
+
+## Details
+
+* Type: Independent
+* Country: Singapore
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Edwin",    "Lee",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

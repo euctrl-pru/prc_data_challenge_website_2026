@@ -1,0 +1,30 @@
+
+---
+title: peaceful-starfish
+date: 2026-09-19
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+The main motivation behind participating in competitions is to learn and experiment with the latest ML models and apply them to real-world problems such as this.
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,       ~forename,  ~surname,                            ~affiliation,
+   1L, "Shibam Sundar", "Mahakud", "Indian Institute of Technology Bombay",
+   2L,        "Ishaan",  "Mondal", "Indian Institute of Technology Bombay",
+   3L,     "Farhan Al",   "Zayed", "Indian Institute of Technology Bombay"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,28 @@
+
+---
+title: dynamic-muffin
+date: 2026-09-07
+subtitle: Poland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm a Senior Data Scientist / ML Solutions Engineer in the aviation industry, where I mainly work on in-flight optimization. I see this challenge as an opportunity to test myself on a different operational problem and deepen my understanding of airport ground operations.
+
+## Details
+
+* Type: Industry, Independent
+* Country: Poland
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname, ~affiliation,
+   1L,   "Piotr", "Grzywacz",   "StorkJet"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,29 @@
+
+---
+title: outspoken-kiwi
+date: 2026-09-14
+subtitle: Belgium
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Data Engineer based in Belgium, specializing in scalable data pipelines, ETL, and cloud architectures. Participating solo to manage the entire process from data prep to model evaluation.
+I joined the PRC Data Challenge 2026 to solve a real-world aviation problem—predicting taxi-out times across 10 major European airports. Participating solo is a personal challenge to test my end-to-end data skills, build an efficient predictive pipeline under pressure, and compete with top industry talent.
+
+## Details
+
+* Type: Independent
+* Country: Belgium
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

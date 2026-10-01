@@ -1,0 +1,28 @@
+
+---
+title: brilliant-bicycle
+date: 2026-09-16
+subtitle: Ghana
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+l am a flight Dispatcher and Independent Aviation Data Researcher with a strong interest in Aviation Operations and data driven decision-making. l joined the PRC Data Challenge to deepen my practical experience in aviation data analysis, explore how operational data can be used to better understand and predict flight performance, and contribute to an open aviation research project. l see this challenge as an opportunity to contribute my aviation knowledge with my growing data analytics skills and develop a solution that has practical relevance to the aviation industry.
+
+## Details
+
+* Type: Independent
+* Country: Ghana
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,                           ~affiliation,
+   1L,  "Ernest", "Agyemang", "Independent Aviation Data Researcher"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

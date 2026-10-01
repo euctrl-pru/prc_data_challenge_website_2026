@@ -1,0 +1,28 @@
+
+---
+title: vigorous-yogurt
+date: 2026-09-13
+subtitle: Germany
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I recently graduated with an MSc in Data Science and Artificial Intelligence and am currently seeking full-time opportunities in Data Science, AI, and related roles. I am interested in participating in this challenge as an opportunity to apply my knowledge, gain practical experience, and further strengthen my technical and problem-solving skills. I also look forward to learning from the experience and challenging myself with real-world problems.
+
+## Details
+
+* Type: Academia
+* Country: Germany
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,         ~forename,         ~surname,  ~affiliation,
+   1L, "Venkata Skandha", "Rajendra Varma", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

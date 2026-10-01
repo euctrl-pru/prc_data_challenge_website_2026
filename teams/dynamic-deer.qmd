@@ -1,0 +1,29 @@
+
+---
+title: dynamic-deer
+date: 2026-09-12
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are two people passionate about data science and airplanes, both of us are specialists in air traffic and navigation.
+
+## Details
+
+* Type: Independent
+* Country: Spain
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,              ~forename,           ~surname, ~affiliation,
+   1L, "Esperanza Concepción", "Álvarez Aparicio",      "Ineco",
+   2L,                "David",  "García Céspedes",     "Airbus"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

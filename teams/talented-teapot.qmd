@@ -1,0 +1,28 @@
+
+---
+title: talented-teapot
+date: 2026-09-09
+subtitle: Japan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are PhD students who research protection models under uncertainty. We conducting research on taxi trip prediction. Hope we can learn something new from the contest.
+
+## Details
+
+* Type: Academia
+* Country: Japan
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname,                                         ~affiliation,
+   1L,    "Toan", "Nguyen-Mau", "japan advanced institute of science and technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

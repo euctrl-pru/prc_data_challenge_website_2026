@@ -1,0 +1,29 @@
+
+---
+title: joyous-rainbow
+date: 2026-09-15
+subtitle: Serbia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am currently a PhD student at the Faculty of Transport and Traffic Engineering, University of Belgrade. My academic journey is fueled by a deep passion for machine learning and its power to solve complex, real-world problems.For me, data science is more than just a field of study—it is what I truly love to do. This competition is another incredible opportunity for me to dive into a new data challenge, apply my skills, and do what I am most passionate about.I look forward to pushing the boundaries of data with you all!
+
+## Details
+
+* Type: Academia
+* Country: Serbia
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,             ~affiliation,
+   1L,    "Rade",   "Kacar", "University of Belgrade",
+   3L,   "Darko", "Ćulibrk",                 "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

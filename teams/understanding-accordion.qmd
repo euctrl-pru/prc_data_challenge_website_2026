@@ -1,0 +1,28 @@
+
+---
+title: understanding-accordion
+date: 2026-09-15
+subtitle: Austria
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+PhD Student (and potentially additional PhD students/MSc students) - will be at the OpenSky Symposium to present a paper and stumbled on the OpenSky Symposium website over this challenge - interested in it, but not entirely sure if I (maybe we) can devote sufficient time to obtain good results, still interested in it.
+
+## Details
+
+* Type: Academia
+* Country: Austria
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename, ~surname, ~affiliation,
+   1L, "Alexander", "Beiser",    "TU Wien"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

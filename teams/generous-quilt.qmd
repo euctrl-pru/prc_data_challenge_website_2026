@@ -1,0 +1,35 @@
+
+---
+title: generous-quilt
+date: 2026-09-05
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a passionate team from the Marmara University Data Science Club, deeply dedicated to the aviation domain. Having previously worked with OpenSky Network trajectory data, we have hands-on experience handling ADS-B datasets and analyzing flight operations.
+
+We want to apply our data science background to real-world air traffic management challenges. Participating in the PRC Data Challenge allows us to bridge theory with practice, benchmark our models on high-impact operational problems, and contribute to open aviation research.
+
+Linkedin Account: https://www.linkedin.com/company/datascienceclub-marmara/
+
+## Details
+
+* Type: Academia
+* Country: Turkey
+* Number of team members: 4
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,     ~forename,  ~surname,         ~affiliation,
+   1L,       "Sadık",   "Çoban", "Marmara University",
+   2L,     "Emirhan",    "Kunt", "Marmara University",
+   3L,      "Alihan",   "Telli", "Marmara University",
+   4L, "Ahmet Hamza", "Mülayim", "Marmara University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,28 @@
+
+---
+title: gentle-ostrich
+date: 2026-09-08
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an individual participant with a background in machine learning and computer vision, and I completed my master’s in Computer Science at UMass Amherst. I registered for the challenge because I enjoy working on difficult perception problems where strong modeling, experimentation, and practical engineering all matter. I saw this as a good opportunity to push myself technically, explore new approaches, and benchmark my work against other strong solutions.
+
+## Details
+
+* Type: Academia, Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,    ~affiliation,
+   1L,  "Mayank",   "Bumb", "UMass Amherst"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

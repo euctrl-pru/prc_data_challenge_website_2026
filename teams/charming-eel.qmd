@@ -1,0 +1,28 @@
+
+---
+title: charming-eel
+date: 2026-09-15
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I’m an AI engineer and ML researcher, and I this kind of challenge is something that I can learn a lot from!
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L, "Aryaman", "Chawla", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

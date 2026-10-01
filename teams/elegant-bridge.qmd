@@ -1,0 +1,35 @@
+
+---
+title: elegant-bridge
+date: 2026-09-07
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are Itinero, a travel technology company focused on building intelligent solutions for the future of travel.
+
+I am Jayneel Girnara, Founder of Itinero, and I will be leading our participation in the PRC Data Challenge together with my co-founder. As a travel-tech founder, I am strongly motivated to work on real-world problems across aviation, mobility, and the broader travel ecosystem.
+
+We decided to join this challenge because predicting taxi-out time is a practical aviation problem where data and AI can create measurable impact. Improving these predictions can support more efficient airport operations, reduce unnecessary fuel burn, and contribute to more sustainable air travel.
+
+Through this challenge, we want to apply our experience in technology and AI, learn from real aviation data, and explore how intelligent systems can solve operational problems in the travel industry. This strongly aligns with Itinero’s mission of using AI to make travel smarter, more efficient, and more connected.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,         ~affiliation,
+   1L, "Jayneel", "Girnara",        "independent",
+   2L,  "Dhyani",    "Shah", "Itinero Co-Founder"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

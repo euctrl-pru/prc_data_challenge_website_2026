@@ -1,0 +1,34 @@
+
+---
+title: brave-igloo
+date: 2026-09-11
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Hi, I am Aaryan Gole and I’m participating in the PRC Challenge independently. I’ve always been interested in technology, building things, and figuring out how to solve problems in practical ways.
+
+I decided to take part in the challenge because I wanted to work on something outside of the usual college projects and actually challenge myself. Since I’m participating independently, I’ll be responsible for the whole process, from coming up with ideas to building and improving the final solution.
+
+For me, the main goal is to learn, experiment, and see what I can create when I’m given a real problem to solve. I’m also looking forward to learning from other participants and getting a different perspective on how people approach the same kind of challenge.
+
+I’m not participating just to win. I want to come out of this having built something I’m genuinely proud of and having learned something new along the way.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Aaryan",   "Gole", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

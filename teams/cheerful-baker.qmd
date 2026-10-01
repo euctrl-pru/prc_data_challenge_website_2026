@@ -1,0 +1,28 @@
+
+---
+title: cheerful-baker
+date: 2026-09-20
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm a DevOps Engineer with interest on AI and passionate about aviation. I would love to be part of this challenge and work with real world aviation data.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,       ~surname,  ~affiliation,
+   1L, "Abimael", "Carrasquillo", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

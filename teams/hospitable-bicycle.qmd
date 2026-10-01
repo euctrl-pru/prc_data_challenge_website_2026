@@ -1,0 +1,30 @@
+
+---
+title: hospitable-bicycle
+date: 2026-09-04
+subtitle: Poland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We're a group of students from the Warsaw School of Economics, members of the student association of Transportation and Mobility.
+
+## Details
+
+* Type: Academia
+* Country: Poland
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname,                     ~affiliation,
+   1L, "Mateusz", "Mickiewicz", "SGH Warsaw School of Economics",
+   2L,  "Kornel",   "Zaremski",     "Warsaw School of Economics",
+   3L,    "Olaf",    "Gajdzik",     "Warsaw School of Economics"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

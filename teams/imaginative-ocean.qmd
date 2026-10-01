@@ -1,0 +1,28 @@
+
+---
+title: imaginative-ocean
+date: 2026-09-15
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Hello , guys i am balasai . I was a recent graduate from siddhartha academy of higher education. I had worked on remote sensing and human emotion detection use cases and are currently working on ai for industries
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,    ~surname,  ~affiliation,
+   1L, "Bala Sai", "Sigireddy", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

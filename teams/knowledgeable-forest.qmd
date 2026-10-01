@@ -1,0 +1,32 @@
+
+---
+title: knowledgeable-forest
+date: 2026-09-05
+subtitle: Bahrain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a recent Computer Science graduate with experience in software engineering, open-source development, and machine learning projects. Alongside technology, aviation has been one of my strongest personal interests. I enjoy learning about aircraft such as the Airbus A350 and Boeing 777, following airline operations, tracking flights, and understanding how airports and air traffic systems work.
+
+I decided to join the PRC Data Challenge because it brings together two areas I genuinely enjoy: aviation and machine learning. Predicting taxi-out time is particularly interesting to me because it requires both technical analysis and an understanding of real airport operations. Factors such as aircraft type, runway configuration, departure queues, traffic levels, and time of day can all influence the result.
+
+Through this challenge, I hope to strengthen my skills in exploratory data analysis, feature engineering, time-based validation, and predictive modelling while working with large-scale, real-world aviation data. I also aim to produce an open and reproducible solution that clearly explains both the model and the operational factors behind its predictions.
+
+## Details
+
+* Type: Academia, Independent
+* Country: Bahrain
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,    "Saad", "Hassan",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

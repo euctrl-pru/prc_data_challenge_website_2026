@@ -1,0 +1,28 @@
+
+---
+title: generous-tiger
+date: 2026-09-05
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Data scientist and statistician by background, working mainly with time series and applied modelling. Taxi-out prediction appeals to me because it's a well-defined regression problem sitting on top of a domain I'm not familiar with - the queueing and airport-operations side is entirely new to me, and I learn fastest by building something against a real dataset and a real leaderboard. The open-data and open-code requirements are a large part of the draw
+
+## Details
+
+* Type: Government
+* Country: United Kingdom
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,       ~surname, ~affiliation,
+   1L,    "Alun", "Rees-Lindley",        "ONS"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

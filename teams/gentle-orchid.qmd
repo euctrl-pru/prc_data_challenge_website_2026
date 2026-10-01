@@ -1,0 +1,28 @@
+
+---
+title: gentle-orchid
+date: 2026-09-16
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm a statistics student with an interest data analytics, science, and engineering. Found the premise of the PRC challenge to be very interesting and want to use this opportunity to apply some of the concepts learned in-class!
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,       ~forename, ~surname,  ~affiliation,
+   1L, "Jyothiswaroop", "Makala", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

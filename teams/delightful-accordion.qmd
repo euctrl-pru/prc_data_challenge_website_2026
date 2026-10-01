@@ -1,0 +1,28 @@
+
+---
+title: delightful-accordion
+date: 2026-09-17
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a independent interested in building software that can help the aviation industry, I have built a service to help navigation in an airport. Looking forward to contribute to other areas related to aviation industry.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Hao-Yu",   "Chan", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,29 @@
+
+---
+title: reliable-hedgehog
+date: 2026-09-16
+subtitle: Sweden
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+M.Sc student in Computer and information engineering at Uppsala University, Sweden.
+Interested in data science and ML.
+
+## Details
+
+* Type: Academia
+* Country: Sweden
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,         ~affiliation,
+   1L,   "Albin", "Carlsson", "Uppsala University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

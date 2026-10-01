@@ -1,0 +1,28 @@
+
+---
+title: versatile-kitten
+date: 2026-09-05
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+OpenSky Oncloudbyte is an independent participant interested in aviation, data science, and technology. We decided to participate in the PRC Data Challenge to explore aviation data through a practical machine-learning problem and to develop a reproducible solution to the taxi-out time prediction task. We are particularly interested in the intersection of aviation operations, data, and technology, and see the challenge as an opportunity to learn, experiment, and contribute to the community.
+
+## Details
+
+* Type: Independent
+* Country: Spain
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

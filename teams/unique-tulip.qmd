@@ -1,0 +1,28 @@
+
+---
+title: unique-tulip
+date: 2026-09-18
+subtitle: Kenya
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an aspiring Aviation Professional who is interested in an exposure to machine learning. I have a Background in Information Technology owing to former undergraduate level study as well as a background in Business Commerce and a professional Training as a Flight Operations Officer. Working on a solution for his implementation will be to the best of my current ability. Kindly reach out at victmwang@gmail.com Lets interact
+
+## Details
+
+* Type: Independent
+* Country: Kenya
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "victor",  "gitau", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

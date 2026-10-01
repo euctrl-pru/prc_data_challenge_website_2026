@@ -1,0 +1,28 @@
+
+---
+title: kind-tulip
+date: 2026-09-02
+subtitle: Mexico
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Machine Learning enthusiast with a passion for solving real-world challenges. Fascinated by aviation and how data science techniques can be applied to transform the industry.
+
+## Details
+
+* Type: Independent
+* Country: Mexico
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "jaime", "campos", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

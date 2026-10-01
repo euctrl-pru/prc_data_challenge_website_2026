@@ -1,0 +1,28 @@
+
+---
+title: merry-octopus
+date: 2026-09-04
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+A keen problem solver hoping to solve some real challenges and experiment ML techniques.
+
+## Details
+
+* Type: Independent
+* Country: United Kingdom
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Keith",     "So",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

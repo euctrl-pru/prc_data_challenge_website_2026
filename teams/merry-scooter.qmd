@@ -1,0 +1,44 @@
+
+---
+title: merry-scooter
+date: 2026-09-18
+subtitle: Lithuania
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a data engineer based in Vilnius, Lithuania, registering as an
+independent participant. My day to day work is building data pipelines
+and working with APIs over large operational datasets, and I hold a
+degree in IT.
+
+I registered because taxi-out time is the kind of problem I like working
+on: a clearly defined regression target on real operational data, with
+enough structure in the movement records, and in the open weather and
+flow management data the challenge allows, that the modelling choices
+actually matter. Most public datasets available to practise on are
+either toy sized or long since solved. This one is neither, and it is
+scored on a held out period rather than a random split, which makes the
+evaluation honest.
+
+I intend to publish my code and documentation in a public repository
+whatever my final placing, and to write up the method if the result
+turns out to be worth reading.
+
+## Details
+
+* Type: Independent
+* Country: Lithuania
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L, "Arminas",  "Attas",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

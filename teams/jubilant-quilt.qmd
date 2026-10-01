@@ -1,0 +1,30 @@
+
+---
+title: jubilant-quilt
+date: 2026-09-02
+subtitle: Mexico
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Aerospace Engineer with a Master by Research in Aerospace Engineering from Queen Mary University of London, specializing in aviation predictive modelling using ADS-B data.
+
+I joined the challenge to apply my experience in Python, data analytics, and machine learning to a real-world aviation problem and compete with others in the field.
+
+## Details
+
+* Type: Independent
+* Country: Mexico
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Julio", "Rivera", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

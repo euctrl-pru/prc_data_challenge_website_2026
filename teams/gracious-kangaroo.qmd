@@ -1,0 +1,28 @@
+
+---
+title: gracious-kangaroo
+date: 2026-09-10
+subtitle: Mexico
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Axel Nuñez Arzola: I want to learn and improve my skills every day, with dedication, constant practice, and a growth mindset.
+
+## Details
+
+* Type: Academia
+* Country: Mexico
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,       ~surname,                                      ~affiliation,
+   1L,    "Axel", "Nuñez Arzola", "Universidad  Nacional Autonoma de México (UNAM)"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

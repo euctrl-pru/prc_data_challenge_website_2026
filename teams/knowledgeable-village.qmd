@@ -1,0 +1,29 @@
+
+---
+title: knowledgeable-village
+date: 2026-09-09
+subtitle: Canada
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are Abhiram Vadali & Kevin Renjith, and we decided to register for this challenge because we are very passionate about aviation and AI. The intersection of these two distinct fields excite us, and we want to develop a prototype to study air traffic patterns.
+
+## Details
+
+* Type: Academia, Independent
+* Country: Canada
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,  ~surname,                             ~affiliation,
+   1L, "Abhiram",  "Vadali", "Independent (Secondary School Student)",
+   2L,   "Kevin", "Renjith",                                    "N/A"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

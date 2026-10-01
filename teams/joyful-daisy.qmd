@@ -1,0 +1,30 @@
+
+---
+title: joyful-daisy
+date: 2026-09-25
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm Hargun Gill, a Computer Engineering student at the University at Buffalo and a member of UB Forge. I'm the founding engineer at Substrate, a startup building freight and supply chain software for food and beverage brands, where I work daily with the messy, time stamped operational data that real logistics runs on. I'm also an undergraduate researcher in UB's DroneSLab, working on autonomous drone systems and perception, which is my closest point of contact with the aviation world so far.
+I'm a young engineer and have found that I learn best by taking on problems that are harder than what I already know how to do. Taxi out time is a good one, it sits where scheduling, airport congestion and weather meet, and small prediction improvements translate into real savings in fuel, emissions and delays. This is my first aviation data challenge. I want to learn how the operational side of airports works, build a rigorous forecasting pipeline on real open data, and test my approach against people who know this field well.
+I also value the challenge's open science approach. I plan to publish my code and documentation on GitHub, and I hope to write up what I learn so others can build on it. Thank you.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,  "Hargun",   "Gill", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

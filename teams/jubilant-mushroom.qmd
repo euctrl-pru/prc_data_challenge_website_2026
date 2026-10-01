@@ -1,0 +1,28 @@
+
+---
+title: jubilant-mushroom
+date: 2026-09-07
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a motivated A-Level student studying Computer Science, Physics and Maths, with a deep interest in computer hardware, software development and emerging technologies such as artificial intelligence. I have gained experience through developing a Java-based Flight Tracking Application as part of my Computer Science NEA, alongside personal projects such as building my own PC, experimenting with operating systems and local AI models. I have also gained practical experience through cybersecurity, cloud computing and IT support work experience.
+
+## Details
+
+* Type: Independent
+* Country: United Kingdom
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,   "Keane",  "Teper", "Indepedent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

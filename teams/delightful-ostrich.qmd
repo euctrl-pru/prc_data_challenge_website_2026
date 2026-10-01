@@ -1,0 +1,31 @@
+
+---
+title: delightful-ostrich
+date: 2026-09-05
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a two-person independent team with complementary technical backgrounds. I work primarily in software development, cybersecurity, embedded/IoT systems, and aviation-related technical projects, with hands-on experience working with open aviation and ADS-B data. The other team member has a background in data analysis/data science and machine learning, with experience working with datasets, statistical analysis, and predictive modelling.
+
+We decided to participate in the PRC Data Challenge 2026 because it combines aviation, large-scale operational data, and applied machine learning in a real-world problem. Our aim is to develop an original, robust, and reproducible solution, evaluate it carefully across the provided airports, and contribute the final methodology and code in line with the open-science objectives of the challenge.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed",
+   2L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

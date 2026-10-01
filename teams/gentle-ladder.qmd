@@ -1,0 +1,30 @@
+
+---
+title: gentle-ladder
+date: 2026-09-08
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I completed my Bachelor's degree in Aeronautical Engineering at Istanbul Technical University (ITU), and I am currently working on foundational topics in Aerospace Engineering that underpin this challenge's subject area.
+
+I am participating as a solo participant. My academic and research interests lie in the foundational methods underlying this challenge, particularly machine learning and data-driven modelling techniques, which I aim to apply to the prediction of taxi-out time and its operational variability.
+
+## Details
+
+* Type: Academia
+* Country: Turkey
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                    ~affiliation,
+   1L,  "Tayfun",   "Talı", "Istanbul Technical University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,31 @@
+
+---
+title: noble-tractor
+date: 2026-09-10
+subtitle: United Kingdom
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of analysts and data scientists from the consultancy Hawkrose. We aim to use the challenge as an opportunity to try out new ideas and methodologies. Thank you to the organisers for hosting such an interesting competition!
+
+## Details
+
+* Type: Industry
+* Country: United Kingdom
+* Number of team members: 4
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,        ~surname, ~affiliation,
+   1L,      "Ian",       "Simpson",   "Hawkrose",
+   2L,    "James", "Martin Collar",   "Hawkrose",
+   3L, "Stiliyan",       "Gadzhev",   "Hawkrose",
+   4L,     "Sean",       "Yardley",   "Hawkrose"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

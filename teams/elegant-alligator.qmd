@@ -1,0 +1,30 @@
+
+---
+title: elegant-alligator
+date: 2026-09-08
+subtitle: Azerbaijan
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Hello! I am an aerospace engineer and ai researcher who recently completed a doctorate in at Purdue University, with research focused on data-driven path planning optimization for drone operations.
+
+So I saw this thing while doomscrolling and I thought it was kinda cool so why not join, yk.
+
+## Details
+
+* Type: Academia, Independent
+* Country: Azerbaijan
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname, ~affiliation,
+   1L,   "Javid", "Mardanov",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

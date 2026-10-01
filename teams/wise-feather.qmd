@@ -1,0 +1,28 @@
+
+---
+title: wise-feather
+date: 2026-09-11
+subtitle: Belgium
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a data scientist who is eager to work on data challenges that have real impact and I have never had the chance to participate in a forecasting one.
+
+## Details
+
+* Type: Independent
+* Country: Belgium
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename, ~surname, ~affiliation,
+   1L, "Thanh Son", "Nguyen",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

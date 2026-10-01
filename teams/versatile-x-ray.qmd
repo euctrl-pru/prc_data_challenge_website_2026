@@ -1,0 +1,28 @@
+
+---
+title: versatile-x-ray
+date: 2026-09-05
+subtitle: Denmark
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am currently solving a lot of data science challenges using AI, and I saw this which I thought could sound fun. The prize is also motivating, since its quite expensive to run Fable 5.1 to help me solve this challenge. Otherwise, im an engineer love solving problems :-).
+
+## Details
+
+* Type: Independent
+* Country: Denmark
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

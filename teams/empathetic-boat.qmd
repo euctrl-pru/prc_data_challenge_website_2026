@@ -1,0 +1,37 @@
+
+---
+title: empathetic-boat
+date: 2026-09-16
+subtitle: Indonesia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Independent data scientist focused on spatio-temporal and
+operational forecasting. Recently built a global terrestrial water
+storage forecasting pipeline for the ITU/Zindi drought challenge
+(15,715 grid cells, 2.1M training records, autoregressive rollout
+with gradient-boosted ensembles).
+
+I registered because taxi-out time combines tabular regression with
+genuine operational structure — stand/runway geometry, pushback
+timing versus plan, and airport congestion state. I plan to publish
+my full pipeline and methodology writeup.
+
+## Details
+
+* Type: Independent
+* Country: Indonesia
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,          ~forename, ~surname,       ~affiliation,
+   1L, "Miftah Ali Mudin",  "Mudin", "3327042109070001"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

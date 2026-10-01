@@ -1,0 +1,28 @@
+
+---
+title: mindful-jacket
+date: 2026-09-14
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a recent master graduate from Eindhoven University of Technology in Data Science. I stumbled upon this challenge while looking to keep myself sharp for industry and job opportunities and also the chance to publish something which will make my profile stronger.
+
+## Details
+
+* Type: Independent
+* Country: Netherlands
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,    ~surname,  ~affiliation,
+   1L, "Nishant", "Sushmakar", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

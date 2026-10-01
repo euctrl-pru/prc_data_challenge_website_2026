@@ -1,0 +1,28 @@
+
+---
+title: outspoken-xylophone
+date: 2026-09-08
+subtitle: Saudi Arabia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a PhD student interested in optimization, transportation, and machine learning. I joined the PRC Data Challenge to work on a real-world aviation problem, apply data-driven methods, and strengthen my practical problem-solving skills.
+
+## Details
+
+* Type: Academia
+* Country: Saudi Arabia
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,                                             ~affiliation,
+   1L,   "Sodiq", "Babawale", "King Fahd University of Petroleum and Minerals (KFUPM)"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

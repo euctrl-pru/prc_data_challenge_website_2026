@@ -1,0 +1,28 @@
+
+---
+title: genuine-fireplace
+date: 2026-09-19
+subtitle: Singapore
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Student, I need the money to pay my school fees
+
+## Details
+
+* Type: Independent
+* Country: Singapore
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,                        ~affiliation,
+   1L, "Jun Shen",    "Lye", "Singapore institute of technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

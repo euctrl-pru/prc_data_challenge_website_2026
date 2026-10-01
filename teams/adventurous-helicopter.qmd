@@ -1,0 +1,29 @@
+
+---
+title: adventurous-helicopter
+date: 2026-09-06
+subtitle: Netherlands
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are two aviation enthusiasts learning coding and data analytics.
+
+## Details
+
+* Type: Independent
+* Country: Netherlands
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,   ~surname,  ~affiliation,
+   1L,   "Eugen", "Mojsović", "independent",
+   2L,   "Atche",   "Bilyal", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

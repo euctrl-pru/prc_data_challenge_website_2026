@@ -1,0 +1,28 @@
+
+---
+title: versatile-xylophone
+date: 2026-09-05
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a masters student at the University of Florida. I want to improve my data science skills and figured what better way than to throw myself into the deep end.
+
+## Details
+
+* Type: Academia
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,            ~affiliation,
+   1L,  "Jordan",   "Hall", "University of Florida"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

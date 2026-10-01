@@ -1,0 +1,29 @@
+
+---
+title: zesty-sailboat
+date: 2026-09-08
+subtitle: Italy
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Hello! We are AI researcher from the Italian Aerospace Research Center, C.I.R.A.
+
+## Details
+
+* Type: Industry
+* Country: Italy
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename,     ~surname,                                  ~affiliation,
+   1L,   "Piero", "Migliorato", "C.I.R.A (Italian Aerospace Research Center)",
+   2L, "Roberto",    "Palumbo", "C.I.R.A (Italian Aerospace Research Center)"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

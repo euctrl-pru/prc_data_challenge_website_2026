@@ -1,0 +1,28 @@
+
+---
+title: neat-onion
+date: 2026-09-17
+subtitle: Luxembourg
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We want to explore and demonstrate how our GreyCat technology can support efficiently this type of challenge !
+
+## Details
+
+* Type: Industry
+* Country: Luxembourg
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,      ~affiliation,
+   1L, "Grégory",   "NAIN", "DataThings S.A."
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

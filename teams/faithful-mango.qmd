@@ -1,0 +1,29 @@
+
+---
+title: faithful-mango
+date: 2026-09-14
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are two analytics enthusiast working in Data Engineering and Business decision making. We are looking to expose ourself to diverse problem statements while leveraging AI tools to expand our thought process and make a difference.
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                ~affiliation,
+   1L,   "Akash",   "Sood", "Indian School of Business",
+   2L,  "Nikunj",  "Pahwa",                    "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
