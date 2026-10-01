@@ -10,11 +10,13 @@ acronyms:
 ## Description and Rationale
 
 We are a team of students from Université Paris Nanterre, enrolled in the CMI ATE program specializing in energy and electronics. We registered for the OpenSky Challenge because it offers a unique opportunity to apply our academic knowledge to real-world satellite data and open tools. Our background in energy and electronics aligns well with the technical and analytical challenges of Earth observation. We are also motivated by the chance to learn from other teams and contribute to a community that promotes open science and innovation. Finally, we see this as a great way to grow together, test our skills, and build solutions with tangible societal impact.
+
 Team members contribute as follows:
-- Amanda Martinez-Gil Paris Nanterre Professor, responsible for validating the quality of the submitted model;
-- Adam Mecellem Paris Nanterre Student,  in charge of evaluating model quality;
-- Isaac Bathily as judge of the model quality,  in charge of evaluating model quality;
-- Bruno Serio — Full Professor (CMI-ATE), Paris Nanterre University; responsible for developing the model.
+
+* Amanda Martinez-Gil Paris Nanterre Professor, responsible for validating the quality of the submitted model;
+* Adam Mecellem Paris Nanterre Student,  in charge of evaluating model quality;
+* Isaac Bathily as judge of the model quality,  in charge of evaluating model quality;
+* Bruno Serio — Full Professor (CMI-ATE), Paris Nanterre University; responsible for developing the model.
 
 ## Details
 
@@ -27,7 +29,7 @@ library(gt)
 
 gt(tibble::tribble(
   ~id,  ~forename,       ~surname,                                           ~affiliation,
-   1L,  "Bathily",        "Isaac",                                               "Unknow",
+   1L,  "Bathily",        "Isaac",                            "Paris Nanterre University",
    2L, "Mecellem",         "Adam",                            "Paris Nanterre University",
    3L,    "Bruno",        "Serio", "Paris Nanterre University (Full Professor (CMI-ATE))",
    4L,   "Amanda", "Martinez-Gil",                "Paris Nanterre University (Professor)"
