@@ -1,0 +1,29 @@
+
+---
+title: bouncy-jacket
+date: 2026-10-01
+subtitle: Singapore
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a group of information technology students that have intermediate experience in data analytics and would want to use our skills for the greater good.
+
+## Details
+
+* Type: Academia
+* Country: Singapore
+* Number of team members: 2
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed",
+   2L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
