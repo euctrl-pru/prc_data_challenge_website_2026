@@ -1,0 +1,28 @@
+
+---
+title: peaceful-marshmallow
+date: 2026-10-02
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+eager to apply our [machine learning / analytics] skills to real-world aviation data and benchmark our capabilities globally.
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                  ~affiliation,
+   1L, "Sanjana", "Bakshi", "CMR Institute of Technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
