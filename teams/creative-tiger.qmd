@@ -1,0 +1,28 @@
+
+---
+title: creative-tiger
+date: 2026-10-03
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+My name is Munachim Akanno, I am participating as an individual candidate.. My usual train of thought about most things is considering the factors or the context surrounding it. Because of that, I was immediately drawn to this competition when I saw it online. I hope to scratch that mental itch by diving into the factors surrounding airplane taxi-out times and their correlation.
+
+## Details
+
+* Type: Academia, Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname, ~affiliation,
+   1L, "Munachim", "Akanno",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

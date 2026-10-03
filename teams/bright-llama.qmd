@@ -1,0 +1,30 @@
+
+---
+title: bright-llama
+date: 2026-10-02
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a final-year student in the Aviation Management department at Atılım University.
+
+I decided to participate in the PRC Data Challenge 2026 to apply machine learning to real-world airport operations. My goal is to accurately predict taxi times to the runway by combining flight data with apron traffic density and airport layout characteristics, and to make my findings available to the aviation community as an open-source resource. I hope my contributions will prove useful.
+
+## Details
+
+* Type: Academia
+* Country: Turkey
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,     ~forename, ~surname,        ~affiliation,
+   1L, "Mehmet Emin", "TURHAN", "Atılım University"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
