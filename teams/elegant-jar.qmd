@@ -1,0 +1,28 @@
+
+---
+title: elegant-jar
+date: 2026-10-03
+subtitle: United Arab Emirates
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Solo entrant with a background in machine learning and autonomous systems. I aim to build accurate, reproducible taxi-out predictions and explore how operational conditions affect airport efficiency.
+
+## Details
+
+* Type: Independent
+* Country: United Arab Emirates
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,         ~forename,   ~surname, ~affiliation,
+   1L, "Nadeem Mohammed", "Shajahan",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

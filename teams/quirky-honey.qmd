@@ -1,0 +1,32 @@
+
+---
+title: quirky-honey
+date: 2026-10-04
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm an undergraduate university student entering solo as an independent participant. My coursework includes optimization and programming (Python), and I've been building small applied-ML projects to learn the craft.
+
+I registered because taxi-out prediction is a problem where a better model has a direct physical payoff — less fuel burned and fewer emissions on the ground. That makes it more motivating than a synthetic benchmark. The challenge's open-science setup (open data, public code, open-access publication) is also exactly how I want to learn: working in public, reproducibly, against a strong field.
+
+My goal is a clean, well-documented solution and a top-half finish — and to come out of it with a portfolio piece I'm proud of.
+
+## Details
+
+* Type: Independent
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname, ~affiliation,
+   1L,    "Onyu",   "Choi",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

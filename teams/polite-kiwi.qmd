@@ -1,0 +1,28 @@
+
+---
+title: polite-kiwi
+date: 2026-10-04
+subtitle: Australia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Statistics PhD Candidate and I work with big data and online algorithms and this just seem like a good chance to see if I can apply anything I read previously and try something new. I also just enjoy knowing more about aviation and factors influencing how long we wait before taking off as a frequent flyer myself.
+
+## Details
+
+* Type: Academia
+* Country: Australia
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname, ~affiliation,
+   1L, "Bao Khue",   "Tran",       "UNSW"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

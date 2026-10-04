@@ -1,0 +1,28 @@
+
+---
+title: kind-flamingo
+date: 2026-10-04
+subtitle: United States
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a graduate Computer Science student at Georgia Tech. I've worked on production ML classification systems in the tech industry and found it really interesting, so I thought this would be a cool way to build on that.
+
+## Details
+
+* Type: Academia
+* Country: United States
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,                      ~affiliation,
+   1L,   "Ishan",   "Vepa", "Georgia Institute of Technology"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
