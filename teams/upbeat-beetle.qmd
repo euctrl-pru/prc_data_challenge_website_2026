@@ -1,0 +1,28 @@
+
+---
+title: upbeat-beetle
+date: 2026-10-05
+subtitle: Ethiopia
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I'm an ML researcher interested in solving interesting aviation challenges.
+
+## Details
+
+* Type: Independent
+* Country: Ethiopia
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,    "John",    "Tad", "Independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

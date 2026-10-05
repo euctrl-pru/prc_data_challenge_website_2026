@@ -1,0 +1,28 @@
+
+---
+title: faithful-quiver
+date: 2026-10-05
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am an aspiring AI researcher doing my PhD from IIIT Hyderabad. I like to work on ML problems in my free time, and decided to take a gander with this problem statement.
+
+## Details
+
+* Type: Academia
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename,     ~surname, ~affiliation,
+   1L, "Rajarshi", "Chatterjee",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

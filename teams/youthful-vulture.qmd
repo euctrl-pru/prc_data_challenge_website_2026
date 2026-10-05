@@ -1,0 +1,28 @@
+
+---
+title: youthful-vulture
+date: 2026-10-05
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+we want to study real topic problem like taxi out prediction and to achieve on it with time series forecasting methods
+
+## Details
+
+* Type: Industry
+* Country: Turkey
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
