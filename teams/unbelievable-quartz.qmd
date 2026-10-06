@@ -1,0 +1,28 @@
+
+---
+title: unbelievable-quartz
+date: 2026-10-06
+subtitle: Finland
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+Helios One Oy is a Helsinki-based AI company building agents and software for factories. Single-member team: Touko Ursin (co-founder; GitHub ToukoUrsin). We registered to apply our operational-prediction work (gradient-boosted models with careful time-based validation) to taxi-out time prediction, benchmark it on open aviation data, and publish a reproducible open-source (GPLv3) solution.
+
+## Details
+
+* Type: Industry
+* Country: Finland
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,    ~affiliation,
+   1L,   "Touko",  "Ursin", "Helios One Oy"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```

@@ -1,0 +1,30 @@
+
+---
+title: motivated-dolphin
+date: 2026-10-05
+subtitle: France
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am Abdourahamane Idé Salifou, an AI engineering student . I am especially interested in applying machine learning to optimization problems, where a model has to turn messy operational data into a prediction that can improve a real decision.
+
+In December 2024 I placed first in the Abidjan Mobility Prediction Hackathon, powered by Yango on Zindi, predicting average traffic speed on Abidjan’s main roads. I joined the PRC Data Challenge 2026 to take that interest into aviation: predicting taxi-out time at 10 major European airports from open 2025 movement data, ranked by RMSE. Taxi-out time depends on layout, traffic, schedule and operations, so a better estimate can support tighter planning of departures, stands and runway use. My goal is  developing a strong AI solution aiming to improve the operation itself  fewer uncertain departures, tighter use of stands and runway time, and less delay  not only to produce a score for leaderboard .
+
+## Details
+
+* Type: Independent
+* Country: France
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,       ~forename,      ~surname,  ~affiliation,
+   1L, "Abdourahamane", "Ide Salifou", "Namu ai org"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
