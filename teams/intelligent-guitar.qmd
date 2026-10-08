@@ -1,0 +1,31 @@
+
+---
+title: intelligent-guitar
+date: 2026-10-08
+subtitle: Turkey
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+y name is Mehmet Taşçı, a data professional dedicated to statistical learning, feature engineering, and high-performance predictive systems. My work focuses on translating chaotic, large-scale event data into clean, robust decision-support models—with a particular focus on operational research and time-sensitive optimization. 
+I decided to participate in the PRC Data Challenge 2026 to tackle one of the most dynamic bottlenecks in modern aviation operations: taxi-out time variability. Airport surface operations are governed by interconnected, systemic factors—runway sequencing, gate congestion, and network ripple effects—making it an exceptional playground for data-driven modeling.
+
+This challenge stands out because it demands more than just standard regression; it requires thoughtful feature architecture, handling multi-source constraints, and building solutions that hold up in live, practical environments. I look forward to testing my modeling hypotheses against peers worldwide and contributing actionable insights to the open-science aviation ecosystem.
+
+## Details
+
+* Type: Industry
+* Country: Turkey
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
