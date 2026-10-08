@@ -38,6 +38,13 @@ The applied ranking will use \acr{RMSE} for submitted predictions for the moveme
 ##### **Timeline**
 The competition runs from the **$1^{st}$ of September 2026** up until the **$11^{th}$ of October 2026 23:59:59 CET**. 
 
+::: {.callout-important title="Important"}
+We are having a final submission for which the deadline is 
+**2026-10-14T12:00 CET** (2026-10-14T12:00+02:00)
+:::
+
+
+
 ##### **Reward**
 The combined **prize amount** for the first 3 teams is **5000 EUR**.  
 

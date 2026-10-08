@@ -82,3 +82,8 @@ There is currently a **limit of 5 submissions per day** (and a
 You will **NOT** be able to submit via the webinterface, please use the 
 **MinIO CLI** as described in the [Data](data.qmd) section. 
 :::
+
+## Final Submission
+Please submit you unique final submission using the following filename:
+
+> `<team-name>_final.parquet`  
