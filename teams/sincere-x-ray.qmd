@@ -1,0 +1,28 @@
+
+---
+title: sincere-x-ray
+date: 2026-10-09
+subtitle: Ukraine
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+AI Engineer
+
+## Details
+
+* Type: Independent
+* Country: Ukraine
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname, ~affiliation,
+   1L, "Anatoliy", "Pliuta",     "Unknow"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
