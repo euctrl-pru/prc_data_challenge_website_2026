@@ -1,0 +1,28 @@
+
+---
+title: zesty-clown
+date: 2026-10-10
+subtitle: Morocco
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+I am a Data Analysis graduate from FST Tangier, Morocco, active in ML competitions (Kaggle, GCI World/University of Tokyo). I want to take part solo to test my tabular modeling skills (LightGBM/CatBoost) on a real aviation operations problem and learn the domain. I will share my full solution openly as required.
+
+## Details
+
+* Type: Independent
+* Country: Morocco
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,  ~forename, ~surname,  ~affiliation,
+   1L, "Soufiane",  "Zaari", "independent"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
