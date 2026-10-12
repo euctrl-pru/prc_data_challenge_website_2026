@@ -1,0 +1,30 @@
+
+---
+title: cheery-turtle
+date: 2026-10-11
+subtitle: Spain
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a team of three students of Mathematical Engineering and Artificial Intelligence at ICAI (Universidad Pontificia Comillas, Madrid). We registered because we enjoy optimization and data science and want to take part in the challenge. The dataset also fits a project we are developing for one of our courses on airport stand assignment, so it is a good opportunity to work with real European airport data.
+
+## Details
+
+* Type: Academia
+* Country: Spain
+* Number of team members: 3
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id, ~forename, ~surname,  ~affiliation,
+   1L,   "Xyzzy",  "XYZZY", "Undisclosed",
+   2L,   "Xyzzy",  "XYZZY", "Undisclosed",
+   3L,   "Xyzzy",  "XYZZY", "Undisclosed"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
