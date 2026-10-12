@@ -1,0 +1,28 @@
+
+---
+title: friendly-quilt
+date: 2026-10-12
+subtitle: India
+acronyms:
+  insert_loa: false
+---
+
+## Description and Rationale
+
+We are a aviation start-up based in India, working on solving relevant problems using data and machine learning.
+
+## Details
+
+* Type: Independent
+* Country: India
+* Number of team members: 1
+
+```{r echo=FALSE}
+library(gt)
+
+gt(tibble::tribble(
+  ~id,   ~forename,     ~surname,          ~affiliation,
+   1L, "Siddharth", "Srivastava", "Sydorg Technologies"
+)
+) |> cols_label(id = md("**ID**"), forename = md("**Forename**"), surname ~ md("**Surname**"), affiliation ~ md("**Affiliation**"))
+```
