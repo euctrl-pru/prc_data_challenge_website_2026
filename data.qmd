@@ -63,7 +63,8 @@ use Minio to access OpenSky buckets at
 
 <https://ansperformance.eu/study/data-challenge/dc2024/data.html#using-minio-client>
 
-You will need to generate access keys for your OSN account as shown below
+You will need to generate access keys for your 
+[OSN account](https://s3-console.opensky-network.org/access-keys) as shown below
 (thanks to JavierIOM from Discord channel):
 
 ![MinIO access key generation on OSN](media/minio_access_keys.png)

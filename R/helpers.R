@@ -118,6 +118,10 @@ get_teams_members <- function(teams_raw) {
     filter(if_any(c(forename, surname, email), ~ !is.na(.x))) |>
     dplyr::mutate(id = as.integer(id)) |>
     arrange(team_name, id)
+  # |>
+  #   tibble::remove_rownames() |>
+  #   as.data.frame() |>
+  #   print()
 }
 
 # teams approved but not yet created:
