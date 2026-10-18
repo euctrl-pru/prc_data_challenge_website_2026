@@ -189,9 +189,10 @@ get_teams_raw <- function() {
   googlesheets4::read_sheet(teams_gsheet, sheet = "better_colnames") |>
     dplyr::filter(
       !account %in%
-        c("johnf-test2")
+        c("johnf-test2", "johnfxxyyxx")
     ) |>
     dplyr::mutate(address_1 = unlist(address_1)) |>
+    dplyr::mutate(account = unlist(account)) |>
     dplyr::select(-matches("clean")) |>
     dplyr::relocate(
       timestamp,
