@@ -52,6 +52,8 @@ phase2_end_24 <- as_datetime("2024-10-28T00:00:00Z")
 
 phase1_start_26 <- as_datetime("2026-09-01T00:00:00Z")
 phase1_end_26 <- as_datetime("2026-10-12T00:00:00Z")
+phase2_start_26 <- as_datetime("2026-10-12T00:00:00Z")
+phase2_end_26 <- as_datetime("2026-10-14T00:00:00Z")
 
 date_shift_24 <- phase1_start_26 - phase1_start_24
 date_shift_25 <- phase1_start_26 - phase1_start_25
@@ -82,10 +84,19 @@ cum_25 <- here::here("media", "cumulative_registration_dc2025.csv") |>
     NULL
   )
 
-cum_26 <- prepare_cumulative_teams() |>
+# cum_26 <- prepare_cumulative_teams() |>
+#   mutate(
+#     dc = as.integer(dc),
+#     n = as.integer(n),
+#     NULL
+#   )
+
+cum_26 <- here::here("media", "cumulative_registration_dc2026.csv") |>
+  read_csv() |>
   mutate(
     dc = as.integer(dc),
     n = as.integer(n),
+    future = FALSE,
     NULL
   )
 
@@ -200,11 +211,11 @@ ggplot() +
   ) +
   annotate(
     geom = "text",
-    x = as_date(phase1_end_26) - ddays(8),
+    x = as_date(phase2_end_26),
     y = max_26 |> pull(n) - 100,
     label = paste0(
       "End DC 2026\n  (",
-      round(phase1_end_26 - phase1_start_26),
+      round(phase2_end_26 - phase1_start_26),
       " days)"
     ),
     hjust = "left"
