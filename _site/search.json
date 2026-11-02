@@ -4,35 +4,60 @@
     "href": "winners.html",
     "title": "And the winners are…",
     "section": "",
-    "text": "The top 10 ranked teams\n\n\nrank\nteam\ncountry\nRMSE\n\n\n\n\n1\n\nUSA\n176.16\n\n\n2\n\nGermany\n180.18\n\n\n3\n\nIndonesia\n183.66\n\n\n4\nvigorous-whistle\nIndia\n183.84\n\n\n5\ngentle-igloo\nPortugal\n184.03\n\n\n6\njolly-lobster\nUSA\n185.06\n\n\n7\nstrong-moose\nTürkiye\n186.18\n\n\n8\nstrong-crane\nIndia\n186.56\n\n\n9\nversatile-watermelon\nNetherlands\n186.87\n\n\n10\nspirited-tiger\nSouth Korea\n188.22\nThe slides presented during the 14th OpenSky Symposium at CRIDA in Madrid, are available here."
+    "text": "The top 10 ranked teams\n\n\nrank\nteam\ncountry\nRMSE\n\n\n\n\n1\n\nUSA\n176.16\n\n\n2\n\nGermany\n180.18\n\n\n3\n\nIndonesia\n183.66\n\n\n4\nvigorous-whistle\nIndia\n183.84\n\n\n5\ngentle-igloo\nPortugal\n184.03\n\n\n6\njolly-lobster\nUSA\n185.06\n\n\n7\nstrong-moose\nTürkiye\n186.18\n\n\n8\nstrong-crane\nIndia\n186.56\n\n\n9\nversatile-watermelon\nNetherlands\n186.87\n\n\n10\nspirited-tiger\nSouth Korea\n188.22\nThe slides presented during the 14th OpenSky Symposium at CRIDA in Madrid, are available here.",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "And the winners are..."
+    ]
   },
   {
     "objectID": "winners.html#rd-place",
     "href": "winners.html#rd-place",
     "title": "And the winners are…",
     "section": "3rd place",
-    "text": "3rd place\nTeam: youthful-giraffe\nTeam members:\n\nMatthew Motoki (Indonesia)\n“interested in the challenge”\n\nRMSE: 183.66 s\nPrize: 750 EUR"
+    "text": "3rd place\nTeam: youthful-giraffe\nTeam members:\n\nMatthew Motoki (Indonesia)\n“interested in the challenge”\n\nRMSE: 183.66 s\nPrize: 750 EUR",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "And the winners are..."
+    ]
   },
   {
     "objectID": "winners.html#nd-place",
     "href": "winners.html#nd-place",
     "title": "And the winners are…",
     "section": "2nd place",
-    "text": "2nd place\nTeam: zesty-puzzle\nTeam members:\n\nLuis Melzer (Germany)\n“CS student at Leibniz Universität Hannover specializing in machine learning”\n\nRMSE: 180.18 s\nPrize: 1750 EUR"
+    "text": "2nd place\nTeam: zesty-puzzle\nTeam members:\n\nLuis Melzer (Germany)\n“CS student at Leibniz Universität Hannover specializing in machine learning”\n\nRMSE: 180.18 s\nPrize: 1750 EUR",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "And the winners are..."
+    ]
   },
   {
     "objectID": "winners.html#st-place",
     "href": "winners.html#st-place",
     "title": "And the winners are…",
     "section": "1st place",
-    "text": "1st place\nTeam: charming-eel\nTeam members:\n\nAryaman Chawla (USA)\n“AI engineer and ML researcher”\n\nRMSE: 176.16 s\nPrize: 2500 EUR"
+    "text": "1st place\nTeam: charming-eel\nTeam members:\n\nAryaman Chawla (USA)\n“AI engineer and ML researcher”\n\nRMSE: 176.16 s\nPrize: 2500 EUR",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "And the winners are..."
+    ]
   },
   {
     "objectID": "winners.html#outreach",
     "href": "winners.html#outreach",
     "title": "And the winners are…",
     "section": "Outreach",
-    "text": "Outreach\n\nWinners’ annoucement announcement’s slides at 14th OpenSky Symposium, hosted by CRIDA, Madrid, Spain.\nLinkedIn post by EUROCONTROL on PRC Data Challenge outcome (beg Nov)\nAll shared repos from participating teams on PRC Data Challenge 2026 GitHub organization\nPRC Data Challenge data\n\nJOAD data paper describing the dataset of the challenge (&lt; end of Q1 2027)\npubblication of dataset of the challenge as open data (simultaneously with data paper)\n\nacceptance and review of JOAS papers from teams willing to describe their model (Q1 2027)"
+    "text": "Outreach\n\nWinners’ announcement’s slides at 14th OpenSky Symposium, hosted by CRIDA, Madrid, Spain.\nLinkedIn post by EUROCONTROL on PRC Data Challenge outcome (beg Nov)\nAll shared repos from participating teams on PRC Data Challenge 2026 GitHub organization\nPRC Data Challenge data\n\nJOAD data paper describing the dataset of the challenge (&lt; end of Q1 2027)\npubblication of dataset of the challenge as open data (simultaneously with data paper)\n\nacceptance and review of JOAS papers from teams willing to describe their model (Q1 2027)",
+    "crumbs": [
+      "Publications",
+      "Leaderboard",
+      "And the winners are..."
+    ]
   },
   {
     "objectID": "teams/zesty-sailboat.html",
@@ -10020,7 +10045,7 @@
     "href": "index.html#data-challenge",
     "title": "PRC Data Challenge 2026",
     "section": "Data Challenge",
-    "text": "Data Challenge\nThe 2026 edition of the PRC Data Challenge invites participants to predict the taxi-out time of flights from 10 major European airports.\n\nScope\nThe learning dataset will consist of all 10 airport movements for the full year of 2025.\n\n\nRanking\nThe applied ranking will use Root Mean Square Error (RMSE) for submitted predictions for the movements in January and July 2026.\n\n\nTimeline\nThe competition run from the \\(1^{st}\\) of September 2026 up until the \\(14^{th}\\) of October 2026 12:00:00 CEST (2026-10-14T10:00Z).\nThe final phase with 2 additional months to predict, Feb and Jun 2026, was introduced on 8th October. The goal was to avoid overfitting or reverse-engineer the ranking algorithm. The final set of predictions was not part of the ranking leaderboard.\n\n\nAnd the Winners are….\nWinners’ announcement –&gt; see And the Winners are….\n\nReward\nThe combined prize amount for the first 3 teams is 5000 EUR.\n\n\nTerms & Conditions\nCheck the Terms & Conditions for eligibility for participation and prize before filling in the team creation request form.\n\n\n\n\n\n\nNotePlease note\n\n\n\nWe reserve the right to change the rules or even stop the challenge due to any circumstances.\n\n\n\n\nParticipate\nJoin the competition; request the creation of your team here!\n\nRequest Team Creation!\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nYour request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.\nNote: The participation is open to all, but teams from sanctioned countries are excluded.",
+    "text": "Data Challenge\nThe 2026 edition of the PRC Data Challenge invites participants to predict the taxi-out time of flights from 10 major European airports.\n\nScope\nThe learning dataset will consist of all 10 airport movements for the full year of 2025.\n\n\nRanking\nThe applied ranking will use Root Mean Square Error (RMSE) for submitted predictions for the movements in January and July 2026.\n\n\nTimeline\nThe competition run from the \\(1^{st}\\) of September 2026 up until the \\(14^{th}\\) of October 2026 12:00:00 CEST (2026-10-14T10:00Z).\nThe final phase with 2 additional months to predict, Feb and Jun 2026, was introduced on 8th October. The goal was to avoid overfitting or reverse-engineer the ranking algorithm. The final set of predictions was not part of the ranking leaderboard.\n\n\nAnd the Winners are…\nWinners’ announcement –&gt; see And the Winners are….\n\nReward\nThe combined prize amount for the first 3 teams is 5000 EUR.\n\n\nTerms & Conditions\nCheck the Terms & Conditions for eligibility for participation and prize before filling in the team creation request form.\n\n\n\n\n\n\nNotePlease note\n\n\n\nWe reserve the right to change the rules or even stop the challenge due to any circumstances.\n\n\n\n\nParticipate\nJoin the competition; request the creation of your team here!\n\nRequest Team Creation!\n\n\n\n\n\n\n\nImportantImportant\n\n\n\nYour request will be assessed by the PRC Data Challenge team for approval. Upon approval you will receive a verification email and, on successful reply, the relevant access keys to the datasets/buckets.\nNote: The participation is open to all, but teams from sanctioned countries are excluded.",
     "crumbs": [
       "Publications",
       "Overview",

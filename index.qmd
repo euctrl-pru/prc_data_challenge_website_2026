@@ -44,7 +44,7 @@ was introduced on **8th October**. The goal was to avoid overfitting or
 reverse-engineer the ranking algorithm.
 The final set of predictions was not part of the ranking leaderboard.
 
-#### And the Winners are....
+#### **And the Winners are...**
 
 Winners' announcement --> see [And the Winners are....](winners.qmd)
 

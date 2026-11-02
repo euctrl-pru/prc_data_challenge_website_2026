@@ -62,7 +62,7 @@ Prize: 2500 EUR
 
 ## Outreach
 
-* Winners' annoucement announcement's [slides](media/PRC_Data_Challenge_2026.pdf)
+* Winners' announcement's [slides](media/PRC_Data_Challenge_2026.pdf)
   at [14th OpenSky Symposium][osnsym], hosted by [CRIDA][crida], Madrid, Spain.
 * LinkedIn post by EUROCONTROL on PRC Data Challenge outcome (beg Nov)
 * All shared repos from participating teams on [PRC Data Challenge 2026 GitHub organization][dc2026org]
