@@ -222,6 +222,7 @@ website:
           # search: true
           contents:
             - ranking.qmd
+            - winners.qmd
         - section: "Registrations"
           contents: 
           - text: "Stats"

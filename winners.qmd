@@ -67,7 +67,7 @@ Prize: 2500 EUR
 * LinkedIn post by EUROCONTROL on PRC Data Challenge outcome (beg Nov)
 * All shared repos from participating teams on [PRC Data Challenge 2026 GitHub organization][dc2026org]
 * PRC Data Challenge data
-   - JOAD data paper describing the dataset of the challenge (< end of Q1 2027)
+   - JOAS data paper describing the dataset of the challenge (< end of Q1 2027)
    - pubblication of dataset of the challenge as open data (simultaneously with data paper)
 * acceptance and review of JOAS papers from teams willing to describe their model (Q1 2027)
 
