@@ -263,21 +263,19 @@ library(countrycode)
 
 conflicts_prefer(dplyr::filter)
 
-here("R", "helpers.R") |> source()
+# here("R", "helpers.R") |> source()
 
-teams_raw <- get_teams_raw()
+# teams_raw <- get_teams_raw()
+# teams_valid <- teams_raw |> get_teams_valid()
+# ttt <- teams_valid |>
+#   mutate(registration_date = as_date(timestamp))
 
-teams_valid <- teams_raw |> get_teams_valid()
+ttt <- here::here("media", "teams.csv") |>
+  readr::read_csv() |>
+  mutate(registration_date = as_date(timestamp))
 
-members <- teams_raw |> get_teams_members()
 
-ttt <- teams_valid |>
-  mutate(registration_date = as_date(timestamp)) |>
-  complete(
-    registration_date = seq(ymd("2025-09-30"), ymd("2025-12-01"), by = "day")
-  )
-
-ccc <- teams_valid |>
+ccc <- ttt |>
   count(team_country) |>
   mutate(
     team_country = if_else(
@@ -311,10 +309,14 @@ library(scales)
 library(here)
 conflicts_prefer(dplyr::filter)
 
-here("R", "helpers.R") |> source()
+# here("R", "helpers.R") |> source()
 
-teams_raw <- get_teams_raw()
-teams_valid <- teams_raw |> get_teams_valid()
+# teams_raw <- get_teams_raw()
+# teams_valid <- teams_raw |> get_teams_valid()
+
+teams_valid <- here::here("media", "teams.csv") |>
+  readr::read_csv() |>
+  mutate(registration_date = as_date(timestamp))
 
 teams_valid |>
   count(team_country) |>
