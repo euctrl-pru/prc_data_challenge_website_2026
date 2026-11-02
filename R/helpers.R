@@ -191,6 +191,7 @@ get_teams_raw <- function() {
       !account %in%
         c("johnf-test2", "johnfxxyyxx")
     ) |>
+    dplyr::mutate(surname_1 = unlist(surname_1)) |>
     dplyr::mutate(address_1 = unlist(address_1)) |>
     dplyr::mutate(account = unlist(account)) |>
     dplyr::select(-matches("clean")) |>

@@ -1,0 +1,77 @@
+---
+title: "And the winners are..."
+acronyms:
+  insert_loa: false
+---
+
+
+| rank | team                 | country     | RMSE   |
+|:-----|:---------------------|:------------|:-------|
+| 1    |                      | USA         | 176.16 |
+| 2    |                      | Germany     | 180.18 |
+| 3    |                      | Indonesia   | 183.66 |
+| 4    | [vigorous-whistle](teams/vigorous-whistle.qmd)     | India       | 183.84 |
+| 5    | [gentle-igloo](teams/gentle-igloo.qmd)         | Portugal    | 184.03 |
+| 6    | [jolly-lobster](teams/jolly-lobster.qmd)        | USA         | 185.06 |
+| 7    | [strong-moose](teams/strong-moose.qmd)         | Türkiye     | 186.18 |
+| 8    | [strong-crane](teams/strong-crane/qmd)         | India       | 186.56 |
+| 9    | [versatile-watermelon](teams/versatile-watermelon.qmd) | Netherlands | 186.87 |
+| 10   | [spirited-tiger](teams/spirited-tiger.qmd)      | South Korea | 188.22 |
+
+: The top 10 ranked teams {tbl-colwidths: false}
+
+
+
+The slides presented during the 14th OpenSky Symposium at CRIDA in Madrid, are
+available [here](media/PRC_Data_Challenge_2026.pdf).
+
+## 3rd place
+
+Team: [youthful-giraffe](teams/youthful-giraffe.qmd)  
+Team members:
+
+  * Matthew Motoki (Indonesia)  
+    "interested in the challenge"  
+
+RMSE: 183.66 s  
+Prize: 750 EUR
+
+## 2nd place
+
+Team: [zesty-puzzle](teams/zesty-puzzle.qmd)  
+Team members:
+
+  * Luis Melzer (Germany)  
+    "CS student at Leibniz Universität Hannover specializing in machine learning"  
+
+RMSE: 180.18 s  
+Prize: 1750 EUR
+
+
+## 1st place
+
+Team: [charming-eel](teams/charming-eel.qmd)  
+Team members:
+
+  * Aryaman Chawla (USA)  
+    "AI engineer and ML researcher"  
+
+RMSE: 176.16 s  
+Prize: 2500 EUR
+
+
+## Outreach
+
+* Winners' annoucement announcement's [slides](media/PRC_Data_Challenge_2026.pdf)
+  at [14th OpenSky Symposium][osnsym], hosted by [CRIDA][crida], Madrid, Spain.
+* LinkedIn post by EUROCONTROL on PRC Data Challenge outcome (beg Nov)
+* All shared repos from participating teams on [PRC Data Challenge 2026 GitHub organization][dc2026org]
+* PRC Data Challenge data
+   - JOAD data paper describing the dataset of the challenge (< end of Q1 2027)
+   - pubblication of dataset of the challenge as open data (simultaneously with data paper)
+* acceptance and review of JOAS papers from teams willing to describe their model (Q1 2027)
+
+[dc2026org]: <https://github.com/prc-data-challenge-2026> "GitHub organisation for PRC Data Challenge 2026"
+[osnsym2026]: <https://symposium.opensky-network.org/2026/> "14th OpenSky Symposium"
+[osnsym]: <https://symposium.opensky-network.org/> "14th OpenSky Network Symposium"
+[crida]: <https://crida.es/webcrida/> "Centro de Referencia de Investigación, Desarrollo e Innovación ATM, A.I.E."

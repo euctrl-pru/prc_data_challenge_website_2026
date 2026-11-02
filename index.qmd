@@ -44,36 +44,10 @@ was introduced on **8th October**. The goal was to avoid overfitting or
 reverse-engineer the ranking algorithm.
 The final set of predictions was not part of the ranking leaderboard.
 
-#### What's next
+#### And the Winners are....
 
-Data preparation: 
+Winners' announcement --> see [And the Winners are....](winners.qmd)
 
-1. collect all `<team-name>_final.parquet` submissions uploaded before the deadline
-   (or equivalently saved submissions in the team's GitHub repo)
-1. fork all shared repos under a [dedicated GitHub organisation][dc2026org] 
-  and tag the last commit before the deadline
-
-Evaluation:
-
-a. rank the submissions
-a. evaluate code and documentation at the tagged commit
-
-Final ranking:
-
-* combine rank and documentation in a final leaderboard.
-* present the Challenge and announce the winners at the 14th [OpenSky Symposium][osnsym]
-  held at [CRIDA][crida] in Madrid, Spain on 29-30 October.
-
-Dissemination:
-
-* share sympoium slides and material on 2026 challenge website (Dec 2026)
-* pubblication of data paper on JOAS describing the dataset of the challenge (< end of Q1 2027), and
-* pubblication of dataset of the challenge as open data (simultaneously with data paper)
-* acceptance and review of JOAS papers describing their model by participating teams (Q1 2027)
-
-[dc2026org]: <https://github.com/prc-data-challenge-2026> "GitHub organisation for PRC Data Challenge 2026"
-[osnsym]: <https://symposium.opensky-network.org/> "OpenSky Network Symposium"
-[crida]: <https://crida.es/webcrida/> "Centro de Referencia de Investigación, Desarrollo e Innovación ATM, A.I.E."
 
 ##### **Reward**
 The combined **prize amount** for the first 3 teams is **5000 EUR**.  
