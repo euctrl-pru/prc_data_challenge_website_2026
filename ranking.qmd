@@ -25,22 +25,60 @@ yet, you’ll need to do so first to access the channel.
 
 
 
-Leaderboard (thanks to [Arquimedes Canedo](https://github.com/arquicanedo/prc-challenge-2026)): <https://prc-challenge-2026.vercel.app/>
+Live leaderboard thanks to [Arquimedes Canedo](https://github.com/arquicanedo/prc-challenge-2026)): <https://prc-challenge-2026.vercel.app/>
 
-```{=html}
-<style>
-  iframe {
-      /* display: block; */
-      /* background: #000; */
-      border: 1px solid black;
-      height: 440px;
-      width: 100vh;
-  }
-</style>
+Here is a final leaderboard (and shared repo):
 
-<iframe
-  src="https://prc-challenge-2026.vercel.app/">
-</iframe>
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+library(conflicted)
+library(tidyverse)
+library(gt)
+
+conflicts_prefer(dplyr::filter)
+
+here::here("media", "ranking_final.csv") |>
+  readr::read_csv() |>
+  mutate(
+    repo = if_else(
+      !is.na(repo),
+      str_glue(
+        "https://github.com/prc-data-challenge-2026/{name}",
+        name = team
+      ),
+      NA
+    ),
+    team = str_glue(
+      "[{team}](https://ansperformance.eu/study/data-challenge/dc2026/teams/{team}.html)"
+    ),
+    NULL
+  ) |>
+  select(rank, team, rmse = rmse_2f_final, eligible, repo) |>
+  gt() |>
+  fmt_url(columns = repo, label = "GitHub repo") |>
+  fmt_markdown(columns = team) |>
+  cols_align(align = "left", columns = team) |>
+  fmt_number(
+    columns = rmse,
+    decimals = 2
+  ) |>
+  cols_width(
+    rank ~ px(50),
+    rmse ~ px(90),
+    eligible ~ px(90)
+  ) |>
+  opt_interactive(
+    use_sorting = TRUE, # Enables column sorting controls (default is TRUE)
+    use_pagination = FALSE
+    # use_search = TRUE, # Optional: adds a global search bar
+    # use_filters = TRUE # Optional: adds per-column filter fields
+  ) |>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels()
+  )
 ```
 
 
