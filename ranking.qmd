@@ -65,7 +65,7 @@ here::here("media", "ranking_final.csv") |>
     decimals = 2
   ) |>
   cols_width(
-    rank ~ px(50),
+    rank ~ px(90),
     rmse ~ px(90),
     eligible ~ px(90)
   ) |>
